@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -102,6 +104,15 @@ namespace FunkeySelector
             Form11 paradox = new Form11();
             this.Hide();
             paradox.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writetext = new StreamWriter("customF.txt"))
+            {
+                writetext.Write("funkeyCodeNum=FFFFFFF0");
+            }
+            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
         }
     }
 }
