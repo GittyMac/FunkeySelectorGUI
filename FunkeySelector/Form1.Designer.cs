@@ -46,6 +46,9 @@
             this.button12 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
@@ -66,11 +69,11 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(177, 9);
+            this.label2.Location = new System.Drawing.Point(140, 10);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(363, 52);
+            this.label2.Size = new System.Drawing.Size(435, 52);
             this.label2.TabIndex = 1;
-            this.label2.Text = "FUNKEYSELECTOR";
+            this.label2.Text = "FUNKEYSELECTORGUI";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
@@ -93,7 +96,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(42, 231);
+            this.button1.Location = new System.Drawing.Point(40, 174);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 91);
             this.button1.TabIndex = 3;
@@ -110,7 +113,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(188, 231);
+            this.button2.Location = new System.Drawing.Point(186, 174);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(101, 91);
             this.button2.TabIndex = 4;
@@ -127,7 +130,7 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button3.Location = new System.Drawing.Point(329, 231);
+            this.button3.Location = new System.Drawing.Point(327, 174);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(101, 91);
             this.button3.TabIndex = 5;
@@ -144,7 +147,7 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button4.Location = new System.Drawing.Point(463, 231);
+            this.button4.Location = new System.Drawing.Point(461, 174);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(101, 91);
             this.button4.TabIndex = 6;
@@ -161,7 +164,7 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button5.Location = new System.Drawing.Point(592, 231);
+            this.button5.Location = new System.Drawing.Point(590, 174);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(101, 91);
             this.button5.TabIndex = 7;
@@ -178,7 +181,7 @@
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button6.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button6.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button6.Location = new System.Drawing.Point(42, 370);
+            this.button6.Location = new System.Drawing.Point(40, 313);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(101, 91);
             this.button6.TabIndex = 8;
@@ -195,7 +198,7 @@
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button7.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button7.Location = new System.Drawing.Point(188, 370);
+            this.button7.Location = new System.Drawing.Point(186, 313);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(101, 91);
             this.button7.TabIndex = 9;
@@ -212,7 +215,7 @@
             this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button8.Location = new System.Drawing.Point(329, 370);
+            this.button8.Location = new System.Drawing.Point(327, 313);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(101, 91);
             this.button8.TabIndex = 10;
@@ -229,7 +232,7 @@
             this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button9.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button9.Location = new System.Drawing.Point(463, 370);
+            this.button9.Location = new System.Drawing.Point(461, 313);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(101, 91);
             this.button9.TabIndex = 11;
@@ -246,7 +249,7 @@
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button10.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button10.Location = new System.Drawing.Point(592, 370);
+            this.button10.Location = new System.Drawing.Point(590, 313);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(101, 91);
             this.button10.TabIndex = 12;
@@ -312,6 +315,47 @@
             this.button11.UseVisualStyleBackColor = false;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
+            // button13
+            // 
+            this.button13.BackColor = System.Drawing.Color.Transparent;
+            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
+            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button13.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button13.Location = new System.Drawing.Point(69, 438);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(218, 91);
+            this.button13.TabIndex = 73;
+            this.button13.Text = "Unused Funkeys";
+            this.button13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button13.UseVisualStyleBackColor = false;
+            this.button13.Click += new System.EventHandler(this.Button13_Click);
+            // 
+            // button14
+            // 
+            this.button14.BackColor = System.Drawing.Color.Transparent;
+            this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
+            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button14.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button14.Location = new System.Drawing.Point(602, 438);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(89, 91);
+            this.button14.TabIndex = 74;
+            this.button14.Text = "Insert custom Funkey ID";
+            this.button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button14.UseVisualStyleBackColor = false;
+            this.button14.Click += new System.EventHandler(this.Button14_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(318, 475);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(257, 20);
+            this.textBox1.TabIndex = 75;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -319,6 +363,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(726, 566);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button12);
@@ -338,9 +385,10 @@
             this.Controls.Add(this.label1);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "FunkeySelector";
+            this.Text = "FunkeySelectorGUI";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -365,6 +413,9 @@
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

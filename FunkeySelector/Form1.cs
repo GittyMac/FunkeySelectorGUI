@@ -114,5 +114,21 @@ namespace FunkeySelector
             }
             Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
         }
+
+        private void Button13_Click(object sender, EventArgs e)
+        {
+            Form12 unused = new Form12();
+            this.Hide();
+            unused.Show();
+        }
+
+        private void Button14_Click(object sender, EventArgs e)
+        {
+            using (StreamWriter writetext = new StreamWriter("customF.txt"))
+            {
+                writetext.Write("funkeyCodeNum=" + textBox1.Text);
+            }
+            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+        }
     }
 }
