@@ -49,6 +49,9 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -278,9 +281,9 @@
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button12.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button12.Location = new System.Drawing.Point(620, 13);
+            this.button12.Location = new System.Drawing.Point(663, 15);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(94, 63);
+            this.button12.Size = new System.Drawing.Size(51, 63);
             this.button12.TabIndex = 15;
             this.button12.Text = "EXIT";
             this.button12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -323,9 +326,9 @@
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button13.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button13.Location = new System.Drawing.Point(69, 438);
+            this.button13.Location = new System.Drawing.Point(40, 438);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(218, 91);
+            this.button13.Size = new System.Drawing.Size(101, 91);
             this.button13.TabIndex = 73;
             this.button13.Text = "Unused Funkeys";
             this.button13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -340,9 +343,9 @@
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.button14.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button14.Location = new System.Drawing.Point(602, 438);
+            this.button14.Location = new System.Drawing.Point(590, 438);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(89, 91);
+            this.button14.Size = new System.Drawing.Size(101, 91);
             this.button14.TabIndex = 74;
             this.button14.Text = "Insert custom Funkey ID";
             this.button14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -351,10 +354,61 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(318, 475);
+            this.textBox1.Location = new System.Drawing.Point(461, 475);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(257, 20);
+            this.textBox1.Size = new System.Drawing.Size(101, 20);
             this.textBox1.TabIndex = 75;
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Transparent;
+            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
+            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button15.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button15.Location = new System.Drawing.Point(186, 438);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(101, 91);
+            this.button15.TabIndex = 76;
+            this.button15.Text = "Funkey Explorer";
+            this.button15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.button15_Click);
+            // 
+            // button16
+            // 
+            this.button16.BackColor = System.Drawing.Color.Transparent;
+            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
+            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button16.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button16.Location = new System.Drawing.Point(327, 438);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(101, 91);
+            this.button16.TabIndex = 77;
+            this.button16.Text = "Custom Funkeys";
+            this.button16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button16.UseVisualStyleBackColor = false;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // button17
+            // 
+            this.button17.BackColor = System.Drawing.Color.Transparent;
+            this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
+            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.button17.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button17.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button17.Location = new System.Drawing.Point(569, 14);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(88, 63);
+            this.button17.TabIndex = 78;
+            this.button17.Text = "OPTIONS";
+            this.button17.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.button17.UseVisualStyleBackColor = false;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
             // 
             // Form1
             // 
@@ -363,6 +417,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(726, 566);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button15);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
@@ -389,6 +446,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "FunkeySelectorGUI";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -416,6 +474,9 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button17;
     }
 }
 

@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -16,10 +17,43 @@ namespace FunkeySelector
     {
         private object frmBorderless;
 
-        public Form1()
+
+            public Form1()
         {
             InitializeComponent();
+            if (Properties.Settings.Default.disableGameCheck == false)
+            {
+                if (!File.Exists("UBFunkeys.exe"))
+                {
+                    MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
+                }
+            }
+            if (Properties.Settings.Default.disableModCheck == false)
+            {
+                if (File.Exists("Main.swf"))
+                {
+                    if (CalculateMD5("Main.swf") != "93261ce3dc332fdee5d4335eab0a8e63")
+                    {
+                        MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
+                    }
+                }
+            }
+
         }
+
+
+        static string CalculateMD5(string filename)
+        {
+            using (var md5 = MD5.Create())
+            {
+                using (var stream = File.OpenRead(filename))
+                {
+                    var hash = md5.ComputeHash(stream);
+                    return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
+                }
+            }
+        }
+
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -129,6 +163,30 @@ namespace FunkeySelector
                 writetext.Write("funkeyCodeNum=" + textBox1.Text);
             }
             Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            ExplorerForm1 funktownexplorer = new ExplorerForm1();
+            this.Hide();
+            funktownexplorer.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            Form13 customf = new Form13();
+            this.Hide();
+            customf.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void button17_Click(object sender, EventArgs e)
+        {
+            Form14 options = new Form14();
+            options.Show();
         }
     }
 }
