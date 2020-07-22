@@ -10,4 +10,4 @@ You can use Visual Studio or any other IDEs that can compile dotNET 3.5 .sln fil
 FunkeySelectorGUI uses Microsoft dotNET 3.5 due to its Windows XP support.
 
 ## Development Updates
-If you want to see the progress of a FunkeySelectorGUI update, check the [projects page]: https://github.com/GittyMac/FunkeySelectorGUI/projects to see what's in progress, complete, and what's going to be implemented! Be sure to check the releases page to see if there's any alpha builds to test out! If you find any issues, be sure to submit an issue to let me know, it helps a lot!
+If you want to see the progress of a FunkeySelectorGUI update, check the [projects page](https://github.com/GittyMac/FunkeySelectorGUI/projects) to see what's in progress, complete, and what's going to be implemented! Be sure to check the releases page to see if there's any alpha builds to test out! If you find any issues, be sure to submit an issue to let me know, it helps a lot!
