@@ -43,7 +43,10 @@ namespace FunkeySelector
         private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             System.IO.File.Copy(listBox1.SelectedItem.ToString(), "customF.txt", true);
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            if (Properties.Settings.Default.wineCompat == false)
+            {
+                Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            }
         }
     }
 }

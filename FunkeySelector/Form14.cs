@@ -16,6 +16,8 @@ namespace FunkeySelector
             InitializeComponent();
             checkBox1.Checked = Properties.Settings.Default.disableModCheck;
             checkBox2.Checked = Properties.Settings.Default.disableGameCheck;
+            checkBox3.Checked = Properties.Settings.Default.wineCompat;
+            checkBox4.Checked = Properties.Settings.Default.disableWineCheck;
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
@@ -45,6 +47,28 @@ namespace FunkeySelector
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked)
+            {
+                Properties.Settings.Default.wineCompat = true;
+            }
+            else
+                Properties.Settings.Default.wineCompat = false;
+            Properties.Settings.Default.Save();
+        }
+
+        private void checkBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox4.Checked)
+            {
+                Properties.Settings.Default.disableWineCheck = true;
+            }
+            else
+                Properties.Settings.Default.disableWineCheck = false;
+            Properties.Settings.Default.Save();
         }
     }
 }

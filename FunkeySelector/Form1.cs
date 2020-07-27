@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,34 +16,61 @@ namespace FunkeySelector
 {
     public partial class Form1 : Form
     {
-        private object frmBorderless;
-
-
-            public Form1()
+        CustomFManager customF = new CustomFManager();
+        bool firstStart = true;
+        public Form1()
         {
             InitializeComponent();
-            if (Properties.Settings.Default.disableGameCheck == false)
+            if (firstStart == true)
             {
-                if (!File.Exists("UBFunkeys.exe"))
+                if (Properties.Settings.Default.disableGameCheck == false)
                 {
-                    MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
-                }
-            }
-            if (Properties.Settings.Default.disableModCheck == false)
-            {
-                if (File.Exists("Main.swf"))
-                {
-                    if (CalculateMD5("Main.swf") != "93261ce3dc332fdee5d4335eab0a8e63")
+                    if (!File.Exists("UBFunkeys.exe")) //Checks if it's in the RadicaGame folder.
                     {
-                        MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
+                        MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
                     }
                 }
+                if (Properties.Settings.Default.disableModCheck == false)
+                {
+                    if (File.Exists("Main.swf")) //Checks if the main.swf is in the directory, to prevent null errors.
+                    {
+                        if (CalculateMD5("Main.swf") != "93261ce3dc332fdee5d4335eab0a8e63") //Compares the MD5 hash of the local main.swf with the mods main.swf.
+                        {
+                            MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
+                        }
+                    }
+                }
+                if (Properties.Settings.Default.disableWineCheck == false)
+                {
+                    if (Properties.Settings.Default.wineCompat == false)
+                    {
+                        if (checkMachineType() == true)
+                        {
+                            if (MessageBox.Show("FunkeySelectorGUI has detected it is running from Wine. If you want to enable Wine compatibility tweaks, which fixes the selection of Funkeys, click yes.", "Wine detected!", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                            {
+                                Properties.Settings.Default.wineCompat = true;
+                            }
+                        }
+                    }
+                }
+                firstStart = false;
             }
-
         }
 
+        public static bool checkMachineType()
+        {
+            var key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Wine\"); //Checks if Wine is detected.
+            if (key == null)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+        }
 
-        static string CalculateMD5(string filename)
+        static string CalculateMD5(string filename) //Generates the MD5 hash of the main.swf.
         {
             using (var md5 = MD5.Create())
             {
@@ -142,11 +170,7 @@ namespace FunkeySelector
 
         private void button11_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=FFFFFFF0");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("FFFFFFF0");
         }
 
         private void Button13_Click(object sender, EventArgs e)
@@ -158,18 +182,7 @@ namespace FunkeySelector
 
         private void Button14_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=" + textBox1.Text);
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
-        }
-
-        private void button15_Click(object sender, EventArgs e)
-        {
-            ExplorerForm1 funktownexplorer = new ExplorerForm1();
-            this.Hide();
-            funktownexplorer.Show();
+            customF.setFunkey(textBox1.Text);
         }
 
         private void button16_Click(object sender, EventArgs e)

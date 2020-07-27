@@ -51,18 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ExplorerForm1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ExplorerForm1.Designer.cs">
-      <DependentUpon>ExplorerForm1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ExplorerForm2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ExplorerForm2.Designer.cs">
-      <DependentUpon>ExplorerForm2.cs</DependentUpon>
-    </Compile>
+    <Compile Include="CustomFManager.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -149,12 +138,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ExplorerForm1.resx">
-      <DependentUpon>ExplorerForm1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ExplorerForm2.resx">
-      <DependentUpon>ExplorerForm2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

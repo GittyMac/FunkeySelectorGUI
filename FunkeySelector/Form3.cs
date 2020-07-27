@@ -14,6 +14,7 @@ namespace FunkeySelector
 {
     public partial class Form3 : Form
     {
+        CustomFManager customF = new CustomFManager();
         public Form3()
         {
             InitializeComponent();
@@ -28,110 +29,61 @@ namespace FunkeySelector
 
         private void button2_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=00000014");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("00000014");
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=00000018");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("00000018");
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=00000019");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("00000019");
         }
 
         private void button10_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=0000001A");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("0000001A");
         }
 
         private void button9_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=0000001B");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("0000001B");
         }
 
         private void button8_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=0000001C");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("0000001C");
         }
 
         private void button7_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=0000001D");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("0000001D");
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=0000001E");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("0000001E");
         }
-
         private void button5_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=0000001F");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("0000001F");
         }
 
         private void button13_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=00000023");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("00000023");
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=00000024");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("00000024");
         }
 
         private void button11_Click(object sender, EventArgs e)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=00000025");
-            }
-            Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow();
+            customF.setFunkey("00000025");
         }
     }
 }

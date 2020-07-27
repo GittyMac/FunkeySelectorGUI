@@ -343,6 +343,7 @@
             this.MaximizeBox = false;
             this.Name = "Form11";
             this.Text = "FunkeySelectorGUI";
+            this.Load += new System.EventHandler(this.Form11_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
