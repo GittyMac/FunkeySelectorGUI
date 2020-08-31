@@ -9,7 +9,7 @@ namespace FunkeySelector
 {
     class CustomFManager
     {
-        public void setFunkey(string funkeyCodeNum)
+        public void setFunkey(string funkeyCodeNum) //This is the code to switch Funkeys, funkeyCodeNum is the code defined in funkeys.rdf.
         {
             using (StreamWriter writetext = new StreamWriter("customF.txt"))
             {
@@ -23,7 +23,17 @@ namespace FunkeySelector
                 }
                 else Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow(); //Closes the game to trigger the mod.
             }
-            //It saves a lot of time to have a simple function to call.
+            //It saves a lot of time to have a simple function to call rather than individual statements.
+        }
+
+        public void changeToNoHub() //This will change the main.swf to the No Hub mod.
+        {
+
+        }
+
+        public void changeToHub() //This will change the main.swf to the default Hub mode.
+        {
+
         }
     }
 }

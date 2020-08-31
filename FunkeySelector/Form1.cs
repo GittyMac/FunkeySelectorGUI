@@ -16,35 +16,41 @@ namespace FunkeySelector
 {
     public partial class Form1 : Form
     {
-        CustomFManager customF = new CustomFManager();
+        //
+        //Initial Setups
+        //
+
+        CustomFManager customF = new CustomFManager(); //Sets the CustomFManager to customf.
         bool firstStart = true;
-        public Form1()
+
+        public Form1() //When the form is opened.
         {
             InitializeComponent();
+            this.TransparencyKey = System.Drawing.Color.Gold; //Removes the gold sections to allow the UI to be rounded.
             if (firstStart == true)
             {
-                if (Properties.Settings.Default.disableGameCheck == false)
+                if (Properties.Settings.Default.disableGameCheck == false) //If the game check is allowed.
                 {
                     if (!File.Exists("UBFunkeys.exe")) //Checks if it's in the RadicaGame folder.
                     {
                         MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
                     }
                 }
-                if (Properties.Settings.Default.disableModCheck == false)
+                if (Properties.Settings.Default.disableModCheck == false) // Checks if mod check is allowed.
                 {
                     if (File.Exists("Main.swf")) //Checks if the main.swf is in the directory, to prevent null errors.
                     {
-                        if (CalculateMD5("Main.swf") != "93261ce3dc332fdee5d4335eab0a8e63") //Compares the MD5 hash of the local main.swf with the mods main.swf.
+                        if (CalculateMD5("Main.swf") != "93261ce3dc332fdee5d4335eab0a8e63") //Compares the MD5 hash of the local main.swf with the mod's main.swf.
                         {
                             MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
                         }
                     }
                 }
-                if (Properties.Settings.Default.disableWineCheck == false)
+                if (Properties.Settings.Default.disableWineCheck == false) //Checks if Wine check is allowed.
                 {
-                    if (Properties.Settings.Default.wineCompat == false)
+                    if (Properties.Settings.Default.wineCompat == false) //If wine compatibility is on, it won't check as well, as there's no need to check and prompt for wine compatibility.
                     {
-                        if (checkMachineType() == true)
+                        if (checkMachineType() == true) //Calls the Wine checker
                         {
                             if (MessageBox.Show("FunkeySelectorGUI has detected it is running from Wine. If you want to enable Wine compatibility tweaks, which fixes the selection of Funkeys, click yes.", "Wine detected!", MessageBoxButtons.YesNo) == DialogResult.Yes)
                             {
@@ -53,20 +59,34 @@ namespace FunkeySelector
                         }
                     }
                 }
-                firstStart = false;
+                firstStart = false; //Prevents the checks from running after first start.
             }
         }
 
-        public static bool checkMachineType()
+        protected override void WndProc(ref Message m) //Allows the window to be dragged.
         {
-            var key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Wine\"); //Checks if Wine is detected.
+            switch (m.Msg)
+            {
+                case 0x84:
+                    base.WndProc(ref m);
+                    if ((int)m.Result == 0x1)
+                        m.Result = (IntPtr)0x2;
+                    return;
+            }
+
+            base.WndProc(ref m);
+        }
+
+        public static bool checkMachineType() //Checks if FSGUI is running from Wine or Windows.
+        {
+            var key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Wine\"); //Checks if Wine is detected using a registry key that usually is only used on Wine.
             if (key == null)
             {
-                return false;
+                return false; //Windows
             }
             else
             {
-                return true;
+                return true; //Wine
             }
         }
 
@@ -74,25 +94,30 @@ namespace FunkeySelector
         {
             using (var md5 = MD5.Create())
             {
-                using (var stream = File.OpenRead(filename))
+                using (var stream = File.OpenRead(filename)) //Opens the main.swf.
                 {
-                    var hash = md5.ComputeHash(stream);
-                    return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
+                    var hash = md5.ComputeHash(stream); //Computes the MD5 hash of the swf.
+                    return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant(); //Converts the hash to a readable string to compare.
                 }
             }
         }
 
+        //
+        // End of Initial Setups
+        //
 
-        private void label2_Click(object sender, EventArgs e)
-        {
+        //
+        // Button Clicks
+        // Most of these just hide this form and shows another one.
+        //
 
-        }
-
+        //Exit
         private void button1_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //Funkeystown
         private void button1_Click_1(object sender, EventArgs e)
         {
             Form2 funktown = new Form2();
@@ -100,6 +125,7 @@ namespace FunkeySelector
             funktown.Show();
         }
 
+        //Kelpy Basin
         private void button2_Click(object sender, EventArgs e)
         {
             Form3 kelp = new Form3();
@@ -107,11 +133,13 @@ namespace FunkeySelector
             kelp.Show();
         }
 
+        //Exit (Again)
         private void button12_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
+        //Magma Gorge
         private void button3_Click(object sender, EventArgs e)
         {
             Form4 magma = new Form4();
@@ -119,6 +147,7 @@ namespace FunkeySelector
             magma.Show();
         }
 
+        //Laputta Station
         private void button4_Click(object sender, EventArgs e)
         {
             Form5 laput = new Form5();
@@ -126,6 +155,7 @@ namespace FunkeySelector
             laput.Show();
         }
 
+        //Funkiki Island
         private void button5_Click(object sender, EventArgs e)
         {
             Form6 funkiki = new Form6();
@@ -133,6 +163,8 @@ namespace FunkeySelector
             funkiki.Show();
         }
 
+
+        //Royalton Racing Complex
         private void button6_Click(object sender, EventArgs e)
         {
             Form7 rrc = new Form7();
@@ -140,6 +172,7 @@ namespace FunkeySelector
             rrc.Show();
         }
 
+        //Nightmare Rift
         private void button7_Click(object sender, EventArgs e)
         {
             Form8 nightmare = new Form8();
@@ -147,6 +180,7 @@ namespace FunkeySelector
             nightmare.Show();
         }
 
+        //Daydream Oasis
         private void button8_Click(object sender, EventArgs e)
         {
             Form9 daydream = new Form9();
@@ -154,6 +188,7 @@ namespace FunkeySelector
             daydream.Show();
         }
 
+        //Hidden Realm
         private void button9_Click(object sender, EventArgs e)
         {
             Form10 hrf = new Form10();
@@ -161,6 +196,7 @@ namespace FunkeySelector
             hrf.Show();
         }
 
+        //Paradox Green
         private void button10_Click(object sender, EventArgs e)
         {
             Form11 paradox = new Form11();
@@ -168,11 +204,13 @@ namespace FunkeySelector
             paradox.Show();
         }
 
+        //U.B.
         private void button11_Click(object sender, EventArgs e)
         {
             customF.setFunkey("FFFFFFF0");
         }
 
+        //Unused Funkeys
         private void Button13_Click(object sender, EventArgs e)
         {
             Form12 unused = new Form12();
@@ -180,11 +218,13 @@ namespace FunkeySelector
             unused.Show();
         }
 
+        //Insert Custom ID
         private void Button14_Click(object sender, EventArgs e)
         {
-            customF.setFunkey(textBox1.Text);
+            customF.setFunkey(textBox1.Text); //Sets customF to the contents of textBox1.
         }
 
+        //Custom Funkeys
         private void button16_Click(object sender, EventArgs e)
         {
             Form13 customf = new Form13();
@@ -192,14 +232,76 @@ namespace FunkeySelector
             customf.Show();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
+        //Options
         private void button17_Click(object sender, EventArgs e)
         {
             Form14 options = new Form14();
-            options.Show();
+            options.StartPosition = FormStartPosition.CenterParent;
+            options.ShowDialog();
         }
+
+        //Minimize
+        private void button15_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        //
+        //End of Button Clicks
+        //
+
+        //
+        //Button Image Swaps
+        //
+
+        //Options
+        private void button17_MouseEnter(object sender, EventArgs e)
+        {
+            button17.BackgroundImage = Properties.Resources._681;
+        }
+
+        private void button17_MouseLeave(object sender, EventArgs e)
+        {
+            button17.BackgroundImage = Properties.Resources._679;
+        }
+
+        private void button17_MouseDown(object sender, MouseEventArgs e)
+        {
+            button17.BackgroundImage = Properties.Resources._683;
+        }
+
+        //Minimize
+        private void button15_MouseLeave(object sender, EventArgs e)
+        {
+            button15.BackgroundImage = Properties.Resources._150;
+        }
+
+        private void button15_MouseEnter(object sender, EventArgs e)
+        {
+            button15.BackgroundImage = Properties.Resources._154;
+        }
+        private void button15_MouseDown(object sender, MouseEventArgs e)
+        {
+            button15.BackgroundImage = Properties.Resources._157;
+        }
+
+        //Close
+        private void button12_MouseLeave(object sender, EventArgs e)
+        {
+            button12.BackgroundImage = Properties.Resources._246;
+        }
+
+        private void button12_MouseEnter(object sender, EventArgs e)
+        {
+            button12.BackgroundImage = Properties.Resources._248;
+        }
+        private void button12_MouseDown(object sender, MouseEventArgs e)
+        {
+            button12.BackgroundImage = Properties.Resources._250;
+        }
+
+        //
+        // End of Button Images
+        //
     }
 }

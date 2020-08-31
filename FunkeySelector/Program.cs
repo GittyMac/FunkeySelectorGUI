@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -11,12 +12,22 @@ namespace FunkeySelector
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
+        /// 
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            CustomFManager customF = new CustomFManager();
+            if (args != null && args.Length > 0) //If there's an argument in the execution.
+            {
+                string funkeyCodeNum = args[0];
+                customF.setFunkey(funkeyCodeNum);
+            }
+            else
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Form1());
+            }
         }
     }
 }

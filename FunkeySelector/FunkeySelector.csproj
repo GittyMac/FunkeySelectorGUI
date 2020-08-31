@@ -24,6 +24,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,6 +34,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>187.ico</ApplicationIcon>
@@ -87,6 +89,12 @@
     </Compile>
     <Compile Include="Form14.Designer.cs">
       <DependentUpon>Form14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15.Designer.cs">
+      <DependentUpon>Form15.cs</DependentUpon>
     </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
@@ -156,6 +164,9 @@
     <EmbeddedResource Include="Form14.resx">
       <DependentUpon>Form14.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form15.resx">
+      <DependentUpon>Form15.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
@@ -205,6 +216,23 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="187.ico" />
+    <None Include="Resources\1841.png" />
+    <None Include="Resources\234.png" />
+    <None Include="Resources\232.png" />
+    <None Include="Resources\230.png" />
+    <None Include="Resources\184.png" />
+    <None Include="Resources\683.png" />
+    <None Include="Resources\681.png" />
+    <None Include="Resources\679.png" />
+    <None Include="Resources\2432.png" />
+    <None Include="Resources\2431.png" />
+    <None Include="Resources\250.png" />
+    <None Include="Resources\248.png" />
+    <None Include="Resources\157.png" />
+    <None Include="Resources\154.png" />
+    <None Include="Resources\150.png" />
+    <None Include="Resources\246.png" />
+    <None Include="Resources\243.png" />
     <None Include="Resources\Laputa_station_fitb.jpg" />
     <None Include="Resources\FunkeySelector.exe.config" />
     <None Include="Resources\Funkeystown_Overview.jpg" />

@@ -14,6 +14,7 @@ namespace FunkeySelector
         public Form14()
         {
             InitializeComponent();
+            this.TransparencyKey = System.Drawing.Color.Gold;
             checkBox1.Checked = Properties.Settings.Default.disableModCheck;
             checkBox2.Checked = Properties.Settings.Default.disableGameCheck;
             checkBox3.Checked = Properties.Settings.Default.wineCompat;
@@ -69,6 +70,41 @@ namespace FunkeySelector
             else
                 Properties.Settings.Default.disableWineCheck = false;
             Properties.Settings.Default.Save();
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources._232;
+        }
+
+        private void button1_MouseLeave(object sender, EventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources._230;
+        }
+
+        private void button1_MouseDown(object sender, MouseEventArgs e)
+        {
+            button1.BackgroundImage = Properties.Resources._234;
+        }
+        protected override void WndProc(ref Message m)
+        {
+            switch (m.Msg)
+            {
+                case 0x84:
+                    base.WndProc(ref m);
+                    if ((int)m.Result == 0x1)
+                        m.Result = (IntPtr)0x2;
+                    return;
+            }
+
+            base.WndProc(ref m);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form15 form15 = new Form15();
+            form15.StartPosition = FormStartPosition.CenterParent;
+            form15.ShowDialog();
         }
     }
 }
