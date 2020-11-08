@@ -30,8 +30,6 @@ namespace FunkeySelector
             else
                 Properties.Settings.Default.disableModCheck = false;
             Properties.Settings.Default.Save();
-
-
         }
 
         private void checkBox2_CheckedChanged(object sender, EventArgs e)

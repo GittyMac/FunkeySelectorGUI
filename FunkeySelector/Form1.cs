@@ -33,7 +33,10 @@ namespace FunkeySelector
                 {
                     if (!File.Exists("UBFunkeys.exe")) //Checks if it's in the RadicaGame folder.
                     {
-                        MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
+                        if (!File.Exists("OpenFK.exe")) //Ensures that OpenFK users won't get warned.
+                        {
+                            MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
+                        }
                     }
                 }
                 if (Properties.Settings.Default.disableModCheck == false) // Checks if mod check is allowed.
@@ -42,7 +45,11 @@ namespace FunkeySelector
                     {
                         if (CalculateMD5("Main.swf") != "93261ce3dc332fdee5d4335eab0a8e63") //Compares the MD5 hash of the local main.swf with the mod's main.swf.
                         {
-                            MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
+                            if (File.Exists("OpenFK.exe")) //Ensures that OpenFK users won't get warned.
+                            {
+                                Debug.WriteLine("OpenFK detected! Skipping mod check.");
+                            }
+                            else MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
                         }
                     }
                 }
