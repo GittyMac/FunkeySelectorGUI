@@ -3,6 +3,8 @@
 # FunkeySelectorGUI
 A GUI for the Funkeys Selection Mod.
 
+![FunkeySelectorGUI](https://i.imgur.com/vfNOFlA.png)
+
 ## Installation
 To install FunkeySelectorGUI, put the FunkeySelector.exe file in the RadicaGame folder of your U.B. Funkeys installation.
 It has to be in the RadicaGame folder to be able to write its customF.txt file.
