@@ -1,7 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<item>
-    <version>2.0.0.0</version>
-    <url>https://github.com/GittyMac/FunkeySelectorGUI/releases/download/2.0a3/FunkeySelectorGUI.exe</url>
-    <changelog>https://github.com/GittyMac/FunkeySelectorGUI/releases/tag/2.0a3</changelog>
-    <mandatory>false</mandatory>
-</item>
+<update name="FunkeySelectorGUI 2.0" size="3.64mb" url="https://github.com/GittyMac/FunkeySelectorGUI/releases/download/v2.0/FunkeySelectorGUI.exe" />
