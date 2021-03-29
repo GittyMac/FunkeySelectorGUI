@@ -195,6 +195,24 @@ namespace FunkeySelector
             button23.BackgroundImage = Properties.Resources._250;
         }
 
+        //Nectar
+        private void button19_Click(object sender, EventArgs e)
+        {
+            customF.setFunkey("00000119");
+        }
+
+        //Nectar R
+        private void button18_Click(object sender, EventArgs e)
+        {
+            customF.setFunkey("0000011D");
+        }
+
+        //Nectar VR
+        private void button17_Click(object sender, EventArgs e)
+        {
+            customF.setFunkey("00000124");
+        }
+
         //
         // End of Button Images
         //

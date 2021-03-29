@@ -91,24 +91,6 @@ namespace FunkeySelector
             customF.setFunkey("00000123");
         }
 
-        //Nectar
-        private void button7_Click(object sender, EventArgs e)
-        {
-            customF.setFunkey("00000119");
-        }
-
-        //Nectar R
-        private void button6_Click(object sender, EventArgs e)
-        {
-            customF.setFunkey("0000011D");
-        }
-
-        //Nectar VR
-        private void button5_Click(object sender, EventArgs e)
-        {
-            customF.setFunkey("00000124");
-        }
-
         //Mulch
         private void button12_Click(object sender, EventArgs e)
         {

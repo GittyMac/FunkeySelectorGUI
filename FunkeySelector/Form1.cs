@@ -50,6 +50,9 @@ namespace FunkeySelector
                                 Debug.WriteLine("OpenFK detected! Skipping mod check.");
                             }
                             else MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
+                        }else if (CalculateMD5("Main.swf") == "93261ce3dc332fdee5d4335eab0a8e63" && File.Exists("OpenFK.exe"))
+                        {
+                            MessageBox.Show("You are using OpenFK with the Funkeys Selection Mod. Please use the original Main.swf with OpenFK's customF mode for a better experience.");
                         }
                     }
                 }
