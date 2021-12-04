@@ -132,7 +132,8 @@ namespace FunkeySelector
         {
             Form2 funktown = new Form2();
             this.Hide();
-            funktown.Show();
+            funktown.StartPosition = FormStartPosition.CenterParent;
+            funktown.ShowDialog(this);
         }
 
         //Kelpy Basin
@@ -140,7 +141,8 @@ namespace FunkeySelector
         {
             Form3 kelp = new Form3();
             this.Hide();
-            kelp.Show();
+            kelp.StartPosition = FormStartPosition.CenterParent;
+            kelp.ShowDialog(this);
         }
 
         //Exit (Again)
@@ -154,7 +156,8 @@ namespace FunkeySelector
         {
             Form4 magma = new Form4();
             this.Hide();
-            magma.Show();
+            magma.StartPosition = FormStartPosition.CenterParent;
+            magma.ShowDialog(this);
         }
 
         //Laputta Station
@@ -162,7 +165,8 @@ namespace FunkeySelector
         {
             Form5 laput = new Form5();
             this.Hide();
-            laput.Show();
+            laput.StartPosition = FormStartPosition.CenterParent;
+            laput.ShowDialog(this);
         }
 
         //Funkiki Island
@@ -170,7 +174,8 @@ namespace FunkeySelector
         {
             Form6 funkiki = new Form6();
             this.Hide();
-            funkiki.Show();
+            funkiki.StartPosition = FormStartPosition.CenterParent;
+            funkiki.Show(this);
         }
 
 
@@ -179,7 +184,8 @@ namespace FunkeySelector
         {
             Form7 rrc = new Form7();
             this.Hide();
-            rrc.Show();
+            rrc.StartPosition = FormStartPosition.CenterParent;
+            rrc.ShowDialog(this);
         }
 
         //Nightmare Rift
@@ -187,7 +193,8 @@ namespace FunkeySelector
         {
             Form8 nightmare = new Form8();
             this.Hide();
-            nightmare.Show();
+            nightmare.StartPosition = FormStartPosition.CenterParent;
+            nightmare.ShowDialog(this);
         }
 
         //Daydream Oasis
@@ -195,7 +202,8 @@ namespace FunkeySelector
         {
             Form9 daydream = new Form9();
             this.Hide();
-            daydream.Show();
+            daydream.StartPosition = FormStartPosition.CenterParent;
+            daydream.ShowDialog(this);
         }
 
         //Hidden Realm
@@ -203,7 +211,8 @@ namespace FunkeySelector
         {
             Form10 hrf = new Form10();
             this.Hide();
-            hrf.Show();
+            hrf.StartPosition = FormStartPosition.CenterParent;
+            hrf.ShowDialog(this);
         }
 
         //Paradox Green
@@ -211,7 +220,8 @@ namespace FunkeySelector
         {
             Form11 paradox = new Form11();
             this.Hide();
-            paradox.Show();
+            paradox.StartPosition = FormStartPosition.CenterParent;
+            paradox.ShowDialog(this);
         }
 
         //U.B.
@@ -225,7 +235,8 @@ namespace FunkeySelector
         {
             Form12 unused = new Form12();
             this.Hide();
-            unused.Show();
+            unused.StartPosition = FormStartPosition.CenterParent;
+            unused.ShowDialog(this);
         }
 
         //Insert Custom ID
@@ -239,7 +250,8 @@ namespace FunkeySelector
         {
             Form13 customf = new Form13();
             this.Hide();
-            customf.Show();
+            customf.StartPosition = FormStartPosition.CenterParent;
+            customf.ShowDialog(this);
         }
 
         //Options

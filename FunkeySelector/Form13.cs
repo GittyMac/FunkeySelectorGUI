@@ -67,8 +67,9 @@ namespace FunkeySelector
         private void button1_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
-            this.Close();
-            form1.Show();
+            this.Hide();
+            form1.StartPosition = FormStartPosition.CenterParent;
+            form1.ShowDialog(this);
         }
 
         //Will select Funkey when listbox item is selected.

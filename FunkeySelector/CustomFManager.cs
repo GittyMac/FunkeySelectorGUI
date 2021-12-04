@@ -25,15 +25,5 @@ namespace FunkeySelector
             }
             //It saves a lot of time to have a simple function to call rather than individual statements.
         }
-
-        public void changeToNoHub() //This will change the main.swf to the No Hub mod.
-        {
-
-        }
-
-        public void changeToHub() //This will change the main.swf to the default Hub mode.
-        {
-
-        }
     }
 }
