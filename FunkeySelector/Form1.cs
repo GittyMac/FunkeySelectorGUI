@@ -175,7 +175,7 @@ namespace FunkeySelector
             Form6 funkiki = new Form6();
             this.Hide();
             funkiki.StartPosition = FormStartPosition.CenterParent;
-            funkiki.Show(this);
+            funkiki.ShowDialog(this);
         }
 
 
