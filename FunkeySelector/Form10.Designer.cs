@@ -51,12 +51,12 @@
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
+            this.minimizeButton1 = new FunkeySelector.UserControls.MinimizeButton();
+            this.closeButton1 = new FunkeySelector.CloseButton();
             this.SuspendLayout();
             // 
             // label5
@@ -403,46 +403,6 @@
             this.button16.UseVisualStyleBackColor = false;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
-            // button22
-            // 
-            this.button22.BackColor = System.Drawing.Color.Transparent;
-            this.button22.BackgroundImage = global::FunkeySelector.Properties.Resources._150;
-            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button22.Location = new System.Drawing.Point(641, 15);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(26, 22);
-            this.button22.TabIndex = 97;
-            this.button22.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button22.UseVisualStyleBackColor = false;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
-            this.button22.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button22_MouseDown);
-            this.button22.MouseEnter += new System.EventHandler(this.button22_MouseEnter);
-            this.button22.MouseLeave += new System.EventHandler(this.button22_MouseLeave);
-            // 
-            // button23
-            // 
-            this.button23.BackColor = System.Drawing.Color.Transparent;
-            this.button23.BackgroundImage = global::FunkeySelector.Properties.Resources._246;
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button23.Location = new System.Drawing.Point(680, 17);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(26, 20);
-            this.button23.TabIndex = 96;
-            this.button23.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button23.UseVisualStyleBackColor = false;
-            this.button23.Click += new System.EventHandler(this.button23_Click);
-            this.button23.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button23_MouseDown);
-            this.button23.MouseEnter += new System.EventHandler(this.button23_MouseEnter);
-            this.button23.MouseLeave += new System.EventHandler(this.button23_MouseLeave);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
@@ -506,6 +466,20 @@
             this.button19.UseVisualStyleBackColor = false;
             this.button19.Click += new System.EventHandler(this.button19_Click);
             // 
+            // minimizeButton1
+            // 
+            this.minimizeButton1.Location = new System.Drawing.Point(641, 15);
+            this.minimizeButton1.Name = "minimizeButton1";
+            this.minimizeButton1.Size = new System.Drawing.Size(26, 22);
+            this.minimizeButton1.TabIndex = 102;
+            // 
+            // closeButton1
+            // 
+            this.closeButton1.Location = new System.Drawing.Point(680, 17);
+            this.closeButton1.Name = "closeButton1";
+            this.closeButton1.Size = new System.Drawing.Size(26, 20);
+            this.closeButton1.TabIndex = 103;
+            // 
             // Form10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -513,12 +487,12 @@
             this.BackColor = System.Drawing.Color.Gold;
             this.BackgroundImage = global::FunkeySelector.Properties.Resources._2432;
             this.ClientSize = new System.Drawing.Size(726, 566);
+            this.Controls.Add(this.closeButton1);
+            this.Controls.Add(this.minimizeButton1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.button19);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button15);
@@ -575,11 +549,11 @@
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button17;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Button button19;
+        private UserControls.MinimizeButton minimizeButton1;
+        private CloseButton closeButton1;
     }
 }

@@ -59,49 +59,49 @@ namespace FunkeySelector
         //Rastro
         private void button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000117");
+            customF.SetFunkey("00000117");
         }
 
         //Rastro R
         private void button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000011B");
+            customF.SetFunkey("0000011B");
         }
 
         //Rastro VR
         private void button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000122");
+            customF.SetFunkey("00000122");
         }
 
         //Tadd
         private void button10_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000118");
+            customF.SetFunkey("00000118");
         }
 
         //Tadd R
         private void button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000011C");
+            customF.SetFunkey("0000011C");
         }
 
         //Tadd VR
         private void button8_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000123");
+            customF.SetFunkey("00000123");
         }
 
         //Mulch
         private void button12_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000126");
+            customF.SetFunkey("00000126");
         }
 
         //Ace
         private void button15_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000127");
+            customF.SetFunkey("00000127");
         }
 
         //Close

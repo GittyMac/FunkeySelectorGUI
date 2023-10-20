@@ -61,73 +61,73 @@ namespace FunkeySelector
         //Glub
         private void button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000014");
+            customF.SetFunkey("00000014");
         }
 
         //Glub R
         private void button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000018");
+            customF.SetFunkey("00000018");
         }
 
         //Glub VR
         private void button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000019");
+            customF.SetFunkey("00000019");
         }
 
         //Sprout
         private void button10_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000001A");
+            customF.SetFunkey("0000001A");
         }
 
         //Sprout R
         private void button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000001B");
+            customF.SetFunkey("0000001B");
         }
 
         //Sprout VR
         private void button8_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000001C");
+            customF.SetFunkey("0000001C");
         }
 
         //Twinx
         private void button7_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000001D");
+            customF.SetFunkey("0000001D");
         }
 
         //Twinx R
         private void button6_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000001E");
+            customF.SetFunkey("0000001E");
         }
 
         //Twinx VR
         private void button5_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000001F");
+            customF.SetFunkey("0000001F");
         }
 
         //Tiki
         private void button13_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000023");
+            customF.SetFunkey("00000023");
         }
 
         //Tiki R
         private void button12_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000024");
+            customF.SetFunkey("00000024");
         }
 
         //Tiki VR
         private void button11_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000025");
+            customF.SetFunkey("00000025");
         }
 
         //Close

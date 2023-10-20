@@ -59,49 +59,49 @@ namespace FunkeySelector
         //Racer X
         private void button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000005F");
+            customF.SetFunkey("0000005F");
         }
 
         //Trixie
         private void button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000083");
+            customF.SetFunkey("00000083");
         }
 
         //Cannonball Taylor
         private void button6_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000088");
+            customF.SetFunkey("00000088");
         }
 
         //Snake Oiler
         private void button12_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000008C");
+            customF.SetFunkey("0000008C");
         }
 
         //Speed Racer
         private void button7_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000093");
+            customF.SetFunkey("00000093");
         }
 
         //Speed Racer Pinball
         private void button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000095");
+            customF.SetFunkey("00000095");
         }
 
         //Chim-Chim
         private void button5_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000096");
+            customF.SetFunkey("00000096");
         }
 
         //Taejo
         private void button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000094");
+            customF.SetFunkey("00000094");
         }
 
         //Close

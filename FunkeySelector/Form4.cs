@@ -50,73 +50,73 @@ namespace FunkeySelector
         //Stitch
         private void button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000026");
+            customF.SetFunkey("00000026");
         }
 
         //Stitch R
         private void button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000027");
+            customF.SetFunkey("00000027");
         }
 
         //Stitch VR
         private void button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000028");
+            customF.SetFunkey("00000028");
         }
 
         //Deuce
         private void button10_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000029");
+            customF.SetFunkey("00000029");
         }
 
         //Deuce R
         private void button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000002A");
+            customF.SetFunkey("0000002A");
         }
 
         //Deuce VR
         private void button8_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000002E");
+            customF.SetFunkey("0000002E");
         }
 
         //Wasabi
         private void button7_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000002F");
+            customF.SetFunkey("0000002F");
         }
 
         //Wasabi R
         private void button6_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000030");
+            customF.SetFunkey("00000030");
         }
 
         //Wasabi VR
         private void button5_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000031");
+            customF.SetFunkey("00000031");
         }
 
         //Bones
         private void button13_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000032");
+            customF.SetFunkey("00000032");
         }
 
         //Bones R
         private void button12_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000033");
+            customF.SetFunkey("00000033");
         }
 
         //Bones VR
         private void button11_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000034");
+            customF.SetFunkey("00000034");
         }
 
         //Back

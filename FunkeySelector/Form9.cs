@@ -59,73 +59,73 @@ namespace FunkeySelector
         //Dyer
         private void button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000A1");
+            customF.SetFunkey("000000A1");
         }
 
         //Dyer R
         private void button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000AE");
+            customF.SetFunkey("000000AE");
         }
 
         //Dyer VR
         private void button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000BE");
+            customF.SetFunkey("000000BE");
         }
 
         //Lucky
         private void button10_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000A2");
+            customF.SetFunkey("000000A2");
         }
 
         //Lucky R
         private void button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000AF");
+            customF.SetFunkey("000000AF");
         }
 
         //Lucky VR
         private void button8_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000BF");
+            customF.SetFunkey("000000BF");
         }
 
         //Tank
         private void button7_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000A3");
+            customF.SetFunkey("000000A3");
         }
 
         //Tank R
         private void button6_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000B3");
+            customF.SetFunkey("000000B3");
         }
 
         //Tank VR
         private void button5_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000C0");
+            customF.SetFunkey("000000C0");
         }
 
         //Berger
         private void button13_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000A9");
+            customF.SetFunkey("000000A9");
         }
 
         //Berger R
         private void button12_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000B6");
+            customF.SetFunkey("000000B6");
         }
 
         //Berger VR
         private void button11_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000C3");
+            customF.SetFunkey("000000C3");
         }
 
         //Close

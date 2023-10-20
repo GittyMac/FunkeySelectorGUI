@@ -59,73 +59,73 @@ namespace FunkeySelector
         //Ptep
         private void button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000A0");
+            customF.SetFunkey("000000A0");
         }
 
         //Ptep R
         private void button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000AD");
+            customF.SetFunkey("000000AD");
         }
 
         //Ptep VR
         private void button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000BA");
+            customF.SetFunkey("000000BA");
         }
 
         //Sprocket
         private void button10_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000A4");
+            customF.SetFunkey("000000A4");
         }
 
         //Sprocket R
         private void button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000B4");
+            customF.SetFunkey("000000B4");
         }
 
         //Sprocket VR
         private void button8_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000C1");
+            customF.SetFunkey("000000C1");
         }
 
         //Vlurp
         private void button7_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000A8");
+            customF.SetFunkey("000000A8");
         }
 
         //Vlurp R
         private void button6_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000B5");
+            customF.SetFunkey("000000B5");
         }
 
         //Vlurp VR
         private void button5_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000C2");
+            customF.SetFunkey("000000C2");
         }
 
         //Snipe
         private void button13_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000AC");
+            customF.SetFunkey("000000AC");
         }
 
         //Snipe R
         private void button12_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000B9");
+            customF.SetFunkey("000000B9");
         }
 
         //Snipe VR
         private void button11_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000CA");
+            customF.SetFunkey("000000CA");
         }
 
         //Close

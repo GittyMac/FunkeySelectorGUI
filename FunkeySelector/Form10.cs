@@ -59,91 +59,91 @@ namespace FunkeySelector
         //Singe
         private void button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000102");
+            customF.SetFunkey("00000102");
         }
 
         //Singe R
         private void button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000106");
+            customF.SetFunkey("00000106");
         }
 
         //Singe VR
         private void button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000010D");
+            customF.SetFunkey("0000010D");
         }
 
         //Raj
         private void button10_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000103");
+            customF.SetFunkey("00000103");
         }
 
         //Raj R
         private void button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000107");
+            customF.SetFunkey("00000107");
         }
 
         //Raj VR
         private void button8_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000010E");
+            customF.SetFunkey("0000010E");
         }
 
         //Yang
         private void button7_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000104");
+            customF.SetFunkey("00000104");
         }
 
         //Yang R
         private void button6_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000108");
+            customF.SetFunkey("00000108");
         }
 
         //Yang VR
         private void button5_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000010F");
+            customF.SetFunkey("0000010F");
         }
 
         //Bomble
         private void button13_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000105");
+            customF.SetFunkey("00000105");
         }
 
         //Bomble R
         private void button12_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000010C");
+            customF.SetFunkey("0000010C");
         }
 
         //Bomble VR
         private void button11_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000110");
+            customF.SetFunkey("00000110");
         }
 
         //Maul
         private void button16_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000011A");
+            customF.SetFunkey("0000011A");
         }
 
         //Maul R
         private void button15_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000011E");
+            customF.SetFunkey("0000011E");
         }
 
         //Maul VR
         private void button14_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000125");
+            customF.SetFunkey("00000125");
         }
 
         //Close
@@ -166,52 +166,24 @@ namespace FunkeySelector
         //Button Images
         //
 
-        //Minimize
-        private void button22_MouseLeave(object sender, EventArgs e)
-        {
-            button22.BackgroundImage = Properties.Resources._150;
-        }
-
-        private void button22_MouseEnter(object sender, EventArgs e)
-        {
-            button22.BackgroundImage = Properties.Resources._154;
-        }
-        private void button22_MouseDown(object sender, MouseEventArgs e)
-        {
-            button22.BackgroundImage = Properties.Resources._157;
-        }
-
-        //Close
-        private void button23_MouseLeave(object sender, EventArgs e)
-        {
-            button23.BackgroundImage = Properties.Resources._246;
-        }
-
-        private void button23_MouseEnter(object sender, EventArgs e)
-        {
-            button23.BackgroundImage = Properties.Resources._248;
-        }
-        private void button23_MouseDown(object sender, MouseEventArgs e)
-        {
-            button23.BackgroundImage = Properties.Resources._250;
-        }
+        
 
         //Nectar
         private void button19_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000119");
+            customF.SetFunkey("00000119");
         }
 
         //Nectar R
         private void button18_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000011D");
+            customF.SetFunkey("0000011D");
         }
 
         //Nectar VR
         private void button17_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000124");
+            customF.SetFunkey("00000124");
         }
 
         //

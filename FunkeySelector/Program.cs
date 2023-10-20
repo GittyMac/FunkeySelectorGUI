@@ -21,7 +21,7 @@ namespace FunkeySelector
             if (args != null && args.Length > 0) //If there's an argument in the execution.
             {
                 string funkeyCodeNum = args[0];
-                customF.setFunkey(funkeyCodeNum);
+                customF.SetFunkey(funkeyCodeNum);
             }
             else
             {

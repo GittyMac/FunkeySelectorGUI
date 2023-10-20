@@ -9,9 +9,9 @@ namespace FunkeySelector
 {
     class CustomFManager
     {
-        public void setFunkey(string funkeyCodeNum) //This is the code to switch Funkeys, funkeyCodeNum is the code defined in funkeys.rdf.
+        public void SetFunkey(string funkeyCodeNum) //This is the code to switch Funkeys, funkeyCodeNum is the code defined in funkeys.rdf.
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
+            using (StreamWriter writetext = new("customF.txt"))
             {
                 writetext.Write("funkeyCodeNum=" + funkeyCodeNum); //Creates the customF.txt
             }

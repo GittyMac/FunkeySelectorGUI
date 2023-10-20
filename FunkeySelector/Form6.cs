@@ -59,97 +59,97 @@ namespace FunkeySelector
         //Flurry
         private void button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000050");
+            customF.SetFunkey("00000050");
         }
 
         //Flurry R
         private void button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000051");
+            customF.SetFunkey("00000051");
         }
 
         //Flurry VR
         private void button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000052");
+            customF.SetFunkey("00000052");
         }
 
         //Nibble
         private void button10_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000053");
+            customF.SetFunkey("00000053");
         }
 
         //Nibble R
         private void button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000054");
+            customF.SetFunkey("00000054");
         }
 
         //Nibble VR
         private void button8_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000055");
+            customF.SetFunkey("00000055");
         }
 
         //Sol
         private void button7_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("00000056");
+            customF.SetFunkey("00000056");
         }
 
         //Sol R
         private void button6_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000005A");
+            customF.SetFunkey("0000005A");
         }
 
         //Sol VR
         private void button5_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000005B");
+            customF.SetFunkey("0000005B");
         }
 
         //Webley
         private void button13_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000005C");
+            customF.SetFunkey("0000005C");
         }
 
         //Webley R
         private void button12_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000005D");
+            customF.SetFunkey("0000005D");
         }
 
         //Webley VR
         private void button11_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("0000005E");
+            customF.SetFunkey("0000005E");
         }
 
         //Pineapple King
         private void button14_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000F2");
+            customF.SetFunkey("000000F2");
         }
 
         //Native
         private void button15_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000F6");
+            customF.SetFunkey("000000F6");
         }
 
         //Jerry
         private void button16_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000F1");
+            customF.SetFunkey("000000F1");
         }
 
         //Rewind
         private void button17_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("000000CC");
+            customF.SetFunkey("000000CC");
         }
 
         //Close

@@ -1,6 +1,6 @@
 ﻿namespace FunkeySelector
 {
-    partial class Form2
+    partial class FunkeysTown
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FunkeysTown));
             this.label2 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -61,8 +61,8 @@
             this.button20 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
             this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
+            this.closeButton1 = new FunkeySelector.CloseButton();
+            this.minimizeButton1 = new FunkeySelector.UserControls.MinimizeButton();
             this.SuspendLayout();
             // 
             // label2
@@ -109,7 +109,7 @@
             this.button2.TabIndex = 5;
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.Scratch_Click);
             // 
             // button3
             // 
@@ -126,7 +126,7 @@
             this.button3.TabIndex = 6;
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.ScratchR_Click);
             // 
             // button4
             // 
@@ -143,7 +143,7 @@
             this.button4.TabIndex = 7;
             this.button4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.ScratchVR_Click);
             // 
             // label1
             // 
@@ -554,55 +554,29 @@
             this.button21.UseVisualStyleBackColor = false;
             this.button21.Click += new System.EventHandler(this.button21_Click);
             // 
-            // button22
+            // closeButton1
             // 
-            this.button22.BackColor = System.Drawing.Color.Transparent;
-            this.button22.BackgroundImage = global::FunkeySelector.Properties.Resources._150;
-            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button22.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button22.Location = new System.Drawing.Point(642, 16);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(26, 22);
-            this.button22.TabIndex = 81;
-            this.button22.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button22.UseVisualStyleBackColor = false;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
-            this.button22.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button22_MouseDown);
-            this.button22.MouseEnter += new System.EventHandler(this.button22_MouseEnter);
-            this.button22.MouseLeave += new System.EventHandler(this.button22_MouseLeave);
+            this.closeButton1.Location = new System.Drawing.Point(681, 18);
+            this.closeButton1.Name = "closeButton1";
+            this.closeButton1.Size = new System.Drawing.Size(26, 20);
+            this.closeButton1.TabIndex = 82;
             // 
-            // button23
+            // minimizeButton1
             // 
-            this.button23.BackColor = System.Drawing.Color.Transparent;
-            this.button23.BackgroundImage = global::FunkeySelector.Properties.Resources._246;
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button23.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button23.Location = new System.Drawing.Point(681, 18);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(26, 20);
-            this.button23.TabIndex = 80;
-            this.button23.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button23.UseVisualStyleBackColor = false;
-            this.button23.Click += new System.EventHandler(this.button23_Click);
-            this.button23.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button23_MouseDown);
-            this.button23.MouseEnter += new System.EventHandler(this.button23_MouseEnter);
-            this.button23.MouseLeave += new System.EventHandler(this.button23_MouseLeave);
+            this.minimizeButton1.Location = new System.Drawing.Point(642, 16);
+            this.minimizeButton1.Name = "minimizeButton1";
+            this.minimizeButton1.Size = new System.Drawing.Size(26, 22);
+            this.minimizeButton1.TabIndex = 83;
             // 
-            // Form2
+            // FunkeysTown
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
             this.BackgroundImage = global::FunkeySelector.Properties.Resources._2432;
             this.ClientSize = new System.Drawing.Size(726, 566);
-            this.Controls.Add(this.button22);
-            this.Controls.Add(this.button23);
+            this.Controls.Add(this.minimizeButton1);
+            this.Controls.Add(this.closeButton1);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.button21);
             this.Controls.Add(this.label10);
@@ -638,7 +612,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "Form2";
+            this.Name = "FunkeysTown";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FunkeySelectorGUI";
             this.ResumeLayout(false);
@@ -680,7 +654,7 @@
         private System.Windows.Forms.Button button20;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
+        private CloseButton closeButton1;
+        private UserControls.MinimizeButton minimizeButton1;
     }
 }

@@ -49,55 +49,55 @@ namespace FunkeySelector
         //Con
         private void Button5_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("S0000001");
+            customF.SetFunkey("S0000001");
         }
 
         //TachB
         private void Button2_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("T0000001");
+            customF.SetFunkey("T0000001");
         }
 
         //TachY
         private void Button3_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("T0000002");
+            customF.SetFunkey("T0000002");
         }
 
         //TachR
         private void Button4_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("T0000003");
+            customF.SetFunkey("T0000003");
         }
 
         //HenchmanP
         private void Button8_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("h0000001");
+            customF.SetFunkey("h0000001");
         }
 
         //HenchmanG
         private void Button7_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("h0000003");
+            customF.SetFunkey("h0000003");
         }
 
         //HenchmanB
         private void Button6_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("h0000003");
+            customF.SetFunkey("h0000003");
         }
 
         //Dali
         private void Button10_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("h0000007");
+            customF.SetFunkey("h0000007");
         }
 
         //Goya
         private void Button9_Click(object sender, EventArgs e)
         {
-            customF.setFunkey("h0000006");
+            customF.SetFunkey("h0000006");
         }
 
         //Back
