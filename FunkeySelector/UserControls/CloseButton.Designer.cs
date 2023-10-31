@@ -1,5 +1,5 @@
 ﻿
-namespace FunkeySelector
+namespace FunkeySelector.UserControls
 {
     partial class CloseButton
     {

@@ -17,18 +17,16 @@ namespace FunkeySelector
         [STAThread]
         static void Main(string[] args)
         {
-            CustomFManager customF = new CustomFManager();
-            if (args != null && args.Length > 0) //If there's an argument in the execution.
+            // If called with an argument
+            if (args != null && args.Length > 0)
             {
-                string funkeyCodeNum = args[0];
-                customF.SetFunkey(funkeyCodeNum);
+                CustomF.SetFunkey(args[0]);
+                return;
             }
-            else
-            {
-                Application.EnableVisualStyles();
-                Application.SetCompatibleTextRenderingDefault(false);
-                Application.Run(new Form1());
-            }
+
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }

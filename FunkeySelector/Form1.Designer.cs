@@ -30,31 +30,31 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.titleLabel = new System.Windows.Forms.Label();
-            this.FunkeysTownButton = new System.Windows.Forms.Button();
-            this.KelpyBasinButton = new System.Windows.Forms.Button();
-            this.MagmaGorgeButton = new System.Windows.Forms.Button();
-            this.LaputtaStationButton = new System.Windows.Forms.Button();
-            this.FunkikiIslandButton = new System.Windows.Forms.Button();
-            this.RoyaltonRacingComplexButton = new System.Windows.Forms.Button();
-            this.NightmareRiftButton = new System.Windows.Forms.Button();
-            this.DaydreamOasisButton = new System.Windows.Forms.Button();
-            this.HiddenRealmButton = new System.Windows.Forms.Button();
-            this.ParadoxGreenButton = new System.Windows.Forms.Button();
+            this.KelpyBasinButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.MagmaGorgeButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.LaputtaStationButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.FunkikiIslandButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.RoyaltonRacingComplexButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.NightmareRiftButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.DaydreamOasisButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.HiddenRealmButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.ParadoxGreenButton = new FunkeySelector.UserControls.ChangeFormButton();
             this.UBLabel = new System.Windows.Forms.Label();
-            this.UB = new System.Windows.Forms.Button();
-            this.UnusedFunkeysButton = new System.Windows.Forms.Button();
+            this.UnusedFunkeysButton = new FunkeySelector.UserControls.ChangeFormButton();
             this.InsertCustomID = new System.Windows.Forms.Button();
             this.CustomIDTextBox = new System.Windows.Forms.TextBox();
-            this.CustomFunkeysButton = new System.Windows.Forms.Button();
-            this.OptionsButton = new System.Windows.Forms.Button();
+            this.CustomFunkeysButton = new FunkeySelector.UserControls.ChangeFormButton();
             this.Series1Label = new System.Windows.Forms.Label();
             this.Series2Label = new System.Windows.Forms.Label();
             this.Series3Label = new System.Windows.Forms.Label();
             this.Series4Label = new System.Windows.Forms.Label();
             this.Series5Label = new System.Windows.Forms.Label();
             this.OtherLabel = new System.Windows.Forms.Label();
-            this.closeButton1 = new FunkeySelector.CloseButton();
             this.minimizeButton1 = new FunkeySelector.UserControls.MinimizeButton();
+            this.closeButton1 = new FunkeySelector.UserControls.CloseButton();
+            this.UB = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.FunkeysTownButton = new FunkeySelector.UserControls.ChangeFormButton();
+            this.optionsButton = new FunkeySelector.UserControls.OptionsButton();
             this.SuspendLayout();
             // 
             // titleLabel
@@ -69,23 +69,6 @@
             this.titleLabel.TabIndex = 1;
             this.titleLabel.Text = "FUNKEYSELECTORGUI";
             // 
-            // FunkeysTownButton
-            // 
-            this.FunkeysTownButton.BackColor = System.Drawing.Color.Transparent;
-            this.FunkeysTownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.FunkeysTownButton.FlatAppearance.BorderSize = 0;
-            this.FunkeysTownButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.FunkeysTownButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.FunkeysTownButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.FunkeysTownButton.Location = new System.Drawing.Point(76, 167);
-            this.FunkeysTownButton.Name = "FunkeysTownButton";
-            this.FunkeysTownButton.Size = new System.Drawing.Size(174, 37);
-            this.FunkeysTownButton.TabIndex = 3;
-            this.FunkeysTownButton.Text = "FUNKEYSTOWN";
-            this.FunkeysTownButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.FunkeysTownButton.UseVisualStyleBackColor = false;
-            this.FunkeysTownButton.Click += new System.EventHandler(this.FunkeysTown_Click);
-            // 
             // KelpyBasinButton
             // 
             this.KelpyBasinButton.BackColor = System.Drawing.Color.Transparent;
@@ -94,6 +77,8 @@
             this.KelpyBasinButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.KelpyBasinButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.KelpyBasinButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.KelpyBasinButton.FormToOpen = "KelpyBasin";
+            this.KelpyBasinButton.KeepCurrentForm = false;
             this.KelpyBasinButton.Location = new System.Drawing.Point(76, 248);
             this.KelpyBasinButton.Name = "KelpyBasinButton";
             this.KelpyBasinButton.Size = new System.Drawing.Size(174, 32);
@@ -101,7 +86,6 @@
             this.KelpyBasinButton.Text = "KELPY BASIN";
             this.KelpyBasinButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.KelpyBasinButton.UseVisualStyleBackColor = false;
-            this.KelpyBasinButton.Click += new System.EventHandler(this.KelpyBasin_Click);
             // 
             // MagmaGorgeButton
             // 
@@ -111,6 +95,8 @@
             this.MagmaGorgeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MagmaGorgeButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MagmaGorgeButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.MagmaGorgeButton.FormToOpen = "MagmaGorge";
+            this.MagmaGorgeButton.KeepCurrentForm = false;
             this.MagmaGorgeButton.Location = new System.Drawing.Point(76, 210);
             this.MagmaGorgeButton.Name = "MagmaGorgeButton";
             this.MagmaGorgeButton.Size = new System.Drawing.Size(174, 32);
@@ -118,7 +104,6 @@
             this.MagmaGorgeButton.Text = "MAGMA GORGE";
             this.MagmaGorgeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.MagmaGorgeButton.UseVisualStyleBackColor = false;
-            this.MagmaGorgeButton.Click += new System.EventHandler(this.MagmaGorge_Click);
             // 
             // LaputtaStationButton
             // 
@@ -128,6 +113,8 @@
             this.LaputtaStationButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.LaputtaStationButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LaputtaStationButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LaputtaStationButton.FormToOpen = "LaputtaStation";
+            this.LaputtaStationButton.KeepCurrentForm = false;
             this.LaputtaStationButton.Location = new System.Drawing.Point(74, 286);
             this.LaputtaStationButton.Name = "LaputtaStationButton";
             this.LaputtaStationButton.Size = new System.Drawing.Size(182, 31);
@@ -135,7 +122,6 @@
             this.LaputtaStationButton.Text = "LAPUTTA STATION";
             this.LaputtaStationButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.LaputtaStationButton.UseVisualStyleBackColor = false;
-            this.LaputtaStationButton.Click += new System.EventHandler(this.LaputtaStation_Click);
             // 
             // FunkikiIslandButton
             // 
@@ -145,6 +131,8 @@
             this.FunkikiIslandButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.FunkikiIslandButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FunkikiIslandButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.FunkikiIslandButton.FormToOpen = "FunkikiIsland";
+            this.FunkikiIslandButton.KeepCurrentForm = false;
             this.FunkikiIslandButton.Location = new System.Drawing.Point(42, 359);
             this.FunkikiIslandButton.Name = "FunkikiIslandButton";
             this.FunkikiIslandButton.Size = new System.Drawing.Size(245, 30);
@@ -152,7 +140,6 @@
             this.FunkikiIslandButton.Text = "FUNKIKI ISLAND";
             this.FunkikiIslandButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.FunkikiIslandButton.UseVisualStyleBackColor = false;
-            this.FunkikiIslandButton.Click += new System.EventHandler(this.FunkikiIsland_Click);
             // 
             // RoyaltonRacingComplexButton
             // 
@@ -162,6 +149,8 @@
             this.RoyaltonRacingComplexButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RoyaltonRacingComplexButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RoyaltonRacingComplexButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.RoyaltonRacingComplexButton.FormToOpen = "RoyaltonRacingComplex";
+            this.RoyaltonRacingComplexButton.KeepCurrentForm = false;
             this.RoyaltonRacingComplexButton.Location = new System.Drawing.Point(33, 395);
             this.RoyaltonRacingComplexButton.Name = "RoyaltonRacingComplexButton";
             this.RoyaltonRacingComplexButton.Size = new System.Drawing.Size(267, 31);
@@ -169,7 +158,6 @@
             this.RoyaltonRacingComplexButton.Text = "ROYALTON RACING COMPLEX";
             this.RoyaltonRacingComplexButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RoyaltonRacingComplexButton.UseVisualStyleBackColor = false;
-            this.RoyaltonRacingComplexButton.Click += new System.EventHandler(this.RoyaltonRacingComplex_Click);
             // 
             // NightmareRiftButton
             // 
@@ -179,6 +167,8 @@
             this.NightmareRiftButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NightmareRiftButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NightmareRiftButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.NightmareRiftButton.FormToOpen = "NightmareRift";
+            this.NightmareRiftButton.KeepCurrentForm = false;
             this.NightmareRiftButton.Location = new System.Drawing.Point(293, 205);
             this.NightmareRiftButton.Name = "NightmareRiftButton";
             this.NightmareRiftButton.Size = new System.Drawing.Size(175, 31);
@@ -186,7 +176,6 @@
             this.NightmareRiftButton.Text = "NIGHTMARE RIFT";
             this.NightmareRiftButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.NightmareRiftButton.UseVisualStyleBackColor = false;
-            this.NightmareRiftButton.Click += new System.EventHandler(this.NightmareRift_Click);
             // 
             // DaydreamOasisButton
             // 
@@ -196,6 +185,8 @@
             this.DaydreamOasisButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DaydreamOasisButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DaydreamOasisButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.DaydreamOasisButton.FormToOpen = "DaydreamOasis";
+            this.DaydreamOasisButton.KeepCurrentForm = false;
             this.DaydreamOasisButton.Location = new System.Drawing.Point(293, 167);
             this.DaydreamOasisButton.Name = "DaydreamOasisButton";
             this.DaydreamOasisButton.Size = new System.Drawing.Size(175, 32);
@@ -203,7 +194,6 @@
             this.DaydreamOasisButton.Text = "DAYDREAM OASIS";
             this.DaydreamOasisButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DaydreamOasisButton.UseVisualStyleBackColor = false;
-            this.DaydreamOasisButton.Click += new System.EventHandler(this.DaydreamOasis_Click);
             // 
             // HiddenRealmButton
             // 
@@ -213,6 +203,8 @@
             this.HiddenRealmButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.HiddenRealmButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HiddenRealmButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.HiddenRealmButton.FormToOpen = "HiddenRealm";
+            this.HiddenRealmButton.KeepCurrentForm = false;
             this.HiddenRealmButton.Location = new System.Drawing.Point(307, 298);
             this.HiddenRealmButton.Name = "HiddenRealmButton";
             this.HiddenRealmButton.Size = new System.Drawing.Size(151, 36);
@@ -220,7 +212,6 @@
             this.HiddenRealmButton.Text = "HIDDEN REALM";
             this.HiddenRealmButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.HiddenRealmButton.UseVisualStyleBackColor = false;
-            this.HiddenRealmButton.Click += new System.EventHandler(this.HiddenRealm_Click);
             // 
             // ParadoxGreenButton
             // 
@@ -230,6 +221,8 @@
             this.ParadoxGreenButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ParadoxGreenButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ParadoxGreenButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.ParadoxGreenButton.FormToOpen = "ParadoxGreen";
+            this.ParadoxGreenButton.KeepCurrentForm = false;
             this.ParadoxGreenButton.Location = new System.Drawing.Point(293, 391);
             this.ParadoxGreenButton.Name = "ParadoxGreenButton";
             this.ParadoxGreenButton.Size = new System.Drawing.Size(175, 34);
@@ -237,7 +230,6 @@
             this.ParadoxGreenButton.Text = "PARADOX GREEN";
             this.ParadoxGreenButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ParadoxGreenButton.UseVisualStyleBackColor = false;
-            this.ParadoxGreenButton.Click += new System.EventHandler(this.ParadoxGreen_Click);
             // 
             // UBLabel
             // 
@@ -245,28 +237,11 @@
             this.UBLabel.BackColor = System.Drawing.Color.Transparent;
             this.UBLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UBLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.UBLabel.Location = new System.Drawing.Point(572, 328);
+            this.UBLabel.Location = new System.Drawing.Point(572, 337);
             this.UBLabel.Name = "UBLabel";
             this.UBLabel.Size = new System.Drawing.Size(45, 29);
             this.UBLabel.TabIndex = 72;
             this.UBLabel.Text = "U.B";
-            // 
-            // UB
-            // 
-            this.UB.BackColor = System.Drawing.Color.Transparent;
-            this.UB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("UB.BackgroundImage")));
-            this.UB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.UB.FlatAppearance.BorderSize = 0;
-            this.UB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.UB.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UB.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.UB.Location = new System.Drawing.Point(568, 359);
-            this.UB.Name = "UB";
-            this.UB.Size = new System.Drawing.Size(50, 63);
-            this.UB.TabIndex = 71;
-            this.UB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.UB.UseVisualStyleBackColor = false;
-            this.UB.Click += new System.EventHandler(this.UB_Click);
             // 
             // UnusedFunkeysButton
             // 
@@ -276,6 +251,8 @@
             this.UnusedFunkeysButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UnusedFunkeysButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UnusedFunkeysButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.UnusedFunkeysButton.FormToOpen = "UnusedFunkeys";
+            this.UnusedFunkeysButton.KeepCurrentForm = false;
             this.UnusedFunkeysButton.Location = new System.Drawing.Point(505, 177);
             this.UnusedFunkeysButton.Name = "UnusedFunkeysButton";
             this.UnusedFunkeysButton.Size = new System.Drawing.Size(177, 31);
@@ -283,7 +260,6 @@
             this.UnusedFunkeysButton.Text = "UNUSED FUNKEYS";
             this.UnusedFunkeysButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.UnusedFunkeysButton.UseVisualStyleBackColor = false;
-            this.UnusedFunkeysButton.Click += new System.EventHandler(this.UnusedFunkeys_Click);
             // 
             // InsertCustomID
             // 
@@ -317,6 +293,8 @@
             this.CustomFunkeysButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CustomFunkeysButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomFunkeysButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CustomFunkeysButton.FormToOpen = "CustomFunkeys";
+            this.CustomFunkeysButton.KeepCurrentForm = false;
             this.CustomFunkeysButton.Location = new System.Drawing.Point(486, 214);
             this.CustomFunkeysButton.Name = "CustomFunkeysButton";
             this.CustomFunkeysButton.Size = new System.Drawing.Size(208, 36);
@@ -324,29 +302,6 @@
             this.CustomFunkeysButton.Text = "CUSTOM FUNKEYS";
             this.CustomFunkeysButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CustomFunkeysButton.UseVisualStyleBackColor = false;
-            this.CustomFunkeysButton.Click += new System.EventHandler(this.CustomFunkeys_Click);
-            // 
-            // OptionsButton
-            // 
-            this.OptionsButton.BackColor = System.Drawing.Color.Transparent;
-            this.OptionsButton.BackgroundImage = global::FunkeySelector.Properties.Resources._679;
-            this.OptionsButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.OptionsButton.FlatAppearance.BorderSize = 0;
-            this.OptionsButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.OptionsButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.OptionsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OptionsButton.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OptionsButton.ForeColor = System.Drawing.Color.Transparent;
-            this.OptionsButton.Location = new System.Drawing.Point(668, 44);
-            this.OptionsButton.Name = "OptionsButton";
-            this.OptionsButton.Size = new System.Drawing.Size(39, 44);
-            this.OptionsButton.TabIndex = 78;
-            this.OptionsButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.OptionsButton.UseVisualStyleBackColor = false;
-            this.OptionsButton.Click += new System.EventHandler(this.OptionsButton_Click);
-            this.OptionsButton.MouseDown += new System.Windows.Forms.MouseEventHandler(this.OptionsButton_MouseDown);
-            this.OptionsButton.MouseEnter += new System.EventHandler(this.OptionsButton_MouseEnter);
-            this.OptionsButton.MouseLeave += new System.EventHandler(this.OptionsButton_MouseLeave);
             // 
             // Series1Label
             // 
@@ -420,6 +375,13 @@
             this.OtherLabel.TabIndex = 85;
             this.OtherLabel.Text = "OTHER";
             // 
+            // minimizeButton1
+            // 
+            this.minimizeButton1.Location = new System.Drawing.Point(642, 16);
+            this.minimizeButton1.Name = "minimizeButton1";
+            this.minimizeButton1.Size = new System.Drawing.Size(26, 22);
+            this.minimizeButton1.TabIndex = 87;
+            // 
             // closeButton1
             // 
             this.closeButton1.Location = new System.Drawing.Point(681, 18);
@@ -427,12 +389,48 @@
             this.closeButton1.Size = new System.Drawing.Size(26, 20);
             this.closeButton1.TabIndex = 86;
             // 
-            // minimizeButton1
+            // UB
             // 
-            this.minimizeButton1.Location = new System.Drawing.Point(642, 16);
-            this.minimizeButton1.Name = "minimizeButton1";
-            this.minimizeButton1.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton1.TabIndex = 87;
+            this.UB.BackColor = System.Drawing.Color.Transparent;
+            this.UB.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("UB.BackgroundImage")));
+            this.UB.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.UB.FlatAppearance.BorderSize = 0;
+            this.UB.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UB.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UB.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.UB.FunkeyID = "FFFFFFF0";
+            this.UB.Location = new System.Drawing.Point(568, 359);
+            this.UB.Name = "UB";
+            this.UB.Size = new System.Drawing.Size(50, 63);
+            this.UB.TabIndex = 71;
+            this.UB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.UB.UseVisualStyleBackColor = false;
+            // 
+            // FunkeysTownButton
+            // 
+            this.FunkeysTownButton.BackColor = System.Drawing.Color.Transparent;
+            this.FunkeysTownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.FunkeysTownButton.FlatAppearance.BorderSize = 0;
+            this.FunkeysTownButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.FunkeysTownButton.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FunkeysTownButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.FunkeysTownButton.FormToOpen = "FunkeysTown";
+            this.FunkeysTownButton.KeepCurrentForm = false;
+            this.FunkeysTownButton.Location = new System.Drawing.Point(76, 167);
+            this.FunkeysTownButton.Name = "FunkeysTownButton";
+            this.FunkeysTownButton.Size = new System.Drawing.Size(174, 37);
+            this.FunkeysTownButton.TabIndex = 3;
+            this.FunkeysTownButton.Text = "FUNKEYSTOWN";
+            this.FunkeysTownButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.FunkeysTownButton.UseVisualStyleBackColor = false;
+            // 
+            // optionsButton
+            // 
+            this.optionsButton.BackColor = System.Drawing.Color.Transparent;
+            this.optionsButton.Location = new System.Drawing.Point(668, 44);
+            this.optionsButton.Name = "optionsButton";
+            this.optionsButton.Size = new System.Drawing.Size(39, 44);
+            this.optionsButton.TabIndex = 88;
             // 
             // Form1
             // 
@@ -442,6 +440,7 @@
             this.BackgroundImage = global::FunkeySelector.Properties.Resources._2432;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(727, 563);
+            this.Controls.Add(this.optionsButton);
             this.Controls.Add(this.minimizeButton1);
             this.Controls.Add(this.closeButton1);
             this.Controls.Add(this.OtherLabel);
@@ -450,7 +449,6 @@
             this.Controls.Add(this.Series3Label);
             this.Controls.Add(this.Series2Label);
             this.Controls.Add(this.Series1Label);
-            this.Controls.Add(this.OptionsButton);
             this.Controls.Add(this.CustomFunkeysButton);
             this.Controls.Add(this.CustomIDTextBox);
             this.Controls.Add(this.InsertCustomID);
@@ -474,6 +472,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "FunkeySelectorGUI";
+            this.TransparencyKey = System.Drawing.Color.Gold;
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -481,31 +480,31 @@
 
         #endregion
         private System.Windows.Forms.Label titleLabel;
-        private System.Windows.Forms.Button FunkeysTownButton;
-        private System.Windows.Forms.Button KelpyBasinButton;
-        private System.Windows.Forms.Button MagmaGorgeButton;
-        private System.Windows.Forms.Button LaputtaStationButton;
-        private System.Windows.Forms.Button FunkikiIslandButton;
-        private System.Windows.Forms.Button RoyaltonRacingComplexButton;
-        private System.Windows.Forms.Button NightmareRiftButton;
-        private System.Windows.Forms.Button DaydreamOasisButton;
-        private System.Windows.Forms.Button HiddenRealmButton;
-        private System.Windows.Forms.Button ParadoxGreenButton;
+        private FunkeySelector.UserControls.ChangeFormButton FunkeysTownButton;
+        private FunkeySelector.UserControls.ChangeFormButton MagmaGorgeButton;
+        private FunkeySelector.UserControls.ChangeFormButton LaputtaStationButton;
+        private FunkeySelector.UserControls.ChangeFormButton FunkikiIslandButton;
+        private FunkeySelector.UserControls.ChangeFormButton RoyaltonRacingComplexButton;
+        private FunkeySelector.UserControls.ChangeFormButton NightmareRiftButton;
+        private FunkeySelector.UserControls.ChangeFormButton DaydreamOasisButton;
+        private FunkeySelector.UserControls.ChangeFormButton HiddenRealmButton;
+        private FunkeySelector.UserControls.ChangeFormButton ParadoxGreenButton;
         private System.Windows.Forms.Label UBLabel;
-        private System.Windows.Forms.Button UB;
-        private System.Windows.Forms.Button UnusedFunkeysButton;
+        private FunkeySelector.UserControls.FunkeyChangerButton UB;
         private System.Windows.Forms.Button InsertCustomID;
         private System.Windows.Forms.TextBox CustomIDTextBox;
-        private System.Windows.Forms.Button CustomFunkeysButton;
-        private System.Windows.Forms.Button OptionsButton;
+        private FunkeySelector.UserControls.ChangeFormButton CustomFunkeysButton;
         private System.Windows.Forms.Label Series1Label;
         private System.Windows.Forms.Label Series2Label;
         private System.Windows.Forms.Label Series3Label;
         private System.Windows.Forms.Label Series4Label;
         private System.Windows.Forms.Label Series5Label;
         private System.Windows.Forms.Label OtherLabel;
-        private CloseButton closeButton1;
+        private UserControls.CloseButton closeButton1;
         private UserControls.MinimizeButton minimizeButton1;
+        private UserControls.ChangeFormButton KelpyBasinButton;
+        private UserControls.OptionsButton optionsButton;
+        private FunkeySelector.UserControls.ChangeFormButton UnusedFunkeysButton;
     }
 }
 
