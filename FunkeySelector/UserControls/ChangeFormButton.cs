@@ -30,16 +30,6 @@ namespace FunkeySelector.UserControls
             ChangeForm();
         }
 
-        private (string formName, bool keepCurrentForm) ParseParameters()
-        {
-            if (Tag is not string unparsedTag) throw new Exception("frick you (translation from fricks: ChangeFormButton.Tag should be a string)"); // That word isn't know in Terrapinia :)
-
-            string[] parameters = unparsedTag.Split(new string[] { "; " }, StringSplitOptions.None);
-            string formName = parameters[0];
-            bool keepCurrentForm = parameters.Length > 1 && parameters[1].ToLower() == "true";
-            return (formName, keepCurrentForm);
-        }
-
         public void ChangeForm()
         {
             Form zoneForm = GetClassInstance<Form>(FormToOpen);
