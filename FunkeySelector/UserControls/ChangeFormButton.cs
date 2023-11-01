@@ -32,12 +32,20 @@ namespace FunkeySelector.UserControls
 
         public void ChangeForm()
         {
-            Form zoneForm = GetClassInstance<Form>(FormToOpen);
-            if (!KeepCurrentForm)
+            Form currentForm = this.FindForm();
+            Form parentForm = currentForm.Owner;
+
+            // Flex Seal™️
+            if (FormToOpen == "Form1" && parentForm.Name == "Form1")
             {
-                Form containingForm = this.FindForm();
-                containingForm.Hide();
+                parentForm.Show();
+                parentForm.Location = currentForm.Location;
+                currentForm.Close();
+                return;
             }
+
+            Form zoneForm = GetClassInstance<Form>(FormToOpen);
+            if (!KeepCurrentForm) currentForm.Hide();
             zoneForm.StartPosition = FormStartPosition.CenterParent;
             zoneForm.ShowDialog(this);
         }
