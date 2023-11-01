@@ -50,8 +50,8 @@
             this.Series4Label = new System.Windows.Forms.Label();
             this.Series5Label = new System.Windows.Forms.Label();
             this.OtherLabel = new System.Windows.Forms.Label();
-            this.minimizeButton1 = new FunkeySelector.UserControls.MinimizeButton();
-            this.closeButton1 = new FunkeySelector.UserControls.CloseButton();
+            this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
+            this.closeButton = new FunkeySelector.UserControls.CloseButton();
             this.UB = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.FunkeysTownButton = new FunkeySelector.UserControls.ChangeFormButton();
             this.optionsButton = new FunkeySelector.UserControls.OptionsButton();
@@ -375,19 +375,19 @@
             this.OtherLabel.TabIndex = 85;
             this.OtherLabel.Text = "OTHER";
             // 
-            // minimizeButton1
+            // minimizeButton
             // 
-            this.minimizeButton1.Location = new System.Drawing.Point(642, 16);
-            this.minimizeButton1.Name = "minimizeButton1";
-            this.minimizeButton1.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton1.TabIndex = 87;
+            this.minimizeButton.Location = new System.Drawing.Point(642, 16);
+            this.minimizeButton.Name = "minimizeButton";
+            this.minimizeButton.Size = new System.Drawing.Size(26, 22);
+            this.minimizeButton.TabIndex = 87;
             // 
-            // closeButton1
+            // closeButton
             // 
-            this.closeButton1.Location = new System.Drawing.Point(681, 18);
-            this.closeButton1.Name = "closeButton1";
-            this.closeButton1.Size = new System.Drawing.Size(26, 20);
-            this.closeButton1.TabIndex = 86;
+            this.closeButton.Location = new System.Drawing.Point(681, 18);
+            this.closeButton.Name = "closeButton";
+            this.closeButton.Size = new System.Drawing.Size(26, 20);
+            this.closeButton.TabIndex = 86;
             // 
             // UB
             // 
@@ -441,8 +441,8 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(727, 563);
             this.Controls.Add(this.optionsButton);
-            this.Controls.Add(this.minimizeButton1);
-            this.Controls.Add(this.closeButton1);
+            this.Controls.Add(this.minimizeButton);
+            this.Controls.Add(this.closeButton);
             this.Controls.Add(this.OtherLabel);
             this.Controls.Add(this.Series5Label);
             this.Controls.Add(this.Series4Label);
@@ -500,8 +500,8 @@
         private System.Windows.Forms.Label Series4Label;
         private System.Windows.Forms.Label Series5Label;
         private System.Windows.Forms.Label OtherLabel;
-        private UserControls.CloseButton closeButton1;
-        private UserControls.MinimizeButton minimizeButton1;
+        private UserControls.CloseButton closeButton;
+        private UserControls.MinimizeButton minimizeButton;
         private UserControls.ChangeFormButton KelpyBasinButton;
         private UserControls.OptionsButton optionsButton;
         private FunkeySelector.UserControls.ChangeFormButton UnusedFunkeysButton;
