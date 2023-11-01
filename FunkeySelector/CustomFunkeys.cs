@@ -15,7 +15,7 @@ namespace FunkeySelector
 {
     public partial class CustomFunkeys : BasicForm
     {
-        private Dictionary<string, string> FunkeyPaths;
+        private Dictionary<string, string> FunkeyPaths = new();
 
         public CustomFunkeys()
         {
