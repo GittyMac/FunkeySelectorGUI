@@ -31,12 +31,13 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CustomFunkeys));
             this.CustomFunkeysLabel = new System.Windows.Forms.Label();
-            this.backButton = new UserControls.ChangeFormButton();
-            this.helpButton = new System.Windows.Forms.Button();
+            this.backButton = new FunkeySelector.UserControls.ChangeFormButton();
             this.Imagelist = new System.Windows.Forms.ImageList(this.components);
             this.CustomFunkeysListBox = new System.Windows.Forms.ListBox();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.refreshButton = new System.Windows.Forms.Button();
+            this.helpbutton = new FunkeySelector.UserControls.Helpbutton();
             this.SuspendLayout();
             // 
             // CustomFunkeysLabel
@@ -45,7 +46,7 @@
             this.CustomFunkeysLabel.BackColor = System.Drawing.Color.Transparent;
             this.CustomFunkeysLabel.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomFunkeysLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.CustomFunkeysLabel.Location = new System.Drawing.Point(241, 31);
+            this.CustomFunkeysLabel.Location = new System.Drawing.Point(227, 27);
             this.CustomFunkeysLabel.Name = "CustomFunkeysLabel";
             this.CustomFunkeysLabel.Size = new System.Drawing.Size(371, 52);
             this.CustomFunkeysLabel.TabIndex = 58;
@@ -59,30 +60,15 @@
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backButton.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.backButton.FormToOpen = "Form1";
+            this.backButton.KeepCurrentForm = false;
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(101, 48);
+            this.backButton.Size = new System.Drawing.Size(101, 86);
             this.backButton.TabIndex = 59;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
-            // 
-            // helpButton
-            // 
-            this.helpButton.BackColor = System.Drawing.Color.Transparent;
-            this.helpButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.helpButton.FlatAppearance.BorderSize = 0;
-            this.helpButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.helpButton.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.helpButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.helpButton.Location = new System.Drawing.Point(119, 12);
-            this.helpButton.Name = "helpButton";
-            this.helpButton.Size = new System.Drawing.Size(101, 48);
-            this.helpButton.TabIndex = 60;
-            this.helpButton.Text = "HELP";
-            this.helpButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.helpButton.UseVisualStyleBackColor = false;
-            this.helpButton.Click += new System.EventHandler(this.Help_Click);
             // 
             // Imagelist
             // 
@@ -117,22 +103,49 @@
             this.closeButton.Size = new System.Drawing.Size(26, 20);
             this.closeButton.TabIndex = 107;
             // 
-            // Form13
+            // refreshButton
+            // 
+            this.refreshButton.BackColor = System.Drawing.Color.Transparent;
+            this.refreshButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.refreshButton.FlatAppearance.BorderSize = 0;
+            this.refreshButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.refreshButton.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.refreshButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.refreshButton.Location = new System.Drawing.Point(119, 12);
+            this.refreshButton.Name = "refreshButton";
+            this.refreshButton.Size = new System.Drawing.Size(116, 86);
+            this.refreshButton.TabIndex = 108;
+            this.refreshButton.Text = "REFRESH";
+            this.refreshButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.refreshButton.UseVisualStyleBackColor = false;
+            this.refreshButton.Click += new System.EventHandler(this.RefreshButton_Click);
+            // 
+            // helpbutton
+            // 
+            this.helpbutton.BackColor = System.Drawing.Color.Transparent;
+            this.helpbutton.HelpText = resources.GetString("helpbutton.HelpText");
+            this.helpbutton.Location = new System.Drawing.Point(608, 16);
+            this.helpbutton.Name = "helpbutton";
+            this.helpbutton.Size = new System.Drawing.Size(23, 23);
+            this.helpbutton.TabIndex = 109;
+            // 
+            // CustomFunkeys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gold;
             this.BackgroundImage = global::FunkeySelector.Properties.Resources._2432;
             this.ClientSize = new System.Drawing.Size(726, 566);
+            this.Controls.Add(this.helpbutton);
+            this.Controls.Add(this.refreshButton);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.minimizeButton);
             this.Controls.Add(this.CustomFunkeysListBox);
-            this.Controls.Add(this.helpButton);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.CustomFunkeysLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form13";
+            this.Name = "CustomFunkeys";
             this.Text = "FunkeySelectorGUI";
             this.TransparencyKey = System.Drawing.Color.Gold;
             this.Load += new System.EventHandler(this.CustomFunkeys_Load);
@@ -145,10 +158,11 @@
 
         private System.Windows.Forms.Label CustomFunkeysLabel;
         private UserControls.ChangeFormButton backButton;
-        private System.Windows.Forms.Button helpButton;
         private System.Windows.Forms.ImageList Imagelist;
         private System.Windows.Forms.ListBox CustomFunkeysListBox;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.Button refreshButton;
+        private UserControls.Helpbutton helpbutton;
     }
 }
