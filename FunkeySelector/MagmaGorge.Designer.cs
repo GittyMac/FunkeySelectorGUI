@@ -60,7 +60,7 @@ namespace FunkeySelector
             this.BonesLabel.Location = new System.Drawing.Point(331, 435);
             this.BonesLabel.Name = "BonesLabel";
             this.BonesLabel.Size = new System.Drawing.Size(88, 29);
-            this.BonesLabel.TabIndex = 56;
+            this.BonesLabel.TabIndex = 15;
             this.BonesLabel.Text = "BONES";
             // 
             // BonesVR
@@ -76,7 +76,7 @@ namespace FunkeySelector
             this.BonesVR.Location = new System.Drawing.Point(400, 475);
             this.BonesVR.Name = "BonesVR";
             this.BonesVR.Size = new System.Drawing.Size(50, 63);
-            this.BonesVR.TabIndex = 55;
+            this.BonesVR.TabIndex = 18;
             this.BonesVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BonesVR.UseVisualStyleBackColor = false;
             // 
@@ -93,7 +93,7 @@ namespace FunkeySelector
             this.BonesR.Location = new System.Drawing.Point(349, 475);
             this.BonesR.Name = "BonesR";
             this.BonesR.Size = new System.Drawing.Size(50, 63);
-            this.BonesR.TabIndex = 54;
+            this.BonesR.TabIndex = 17;
             this.BonesR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BonesR.UseVisualStyleBackColor = false;
             // 
@@ -110,7 +110,7 @@ namespace FunkeySelector
             this.Bones.Location = new System.Drawing.Point(298, 475);
             this.Bones.Name = "Bones";
             this.Bones.Size = new System.Drawing.Size(50, 63);
-            this.Bones.TabIndex = 53;
+            this.Bones.TabIndex = 16;
             this.Bones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Bones.UseVisualStyleBackColor = false;
             // 
@@ -123,7 +123,7 @@ namespace FunkeySelector
             this.DeuceLabel.Location = new System.Drawing.Point(331, 226);
             this.DeuceLabel.Name = "DeuceLabel";
             this.DeuceLabel.Size = new System.Drawing.Size(82, 29);
-            this.DeuceLabel.TabIndex = 52;
+            this.DeuceLabel.TabIndex = 7;
             this.DeuceLabel.Text = "DEUCE";
             // 
             // DeuceVR
@@ -139,7 +139,7 @@ namespace FunkeySelector
             this.DeuceVR.Location = new System.Drawing.Point(400, 264);
             this.DeuceVR.Name = "DeuceVR";
             this.DeuceVR.Size = new System.Drawing.Size(50, 63);
-            this.DeuceVR.TabIndex = 51;
+            this.DeuceVR.TabIndex = 10;
             this.DeuceVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DeuceVR.UseVisualStyleBackColor = false;
             // 
@@ -156,7 +156,7 @@ namespace FunkeySelector
             this.DeuceR.Location = new System.Drawing.Point(349, 264);
             this.DeuceR.Name = "DeuceR";
             this.DeuceR.Size = new System.Drawing.Size(50, 63);
-            this.DeuceR.TabIndex = 50;
+            this.DeuceR.TabIndex = 9;
             this.DeuceR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DeuceR.UseVisualStyleBackColor = false;
             // 
@@ -173,7 +173,7 @@ namespace FunkeySelector
             this.Deuce.Location = new System.Drawing.Point(298, 264);
             this.Deuce.Name = "Deuce";
             this.Deuce.Size = new System.Drawing.Size(50, 63);
-            this.Deuce.TabIndex = 49;
+            this.Deuce.TabIndex = 8;
             this.Deuce.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Deuce.UseVisualStyleBackColor = false;
             // 
@@ -186,7 +186,7 @@ namespace FunkeySelector
             this.WasabiLabel.Location = new System.Drawing.Point(323, 332);
             this.WasabiLabel.Name = "WasabiLabel";
             this.WasabiLabel.Size = new System.Drawing.Size(104, 29);
-            this.WasabiLabel.TabIndex = 48;
+            this.WasabiLabel.TabIndex = 11;
             this.WasabiLabel.Text = "WASABI";
             // 
             // WasabiVR
@@ -202,7 +202,7 @@ namespace FunkeySelector
             this.WasabiVR.Location = new System.Drawing.Point(400, 367);
             this.WasabiVR.Name = "WasabiVR";
             this.WasabiVR.Size = new System.Drawing.Size(50, 63);
-            this.WasabiVR.TabIndex = 47;
+            this.WasabiVR.TabIndex = 14;
             this.WasabiVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.WasabiVR.UseVisualStyleBackColor = false;
             // 
@@ -219,7 +219,7 @@ namespace FunkeySelector
             this.WasabiR.Location = new System.Drawing.Point(349, 367);
             this.WasabiR.Name = "WasabiR";
             this.WasabiR.Size = new System.Drawing.Size(50, 63);
-            this.WasabiR.TabIndex = 46;
+            this.WasabiR.TabIndex = 13;
             this.WasabiR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.WasabiR.UseVisualStyleBackColor = false;
             // 
@@ -236,7 +236,7 @@ namespace FunkeySelector
             this.Wasabi.Location = new System.Drawing.Point(298, 367);
             this.Wasabi.Name = "Wasabi";
             this.Wasabi.Size = new System.Drawing.Size(50, 63);
-            this.Wasabi.TabIndex = 45;
+            this.Wasabi.TabIndex = 12;
             this.Wasabi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Wasabi.UseVisualStyleBackColor = false;
             // 
@@ -249,7 +249,7 @@ namespace FunkeySelector
             this.StitchLabel.Location = new System.Drawing.Point(328, 106);
             this.StitchLabel.Name = "StitchLabel";
             this.StitchLabel.Size = new System.Drawing.Size(96, 29);
-            this.StitchLabel.TabIndex = 44;
+            this.StitchLabel.TabIndex = 3;
             this.StitchLabel.Text = "STITCH";
             // 
             // StitchVR
@@ -265,7 +265,7 @@ namespace FunkeySelector
             this.StitchVR.Location = new System.Drawing.Point(400, 146);
             this.StitchVR.Name = "StitchVR";
             this.StitchVR.Size = new System.Drawing.Size(50, 63);
-            this.StitchVR.TabIndex = 43;
+            this.StitchVR.TabIndex = 6;
             this.StitchVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.StitchVR.UseVisualStyleBackColor = false;
             // 
@@ -282,7 +282,7 @@ namespace FunkeySelector
             this.StitchR.Location = new System.Drawing.Point(349, 146);
             this.StitchR.Name = "StitchR";
             this.StitchR.Size = new System.Drawing.Size(50, 63);
-            this.StitchR.TabIndex = 42;
+            this.StitchR.TabIndex = 5;
             this.StitchR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.StitchR.UseVisualStyleBackColor = false;
             // 
@@ -299,7 +299,7 @@ namespace FunkeySelector
             this.Stitch.Location = new System.Drawing.Point(298, 146);
             this.Stitch.Name = "Stitch";
             this.Stitch.Size = new System.Drawing.Size(50, 63);
-            this.Stitch.TabIndex = 41;
+            this.Stitch.TabIndex = 4;
             this.Stitch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Stitch.UseVisualStyleBackColor = false;
             // 
@@ -316,7 +316,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 40;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -330,7 +330,7 @@ namespace FunkeySelector
             this.MagmaGorgeLabel.Location = new System.Drawing.Point(212, 27);
             this.MagmaGorgeLabel.Name = "MagmaGorgeLabel";
             this.MagmaGorgeLabel.Size = new System.Drawing.Size(305, 52);
-            this.MagmaGorgeLabel.TabIndex = 39;
+            this.MagmaGorgeLabel.TabIndex = 2;
             this.MagmaGorgeLabel.Text = "MAGMA GORGE";
             // 
             // minimizeButton
@@ -338,14 +338,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(641, 15);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 85;
+            this.minimizeButton.TabIndex = 19;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(680, 17);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 86;
+            this.closeButton.TabIndex = 20;
             // 
             // MagmaGorge
             // 

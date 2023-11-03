@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class CustomFunkeys
     {
@@ -49,7 +49,7 @@ namespace FunkeySelector
             this.CustomFunkeysLabel.Location = new System.Drawing.Point(227, 27);
             this.CustomFunkeysLabel.Name = "CustomFunkeysLabel";
             this.CustomFunkeysLabel.Size = new System.Drawing.Size(371, 52);
-            this.CustomFunkeysLabel.TabIndex = 58;
+            this.CustomFunkeysLabel.TabIndex = 7;
             this.CustomFunkeysLabel.Text = "CUSTOM FUNKEYS";
             // 
             // backButton
@@ -65,7 +65,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 86);
-            this.backButton.TabIndex = 59;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -86,7 +86,7 @@ namespace FunkeySelector
             this.CustomFunkeysListBox.Location = new System.Drawing.Point(31, 104);
             this.CustomFunkeysListBox.Name = "CustomFunkeysListBox";
             this.CustomFunkeysListBox.Size = new System.Drawing.Size(667, 410);
-            this.CustomFunkeysListBox.TabIndex = 61;
+            this.CustomFunkeysListBox.TabIndex = 3;
             this.CustomFunkeysListBox.SelectedIndexChanged += new System.EventHandler(this.CustomFunkeysListBox_SelectedIndexChanged);
             // 
             // minimizeButton
@@ -94,14 +94,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(642, 15);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 106;
+            this.minimizeButton.TabIndex = 5;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(681, 17);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 107;
+            this.closeButton.TabIndex = 6;
             // 
             // refreshButton
             // 
@@ -114,7 +114,7 @@ namespace FunkeySelector
             this.refreshButton.Location = new System.Drawing.Point(119, 12);
             this.refreshButton.Name = "refreshButton";
             this.refreshButton.Size = new System.Drawing.Size(116, 86);
-            this.refreshButton.TabIndex = 108;
+            this.refreshButton.TabIndex = 2;
             this.refreshButton.Text = "REFRESH";
             this.refreshButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.refreshButton.UseVisualStyleBackColor = false;
@@ -127,7 +127,7 @@ namespace FunkeySelector
             this.helpbutton.Location = new System.Drawing.Point(608, 16);
             this.helpbutton.Name = "helpbutton";
             this.helpbutton.Size = new System.Drawing.Size(23, 23);
-            this.helpbutton.TabIndex = 109;
+            this.helpbutton.TabIndex = 4;
             // 
             // CustomFunkeys
             // 

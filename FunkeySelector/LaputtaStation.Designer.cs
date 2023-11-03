@@ -62,7 +62,7 @@ namespace FunkeySelector
             this.VroomLabel.Location = new System.Drawing.Point(341, 420);
             this.VroomLabel.Name = "VroomLabel";
             this.VroomLabel.Size = new System.Drawing.Size(93, 29);
-            this.VroomLabel.TabIndex = 74;
+            this.VroomLabel.TabIndex = 17;
             this.VroomLabel.Text = "VROOM";
             // 
             // VroomVR
@@ -78,7 +78,7 @@ namespace FunkeySelector
             this.VroomVR.Location = new System.Drawing.Point(410, 460);
             this.VroomVR.Name = "VroomVR";
             this.VroomVR.Size = new System.Drawing.Size(50, 63);
-            this.VroomVR.TabIndex = 73;
+            this.VroomVR.TabIndex = 20;
             this.VroomVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.VroomVR.UseVisualStyleBackColor = false;
             // 
@@ -95,7 +95,7 @@ namespace FunkeySelector
             this.VroomR.Location = new System.Drawing.Point(359, 460);
             this.VroomR.Name = "VroomR";
             this.VroomR.Size = new System.Drawing.Size(50, 63);
-            this.VroomR.TabIndex = 72;
+            this.VroomR.TabIndex = 19;
             this.VroomR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.VroomR.UseVisualStyleBackColor = false;
             // 
@@ -112,7 +112,7 @@ namespace FunkeySelector
             this.Vroom.Location = new System.Drawing.Point(308, 460);
             this.Vroom.Name = "Vroom";
             this.Vroom.Size = new System.Drawing.Size(50, 63);
-            this.Vroom.TabIndex = 71;
+            this.Vroom.TabIndex = 18;
             this.Vroom.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Vroom.UseVisualStyleBackColor = false;
             // 
@@ -125,7 +125,7 @@ namespace FunkeySelector
             this.FalloutLabel.Location = new System.Drawing.Point(333, 206);
             this.FalloutLabel.Name = "FalloutLabel";
             this.FalloutLabel.Size = new System.Drawing.Size(111, 29);
-            this.FalloutLabel.TabIndex = 70;
+            this.FalloutLabel.TabIndex = 7;
             this.FalloutLabel.Text = "FALLOUT";
             // 
             // FalloutVR
@@ -141,7 +141,7 @@ namespace FunkeySelector
             this.FalloutVR.Location = new System.Drawing.Point(410, 249);
             this.FalloutVR.Name = "FalloutVR";
             this.FalloutVR.Size = new System.Drawing.Size(50, 63);
-            this.FalloutVR.TabIndex = 69;
+            this.FalloutVR.TabIndex = 10;
             this.FalloutVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.FalloutVR.UseVisualStyleBackColor = false;
             // 
@@ -158,7 +158,7 @@ namespace FunkeySelector
             this.FalloutR.Location = new System.Drawing.Point(359, 249);
             this.FalloutR.Name = "FalloutR";
             this.FalloutR.Size = new System.Drawing.Size(50, 63);
-            this.FalloutR.TabIndex = 68;
+            this.FalloutR.TabIndex = 9;
             this.FalloutR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.FalloutR.UseVisualStyleBackColor = false;
             // 
@@ -175,7 +175,7 @@ namespace FunkeySelector
             this.Fallout.Location = new System.Drawing.Point(308, 249);
             this.Fallout.Name = "Fallout";
             this.Fallout.Size = new System.Drawing.Size(50, 63);
-            this.Fallout.TabIndex = 67;
+            this.Fallout.TabIndex = 8;
             this.Fallout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Fallout.UseVisualStyleBackColor = false;
             // 
@@ -188,7 +188,7 @@ namespace FunkeySelector
             this.BoggleLabel.Location = new System.Drawing.Point(339, 317);
             this.BoggleLabel.Name = "BoggleLabel";
             this.BoggleLabel.Size = new System.Drawing.Size(96, 29);
-            this.BoggleLabel.TabIndex = 66;
+            this.BoggleLabel.TabIndex = 13;
             this.BoggleLabel.Text = "BOGGLE";
             // 
             // BoggleVR
@@ -204,7 +204,7 @@ namespace FunkeySelector
             this.BoggleVR.Location = new System.Drawing.Point(410, 352);
             this.BoggleVR.Name = "BoggleVR";
             this.BoggleVR.Size = new System.Drawing.Size(50, 63);
-            this.BoggleVR.TabIndex = 65;
+            this.BoggleVR.TabIndex = 16;
             this.BoggleVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BoggleVR.UseVisualStyleBackColor = false;
             // 
@@ -221,7 +221,7 @@ namespace FunkeySelector
             this.BoggleR.Location = new System.Drawing.Point(359, 352);
             this.BoggleR.Name = "BoggleR";
             this.BoggleR.Size = new System.Drawing.Size(50, 63);
-            this.BoggleR.TabIndex = 64;
+            this.BoggleR.TabIndex = 15;
             this.BoggleR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BoggleR.UseVisualStyleBackColor = false;
             // 
@@ -238,7 +238,7 @@ namespace FunkeySelector
             this.Boggle.Location = new System.Drawing.Point(308, 352);
             this.Boggle.Name = "Boggle";
             this.Boggle.Size = new System.Drawing.Size(50, 63);
-            this.Boggle.TabIndex = 63;
+            this.Boggle.TabIndex = 14;
             this.Boggle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Boggle.UseVisualStyleBackColor = false;
             // 
@@ -251,7 +251,7 @@ namespace FunkeySelector
             this.XenerLabel.Location = new System.Drawing.Point(338, 91);
             this.XenerLabel.Name = "XenerLabel";
             this.XenerLabel.Size = new System.Drawing.Size(84, 29);
-            this.XenerLabel.TabIndex = 62;
+            this.XenerLabel.TabIndex = 3;
             this.XenerLabel.Text = "XENER";
             // 
             // XenerVR
@@ -267,7 +267,7 @@ namespace FunkeySelector
             this.XenerVR.Location = new System.Drawing.Point(410, 131);
             this.XenerVR.Name = "XenerVR";
             this.XenerVR.Size = new System.Drawing.Size(50, 63);
-            this.XenerVR.TabIndex = 61;
+            this.XenerVR.TabIndex = 6;
             this.XenerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.XenerVR.UseVisualStyleBackColor = false;
             // 
@@ -284,7 +284,7 @@ namespace FunkeySelector
             this.XenerR.Location = new System.Drawing.Point(359, 131);
             this.XenerR.Name = "XenerR";
             this.XenerR.Size = new System.Drawing.Size(50, 63);
-            this.XenerR.TabIndex = 60;
+            this.XenerR.TabIndex = 5;
             this.XenerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.XenerR.UseVisualStyleBackColor = false;
             // 
@@ -301,7 +301,7 @@ namespace FunkeySelector
             this.Xener.Location = new System.Drawing.Point(308, 131);
             this.Xener.Name = "Xener";
             this.Xener.Size = new System.Drawing.Size(50, 63);
-            this.Xener.TabIndex = 59;
+            this.Xener.TabIndex = 4;
             this.Xener.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Xener.UseVisualStyleBackColor = false;
             // 
@@ -318,7 +318,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 58;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -332,7 +332,7 @@ namespace FunkeySelector
             this.LaputtaStationLabel.Location = new System.Drawing.Point(185, 12);
             this.LaputtaStationLabel.Name = "LaputtaStationLabel";
             this.LaputtaStationLabel.Size = new System.Drawing.Size(386, 52);
-            this.LaputtaStationLabel.TabIndex = 57;
+            this.LaputtaStationLabel.TabIndex = 2;
             this.LaputtaStationLabel.Text = "LAPUTTA STATION";
             // 
             // RomLabel
@@ -344,7 +344,7 @@ namespace FunkeySelector
             this.RomLabel.Location = new System.Drawing.Point(119, 270);
             this.RomLabel.Name = "RomLabel";
             this.RomLabel.Size = new System.Drawing.Size(62, 29);
-            this.RomLabel.TabIndex = 75;
+            this.RomLabel.TabIndex = 11;
             this.RomLabel.Text = "ROM";
             // 
             // Rom
@@ -360,7 +360,7 @@ namespace FunkeySelector
             this.Rom.Location = new System.Drawing.Point(126, 303);
             this.Rom.Name = "Rom";
             this.Rom.Size = new System.Drawing.Size(50, 63);
-            this.Rom.TabIndex = 76;
+            this.Rom.TabIndex = 12;
             this.Rom.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Rom.UseVisualStyleBackColor = false;
             // 
@@ -369,14 +369,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(641, 16);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 87;
+            this.minimizeButton.TabIndex = 21;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(680, 18);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 88;
+            this.closeButton.TabIndex = 22;
             // 
             // LaputtaStation
             // 

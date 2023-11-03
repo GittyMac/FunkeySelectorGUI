@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class Options
     {
@@ -88,7 +88,7 @@ namespace FunkeySelector
             this.wineCompat.Name = "wineCompat";
             this.wineCompat.SettingName = "wineCompat";
             this.wineCompat.Size = new System.Drawing.Size(257, 24);
-            this.wineCompat.TabIndex = 4;
+            this.wineCompat.TabIndex = 5;
             this.wineCompat.Text = "WINE/MONO COMPATIBILITY";
             this.wineCompat.UseVisualStyleBackColor = false;
             // 
@@ -102,7 +102,7 @@ namespace FunkeySelector
             this.disableWineCheck.Name = "disableWineCheck";
             this.disableWineCheck.SettingName = "disableWineCheck";
             this.disableWineCheck.Size = new System.Drawing.Size(194, 24);
-            this.disableWineCheck.TabIndex = 5;
+            this.disableWineCheck.TabIndex = 4;
             this.disableWineCheck.Text = "DISABLE WINE CHECK";
             this.disableWineCheck.UseVisualStyleBackColor = false;
             // 

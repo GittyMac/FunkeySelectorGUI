@@ -60,7 +60,7 @@ namespace FunkeySelector
             this.BergerLabel.Location = new System.Drawing.Point(320, 431);
             this.BergerLabel.Name = "BergerLabel";
             this.BergerLabel.Size = new System.Drawing.Size(92, 29);
-            this.BergerLabel.TabIndex = 74;
+            this.BergerLabel.TabIndex = 15;
             this.BergerLabel.Text = "BERGER";
             // 
             // BergerVR
@@ -76,7 +76,7 @@ namespace FunkeySelector
             this.BergerVR.Location = new System.Drawing.Point(389, 471);
             this.BergerVR.Name = "BergerVR";
             this.BergerVR.Size = new System.Drawing.Size(50, 63);
-            this.BergerVR.TabIndex = 73;
+            this.BergerVR.TabIndex = 18;
             this.BergerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BergerVR.UseVisualStyleBackColor = false;
             // 
@@ -93,7 +93,7 @@ namespace FunkeySelector
             this.BergerR.Location = new System.Drawing.Point(338, 471);
             this.BergerR.Name = "BergerR";
             this.BergerR.Size = new System.Drawing.Size(50, 63);
-            this.BergerR.TabIndex = 72;
+            this.BergerR.TabIndex = 17;
             this.BergerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BergerR.UseVisualStyleBackColor = false;
             // 
@@ -110,7 +110,7 @@ namespace FunkeySelector
             this.Berger.Location = new System.Drawing.Point(287, 471);
             this.Berger.Name = "Berger";
             this.Berger.Size = new System.Drawing.Size(50, 63);
-            this.Berger.TabIndex = 71;
+            this.Berger.TabIndex = 16;
             this.Berger.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Berger.UseVisualStyleBackColor = false;
             // 
@@ -123,7 +123,7 @@ namespace FunkeySelector
             this.LuckyLabel.Location = new System.Drawing.Point(320, 222);
             this.LuckyLabel.Name = "LuckyLabel";
             this.LuckyLabel.Size = new System.Drawing.Size(79, 29);
-            this.LuckyLabel.TabIndex = 70;
+            this.LuckyLabel.TabIndex = 7;
             this.LuckyLabel.Text = "LUCKY";
             // 
             // LuckyVR
@@ -139,7 +139,7 @@ namespace FunkeySelector
             this.LuckyVR.Location = new System.Drawing.Point(389, 260);
             this.LuckyVR.Name = "LuckyVR";
             this.LuckyVR.Size = new System.Drawing.Size(50, 63);
-            this.LuckyVR.TabIndex = 69;
+            this.LuckyVR.TabIndex = 10;
             this.LuckyVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.LuckyVR.UseVisualStyleBackColor = false;
             // 
@@ -156,7 +156,7 @@ namespace FunkeySelector
             this.LuckyR.Location = new System.Drawing.Point(338, 260);
             this.LuckyR.Name = "LuckyR";
             this.LuckyR.Size = new System.Drawing.Size(50, 63);
-            this.LuckyR.TabIndex = 68;
+            this.LuckyR.TabIndex = 9;
             this.LuckyR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.LuckyR.UseVisualStyleBackColor = false;
             // 
@@ -173,7 +173,7 @@ namespace FunkeySelector
             this.Lucky.Location = new System.Drawing.Point(287, 260);
             this.Lucky.Name = "Lucky";
             this.Lucky.Size = new System.Drawing.Size(50, 63);
-            this.Lucky.TabIndex = 67;
+            this.Lucky.TabIndex = 8;
             this.Lucky.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Lucky.UseVisualStyleBackColor = false;
             // 
@@ -186,7 +186,7 @@ namespace FunkeySelector
             this.TankLabel.Location = new System.Drawing.Point(327, 328);
             this.TankLabel.Name = "TankLabel";
             this.TankLabel.Size = new System.Drawing.Size(72, 29);
-            this.TankLabel.TabIndex = 66;
+            this.TankLabel.TabIndex = 11;
             this.TankLabel.Text = "TANK";
             // 
             // TankVR
@@ -202,7 +202,7 @@ namespace FunkeySelector
             this.TankVR.Location = new System.Drawing.Point(389, 363);
             this.TankVR.Name = "TankVR";
             this.TankVR.Size = new System.Drawing.Size(50, 63);
-            this.TankVR.TabIndex = 65;
+            this.TankVR.TabIndex = 14;
             this.TankVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TankVR.UseVisualStyleBackColor = false;
             // 
@@ -219,7 +219,7 @@ namespace FunkeySelector
             this.TankR.Location = new System.Drawing.Point(338, 363);
             this.TankR.Name = "TankR";
             this.TankR.Size = new System.Drawing.Size(50, 63);
-            this.TankR.TabIndex = 64;
+            this.TankR.TabIndex = 13;
             this.TankR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TankR.UseVisualStyleBackColor = false;
             // 
@@ -236,7 +236,7 @@ namespace FunkeySelector
             this.Tank.Location = new System.Drawing.Point(287, 363);
             this.Tank.Name = "Tank";
             this.Tank.Size = new System.Drawing.Size(50, 63);
-            this.Tank.TabIndex = 63;
+            this.Tank.TabIndex = 12;
             this.Tank.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Tank.UseVisualStyleBackColor = false;
             // 
@@ -249,7 +249,7 @@ namespace FunkeySelector
             this.DyerLabel.Location = new System.Drawing.Point(328, 101);
             this.DyerLabel.Name = "DyerLabel";
             this.DyerLabel.Size = new System.Drawing.Size(67, 29);
-            this.DyerLabel.TabIndex = 62;
+            this.DyerLabel.TabIndex = 3;
             this.DyerLabel.Text = "DYER";
             // 
             // DyerVR
@@ -265,7 +265,7 @@ namespace FunkeySelector
             this.DyerVR.Location = new System.Drawing.Point(389, 142);
             this.DyerVR.Name = "DyerVR";
             this.DyerVR.Size = new System.Drawing.Size(50, 63);
-            this.DyerVR.TabIndex = 61;
+            this.DyerVR.TabIndex = 6;
             this.DyerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DyerVR.UseVisualStyleBackColor = false;
             // 
@@ -282,7 +282,7 @@ namespace FunkeySelector
             this.DyerR.Location = new System.Drawing.Point(338, 142);
             this.DyerR.Name = "DyerR";
             this.DyerR.Size = new System.Drawing.Size(50, 63);
-            this.DyerR.TabIndex = 60;
+            this.DyerR.TabIndex = 5;
             this.DyerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DyerR.UseVisualStyleBackColor = false;
             // 
@@ -299,7 +299,7 @@ namespace FunkeySelector
             this.Dyer.Location = new System.Drawing.Point(287, 142);
             this.Dyer.Name = "Dyer";
             this.Dyer.Size = new System.Drawing.Size(50, 63);
-            this.Dyer.TabIndex = 59;
+            this.Dyer.TabIndex = 4;
             this.Dyer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Dyer.UseVisualStyleBackColor = false;
             // 
@@ -316,7 +316,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 58;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -330,7 +330,7 @@ namespace FunkeySelector
             this.DayDreamOasisLabel.Location = new System.Drawing.Point(176, 24);
             this.DayDreamOasisLabel.Name = "DayDreamOasisLabel";
             this.DayDreamOasisLabel.Size = new System.Drawing.Size(374, 52);
-            this.DayDreamOasisLabel.TabIndex = 57;
+            this.DayDreamOasisLabel.TabIndex = 2;
             this.DayDreamOasisLabel.Text = "DAYDREAM OASIS";
             // 
             // minimizeButton
@@ -338,14 +338,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(642, 15);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 95;
+            this.minimizeButton.TabIndex = 19;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(681, 17);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 96;
+            this.closeButton.TabIndex = 20;
             // 
             // DaydreamOasis
             // 

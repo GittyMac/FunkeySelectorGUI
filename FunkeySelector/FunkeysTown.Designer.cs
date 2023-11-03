@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class FunkeysTown
     {
@@ -90,7 +90,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 4;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -108,7 +108,7 @@ namespace FunkeySelector
             this.Scratch.Location = new System.Drawing.Point(13, 168);
             this.Scratch.Name = "Scratch";
             this.Scratch.Size = new System.Drawing.Size(50, 63);
-            this.Scratch.TabIndex = 5;
+            this.Scratch.TabIndex = 4;
             this.Scratch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Scratch.UseVisualStyleBackColor = false;
             // 
@@ -125,7 +125,7 @@ namespace FunkeySelector
             this.ScratchR.Location = new System.Drawing.Point(64, 168);
             this.ScratchR.Name = "ScratchR";
             this.ScratchR.Size = new System.Drawing.Size(50, 63);
-            this.ScratchR.TabIndex = 6;
+            this.ScratchR.TabIndex = 5;
             this.ScratchR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ScratchR.UseVisualStyleBackColor = false;
             // 
@@ -142,7 +142,7 @@ namespace FunkeySelector
             this.ScratchVR.Location = new System.Drawing.Point(115, 168);
             this.ScratchVR.Name = "ScratchVR";
             this.ScratchVR.Size = new System.Drawing.Size(50, 63);
-            this.ScratchVR.TabIndex = 7;
+            this.ScratchVR.TabIndex = 6;
             this.ScratchVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ScratchVR.UseVisualStyleBackColor = false;
             // 
@@ -155,7 +155,7 @@ namespace FunkeySelector
             this.ScratchLabel.Location = new System.Drawing.Point(37, 130);
             this.ScratchLabel.Name = "ScratchLabel";
             this.ScratchLabel.Size = new System.Drawing.Size(113, 29);
-            this.ScratchLabel.TabIndex = 8;
+            this.ScratchLabel.TabIndex = 3;
             this.ScratchLabel.Text = "SCRATCH";
             // 
             // DriftLabel
@@ -167,7 +167,7 @@ namespace FunkeySelector
             this.DriftLabel.Location = new System.Drawing.Point(414, 130);
             this.DriftLabel.Name = "DriftLabel";
             this.DriftLabel.Size = new System.Drawing.Size(79, 29);
-            this.DriftLabel.TabIndex = 12;
+            this.DriftLabel.TabIndex = 11;
             this.DriftLabel.Text = "DRIFT";
             // 
             // DriftVR
@@ -183,7 +183,7 @@ namespace FunkeySelector
             this.DriftVR.Location = new System.Drawing.Point(477, 168);
             this.DriftVR.Name = "DriftVR";
             this.DriftVR.Size = new System.Drawing.Size(50, 63);
-            this.DriftVR.TabIndex = 11;
+            this.DriftVR.TabIndex = 14;
             this.DriftVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DriftVR.UseVisualStyleBackColor = false;
             // 
@@ -200,7 +200,7 @@ namespace FunkeySelector
             this.DriftR.Location = new System.Drawing.Point(426, 168);
             this.DriftR.Name = "DriftR";
             this.DriftR.Size = new System.Drawing.Size(50, 63);
-            this.DriftR.TabIndex = 10;
+            this.DriftR.TabIndex = 13;
             this.DriftR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DriftR.UseVisualStyleBackColor = false;
             // 
@@ -217,7 +217,7 @@ namespace FunkeySelector
             this.Drift.Location = new System.Drawing.Point(375, 168);
             this.Drift.Name = "Drift";
             this.Drift.Size = new System.Drawing.Size(50, 63);
-            this.Drift.TabIndex = 9;
+            this.Drift.TabIndex = 12;
             this.Drift.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Drift.UseVisualStyleBackColor = false;
             // 
@@ -230,7 +230,7 @@ namespace FunkeySelector
             this.LotusLabel.Location = new System.Drawing.Point(228, 130);
             this.LotusLabel.Name = "LotusLabel";
             this.LotusLabel.Size = new System.Drawing.Size(86, 29);
-            this.LotusLabel.TabIndex = 16;
+            this.LotusLabel.TabIndex = 7;
             this.LotusLabel.Text = "LOTUS";
             // 
             // LotusVR
@@ -246,7 +246,7 @@ namespace FunkeySelector
             this.LotusVR.Location = new System.Drawing.Point(297, 168);
             this.LotusVR.Name = "LotusVR";
             this.LotusVR.Size = new System.Drawing.Size(50, 63);
-            this.LotusVR.TabIndex = 15;
+            this.LotusVR.TabIndex = 10;
             this.LotusVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.LotusVR.UseVisualStyleBackColor = false;
             // 
@@ -263,7 +263,7 @@ namespace FunkeySelector
             this.LotusR.Location = new System.Drawing.Point(246, 168);
             this.LotusR.Name = "LotusR";
             this.LotusR.Size = new System.Drawing.Size(50, 63);
-            this.LotusR.TabIndex = 14;
+            this.LotusR.TabIndex = 9;
             this.LotusR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.LotusR.UseVisualStyleBackColor = false;
             // 
@@ -280,7 +280,7 @@ namespace FunkeySelector
             this.Lotus.Location = new System.Drawing.Point(195, 168);
             this.Lotus.Name = "Lotus";
             this.Lotus.Size = new System.Drawing.Size(50, 63);
-            this.Lotus.TabIndex = 13;
+            this.Lotus.TabIndex = 8;
             this.Lotus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Lotus.UseVisualStyleBackColor = false;
             // 
@@ -293,7 +293,7 @@ namespace FunkeySelector
             this.WaggsLabel.Location = new System.Drawing.Point(577, 130);
             this.WaggsLabel.Name = "WaggsLabel";
             this.WaggsLabel.Size = new System.Drawing.Size(93, 29);
-            this.WaggsLabel.TabIndex = 20;
+            this.WaggsLabel.TabIndex = 15;
             this.WaggsLabel.Text = "WAGGS";
             // 
             // WaggsVR
@@ -309,7 +309,7 @@ namespace FunkeySelector
             this.WaggsVR.Location = new System.Drawing.Point(653, 168);
             this.WaggsVR.Name = "WaggsVR";
             this.WaggsVR.Size = new System.Drawing.Size(50, 63);
-            this.WaggsVR.TabIndex = 19;
+            this.WaggsVR.TabIndex = 18;
             this.WaggsVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.WaggsVR.UseVisualStyleBackColor = false;
             // 
@@ -326,7 +326,7 @@ namespace FunkeySelector
             this.WaggsR.Location = new System.Drawing.Point(602, 168);
             this.WaggsR.Name = "WaggsR";
             this.WaggsR.Size = new System.Drawing.Size(50, 63);
-            this.WaggsR.TabIndex = 18;
+            this.WaggsR.TabIndex = 17;
             this.WaggsR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.WaggsR.UseVisualStyleBackColor = false;
             // 
@@ -343,7 +343,7 @@ namespace FunkeySelector
             this.Waggs.Location = new System.Drawing.Point(551, 168);
             this.Waggs.Name = "Waggs";
             this.Waggs.Size = new System.Drawing.Size(50, 63);
-            this.Waggs.TabIndex = 17;
+            this.Waggs.TabIndex = 16;
             this.Waggs.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Waggs.UseVisualStyleBackColor = false;
             // 
@@ -356,7 +356,7 @@ namespace FunkeySelector
             this.DotLabel.Location = new System.Drawing.Point(336, 284);
             this.DotLabel.Name = "DotLabel";
             this.DotLabel.Size = new System.Drawing.Size(59, 29);
-            this.DotLabel.TabIndex = 24;
+            this.DotLabel.TabIndex = 21;
             this.DotLabel.Text = "DOT";
             // 
             // DotVR
@@ -372,7 +372,7 @@ namespace FunkeySelector
             this.DotVR.Location = new System.Drawing.Point(389, 318);
             this.DotVR.Name = "DotVR";
             this.DotVR.Size = new System.Drawing.Size(50, 63);
-            this.DotVR.TabIndex = 23;
+            this.DotVR.TabIndex = 24;
             this.DotVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DotVR.UseVisualStyleBackColor = false;
             // 
@@ -389,7 +389,7 @@ namespace FunkeySelector
             this.DotR.Location = new System.Drawing.Point(338, 318);
             this.DotR.Name = "DotR";
             this.DotR.Size = new System.Drawing.Size(50, 63);
-            this.DotR.TabIndex = 22;
+            this.DotR.TabIndex = 23;
             this.DotR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DotR.UseVisualStyleBackColor = false;
             // 
@@ -406,7 +406,7 @@ namespace FunkeySelector
             this.Dot.Location = new System.Drawing.Point(287, 318);
             this.Dot.Name = "Dot";
             this.Dot.Size = new System.Drawing.Size(50, 63);
-            this.Dot.TabIndex = 21;
+            this.Dot.TabIndex = 22;
             this.Dot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Dot.UseVisualStyleBackColor = false;
             // 
@@ -419,7 +419,7 @@ namespace FunkeySelector
             this.HenchmanLabel.Location = new System.Drawing.Point(89, 426);
             this.HenchmanLabel.Name = "HenchmanLabel";
             this.HenchmanLabel.Size = new System.Drawing.Size(140, 29);
-            this.HenchmanLabel.TabIndex = 28;
+            this.HenchmanLabel.TabIndex = 27;
             this.HenchmanLabel.Text = "HENCHMAN";
             // 
             // Henchman
@@ -435,7 +435,7 @@ namespace FunkeySelector
             this.Henchman.Location = new System.Drawing.Point(132, 458);
             this.Henchman.Name = "Henchman";
             this.Henchman.Size = new System.Drawing.Size(50, 63);
-            this.Henchman.TabIndex = 26;
+            this.Henchman.TabIndex = 28;
             this.Henchman.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Henchman.UseVisualStyleBackColor = false;
             // 
@@ -448,7 +448,7 @@ namespace FunkeySelector
             this.MasterLoxLabel.Location = new System.Drawing.Point(287, 426);
             this.MasterLoxLabel.Name = "MasterLoxLabel";
             this.MasterLoxLabel.Size = new System.Drawing.Size(153, 29);
-            this.MasterLoxLabel.TabIndex = 30;
+            this.MasterLoxLabel.TabIndex = 29;
             this.MasterLoxLabel.Text = "MASTER LOX";
             // 
             // MasterLox
@@ -464,7 +464,7 @@ namespace FunkeySelector
             this.MasterLox.Location = new System.Drawing.Point(338, 458);
             this.MasterLox.Name = "MasterLox";
             this.MasterLox.Size = new System.Drawing.Size(50, 63);
-            this.MasterLox.TabIndex = 29;
+            this.MasterLox.TabIndex = 30;
             this.MasterLox.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.MasterLox.UseVisualStyleBackColor = false;
             // 
@@ -477,7 +477,7 @@ namespace FunkeySelector
             this.MayorSaysoLabel.Location = new System.Drawing.Point(493, 426);
             this.MayorSaysoLabel.Name = "MayorSaysoLabel";
             this.MayorSaysoLabel.Size = new System.Drawing.Size(173, 29);
-            this.MayorSaysoLabel.TabIndex = 32;
+            this.MayorSaysoLabel.TabIndex = 31;
             this.MayorSaysoLabel.Text = "MAYOR SAYSO";
             // 
             // MayorSayso
@@ -493,7 +493,7 @@ namespace FunkeySelector
             this.MayorSayso.Location = new System.Drawing.Point(551, 458);
             this.MayorSayso.Name = "MayorSayso";
             this.MayorSayso.Size = new System.Drawing.Size(50, 63);
-            this.MayorSayso.TabIndex = 31;
+            this.MayorSayso.TabIndex = 32;
             this.MayorSayso.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.MayorSayso.UseVisualStyleBackColor = false;
             // 
@@ -506,7 +506,7 @@ namespace FunkeySelector
             this.HollerLabel.Location = new System.Drawing.Point(110, 286);
             this.HollerLabel.Name = "HollerLabel";
             this.HollerLabel.Size = new System.Drawing.Size(96, 29);
-            this.HollerLabel.TabIndex = 34;
+            this.HollerLabel.TabIndex = 19;
             this.HollerLabel.Text = "HOLLER";
             // 
             // Holler
@@ -522,7 +522,7 @@ namespace FunkeySelector
             this.Holler.Location = new System.Drawing.Point(132, 318);
             this.Holler.Name = "Holler";
             this.Holler.Size = new System.Drawing.Size(50, 63);
-            this.Holler.TabIndex = 33;
+            this.Holler.TabIndex = 20;
             this.Holler.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Holler.UseVisualStyleBackColor = false;
             // 
@@ -535,7 +535,7 @@ namespace FunkeySelector
             this.GabbyLabel.Location = new System.Drawing.Point(534, 286);
             this.GabbyLabel.Name = "GabbyLabel";
             this.GabbyLabel.Size = new System.Drawing.Size(82, 29);
-            this.GabbyLabel.TabIndex = 36;
+            this.GabbyLabel.TabIndex = 25;
             this.GabbyLabel.Text = "GABBY";
             // 
             // Gabby
@@ -551,7 +551,7 @@ namespace FunkeySelector
             this.Gabby.Location = new System.Drawing.Point(551, 318);
             this.Gabby.Name = "Gabby";
             this.Gabby.Size = new System.Drawing.Size(50, 63);
-            this.Gabby.TabIndex = 35;
+            this.Gabby.TabIndex = 26;
             this.Gabby.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Gabby.UseVisualStyleBackColor = false;
             // 
@@ -560,14 +560,14 @@ namespace FunkeySelector
             this.closeButton.Location = new System.Drawing.Point(681, 18);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 82;
+            this.closeButton.TabIndex = 34;
             // 
             // minimizeButton
             // 
             this.minimizeButton.Location = new System.Drawing.Point(642, 16);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 83;
+            this.minimizeButton.TabIndex = 33;
             // 
             // FunkeysTown
             // 

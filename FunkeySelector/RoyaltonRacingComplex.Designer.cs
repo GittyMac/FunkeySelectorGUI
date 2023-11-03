@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class RoyaltonRacingComplex
     {
@@ -60,7 +60,7 @@ namespace FunkeySelector
             this.SnakeOilerLabel.Location = new System.Drawing.Point(152, 436);
             this.SnakeOilerLabel.Name = "SnakeOilerLabel";
             this.SnakeOilerLabel.Size = new System.Drawing.Size(158, 29);
-            this.SnakeOilerLabel.TabIndex = 74;
+            this.SnakeOilerLabel.TabIndex = 15;
             this.SnakeOilerLabel.Text = "SNAKE OILER";
             // 
             // SnakeOiler
@@ -76,7 +76,7 @@ namespace FunkeySelector
             this.SnakeOiler.Location = new System.Drawing.Point(205, 471);
             this.SnakeOiler.Name = "SnakeOiler";
             this.SnakeOiler.Size = new System.Drawing.Size(50, 63);
-            this.SnakeOiler.TabIndex = 72;
+            this.SnakeOiler.TabIndex = 16;
             this.SnakeOiler.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SnakeOiler.UseVisualStyleBackColor = false;
             // 
@@ -89,7 +89,7 @@ namespace FunkeySelector
             this.TrixieLabel.Location = new System.Drawing.Point(187, 222);
             this.TrixieLabel.Name = "TrixieLabel";
             this.TrixieLabel.Size = new System.Drawing.Size(90, 29);
-            this.TrixieLabel.TabIndex = 70;
+            this.TrixieLabel.TabIndex = 7;
             this.TrixieLabel.Text = "TRIXIE";
             // 
             // Trixie
@@ -105,7 +105,7 @@ namespace FunkeySelector
             this.Trixie.Location = new System.Drawing.Point(205, 260);
             this.Trixie.Name = "Trixie";
             this.Trixie.Size = new System.Drawing.Size(50, 63);
-            this.Trixie.TabIndex = 68;
+            this.Trixie.TabIndex = 8;
             this.Trixie.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Trixie.UseVisualStyleBackColor = false;
             // 
@@ -118,7 +118,7 @@ namespace FunkeySelector
             this.CannonballTaylorLabel.Location = new System.Drawing.Point(113, 329);
             this.CannonballTaylorLabel.Name = "CannonballTaylorLabel";
             this.CannonballTaylorLabel.Size = new System.Drawing.Size(251, 29);
-            this.CannonballTaylorLabel.TabIndex = 66;
+            this.CannonballTaylorLabel.TabIndex = 11;
             this.CannonballTaylorLabel.Text = "CANNONBALL TAYLOR";
             // 
             // CannonballTaylor
@@ -134,7 +134,7 @@ namespace FunkeySelector
             this.CannonballTaylor.Location = new System.Drawing.Point(205, 363);
             this.CannonballTaylor.Name = "CannonballTaylor";
             this.CannonballTaylor.Size = new System.Drawing.Size(50, 63);
-            this.CannonballTaylor.TabIndex = 64;
+            this.CannonballTaylor.TabIndex = 12;
             this.CannonballTaylor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CannonballTaylor.UseVisualStyleBackColor = false;
             // 
@@ -147,7 +147,7 @@ namespace FunkeySelector
             this.RacerXLabel.Location = new System.Drawing.Point(184, 102);
             this.RacerXLabel.Name = "RacerXLabel";
             this.RacerXLabel.Size = new System.Drawing.Size(101, 29);
-            this.RacerXLabel.TabIndex = 62;
+            this.RacerXLabel.TabIndex = 3;
             this.RacerXLabel.Text = "RACER X";
             // 
             // RacerX
@@ -163,7 +163,7 @@ namespace FunkeySelector
             this.RacerX.Location = new System.Drawing.Point(205, 142);
             this.RacerX.Name = "RacerX";
             this.RacerX.Size = new System.Drawing.Size(50, 63);
-            this.RacerX.TabIndex = 60;
+            this.RacerX.TabIndex = 4;
             this.RacerX.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RacerX.UseVisualStyleBackColor = false;
             // 
@@ -180,7 +180,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 58;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -194,7 +194,7 @@ namespace FunkeySelector
             this.RoyaltonRacingComplexLabel.Location = new System.Drawing.Point(150, 20);
             this.RoyaltonRacingComplexLabel.Name = "RoyaltonRacingComplexLabel";
             this.RoyaltonRacingComplexLabel.Size = new System.Drawing.Size(449, 41);
-            this.RoyaltonRacingComplexLabel.TabIndex = 57;
+            this.RoyaltonRacingComplexLabel.TabIndex = 2;
             this.RoyaltonRacingComplexLabel.Text = "ROYALTON RACING COMPLEX";
             // 
             // TaejoLabel
@@ -206,7 +206,7 @@ namespace FunkeySelector
             this.TaejoLabel.Location = new System.Drawing.Point(463, 435);
             this.TaejoLabel.Name = "TaejoLabel";
             this.TaejoLabel.Size = new System.Drawing.Size(86, 29);
-            this.TaejoLabel.TabIndex = 82;
+            this.TaejoLabel.TabIndex = 17;
             this.TaejoLabel.Text = "TAEJO";
             // 
             // Taejo
@@ -222,7 +222,7 @@ namespace FunkeySelector
             this.Taejo.Location = new System.Drawing.Point(479, 471);
             this.Taejo.Name = "Taejo";
             this.Taejo.Size = new System.Drawing.Size(50, 63);
-            this.Taejo.TabIndex = 81;
+            this.Taejo.TabIndex = 18;
             this.Taejo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Taejo.UseVisualStyleBackColor = false;
             // 
@@ -235,7 +235,7 @@ namespace FunkeySelector
             this.SpeedRacerPinballLabel.Location = new System.Drawing.Point(374, 219);
             this.SpeedRacerPinballLabel.Name = "SpeedRacerPinballLabel";
             this.SpeedRacerPinballLabel.Size = new System.Drawing.Size(266, 29);
-            this.SpeedRacerPinballLabel.TabIndex = 80;
+            this.SpeedRacerPinballLabel.TabIndex = 9;
             this.SpeedRacerPinballLabel.Text = "SPEED RACER (PINBALL)";
             // 
             // SpeedRacerPinball
@@ -251,7 +251,7 @@ namespace FunkeySelector
             this.SpeedRacerPinball.Location = new System.Drawing.Point(479, 260);
             this.SpeedRacerPinball.Name = "SpeedRacerPinball";
             this.SpeedRacerPinball.Size = new System.Drawing.Size(50, 63);
-            this.SpeedRacerPinball.TabIndex = 79;
+            this.SpeedRacerPinball.TabIndex = 10;
             this.SpeedRacerPinball.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SpeedRacerPinball.UseVisualStyleBackColor = false;
             // 
@@ -264,7 +264,7 @@ namespace FunkeySelector
             this.ChimChimLabel.Location = new System.Drawing.Point(434, 329);
             this.ChimChimLabel.Name = "ChimChimLabel";
             this.ChimChimLabel.Size = new System.Drawing.Size(140, 29);
-            this.ChimChimLabel.TabIndex = 78;
+            this.ChimChimLabel.TabIndex = 13;
             this.ChimChimLabel.Text = "CHIM-CHIM";
             // 
             // ChimChim
@@ -280,7 +280,7 @@ namespace FunkeySelector
             this.ChimChim.Location = new System.Drawing.Point(479, 363);
             this.ChimChim.Name = "ChimChim";
             this.ChimChim.Size = new System.Drawing.Size(50, 63);
-            this.ChimChim.TabIndex = 77;
+            this.ChimChim.TabIndex = 14;
             this.ChimChim.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ChimChim.UseVisualStyleBackColor = false;
             // 
@@ -293,7 +293,7 @@ namespace FunkeySelector
             this.SpeedRacerLabel.Location = new System.Drawing.Point(431, 102);
             this.SpeedRacerLabel.Name = "SpeedRacerLabel";
             this.SpeedRacerLabel.Size = new System.Drawing.Size(153, 29);
-            this.SpeedRacerLabel.TabIndex = 76;
+            this.SpeedRacerLabel.TabIndex = 5;
             this.SpeedRacerLabel.Text = "SPEED RACER";
             // 
             // SpeedRacer
@@ -309,7 +309,7 @@ namespace FunkeySelector
             this.SpeedRacer.Location = new System.Drawing.Point(479, 142);
             this.SpeedRacer.Name = "SpeedRacer";
             this.SpeedRacer.Size = new System.Drawing.Size(50, 63);
-            this.SpeedRacer.TabIndex = 75;
+            this.SpeedRacer.TabIndex = 6;
             this.SpeedRacer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SpeedRacer.UseVisualStyleBackColor = false;
             // 
@@ -318,14 +318,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(642, 15);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 91;
+            this.minimizeButton.TabIndex = 19;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(681, 17);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 92;
+            this.closeButton.TabIndex = 20;
             // 
             // RoyaltonRacingComplex
             // 

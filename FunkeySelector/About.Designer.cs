@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class About
     {
@@ -45,7 +45,7 @@ namespace FunkeySelector
             this.AboutFSGUILabel.Location = new System.Drawing.Point(137, 25);
             this.AboutFSGUILabel.Name = "AboutFSGUILabel";
             this.AboutFSGUILabel.Size = new System.Drawing.Size(297, 26);
-            this.AboutFSGUILabel.TabIndex = 3;
+            this.AboutFSGUILabel.TabIndex = 1;
             this.AboutFSGUILabel.Text = "ABOUT FUNKEYSELECTORGUI";
             // 
             // DevelopedByLabel
@@ -57,7 +57,7 @@ namespace FunkeySelector
             this.DevelopedByLabel.Location = new System.Drawing.Point(155, 84);
             this.DevelopedByLabel.Name = "DevelopedByLabel";
             this.DevelopedByLabel.Size = new System.Drawing.Size(260, 20);
-            this.DevelopedByLabel.TabIndex = 4;
+            this.DevelopedByLabel.TabIndex = 2;
             this.DevelopedByLabel.Text = "DEVELOPED BY GITTYMAC (LAKO)";
             // 
             // MadeForLabel
@@ -69,7 +69,7 @@ namespace FunkeySelector
             this.MadeForLabel.Location = new System.Drawing.Point(122, 126);
             this.MadeForLabel.Name = "MadeForLabel";
             this.MadeForLabel.Size = new System.Drawing.Size(327, 20);
-            this.MadeForLabel.TabIndex = 5;
+            this.MadeForLabel.TabIndex = 3;
             this.MadeForLabel.Text = "MADE FOR THE FUNKEYS SELECTION MOD";
             // 
             // CreditsToLabel
@@ -81,7 +81,7 @@ namespace FunkeySelector
             this.CreditsToLabel.Location = new System.Drawing.Point(90, 168);
             this.CreditsToLabel.Name = "CreditsToLabel";
             this.CreditsToLabel.Size = new System.Drawing.Size(390, 20);
-            this.CreditsToLabel.TabIndex = 6;
+            this.CreditsToLabel.TabIndex = 4;
             this.CreditsToLabel.Text = "CREDITS TO DUALSCAR FOR THE ICONS AND IDEA";
             // 
             // okButton
@@ -91,7 +91,7 @@ namespace FunkeySelector
             this.okButton.Location = new System.Drawing.Point(242, 244);
             this.okButton.Name = "okButton";
             this.okButton.Size = new System.Drawing.Size(86, 23);
-            this.okButton.TabIndex = 7;
+            this.okButton.TabIndex = 5;
             // 
             // About
             // 

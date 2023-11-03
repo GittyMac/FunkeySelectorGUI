@@ -56,7 +56,7 @@ namespace FunkeySelector
             this.AceLabel.Location = new System.Drawing.Point(363, 413);
             this.AceLabel.Name = "AceLabel";
             this.AceLabel.Size = new System.Drawing.Size(54, 29);
-            this.AceLabel.TabIndex = 100;
+            this.AceLabel.TabIndex = 13;
             this.AceLabel.Text = "ACE";
             // 
             // Ace
@@ -72,7 +72,7 @@ namespace FunkeySelector
             this.Ace.Location = new System.Drawing.Point(368, 445);
             this.Ace.Name = "Ace";
             this.Ace.Size = new System.Drawing.Size(50, 63);
-            this.Ace.TabIndex = 98;
+            this.Ace.TabIndex = 14;
             this.Ace.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Ace.UseVisualStyleBackColor = false;
             // 
@@ -85,7 +85,7 @@ namespace FunkeySelector
             this.MulchLabel.Location = new System.Drawing.Point(350, 315);
             this.MulchLabel.Name = "MulchLabel";
             this.MulchLabel.Size = new System.Drawing.Size(88, 29);
-            this.MulchLabel.TabIndex = 96;
+            this.MulchLabel.TabIndex = 11;
             this.MulchLabel.Text = "MULCH";
             // 
             // Mulch
@@ -101,7 +101,7 @@ namespace FunkeySelector
             this.Mulch.Location = new System.Drawing.Point(368, 347);
             this.Mulch.Name = "Mulch";
             this.Mulch.Size = new System.Drawing.Size(50, 63);
-            this.Mulch.TabIndex = 94;
+            this.Mulch.TabIndex = 12;
             this.Mulch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Mulch.UseVisualStyleBackColor = false;
             // 
@@ -114,7 +114,7 @@ namespace FunkeySelector
             this.TaddLabel.Location = new System.Drawing.Point(363, 195);
             this.TaddLabel.Name = "TaddLabel";
             this.TaddLabel.Size = new System.Drawing.Size(72, 29);
-            this.TaddLabel.TabIndex = 92;
+            this.TaddLabel.TabIndex = 7;
             this.TaddLabel.Text = "TADD";
             // 
             // TaddVR
@@ -130,7 +130,7 @@ namespace FunkeySelector
             this.TaddVR.Location = new System.Drawing.Point(419, 227);
             this.TaddVR.Name = "TaddVR";
             this.TaddVR.Size = new System.Drawing.Size(50, 63);
-            this.TaddVR.TabIndex = 91;
+            this.TaddVR.TabIndex = 10;
             this.TaddVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TaddVR.UseVisualStyleBackColor = false;
             // 
@@ -147,7 +147,7 @@ namespace FunkeySelector
             this.TaddR.Location = new System.Drawing.Point(368, 227);
             this.TaddR.Name = "TaddR";
             this.TaddR.Size = new System.Drawing.Size(50, 63);
-            this.TaddR.TabIndex = 90;
+            this.TaddR.TabIndex = 9;
             this.TaddR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TaddR.UseVisualStyleBackColor = false;
             // 
@@ -164,7 +164,7 @@ namespace FunkeySelector
             this.Tadd.Location = new System.Drawing.Point(317, 227);
             this.Tadd.Name = "Tadd";
             this.Tadd.Size = new System.Drawing.Size(50, 63);
-            this.Tadd.TabIndex = 89;
+            this.Tadd.TabIndex = 8;
             this.Tadd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Tadd.UseVisualStyleBackColor = false;
             // 
@@ -177,7 +177,7 @@ namespace FunkeySelector
             this.ParadoxGreenLabel.Location = new System.Drawing.Point(206, 10);
             this.ParadoxGreenLabel.Name = "ParadoxGreenLabel";
             this.ParadoxGreenLabel.Size = new System.Drawing.Size(337, 52);
-            this.ParadoxGreenLabel.TabIndex = 79;
+            this.ParadoxGreenLabel.TabIndex = 2;
             this.ParadoxGreenLabel.Text = "PARADOX GREEN";
             // 
             // backButton
@@ -193,7 +193,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 10);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 80;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -211,7 +211,7 @@ namespace FunkeySelector
             this.Rastro.Location = new System.Drawing.Point(317, 129);
             this.Rastro.Name = "Rastro";
             this.Rastro.Size = new System.Drawing.Size(50, 63);
-            this.Rastro.TabIndex = 81;
+            this.Rastro.TabIndex = 4;
             this.Rastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Rastro.UseVisualStyleBackColor = false;
             // 
@@ -228,7 +228,7 @@ namespace FunkeySelector
             this.RastroR.Location = new System.Drawing.Point(368, 129);
             this.RastroR.Name = "RastroR";
             this.RastroR.Size = new System.Drawing.Size(50, 63);
-            this.RastroR.TabIndex = 82;
+            this.RastroR.TabIndex = 5;
             this.RastroR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RastroR.UseVisualStyleBackColor = false;
             // 
@@ -245,7 +245,7 @@ namespace FunkeySelector
             this.RastroVR.Location = new System.Drawing.Point(419, 129);
             this.RastroVR.Name = "RastroVR";
             this.RastroVR.Size = new System.Drawing.Size(50, 63);
-            this.RastroVR.TabIndex = 83;
+            this.RastroVR.TabIndex = 6;
             this.RastroVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RastroVR.UseVisualStyleBackColor = false;
             // 
@@ -258,7 +258,7 @@ namespace FunkeySelector
             this.RastroLabel.Location = new System.Drawing.Point(350, 97);
             this.RastroLabel.Name = "RastroLabel";
             this.RastroLabel.Size = new System.Drawing.Size(100, 29);
-            this.RastroLabel.TabIndex = 84;
+            this.RastroLabel.TabIndex = 3;
             this.RastroLabel.Text = "RASTRO";
             // 
             // minimizeButton
@@ -266,14 +266,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(642, 14);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 103;
+            this.minimizeButton.TabIndex = 15;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(681, 16);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 104;
+            this.closeButton.TabIndex = 16;
             // 
             // ParadoxGreen
             // 

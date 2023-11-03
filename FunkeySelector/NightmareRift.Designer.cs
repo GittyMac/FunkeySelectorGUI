@@ -60,7 +60,7 @@ namespace FunkeySelector
             this.SnipeLabel.Location = new System.Drawing.Point(339, 428);
             this.SnipeLabel.Name = "SnipeLabel";
             this.SnipeLabel.Size = new System.Drawing.Size(80, 29);
-            this.SnipeLabel.TabIndex = 74;
+            this.SnipeLabel.TabIndex = 15;
             this.SnipeLabel.Text = "SNIPE";
             // 
             // SnipeVR
@@ -76,7 +76,7 @@ namespace FunkeySelector
             this.SnipeVR.Location = new System.Drawing.Point(408, 468);
             this.SnipeVR.Name = "SnipeVR";
             this.SnipeVR.Size = new System.Drawing.Size(50, 63);
-            this.SnipeVR.TabIndex = 73;
+            this.SnipeVR.TabIndex = 18;
             this.SnipeVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SnipeVR.UseVisualStyleBackColor = false;
             // 
@@ -93,7 +93,7 @@ namespace FunkeySelector
             this.SnipeR.Location = new System.Drawing.Point(357, 468);
             this.SnipeR.Name = "SnipeR";
             this.SnipeR.Size = new System.Drawing.Size(50, 63);
-            this.SnipeR.TabIndex = 72;
+            this.SnipeR.TabIndex = 17;
             this.SnipeR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SnipeR.UseVisualStyleBackColor = false;
             // 
@@ -110,7 +110,7 @@ namespace FunkeySelector
             this.Snipe.Location = new System.Drawing.Point(306, 468);
             this.Snipe.Name = "Snipe";
             this.Snipe.Size = new System.Drawing.Size(50, 63);
-            this.Snipe.TabIndex = 71;
+            this.Snipe.TabIndex = 16;
             this.Snipe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Snipe.UseVisualStyleBackColor = false;
             // 
@@ -123,7 +123,7 @@ namespace FunkeySelector
             this.SprocketLabel.Location = new System.Drawing.Point(324, 218);
             this.SprocketLabel.Name = "SprocketLabel";
             this.SprocketLabel.Size = new System.Drawing.Size(122, 29);
-            this.SprocketLabel.TabIndex = 70;
+            this.SprocketLabel.TabIndex = 7;
             this.SprocketLabel.Text = "SPROCKET";
             // 
             // SprocketVR
@@ -139,7 +139,7 @@ namespace FunkeySelector
             this.SprocketVR.Location = new System.Drawing.Point(408, 257);
             this.SprocketVR.Name = "SprocketVR";
             this.SprocketVR.Size = new System.Drawing.Size(50, 63);
-            this.SprocketVR.TabIndex = 69;
+            this.SprocketVR.TabIndex = 10;
             this.SprocketVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SprocketVR.UseVisualStyleBackColor = false;
             // 
@@ -156,7 +156,7 @@ namespace FunkeySelector
             this.SprocketR.Location = new System.Drawing.Point(357, 257);
             this.SprocketR.Name = "SprocketR";
             this.SprocketR.Size = new System.Drawing.Size(50, 63);
-            this.SprocketR.TabIndex = 68;
+            this.SprocketR.TabIndex = 9;
             this.SprocketR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SprocketR.UseVisualStyleBackColor = false;
             // 
@@ -173,7 +173,7 @@ namespace FunkeySelector
             this.Sprocket.Location = new System.Drawing.Point(306, 257);
             this.Sprocket.Name = "Sprocket";
             this.Sprocket.Size = new System.Drawing.Size(50, 63);
-            this.Sprocket.TabIndex = 67;
+            this.Sprocket.TabIndex = 8;
             this.Sprocket.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Sprocket.UseVisualStyleBackColor = false;
             // 
@@ -186,7 +186,7 @@ namespace FunkeySelector
             this.VlurpLabel.Location = new System.Drawing.Point(346, 325);
             this.VlurpLabel.Name = "VlurpLabel";
             this.VlurpLabel.Size = new System.Drawing.Size(78, 29);
-            this.VlurpLabel.TabIndex = 66;
+            this.VlurpLabel.TabIndex = 11;
             this.VlurpLabel.Text = "VLURP";
             // 
             // VlurpVR
@@ -202,7 +202,7 @@ namespace FunkeySelector
             this.VlurpVR.Location = new System.Drawing.Point(408, 360);
             this.VlurpVR.Name = "VlurpVR";
             this.VlurpVR.Size = new System.Drawing.Size(50, 63);
-            this.VlurpVR.TabIndex = 65;
+            this.VlurpVR.TabIndex = 14;
             this.VlurpVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.VlurpVR.UseVisualStyleBackColor = false;
             // 
@@ -219,7 +219,7 @@ namespace FunkeySelector
             this.VlurpR.Location = new System.Drawing.Point(357, 360);
             this.VlurpR.Name = "VlurpR";
             this.VlurpR.Size = new System.Drawing.Size(50, 63);
-            this.VlurpR.TabIndex = 64;
+            this.VlurpR.TabIndex = 13;
             this.VlurpR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.VlurpR.UseVisualStyleBackColor = false;
             // 
@@ -236,7 +236,7 @@ namespace FunkeySelector
             this.Vlurp.Location = new System.Drawing.Point(306, 360);
             this.Vlurp.Name = "Vlurp";
             this.Vlurp.Size = new System.Drawing.Size(50, 63);
-            this.Vlurp.TabIndex = 63;
+            this.Vlurp.TabIndex = 12;
             this.Vlurp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Vlurp.UseVisualStyleBackColor = false;
             // 
@@ -249,7 +249,7 @@ namespace FunkeySelector
             this.PtepLabel.Location = new System.Drawing.Point(354, 102);
             this.PtepLabel.Name = "PtepLabel";
             this.PtepLabel.Size = new System.Drawing.Size(62, 29);
-            this.PtepLabel.TabIndex = 62;
+            this.PtepLabel.TabIndex = 3;
             this.PtepLabel.Text = "PTEP";
             // 
             // PtepVR
@@ -265,7 +265,7 @@ namespace FunkeySelector
             this.PtepVR.Location = new System.Drawing.Point(408, 139);
             this.PtepVR.Name = "PtepVR";
             this.PtepVR.Size = new System.Drawing.Size(50, 63);
-            this.PtepVR.TabIndex = 61;
+            this.PtepVR.TabIndex = 6;
             this.PtepVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.PtepVR.UseVisualStyleBackColor = false;
             // 
@@ -282,7 +282,7 @@ namespace FunkeySelector
             this.PtepR.Location = new System.Drawing.Point(357, 139);
             this.PtepR.Name = "PtepR";
             this.PtepR.Size = new System.Drawing.Size(50, 63);
-            this.PtepR.TabIndex = 60;
+            this.PtepR.TabIndex = 5;
             this.PtepR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.PtepR.UseVisualStyleBackColor = false;
             // 
@@ -299,7 +299,7 @@ namespace FunkeySelector
             this.Ptep.Location = new System.Drawing.Point(306, 139);
             this.Ptep.Name = "Ptep";
             this.Ptep.Size = new System.Drawing.Size(50, 63);
-            this.Ptep.TabIndex = 59;
+            this.Ptep.TabIndex = 4;
             this.Ptep.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Ptep.UseVisualStyleBackColor = false;
             // 
@@ -316,7 +316,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 58;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -330,7 +330,7 @@ namespace FunkeySelector
             this.NightmareRiftLabel.Location = new System.Drawing.Point(220, 20);
             this.NightmareRiftLabel.Name = "NightmareRiftLabel";
             this.NightmareRiftLabel.Size = new System.Drawing.Size(357, 52);
-            this.NightmareRiftLabel.TabIndex = 57;
+            this.NightmareRiftLabel.TabIndex = 2;
             this.NightmareRiftLabel.Text = "NIGHTMARE RIFT";
             // 
             // minimizeButton
@@ -338,14 +338,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(642, 15);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 93;
+            this.minimizeButton.TabIndex = 19;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(681, 17);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 94;
+            this.closeButton.TabIndex = 20;
             // 
             // NightmareRift
             // 

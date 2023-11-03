@@ -1,4 +1,4 @@
-﻿namespace FunkeySelector
+namespace FunkeySelector
 {
     partial class Form1
     {
@@ -82,7 +82,7 @@
             this.KelpyBasinButton.Location = new System.Drawing.Point(76, 248);
             this.KelpyBasinButton.Name = "KelpyBasinButton";
             this.KelpyBasinButton.Size = new System.Drawing.Size(174, 32);
-            this.KelpyBasinButton.TabIndex = 4;
+            this.KelpyBasinButton.TabIndex = 5;
             this.KelpyBasinButton.Text = "KELPY BASIN";
             this.KelpyBasinButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.KelpyBasinButton.UseVisualStyleBackColor = false;
@@ -100,7 +100,7 @@
             this.MagmaGorgeButton.Location = new System.Drawing.Point(76, 210);
             this.MagmaGorgeButton.Name = "MagmaGorgeButton";
             this.MagmaGorgeButton.Size = new System.Drawing.Size(174, 32);
-            this.MagmaGorgeButton.TabIndex = 5;
+            this.MagmaGorgeButton.TabIndex = 4;
             this.MagmaGorgeButton.Text = "MAGMA GORGE";
             this.MagmaGorgeButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.MagmaGorgeButton.UseVisualStyleBackColor = false;
@@ -136,7 +136,7 @@
             this.FunkikiIslandButton.Location = new System.Drawing.Point(42, 359);
             this.FunkikiIslandButton.Name = "FunkikiIslandButton";
             this.FunkikiIslandButton.Size = new System.Drawing.Size(245, 30);
-            this.FunkikiIslandButton.TabIndex = 7;
+            this.FunkikiIslandButton.TabIndex = 8;
             this.FunkikiIslandButton.Text = "FUNKIKI ISLAND";
             this.FunkikiIslandButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.FunkikiIslandButton.UseVisualStyleBackColor = false;
@@ -154,7 +154,7 @@
             this.RoyaltonRacingComplexButton.Location = new System.Drawing.Point(33, 395);
             this.RoyaltonRacingComplexButton.Name = "RoyaltonRacingComplexButton";
             this.RoyaltonRacingComplexButton.Size = new System.Drawing.Size(267, 31);
-            this.RoyaltonRacingComplexButton.TabIndex = 8;
+            this.RoyaltonRacingComplexButton.TabIndex = 9;
             this.RoyaltonRacingComplexButton.Text = "ROYALTON RACING COMPLEX";
             this.RoyaltonRacingComplexButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RoyaltonRacingComplexButton.UseVisualStyleBackColor = false;
@@ -172,7 +172,7 @@
             this.NightmareRiftButton.Location = new System.Drawing.Point(293, 205);
             this.NightmareRiftButton.Name = "NightmareRiftButton";
             this.NightmareRiftButton.Size = new System.Drawing.Size(175, 31);
-            this.NightmareRiftButton.TabIndex = 9;
+            this.NightmareRiftButton.TabIndex = 12;
             this.NightmareRiftButton.Text = "NIGHTMARE RIFT";
             this.NightmareRiftButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.NightmareRiftButton.UseVisualStyleBackColor = false;
@@ -190,7 +190,7 @@
             this.DaydreamOasisButton.Location = new System.Drawing.Point(293, 167);
             this.DaydreamOasisButton.Name = "DaydreamOasisButton";
             this.DaydreamOasisButton.Size = new System.Drawing.Size(175, 32);
-            this.DaydreamOasisButton.TabIndex = 10;
+            this.DaydreamOasisButton.TabIndex = 11;
             this.DaydreamOasisButton.Text = "DAYDREAM OASIS";
             this.DaydreamOasisButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.DaydreamOasisButton.UseVisualStyleBackColor = false;
@@ -208,7 +208,7 @@
             this.HiddenRealmButton.Location = new System.Drawing.Point(307, 298);
             this.HiddenRealmButton.Name = "HiddenRealmButton";
             this.HiddenRealmButton.Size = new System.Drawing.Size(151, 36);
-            this.HiddenRealmButton.TabIndex = 11;
+            this.HiddenRealmButton.TabIndex = 14;
             this.HiddenRealmButton.Text = "HIDDEN REALM";
             this.HiddenRealmButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.HiddenRealmButton.UseVisualStyleBackColor = false;
@@ -226,7 +226,7 @@
             this.ParadoxGreenButton.Location = new System.Drawing.Point(293, 391);
             this.ParadoxGreenButton.Name = "ParadoxGreenButton";
             this.ParadoxGreenButton.Size = new System.Drawing.Size(175, 34);
-            this.ParadoxGreenButton.TabIndex = 12;
+            this.ParadoxGreenButton.TabIndex = 16;
             this.ParadoxGreenButton.Text = "PARADOX GREEN";
             this.ParadoxGreenButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ParadoxGreenButton.UseVisualStyleBackColor = false;
@@ -240,7 +240,7 @@
             this.UBLabel.Location = new System.Drawing.Point(572, 337);
             this.UBLabel.Name = "UBLabel";
             this.UBLabel.Size = new System.Drawing.Size(45, 29);
-            this.UBLabel.TabIndex = 72;
+            this.UBLabel.TabIndex = 22;
             this.UBLabel.Text = "U.B";
             // 
             // UnusedFunkeysButton
@@ -256,7 +256,7 @@
             this.UnusedFunkeysButton.Location = new System.Drawing.Point(505, 177);
             this.UnusedFunkeysButton.Name = "UnusedFunkeysButton";
             this.UnusedFunkeysButton.Size = new System.Drawing.Size(177, 31);
-            this.UnusedFunkeysButton.TabIndex = 73;
+            this.UnusedFunkeysButton.TabIndex = 18;
             this.UnusedFunkeysButton.Text = "UNUSED FUNKEYS";
             this.UnusedFunkeysButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.UnusedFunkeysButton.UseVisualStyleBackColor = false;
@@ -272,7 +272,7 @@
             this.InsertCustomID.Location = new System.Drawing.Point(486, 282);
             this.InsertCustomID.Name = "InsertCustomID";
             this.InsertCustomID.Size = new System.Drawing.Size(208, 52);
-            this.InsertCustomID.TabIndex = 74;
+            this.InsertCustomID.TabIndex = 21;
             this.InsertCustomID.Text = "INSERT CUSTOM ID";
             this.InsertCustomID.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.InsertCustomID.UseVisualStyleBackColor = false;
@@ -283,7 +283,7 @@
             this.CustomIDTextBox.Location = new System.Drawing.Point(505, 256);
             this.CustomIDTextBox.Name = "CustomIDTextBox";
             this.CustomIDTextBox.Size = new System.Drawing.Size(177, 20);
-            this.CustomIDTextBox.TabIndex = 75;
+            this.CustomIDTextBox.TabIndex = 20;
             // 
             // CustomFunkeysButton
             // 
@@ -298,7 +298,7 @@
             this.CustomFunkeysButton.Location = new System.Drawing.Point(486, 214);
             this.CustomFunkeysButton.Name = "CustomFunkeysButton";
             this.CustomFunkeysButton.Size = new System.Drawing.Size(208, 36);
-            this.CustomFunkeysButton.TabIndex = 77;
+            this.CustomFunkeysButton.TabIndex = 19;
             this.CustomFunkeysButton.Text = "CUSTOM FUNKEYS";
             this.CustomFunkeysButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CustomFunkeysButton.UseVisualStyleBackColor = false;
@@ -312,7 +312,7 @@
             this.Series1Label.Location = new System.Drawing.Point(113, 137);
             this.Series1Label.Name = "Series1Label";
             this.Series1Label.Size = new System.Drawing.Size(104, 27);
-            this.Series1Label.TabIndex = 80;
+            this.Series1Label.TabIndex = 2;
             this.Series1Label.Text = "SERIES 1";
             // 
             // Series2Label
@@ -324,7 +324,7 @@
             this.Series2Label.Location = new System.Drawing.Point(110, 330);
             this.Series2Label.Name = "Series2Label";
             this.Series2Label.Size = new System.Drawing.Size(104, 27);
-            this.Series2Label.TabIndex = 81;
+            this.Series2Label.TabIndex = 7;
             this.Series2Label.Text = "SERIES 2";
             // 
             // Series3Label
@@ -336,7 +336,7 @@
             this.Series3Label.Location = new System.Drawing.Point(332, 138);
             this.Series3Label.Name = "Series3Label";
             this.Series3Label.Size = new System.Drawing.Size(104, 27);
-            this.Series3Label.TabIndex = 82;
+            this.Series3Label.TabIndex = 10;
             this.Series3Label.Text = "SERIES 3";
             // 
             // Series4Label
@@ -348,7 +348,7 @@
             this.Series4Label.Location = new System.Drawing.Point(332, 265);
             this.Series4Label.Name = "Series4Label";
             this.Series4Label.Size = new System.Drawing.Size(104, 27);
-            this.Series4Label.TabIndex = 83;
+            this.Series4Label.TabIndex = 13;
             this.Series4Label.Text = "SERIES 4";
             // 
             // Series5Label
@@ -360,7 +360,7 @@
             this.Series5Label.Location = new System.Drawing.Point(332, 353);
             this.Series5Label.Name = "Series5Label";
             this.Series5Label.Size = new System.Drawing.Size(104, 27);
-            this.Series5Label.TabIndex = 84;
+            this.Series5Label.TabIndex = 15;
             this.Series5Label.Text = "SERIES 5";
             // 
             // OtherLabel
@@ -372,7 +372,7 @@
             this.OtherLabel.Location = new System.Drawing.Point(551, 141);
             this.OtherLabel.Name = "OtherLabel";
             this.OtherLabel.Size = new System.Drawing.Size(79, 27);
-            this.OtherLabel.TabIndex = 85;
+            this.OtherLabel.TabIndex = 17;
             this.OtherLabel.Text = "OTHER";
             // 
             // minimizeButton
@@ -380,14 +380,14 @@
             this.minimizeButton.Location = new System.Drawing.Point(642, 16);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 87;
+            this.minimizeButton.TabIndex = 24;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(681, 18);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 86;
+            this.closeButton.TabIndex = 25;
             // 
             // UB
             // 
@@ -402,7 +402,7 @@
             this.UB.Location = new System.Drawing.Point(568, 359);
             this.UB.Name = "UB";
             this.UB.Size = new System.Drawing.Size(50, 63);
-            this.UB.TabIndex = 71;
+            this.UB.TabIndex = 23;
             this.UB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.UB.UseVisualStyleBackColor = false;
             // 
@@ -430,7 +430,7 @@
             this.optionsButton.Location = new System.Drawing.Point(668, 44);
             this.optionsButton.Name = "optionsButton";
             this.optionsButton.Size = new System.Drawing.Size(39, 44);
-            this.optionsButton.TabIndex = 88;
+            this.optionsButton.TabIndex = 26;
             // 
             // Form1
             // 

@@ -68,7 +68,7 @@ namespace FunkeySelector
             this.BombleLabel.Location = new System.Drawing.Point(314, 358);
             this.BombleLabel.Name = "BombleLabel";
             this.BombleLabel.Size = new System.Drawing.Size(100, 29);
-            this.BombleLabel.TabIndex = 74;
+            this.BombleLabel.TabIndex = 15;
             this.BombleLabel.Text = "BOMBLE";
             // 
             // BombleVR
@@ -80,11 +80,10 @@ namespace FunkeySelector
             this.BombleVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BombleVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BombleVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BombleVR.Location = new System.Drawing.Point(389, 385);
+            this.BombleVR.FunkeyID = "00000110";
             this.BombleVR.Name = "BombleVR";
             this.BombleVR.Size = new System.Drawing.Size(50, 63);
-            this.BombleVR.TabIndex = 73;
-            this.BombleVR.FunkeyID = "00000110";
+            this.BombleVR.TabIndex = 18;
             this.BombleVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BombleVR.UseVisualStyleBackColor = false;
             // 
@@ -97,11 +96,11 @@ namespace FunkeySelector
             this.BombleR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BombleR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BombleR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.BombleR.FunkeyID = "0000010C";
             this.BombleR.Location = new System.Drawing.Point(338, 385);
             this.BombleR.Name = "BombleR";
             this.BombleR.Size = new System.Drawing.Size(50, 63);
-            this.BombleR.TabIndex = 72;
-            this.BombleR.FunkeyID = "0000010C";
+            this.BombleR.TabIndex = 17;
             this.BombleR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.BombleR.UseVisualStyleBackColor = false;
             // 
@@ -114,11 +113,11 @@ namespace FunkeySelector
             this.Bomble.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Bomble.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bomble.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Bomble.FunkeyID = "00000105";
             this.Bomble.Location = new System.Drawing.Point(287, 385);
             this.Bomble.Name = "Bomble";
             this.Bomble.Size = new System.Drawing.Size(50, 63);
-            this.Bomble.TabIndex = 71;
-            this.Bomble.FunkeyID = "00000105";
+            this.Bomble.TabIndex = 16;
             this.Bomble.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Bomble.UseVisualStyleBackColor = false;
             // 
@@ -131,7 +130,7 @@ namespace FunkeySelector
             this.RajLabel.Location = new System.Drawing.Point(333, 164);
             this.RajLabel.Name = "RajLabel";
             this.RajLabel.Size = new System.Drawing.Size(55, 29);
-            this.RajLabel.TabIndex = 70;
+            this.RajLabel.TabIndex = 7;
             this.RajLabel.Text = "RAJ";
             // 
             // RajVR
@@ -143,11 +142,10 @@ namespace FunkeySelector
             this.RajVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RajVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RajVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.RajVR.Location = new System.Drawing.Point(389, 196);
+            this.RajVR.FunkeyID = "0000010E";
             this.RajVR.Name = "RajVR";
             this.RajVR.Size = new System.Drawing.Size(50, 63);
-            this.RajVR.TabIndex = 69;
-            this.RajVR.FunkeyID = "0000010E";
+            this.RajVR.TabIndex = 10;
             this.RajVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RajVR.UseVisualStyleBackColor = false;
             // 
@@ -160,11 +158,11 @@ namespace FunkeySelector
             this.RajR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RajR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RajR.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.RajR.Location = new System.Drawing.Point(338, 196);
+            this.RajR.FunkeyID = "00000107";
+            this.RajR.Location = new System.Drawing.Point(338, 192);
             this.RajR.Name = "RajR";
             this.RajR.Size = new System.Drawing.Size(50, 63);
-            this.RajR.TabIndex = 68;
-            this.RajR.FunkeyID = "00000107";
+            this.RajR.TabIndex = 9;
             this.RajR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RajR.UseVisualStyleBackColor = false;
             // 
@@ -177,11 +175,11 @@ namespace FunkeySelector
             this.Raj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Raj.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Raj.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Raj.Location = new System.Drawing.Point(287, 196);
+            this.Raj.FunkeyID = "00000103";
+            this.Raj.Location = new System.Drawing.Point(287, 192);
             this.Raj.Name = "Raj";
             this.Raj.Size = new System.Drawing.Size(50, 63);
-            this.Raj.TabIndex = 67;
-            this.Raj.FunkeyID = "00000103";
+            this.Raj.TabIndex = 8;
             this.Raj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Raj.UseVisualStyleBackColor = false;
             // 
@@ -194,7 +192,7 @@ namespace FunkeySelector
             this.YangLabel.Location = new System.Drawing.Point(326, 262);
             this.YangLabel.Name = "YangLabel";
             this.YangLabel.Size = new System.Drawing.Size(72, 29);
-            this.YangLabel.TabIndex = 66;
+            this.YangLabel.TabIndex = 11;
             this.YangLabel.Text = "YANG";
             // 
             // YangVR
@@ -206,11 +204,11 @@ namespace FunkeySelector
             this.YangVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.YangVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YangVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.YangVR.Location = new System.Drawing.Point(389, 297);
+            this.YangVR.FunkeyID = "0000010F";
+            this.YangVR.Location = new System.Drawing.Point(389, 289);
             this.YangVR.Name = "YangVR";
             this.YangVR.Size = new System.Drawing.Size(50, 63);
-            this.YangVR.TabIndex = 65;
-            this.YangVR.FunkeyID = "0000010F";
+            this.YangVR.TabIndex = 14;
             this.YangVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.YangVR.UseVisualStyleBackColor = false;
             // 
@@ -223,11 +221,11 @@ namespace FunkeySelector
             this.YangR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.YangR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YangR.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.YangR.Location = new System.Drawing.Point(338, 297);
+            this.YangR.FunkeyID = "00000108";
+            this.YangR.Location = new System.Drawing.Point(338, 289);
             this.YangR.Name = "YangR";
             this.YangR.Size = new System.Drawing.Size(50, 63);
-            this.YangR.TabIndex = 64;
-            this.YangR.FunkeyID = "00000108";
+            this.YangR.TabIndex = 13;
             this.YangR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.YangR.UseVisualStyleBackColor = false;
             // 
@@ -240,11 +238,11 @@ namespace FunkeySelector
             this.Yang.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Yang.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Yang.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Yang.Location = new System.Drawing.Point(287, 297);
+            this.Yang.FunkeyID = "00000104";
+            this.Yang.Location = new System.Drawing.Point(287, 289);
             this.Yang.Name = "Yang";
             this.Yang.Size = new System.Drawing.Size(50, 63);
-            this.Yang.TabIndex = 63;
-            this.Yang.FunkeyID = "00000104";
+            this.Yang.TabIndex = 12;
             this.Yang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Yang.UseVisualStyleBackColor = false;
             // 
@@ -257,7 +255,7 @@ namespace FunkeySelector
             this.SingeLabel.Location = new System.Drawing.Point(317, 58);
             this.SingeLabel.Name = "SingeLabel";
             this.SingeLabel.Size = new System.Drawing.Size(83, 29);
-            this.SingeLabel.TabIndex = 62;
+            this.SingeLabel.TabIndex = 3;
             this.SingeLabel.Text = "SINGE";
             // 
             // SingeVR
@@ -269,11 +267,11 @@ namespace FunkeySelector
             this.SingeVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SingeVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SingeVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SingeVR.FunkeyID = "0000010D";
             this.SingeVR.Location = new System.Drawing.Point(389, 98);
             this.SingeVR.Name = "SingeVR";
             this.SingeVR.Size = new System.Drawing.Size(50, 63);
-            this.SingeVR.TabIndex = 61;
-            this.SingeVR.FunkeyID = "0000010D";
+            this.SingeVR.TabIndex = 6;
             this.SingeVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SingeVR.UseVisualStyleBackColor = false;
             // 
@@ -286,11 +284,11 @@ namespace FunkeySelector
             this.SingeR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SingeR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SingeR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SingeR.FunkeyID = "00000106";
             this.SingeR.Location = new System.Drawing.Point(338, 98);
             this.SingeR.Name = "SingeR";
             this.SingeR.Size = new System.Drawing.Size(50, 63);
-            this.SingeR.TabIndex = 60;
-            this.SingeR.FunkeyID = "00000106";
+            this.SingeR.TabIndex = 5;
             this.SingeR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SingeR.UseVisualStyleBackColor = false;
             // 
@@ -303,11 +301,11 @@ namespace FunkeySelector
             this.Singe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Singe.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Singe.ForeColor = System.Drawing.Color.Transparent;
+            this.Singe.FunkeyID = "00000102";
             this.Singe.Location = new System.Drawing.Point(287, 98);
             this.Singe.Name = "Singe";
             this.Singe.Size = new System.Drawing.Size(50, 63);
-            this.Singe.TabIndex = 59;
-            this.Singe.FunkeyID = "00000102";
+            this.Singe.TabIndex = 4;
             this.Singe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Singe.UseVisualStyleBackColor = false;
             // 
@@ -319,11 +317,12 @@ namespace FunkeySelector
             this.backButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.backButton.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.backButton.FormToOpen = "Form1";
+            this.backButton.KeepCurrentForm = false;
             this.backButton.Location = new System.Drawing.Point(12, 9);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 58;
-            this.backButton.FormToOpen = "Form1";
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -337,7 +336,7 @@ namespace FunkeySelector
             this.HiddenRealmLabel.Location = new System.Drawing.Point(225, 9);
             this.HiddenRealmLabel.Name = "HiddenRealmLabel";
             this.HiddenRealmLabel.Size = new System.Drawing.Size(314, 52);
-            this.HiddenRealmLabel.TabIndex = 57;
+            this.HiddenRealmLabel.TabIndex = 2;
             this.HiddenRealmLabel.Text = "HIDDEN REALM";
             // 
             // MaulLabel
@@ -349,7 +348,7 @@ namespace FunkeySelector
             this.MaulLabel.Location = new System.Drawing.Point(224, 453);
             this.MaulLabel.Name = "MaulLabel";
             this.MaulLabel.Size = new System.Drawing.Size(74, 29);
-            this.MaulLabel.TabIndex = 78;
+            this.MaulLabel.TabIndex = 19;
             this.MaulLabel.Text = "MAUL";
             // 
             // MaulVR
@@ -361,11 +360,11 @@ namespace FunkeySelector
             this.MaulVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MaulVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaulVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.MaulVR.FunkeyID = "00000125";
             this.MaulVR.Location = new System.Drawing.Point(285, 481);
             this.MaulVR.Name = "MaulVR";
             this.MaulVR.Size = new System.Drawing.Size(50, 63);
-            this.MaulVR.TabIndex = 77;
-            this.MaulVR.FunkeyID = "00000125";
+            this.MaulVR.TabIndex = 22;
             this.MaulVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.MaulVR.UseVisualStyleBackColor = false;
             // 
@@ -378,11 +377,11 @@ namespace FunkeySelector
             this.MaulR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.MaulR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaulR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.MaulR.FunkeyID = "0000011E";
             this.MaulR.Location = new System.Drawing.Point(234, 481);
             this.MaulR.Name = "MaulR";
             this.MaulR.Size = new System.Drawing.Size(50, 63);
-            this.MaulR.TabIndex = 76;
-            this.MaulR.FunkeyID = "0000011E";
+            this.MaulR.TabIndex = 21;
             this.MaulR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.MaulR.UseVisualStyleBackColor = false;
             // 
@@ -395,11 +394,11 @@ namespace FunkeySelector
             this.Maul.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Maul.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Maul.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Maul.FunkeyID = "0000011A";
             this.Maul.Location = new System.Drawing.Point(183, 481);
             this.Maul.Name = "Maul";
             this.Maul.Size = new System.Drawing.Size(50, 63);
-            this.Maul.TabIndex = 75;
-            this.Maul.FunkeyID = "0000011A";
+            this.Maul.TabIndex = 20;
             this.Maul.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Maul.UseVisualStyleBackColor = false;
             // 
@@ -412,7 +411,7 @@ namespace FunkeySelector
             this.NectarLabel.Location = new System.Drawing.Point(411, 455);
             this.NectarLabel.Name = "NectarLabel";
             this.NectarLabel.Size = new System.Drawing.Size(98, 29);
-            this.NectarLabel.TabIndex = 101;
+            this.NectarLabel.TabIndex = 23;
             this.NectarLabel.Text = "NECTAR";
             // 
             // NectarVR
@@ -424,11 +423,11 @@ namespace FunkeySelector
             this.NectarVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NectarVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NectarVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.NectarVR.FunkeyID = "00000124";
             this.NectarVR.Location = new System.Drawing.Point(484, 481);
             this.NectarVR.Name = "NectarVR";
             this.NectarVR.Size = new System.Drawing.Size(50, 63);
-            this.NectarVR.TabIndex = 100;
-            this.NectarVR.FunkeyID = "00000124";
+            this.NectarVR.TabIndex = 26;
             this.NectarVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.NectarVR.UseVisualStyleBackColor = false;
             // 
@@ -441,11 +440,11 @@ namespace FunkeySelector
             this.NectarR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.NectarR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NectarR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.NectarR.FunkeyID = "0000011D";
             this.NectarR.Location = new System.Drawing.Point(433, 481);
             this.NectarR.Name = "NectarR";
             this.NectarR.Size = new System.Drawing.Size(50, 63);
-            this.NectarR.TabIndex = 99;
-            this.NectarR.FunkeyID = "0000011D";
+            this.NectarR.TabIndex = 25;
             this.NectarR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.NectarR.UseVisualStyleBackColor = false;
             // 
@@ -458,11 +457,11 @@ namespace FunkeySelector
             this.Nectar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Nectar.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nectar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.Nectar.FunkeyID = "00000119";
             this.Nectar.Location = new System.Drawing.Point(382, 481);
             this.Nectar.Name = "Nectar";
             this.Nectar.Size = new System.Drawing.Size(50, 63);
-            this.Nectar.TabIndex = 98;
-            this.Nectar.FunkeyID = "00000119";
+            this.Nectar.TabIndex = 24;
             this.Nectar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Nectar.UseVisualStyleBackColor = false;
             // 
@@ -471,14 +470,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(641, 15);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 102;
+            this.minimizeButton.TabIndex = 27;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(680, 17);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 103;
+            this.closeButton.TabIndex = 28;
             // 
             // HiddenRealm
             // 

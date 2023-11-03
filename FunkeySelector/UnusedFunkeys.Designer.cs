@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class UnusedFunkeys
     {
@@ -58,7 +58,7 @@ namespace FunkeySelector
             this.TachLabel.Location = new System.Drawing.Point(330, 74);
             this.TachLabel.Name = "TachLabel";
             this.TachLabel.Size = new System.Drawing.Size(71, 29);
-            this.TachLabel.TabIndex = 90;
+            this.TachLabel.TabIndex = 3;
             this.TachLabel.Text = "TACH";
             // 
             // TachRed
@@ -74,7 +74,7 @@ namespace FunkeySelector
             this.TachRed.Location = new System.Drawing.Point(394, 103);
             this.TachRed.Name = "TachRed";
             this.TachRed.Size = new System.Drawing.Size(50, 63);
-            this.TachRed.TabIndex = 89;
+            this.TachRed.TabIndex = 6;
             this.TachRed.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TachRed.UseVisualStyleBackColor = false;
             // 
@@ -91,7 +91,7 @@ namespace FunkeySelector
             this.TachYellow.Location = new System.Drawing.Point(342, 103);
             this.TachYellow.Name = "TachYellow";
             this.TachYellow.Size = new System.Drawing.Size(50, 63);
-            this.TachYellow.TabIndex = 88;
+            this.TachYellow.TabIndex = 5;
             this.TachYellow.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TachYellow.UseVisualStyleBackColor = false;
             // 
@@ -108,7 +108,7 @@ namespace FunkeySelector
             this.TachBlue.Location = new System.Drawing.Point(291, 103);
             this.TachBlue.Name = "TachBlue";
             this.TachBlue.Size = new System.Drawing.Size(50, 63);
-            this.TachBlue.TabIndex = 87;
+            this.TachBlue.TabIndex = 4;
             this.TachBlue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.TachBlue.UseVisualStyleBackColor = false;
             // 
@@ -125,7 +125,7 @@ namespace FunkeySelector
             this.backButton.Location = new System.Drawing.Point(12, 12);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(101, 48);
-            this.backButton.TabIndex = 86;
+            this.backButton.TabIndex = 1;
             this.backButton.Text = "BACK";
             this.backButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.backButton.UseVisualStyleBackColor = false;
@@ -139,7 +139,7 @@ namespace FunkeySelector
             this.UnusedFunkeysLabel.Location = new System.Drawing.Point(185, 13);
             this.UnusedFunkeysLabel.Name = "UnusedFunkeysLabel";
             this.UnusedFunkeysLabel.Size = new System.Drawing.Size(367, 52);
-            this.UnusedFunkeysLabel.TabIndex = 85;
+            this.UnusedFunkeysLabel.TabIndex = 2;
             this.UnusedFunkeysLabel.Text = "UNUSED FUNKEYS";
             // 
             // ConLabel
@@ -151,7 +151,7 @@ namespace FunkeySelector
             this.ConLabel.Location = new System.Drawing.Point(338, 184);
             this.ConLabel.Name = "ConLabel";
             this.ConLabel.Size = new System.Drawing.Size(60, 29);
-            this.ConLabel.TabIndex = 92;
+            this.ConLabel.TabIndex = 7;
             this.ConLabel.Text = "CON";
             // 
             // Con
@@ -167,7 +167,7 @@ namespace FunkeySelector
             this.Con.Location = new System.Drawing.Point(341, 205);
             this.Con.Name = "Con";
             this.Con.Size = new System.Drawing.Size(50, 63);
-            this.Con.TabIndex = 91;
+            this.Con.TabIndex = 8;
             this.Con.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Con.UseVisualStyleBackColor = false;
             // 
@@ -180,7 +180,7 @@ namespace FunkeySelector
             this.HenchmenLabel.Location = new System.Drawing.Point(301, 279);
             this.HenchmenLabel.Name = "HenchmenLabel";
             this.HenchmenLabel.Size = new System.Drawing.Size(137, 29);
-            this.HenchmenLabel.TabIndex = 96;
+            this.HenchmenLabel.TabIndex = 9;
             this.HenchmenLabel.Text = "HENCHMEN";
             // 
             // HenchmanBlue
@@ -196,7 +196,7 @@ namespace FunkeySelector
             this.HenchmanBlue.Location = new System.Drawing.Point(394, 313);
             this.HenchmanBlue.Name = "HenchmanBlue";
             this.HenchmanBlue.Size = new System.Drawing.Size(50, 63);
-            this.HenchmanBlue.TabIndex = 95;
+            this.HenchmanBlue.TabIndex = 12;
             this.HenchmanBlue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.HenchmanBlue.UseVisualStyleBackColor = false;
             // 
@@ -213,7 +213,7 @@ namespace FunkeySelector
             this.HenchmanGreen.Location = new System.Drawing.Point(342, 313);
             this.HenchmanGreen.Name = "HenchmanGreen";
             this.HenchmanGreen.Size = new System.Drawing.Size(50, 63);
-            this.HenchmanGreen.TabIndex = 94;
+            this.HenchmanGreen.TabIndex = 11;
             this.HenchmanGreen.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.HenchmanGreen.UseVisualStyleBackColor = false;
             // 
@@ -230,7 +230,7 @@ namespace FunkeySelector
             this.HenchmanPurple.Location = new System.Drawing.Point(291, 313);
             this.HenchmanPurple.Name = "HenchmanPurple";
             this.HenchmanPurple.Size = new System.Drawing.Size(50, 63);
-            this.HenchmanPurple.TabIndex = 93;
+            this.HenchmanPurple.TabIndex = 10;
             this.HenchmanPurple.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.HenchmanPurple.UseVisualStyleBackColor = false;
             // 
@@ -243,7 +243,7 @@ namespace FunkeySelector
             this.DaliLabel.Location = new System.Drawing.Point(337, 381);
             this.DaliLabel.Name = "DaliLabel";
             this.DaliLabel.Size = new System.Drawing.Size(66, 29);
-            this.DaliLabel.TabIndex = 100;
+            this.DaliLabel.TabIndex = 13;
             this.DaliLabel.Text = "DALI";
             // 
             // Dali
@@ -259,7 +259,7 @@ namespace FunkeySelector
             this.Dali.Location = new System.Drawing.Point(342, 400);
             this.Dali.Name = "Dali";
             this.Dali.Size = new System.Drawing.Size(50, 63);
-            this.Dali.TabIndex = 98;
+            this.Dali.TabIndex = 14;
             this.Dali.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Dali.UseVisualStyleBackColor = false;
             // 
@@ -272,7 +272,7 @@ namespace FunkeySelector
             this.GoyaLabel.Location = new System.Drawing.Point(335, 465);
             this.GoyaLabel.Name = "GoyaLabel";
             this.GoyaLabel.Size = new System.Drawing.Size(72, 29);
-            this.GoyaLabel.TabIndex = 102;
+            this.GoyaLabel.TabIndex = 15;
             this.GoyaLabel.Text = "GOYA";
             // 
             // Goya
@@ -288,7 +288,7 @@ namespace FunkeySelector
             this.Goya.Location = new System.Drawing.Point(344, 480);
             this.Goya.Name = "Goya";
             this.Goya.Size = new System.Drawing.Size(50, 63);
-            this.Goya.TabIndex = 101;
+            this.Goya.TabIndex = 16;
             this.Goya.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Goya.UseVisualStyleBackColor = false;
             // 
@@ -297,14 +297,14 @@ namespace FunkeySelector
             this.minimizeButton.Location = new System.Drawing.Point(642, 15);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 104;
+            this.minimizeButton.TabIndex = 17;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(681, 17);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 105;
+            this.closeButton.TabIndex = 18;
             // 
             // UnusedFunkeys
             // 
