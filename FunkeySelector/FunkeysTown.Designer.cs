@@ -1,4 +1,4 @@
-﻿namespace FunkeySelector
+namespace FunkeySelector
 {
     partial class FunkeysTown
     {
@@ -615,7 +615,7 @@
             this.MaximizeBox = false;
             this.Name = "FunkeysTown";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "FunkeySelectorGUI";
+            this.Text = "FunkeySelectorGUI - Funkeystown";
             this.TransparencyKey = System.Drawing.Color.Gold;
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -1,4 +1,4 @@
-﻿namespace FunkeySelector
+namespace FunkeySelector
 {
     partial class UnusedFunkeys
     {
@@ -334,7 +334,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UnusedFunkeys";
-            this.Text = "FunkeySelectorGUI";
+            this.Text = "FunkeySelectorGUI - Unused Funkeys";
             this.TransparencyKey = System.Drawing.Color.Gold;
             this.ResumeLayout(false);
             this.PerformLayout();

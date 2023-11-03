@@ -1,4 +1,4 @@
-﻿namespace FunkeySelector
+namespace FunkeySelector
 {
     partial class HiddenRealm
     {
@@ -519,7 +519,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "HiddenRealm";
-            this.Text = "FunkeySelectorGUI";
+            this.Text = "FunkeySelectorGUI - Hidden Realm";
             this.TransparencyKey = System.Drawing.Color.Gold;
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -109,7 +109,7 @@ namespace FunkeySelector
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "About";
-            this.Text = "Form15";
+            this.Text = "FunkeySelectorGUI - About";
             this.TransparencyKey = System.Drawing.Color.Gold;
             this.ResumeLayout(false);
             this.PerformLayout();

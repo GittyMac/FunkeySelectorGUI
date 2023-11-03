@@ -1,4 +1,4 @@
-﻿namespace FunkeySelector
+namespace FunkeySelector
 {
     partial class ParadoxGreen
     {
@@ -302,7 +302,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "ParadoxGreen";
-            this.Text = "FunkeySelectorGUI";
+            this.Text = "FunkeySelectorGUI - Paradox Green";
             this.TransparencyKey = System.Drawing.Color.Gold;
             this.ResumeLayout(false);
             this.PerformLayout();

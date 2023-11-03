@@ -1,4 +1,4 @@
-﻿namespace FunkeySelector
+namespace FunkeySelector
 {
     partial class CustomFunkeys
     {
@@ -146,7 +146,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "CustomFunkeys";
-            this.Text = "FunkeySelectorGUI";
+            this.Text = "FunkeySelectorGUI - Custom Funkeys";
             this.TransparencyKey = System.Drawing.Color.Gold;
             this.Load += new System.EventHandler(this.CustomFunkeys_Load);
             this.ResumeLayout(false);

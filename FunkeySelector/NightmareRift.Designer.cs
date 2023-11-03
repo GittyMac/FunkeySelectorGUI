@@ -1,4 +1,4 @@
-﻿namespace FunkeySelector
+namespace FunkeySelector
 {
     partial class NightmareRift
     {
@@ -377,7 +377,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "NightmareRift";
-            this.Text = "FunkeySelectorGUI";
+            this.Text = "FunkeySelectorGUI - Nightmare Rift";
             this.TransparencyKey = System.Drawing.Color.Gold;
             this.ResumeLayout(false);
             this.PerformLayout();
