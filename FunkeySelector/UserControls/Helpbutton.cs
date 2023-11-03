@@ -20,7 +20,7 @@ namespace FunkeySelector.UserControls
 
         private void Help_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(HelpText, "Help", MessageBoxButtons.OK, MessageBoxIcon.Question);
+            MessageBox.Show(HelpText, "Help", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void Help_MouseEnter(object sender, EventArgs e)
