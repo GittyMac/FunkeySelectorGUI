@@ -38,6 +38,8 @@ namespace FunkeySelector.UserControls
             this.help.BackgroundImage = global::FunkeySelector.Properties.Resources._542;
             this.help.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.help.FlatAppearance.BorderSize = 0;
+            this.help.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.help.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.help.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.help.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.help.ForeColor = System.Drawing.SystemColors.ControlLightLight;
