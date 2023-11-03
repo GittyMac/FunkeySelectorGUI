@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class MagmaGorge
     {
@@ -57,7 +57,7 @@ namespace FunkeySelector
             this.BonesLabel.BackColor = System.Drawing.Color.Transparent;
             this.BonesLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BonesLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.BonesLabel.Location = new System.Drawing.Point(331, 435);
+            this.BonesLabel.Location = new System.Drawing.Point(331, 437);
             this.BonesLabel.Name = "BonesLabel";
             this.BonesLabel.Size = new System.Drawing.Size(88, 29);
             this.BonesLabel.TabIndex = 15;
@@ -73,7 +73,7 @@ namespace FunkeySelector
             this.BonesVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BonesVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.BonesVR.FunkeyID = "00000034";
-            this.BonesVR.Location = new System.Drawing.Point(400, 475);
+            this.BonesVR.Location = new System.Drawing.Point(400, 460);
             this.BonesVR.Name = "BonesVR";
             this.BonesVR.Size = new System.Drawing.Size(50, 63);
             this.BonesVR.TabIndex = 18;
@@ -90,7 +90,7 @@ namespace FunkeySelector
             this.BonesR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BonesR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.BonesR.FunkeyID = "00000033";
-            this.BonesR.Location = new System.Drawing.Point(349, 475);
+            this.BonesR.Location = new System.Drawing.Point(349, 460);
             this.BonesR.Name = "BonesR";
             this.BonesR.Size = new System.Drawing.Size(50, 63);
             this.BonesR.TabIndex = 17;
@@ -107,7 +107,7 @@ namespace FunkeySelector
             this.Bones.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Bones.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Bones.FunkeyID = "00000032";
-            this.Bones.Location = new System.Drawing.Point(298, 475);
+            this.Bones.Location = new System.Drawing.Point(298, 460);
             this.Bones.Name = "Bones";
             this.Bones.Size = new System.Drawing.Size(50, 63);
             this.Bones.TabIndex = 16;
@@ -120,7 +120,7 @@ namespace FunkeySelector
             this.DeuceLabel.BackColor = System.Drawing.Color.Transparent;
             this.DeuceLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeuceLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.DeuceLabel.Location = new System.Drawing.Point(331, 226);
+            this.DeuceLabel.Location = new System.Drawing.Point(331, 221);
             this.DeuceLabel.Name = "DeuceLabel";
             this.DeuceLabel.Size = new System.Drawing.Size(82, 29);
             this.DeuceLabel.TabIndex = 7;
@@ -136,7 +136,7 @@ namespace FunkeySelector
             this.DeuceVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeuceVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.DeuceVR.FunkeyID = "0000002E";
-            this.DeuceVR.Location = new System.Drawing.Point(400, 264);
+            this.DeuceVR.Location = new System.Drawing.Point(400, 245);
             this.DeuceVR.Name = "DeuceVR";
             this.DeuceVR.Size = new System.Drawing.Size(50, 63);
             this.DeuceVR.TabIndex = 10;
@@ -153,7 +153,7 @@ namespace FunkeySelector
             this.DeuceR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DeuceR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.DeuceR.FunkeyID = "0000002A";
-            this.DeuceR.Location = new System.Drawing.Point(349, 264);
+            this.DeuceR.Location = new System.Drawing.Point(349, 245);
             this.DeuceR.Name = "DeuceR";
             this.DeuceR.Size = new System.Drawing.Size(50, 63);
             this.DeuceR.TabIndex = 9;
@@ -170,7 +170,7 @@ namespace FunkeySelector
             this.Deuce.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Deuce.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Deuce.FunkeyID = "00000029";
-            this.Deuce.Location = new System.Drawing.Point(298, 264);
+            this.Deuce.Location = new System.Drawing.Point(298, 245);
             this.Deuce.Name = "Deuce";
             this.Deuce.Size = new System.Drawing.Size(50, 63);
             this.Deuce.TabIndex = 8;
@@ -183,7 +183,7 @@ namespace FunkeySelector
             this.WasabiLabel.BackColor = System.Drawing.Color.Transparent;
             this.WasabiLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WasabiLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.WasabiLabel.Location = new System.Drawing.Point(323, 332);
+            this.WasabiLabel.Location = new System.Drawing.Point(323, 328);
             this.WasabiLabel.Name = "WasabiLabel";
             this.WasabiLabel.Size = new System.Drawing.Size(104, 29);
             this.WasabiLabel.TabIndex = 11;
@@ -199,7 +199,7 @@ namespace FunkeySelector
             this.WasabiVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WasabiVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.WasabiVR.FunkeyID = "00000031";
-            this.WasabiVR.Location = new System.Drawing.Point(400, 367);
+            this.WasabiVR.Location = new System.Drawing.Point(400, 351);
             this.WasabiVR.Name = "WasabiVR";
             this.WasabiVR.Size = new System.Drawing.Size(50, 63);
             this.WasabiVR.TabIndex = 14;
@@ -216,7 +216,7 @@ namespace FunkeySelector
             this.WasabiR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WasabiR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.WasabiR.FunkeyID = "00000030";
-            this.WasabiR.Location = new System.Drawing.Point(349, 367);
+            this.WasabiR.Location = new System.Drawing.Point(349, 351);
             this.WasabiR.Name = "WasabiR";
             this.WasabiR.Size = new System.Drawing.Size(50, 63);
             this.WasabiR.TabIndex = 13;
@@ -233,7 +233,7 @@ namespace FunkeySelector
             this.Wasabi.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Wasabi.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Wasabi.FunkeyID = "0000002F";
-            this.Wasabi.Location = new System.Drawing.Point(298, 367);
+            this.Wasabi.Location = new System.Drawing.Point(298, 351);
             this.Wasabi.Name = "Wasabi";
             this.Wasabi.Size = new System.Drawing.Size(50, 63);
             this.Wasabi.TabIndex = 12;
@@ -246,7 +246,7 @@ namespace FunkeySelector
             this.StitchLabel.BackColor = System.Drawing.Color.Transparent;
             this.StitchLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StitchLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.StitchLabel.Location = new System.Drawing.Point(328, 106);
+            this.StitchLabel.Location = new System.Drawing.Point(328, 122);
             this.StitchLabel.Name = "StitchLabel";
             this.StitchLabel.Size = new System.Drawing.Size(96, 29);
             this.StitchLabel.TabIndex = 3;

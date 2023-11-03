@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class HiddenRealm
     {
@@ -65,7 +65,7 @@ namespace FunkeySelector
             this.BombleLabel.BackColor = System.Drawing.Color.Transparent;
             this.BombleLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BombleLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.BombleLabel.Location = new System.Drawing.Point(314, 358);
+            this.BombleLabel.Location = new System.Drawing.Point(314, 360);
             this.BombleLabel.Name = "BombleLabel";
             this.BombleLabel.Size = new System.Drawing.Size(100, 29);
             this.BombleLabel.TabIndex = 15;
@@ -81,6 +81,7 @@ namespace FunkeySelector
             this.BombleVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BombleVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.BombleVR.FunkeyID = "00000110";
+            this.BombleVR.Location = new System.Drawing.Point(389, 386);
             this.BombleVR.Name = "BombleVR";
             this.BombleVR.Size = new System.Drawing.Size(50, 63);
             this.BombleVR.TabIndex = 18;
@@ -127,7 +128,7 @@ namespace FunkeySelector
             this.RajLabel.BackColor = System.Drawing.Color.Transparent;
             this.RajLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RajLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.RajLabel.Location = new System.Drawing.Point(333, 164);
+            this.RajLabel.Location = new System.Drawing.Point(333, 168);
             this.RajLabel.Name = "RajLabel";
             this.RajLabel.Size = new System.Drawing.Size(55, 29);
             this.RajLabel.TabIndex = 7;
@@ -143,6 +144,7 @@ namespace FunkeySelector
             this.RajVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RajVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.RajVR.FunkeyID = "0000010E";
+            this.RajVR.Location = new System.Drawing.Point(389, 192);
             this.RajVR.Name = "RajVR";
             this.RajVR.Size = new System.Drawing.Size(50, 63);
             this.RajVR.TabIndex = 10;
@@ -189,7 +191,7 @@ namespace FunkeySelector
             this.YangLabel.BackColor = System.Drawing.Color.Transparent;
             this.YangLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.YangLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.YangLabel.Location = new System.Drawing.Point(326, 262);
+            this.YangLabel.Location = new System.Drawing.Point(326, 264);
             this.YangLabel.Name = "YangLabel";
             this.YangLabel.Size = new System.Drawing.Size(72, 29);
             this.YangLabel.TabIndex = 11;
@@ -252,7 +254,7 @@ namespace FunkeySelector
             this.SingeLabel.BackColor = System.Drawing.Color.Transparent;
             this.SingeLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SingeLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.SingeLabel.Location = new System.Drawing.Point(317, 58);
+            this.SingeLabel.Location = new System.Drawing.Point(322, 72);
             this.SingeLabel.Name = "SingeLabel";
             this.SingeLabel.Size = new System.Drawing.Size(83, 29);
             this.SingeLabel.TabIndex = 3;
@@ -345,7 +347,7 @@ namespace FunkeySelector
             this.MaulLabel.BackColor = System.Drawing.Color.Transparent;
             this.MaulLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaulLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.MaulLabel.Location = new System.Drawing.Point(224, 453);
+            this.MaulLabel.Location = new System.Drawing.Point(224, 456);
             this.MaulLabel.Name = "MaulLabel";
             this.MaulLabel.Size = new System.Drawing.Size(74, 29);
             this.MaulLabel.TabIndex = 19;
@@ -408,7 +410,7 @@ namespace FunkeySelector
             this.NectarLabel.BackColor = System.Drawing.Color.Transparent;
             this.NectarLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NectarLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.NectarLabel.Location = new System.Drawing.Point(411, 455);
+            this.NectarLabel.Location = new System.Drawing.Point(411, 458);
             this.NectarLabel.Name = "NectarLabel";
             this.NectarLabel.Size = new System.Drawing.Size(98, 29);
             this.NectarLabel.TabIndex = 23;

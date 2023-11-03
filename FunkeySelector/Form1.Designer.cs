@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class Form1
     {
@@ -223,7 +223,7 @@ namespace FunkeySelector
             this.ParadoxGreenButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.ParadoxGreenButton.FormToOpen = "ParadoxGreen";
             this.ParadoxGreenButton.KeepCurrentForm = false;
-            this.ParadoxGreenButton.Location = new System.Drawing.Point(293, 391);
+            this.ParadoxGreenButton.Location = new System.Drawing.Point(295, 391);
             this.ParadoxGreenButton.Name = "ParadoxGreenButton";
             this.ParadoxGreenButton.Size = new System.Drawing.Size(175, 34);
             this.ParadoxGreenButton.TabIndex = 16;
@@ -237,7 +237,7 @@ namespace FunkeySelector
             this.UBLabel.BackColor = System.Drawing.Color.Transparent;
             this.UBLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UBLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.UBLabel.Location = new System.Drawing.Point(572, 337);
+            this.UBLabel.Location = new System.Drawing.Point(572, 345);
             this.UBLabel.Name = "UBLabel";
             this.UBLabel.Size = new System.Drawing.Size(45, 29);
             this.UBLabel.TabIndex = 22;
@@ -253,9 +253,9 @@ namespace FunkeySelector
             this.UnusedFunkeysButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.UnusedFunkeysButton.FormToOpen = "UnusedFunkeys";
             this.UnusedFunkeysButton.KeepCurrentForm = false;
-            this.UnusedFunkeysButton.Location = new System.Drawing.Point(505, 177);
+            this.UnusedFunkeysButton.Location = new System.Drawing.Point(505, 161);
             this.UnusedFunkeysButton.Name = "UnusedFunkeysButton";
-            this.UnusedFunkeysButton.Size = new System.Drawing.Size(177, 31);
+            this.UnusedFunkeysButton.Size = new System.Drawing.Size(177, 32);
             this.UnusedFunkeysButton.TabIndex = 18;
             this.UnusedFunkeysButton.Text = "UNUSED FUNKEYS";
             this.UnusedFunkeysButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -269,9 +269,9 @@ namespace FunkeySelector
             this.InsertCustomID.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.InsertCustomID.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.InsertCustomID.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.InsertCustomID.Location = new System.Drawing.Point(486, 282);
+            this.InsertCustomID.Location = new System.Drawing.Point(486, 287);
             this.InsertCustomID.Name = "InsertCustomID";
-            this.InsertCustomID.Size = new System.Drawing.Size(208, 52);
+            this.InsertCustomID.Size = new System.Drawing.Size(208, 37);
             this.InsertCustomID.TabIndex = 21;
             this.InsertCustomID.Text = "INSERT CUSTOM ID";
             this.InsertCustomID.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -280,7 +280,7 @@ namespace FunkeySelector
             // 
             // CustomIDTextBox
             // 
-            this.CustomIDTextBox.Location = new System.Drawing.Point(505, 256);
+            this.CustomIDTextBox.Location = new System.Drawing.Point(505, 262);
             this.CustomIDTextBox.Name = "CustomIDTextBox";
             this.CustomIDTextBox.Size = new System.Drawing.Size(177, 20);
             this.CustomIDTextBox.TabIndex = 20;
@@ -295,9 +295,9 @@ namespace FunkeySelector
             this.CustomFunkeysButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.CustomFunkeysButton.FormToOpen = "CustomFunkeys";
             this.CustomFunkeysButton.KeepCurrentForm = false;
-            this.CustomFunkeysButton.Location = new System.Drawing.Point(486, 214);
+            this.CustomFunkeysButton.Location = new System.Drawing.Point(505, 199);
             this.CustomFunkeysButton.Name = "CustomFunkeysButton";
-            this.CustomFunkeysButton.Size = new System.Drawing.Size(208, 36);
+            this.CustomFunkeysButton.Size = new System.Drawing.Size(177, 31);
             this.CustomFunkeysButton.TabIndex = 19;
             this.CustomFunkeysButton.Text = "CUSTOM FUNKEYS";
             this.CustomFunkeysButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -307,7 +307,7 @@ namespace FunkeySelector
             // 
             this.Series1Label.AutoSize = true;
             this.Series1Label.BackColor = System.Drawing.Color.Transparent;
-            this.Series1Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Series1Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Series1Label.ForeColor = System.Drawing.SystemColors.Control;
             this.Series1Label.Location = new System.Drawing.Point(113, 137);
             this.Series1Label.Name = "Series1Label";
@@ -319,7 +319,7 @@ namespace FunkeySelector
             // 
             this.Series2Label.AutoSize = true;
             this.Series2Label.BackColor = System.Drawing.Color.Transparent;
-            this.Series2Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Series2Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Series2Label.ForeColor = System.Drawing.SystemColors.Control;
             this.Series2Label.Location = new System.Drawing.Point(110, 330);
             this.Series2Label.Name = "Series2Label";
@@ -331,7 +331,7 @@ namespace FunkeySelector
             // 
             this.Series3Label.AutoSize = true;
             this.Series3Label.BackColor = System.Drawing.Color.Transparent;
-            this.Series3Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Series3Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Series3Label.ForeColor = System.Drawing.SystemColors.Control;
             this.Series3Label.Location = new System.Drawing.Point(332, 138);
             this.Series3Label.Name = "Series3Label";
@@ -343,7 +343,7 @@ namespace FunkeySelector
             // 
             this.Series4Label.AutoSize = true;
             this.Series4Label.BackColor = System.Drawing.Color.Transparent;
-            this.Series4Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Series4Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Series4Label.ForeColor = System.Drawing.SystemColors.Control;
             this.Series4Label.Location = new System.Drawing.Point(332, 265);
             this.Series4Label.Name = "Series4Label";
@@ -355,7 +355,7 @@ namespace FunkeySelector
             // 
             this.Series5Label.AutoSize = true;
             this.Series5Label.BackColor = System.Drawing.Color.Transparent;
-            this.Series5Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Series5Label.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Series5Label.ForeColor = System.Drawing.SystemColors.Control;
             this.Series5Label.Location = new System.Drawing.Point(332, 353);
             this.Series5Label.Name = "Series5Label";
@@ -367,9 +367,9 @@ namespace FunkeySelector
             // 
             this.OtherLabel.AutoSize = true;
             this.OtherLabel.BackColor = System.Drawing.Color.Transparent;
-            this.OtherLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OtherLabel.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OtherLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.OtherLabel.Location = new System.Drawing.Point(551, 141);
+            this.OtherLabel.Location = new System.Drawing.Point(551, 131);
             this.OtherLabel.Name = "OtherLabel";
             this.OtherLabel.Size = new System.Drawing.Size(79, 27);
             this.OtherLabel.TabIndex = 17;
@@ -399,7 +399,7 @@ namespace FunkeySelector
             this.UB.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UB.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.UB.FunkeyID = "FFFFFFF0";
-            this.UB.Location = new System.Drawing.Point(568, 359);
+            this.UB.Location = new System.Drawing.Point(568, 363);
             this.UB.Name = "UB";
             this.UB.Size = new System.Drawing.Size(50, 63);
             this.UB.TabIndex = 23;

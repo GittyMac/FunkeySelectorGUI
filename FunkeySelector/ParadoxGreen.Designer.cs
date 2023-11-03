@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class ParadoxGreen
     {
@@ -53,7 +53,7 @@ namespace FunkeySelector
             this.AceLabel.BackColor = System.Drawing.Color.Transparent;
             this.AceLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AceLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.AceLabel.Location = new System.Drawing.Point(363, 413);
+            this.AceLabel.Location = new System.Drawing.Point(366, 442);
             this.AceLabel.Name = "AceLabel";
             this.AceLabel.Size = new System.Drawing.Size(54, 29);
             this.AceLabel.TabIndex = 13;
@@ -69,7 +69,7 @@ namespace FunkeySelector
             this.Ace.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ace.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Ace.FunkeyID = "00000127";
-            this.Ace.Location = new System.Drawing.Point(368, 445);
+            this.Ace.Location = new System.Drawing.Point(368, 460);
             this.Ace.Name = "Ace";
             this.Ace.Size = new System.Drawing.Size(50, 63);
             this.Ace.TabIndex = 14;
@@ -82,7 +82,7 @@ namespace FunkeySelector
             this.MulchLabel.BackColor = System.Drawing.Color.Transparent;
             this.MulchLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MulchLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.MulchLabel.Location = new System.Drawing.Point(350, 315);
+            this.MulchLabel.Location = new System.Drawing.Point(350, 333);
             this.MulchLabel.Name = "MulchLabel";
             this.MulchLabel.Size = new System.Drawing.Size(88, 29);
             this.MulchLabel.TabIndex = 11;
@@ -98,7 +98,7 @@ namespace FunkeySelector
             this.Mulch.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Mulch.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Mulch.FunkeyID = "00000126";
-            this.Mulch.Location = new System.Drawing.Point(368, 347);
+            this.Mulch.Location = new System.Drawing.Point(368, 352);
             this.Mulch.Name = "Mulch";
             this.Mulch.Size = new System.Drawing.Size(50, 63);
             this.Mulch.TabIndex = 12;
@@ -111,7 +111,7 @@ namespace FunkeySelector
             this.TaddLabel.BackColor = System.Drawing.Color.Transparent;
             this.TaddLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TaddLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.TaddLabel.Location = new System.Drawing.Point(363, 195);
+            this.TaddLabel.Location = new System.Drawing.Point(360, 221);
             this.TaddLabel.Name = "TaddLabel";
             this.TaddLabel.Size = new System.Drawing.Size(72, 29);
             this.TaddLabel.TabIndex = 7;
@@ -127,7 +127,7 @@ namespace FunkeySelector
             this.TaddVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TaddVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TaddVR.FunkeyID = "00000123";
-            this.TaddVR.Location = new System.Drawing.Point(419, 227);
+            this.TaddVR.Location = new System.Drawing.Point(419, 242);
             this.TaddVR.Name = "TaddVR";
             this.TaddVR.Size = new System.Drawing.Size(50, 63);
             this.TaddVR.TabIndex = 10;
@@ -144,7 +144,7 @@ namespace FunkeySelector
             this.TaddR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TaddR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.TaddR.FunkeyID = "0000011C";
-            this.TaddR.Location = new System.Drawing.Point(368, 227);
+            this.TaddR.Location = new System.Drawing.Point(368, 242);
             this.TaddR.Name = "TaddR";
             this.TaddR.Size = new System.Drawing.Size(50, 63);
             this.TaddR.TabIndex = 9;
@@ -161,7 +161,7 @@ namespace FunkeySelector
             this.Tadd.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tadd.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Tadd.FunkeyID = "00000118";
-            this.Tadd.Location = new System.Drawing.Point(317, 227);
+            this.Tadd.Location = new System.Drawing.Point(317, 242);
             this.Tadd.Name = "Tadd";
             this.Tadd.Size = new System.Drawing.Size(50, 63);
             this.Tadd.TabIndex = 8;
@@ -208,7 +208,7 @@ namespace FunkeySelector
             this.Rastro.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rastro.ForeColor = System.Drawing.Color.Transparent;
             this.Rastro.FunkeyID = "00000117";
-            this.Rastro.Location = new System.Drawing.Point(317, 129);
+            this.Rastro.Location = new System.Drawing.Point(317, 128);
             this.Rastro.Name = "Rastro";
             this.Rastro.Size = new System.Drawing.Size(50, 63);
             this.Rastro.TabIndex = 4;
@@ -225,7 +225,7 @@ namespace FunkeySelector
             this.RastroR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RastroR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.RastroR.FunkeyID = "0000011B";
-            this.RastroR.Location = new System.Drawing.Point(368, 129);
+            this.RastroR.Location = new System.Drawing.Point(368, 128);
             this.RastroR.Name = "RastroR";
             this.RastroR.Size = new System.Drawing.Size(50, 63);
             this.RastroR.TabIndex = 5;
@@ -242,7 +242,7 @@ namespace FunkeySelector
             this.RastroVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RastroVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.RastroVR.FunkeyID = "00000122";
-            this.RastroVR.Location = new System.Drawing.Point(419, 129);
+            this.RastroVR.Location = new System.Drawing.Point(419, 128);
             this.RastroVR.Name = "RastroVR";
             this.RastroVR.Size = new System.Drawing.Size(50, 63);
             this.RastroVR.TabIndex = 6;
@@ -255,7 +255,7 @@ namespace FunkeySelector
             this.RastroLabel.BackColor = System.Drawing.Color.Transparent;
             this.RastroLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RastroLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.RastroLabel.Location = new System.Drawing.Point(350, 97);
+            this.RastroLabel.Location = new System.Drawing.Point(344, 106);
             this.RastroLabel.Name = "RastroLabel";
             this.RastroLabel.Size = new System.Drawing.Size(100, 29);
             this.RastroLabel.TabIndex = 3;

@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class DaydreamOasis
     {
@@ -73,7 +73,7 @@ namespace FunkeySelector
             this.BergerVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BergerVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.BergerVR.FunkeyID = "000000C3";
-            this.BergerVR.Location = new System.Drawing.Point(389, 471);
+            this.BergerVR.Location = new System.Drawing.Point(389, 451);
             this.BergerVR.Name = "BergerVR";
             this.BergerVR.Size = new System.Drawing.Size(50, 63);
             this.BergerVR.TabIndex = 18;
@@ -90,7 +90,7 @@ namespace FunkeySelector
             this.BergerR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BergerR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.BergerR.FunkeyID = "000000B6";
-            this.BergerR.Location = new System.Drawing.Point(338, 471);
+            this.BergerR.Location = new System.Drawing.Point(338, 451);
             this.BergerR.Name = "BergerR";
             this.BergerR.Size = new System.Drawing.Size(50, 63);
             this.BergerR.TabIndex = 17;
@@ -107,7 +107,7 @@ namespace FunkeySelector
             this.Berger.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Berger.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Berger.FunkeyID = "000000A9";
-            this.Berger.Location = new System.Drawing.Point(287, 471);
+            this.Berger.Location = new System.Drawing.Point(287, 451);
             this.Berger.Name = "Berger";
             this.Berger.Size = new System.Drawing.Size(50, 63);
             this.Berger.TabIndex = 16;
@@ -120,7 +120,7 @@ namespace FunkeySelector
             this.LuckyLabel.BackColor = System.Drawing.Color.Transparent;
             this.LuckyLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LuckyLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.LuckyLabel.Location = new System.Drawing.Point(320, 222);
+            this.LuckyLabel.Location = new System.Drawing.Point(323, 216);
             this.LuckyLabel.Name = "LuckyLabel";
             this.LuckyLabel.Size = new System.Drawing.Size(79, 29);
             this.LuckyLabel.TabIndex = 7;
@@ -136,7 +136,7 @@ namespace FunkeySelector
             this.LuckyVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LuckyVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.LuckyVR.FunkeyID = "000000BF";
-            this.LuckyVR.Location = new System.Drawing.Point(389, 260);
+            this.LuckyVR.Location = new System.Drawing.Point(389, 237);
             this.LuckyVR.Name = "LuckyVR";
             this.LuckyVR.Size = new System.Drawing.Size(50, 63);
             this.LuckyVR.TabIndex = 10;
@@ -153,7 +153,7 @@ namespace FunkeySelector
             this.LuckyR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LuckyR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.LuckyR.FunkeyID = "000000AF";
-            this.LuckyR.Location = new System.Drawing.Point(338, 260);
+            this.LuckyR.Location = new System.Drawing.Point(338, 237);
             this.LuckyR.Name = "LuckyR";
             this.LuckyR.Size = new System.Drawing.Size(50, 63);
             this.LuckyR.TabIndex = 9;
@@ -170,7 +170,7 @@ namespace FunkeySelector
             this.Lucky.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Lucky.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Lucky.FunkeyID = "000000A2";
-            this.Lucky.Location = new System.Drawing.Point(287, 260);
+            this.Lucky.Location = new System.Drawing.Point(287, 237);
             this.Lucky.Name = "Lucky";
             this.Lucky.Size = new System.Drawing.Size(50, 63);
             this.Lucky.TabIndex = 8;
@@ -183,7 +183,7 @@ namespace FunkeySelector
             this.TankLabel.BackColor = System.Drawing.Color.Transparent;
             this.TankLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TankLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.TankLabel.Location = new System.Drawing.Point(327, 328);
+            this.TankLabel.Location = new System.Drawing.Point(323, 324);
             this.TankLabel.Name = "TankLabel";
             this.TankLabel.Size = new System.Drawing.Size(72, 29);
             this.TankLabel.TabIndex = 11;
@@ -199,7 +199,7 @@ namespace FunkeySelector
             this.TankVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TankVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TankVR.FunkeyID = "000000C0";
-            this.TankVR.Location = new System.Drawing.Point(389, 363);
+            this.TankVR.Location = new System.Drawing.Point(389, 344);
             this.TankVR.Name = "TankVR";
             this.TankVR.Size = new System.Drawing.Size(50, 63);
             this.TankVR.TabIndex = 14;
@@ -216,7 +216,7 @@ namespace FunkeySelector
             this.TankR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TankR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.TankR.FunkeyID = "000000B3";
-            this.TankR.Location = new System.Drawing.Point(338, 363);
+            this.TankR.Location = new System.Drawing.Point(338, 344);
             this.TankR.Name = "TankR";
             this.TankR.Size = new System.Drawing.Size(50, 63);
             this.TankR.TabIndex = 13;
@@ -233,7 +233,7 @@ namespace FunkeySelector
             this.Tank.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tank.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Tank.FunkeyID = "000000A3";
-            this.Tank.Location = new System.Drawing.Point(287, 363);
+            this.Tank.Location = new System.Drawing.Point(287, 344);
             this.Tank.Name = "Tank";
             this.Tank.Size = new System.Drawing.Size(50, 63);
             this.Tank.TabIndex = 12;
@@ -246,7 +246,7 @@ namespace FunkeySelector
             this.DyerLabel.BackColor = System.Drawing.Color.Transparent;
             this.DyerLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DyerLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.DyerLabel.Location = new System.Drawing.Point(328, 101);
+            this.DyerLabel.Location = new System.Drawing.Point(328, 106);
             this.DyerLabel.Name = "DyerLabel";
             this.DyerLabel.Size = new System.Drawing.Size(67, 29);
             this.DyerLabel.TabIndex = 3;
@@ -262,7 +262,7 @@ namespace FunkeySelector
             this.DyerVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DyerVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.DyerVR.FunkeyID = "000000BE";
-            this.DyerVR.Location = new System.Drawing.Point(389, 142);
+            this.DyerVR.Location = new System.Drawing.Point(389, 128);
             this.DyerVR.Name = "DyerVR";
             this.DyerVR.Size = new System.Drawing.Size(50, 63);
             this.DyerVR.TabIndex = 6;
@@ -279,7 +279,7 @@ namespace FunkeySelector
             this.DyerR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DyerR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.DyerR.FunkeyID = "000000AE";
-            this.DyerR.Location = new System.Drawing.Point(338, 142);
+            this.DyerR.Location = new System.Drawing.Point(338, 128);
             this.DyerR.Name = "DyerR";
             this.DyerR.Size = new System.Drawing.Size(50, 63);
             this.DyerR.TabIndex = 5;
@@ -296,7 +296,7 @@ namespace FunkeySelector
             this.Dyer.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dyer.ForeColor = System.Drawing.Color.Transparent;
             this.Dyer.FunkeyID = "000000A1";
-            this.Dyer.Location = new System.Drawing.Point(287, 142);
+            this.Dyer.Location = new System.Drawing.Point(287, 128);
             this.Dyer.Name = "Dyer";
             this.Dyer.Size = new System.Drawing.Size(50, 63);
             this.Dyer.TabIndex = 4;

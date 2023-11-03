@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class KelpyBasin
     {
@@ -57,7 +57,7 @@ namespace FunkeySelector
             this.TwinxLabel.BackColor = System.Drawing.Color.Transparent;
             this.TwinxLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwinxLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.TwinxLabel.Location = new System.Drawing.Point(319, 427);
+            this.TwinxLabel.Location = new System.Drawing.Point(316, 421);
             this.TwinxLabel.Name = "TwinxLabel";
             this.TwinxLabel.Size = new System.Drawing.Size(91, 29);
             this.TwinxLabel.TabIndex = 15;
@@ -73,7 +73,7 @@ namespace FunkeySelector
             this.TwinxVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwinxVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TwinxVR.FunkeyID = "0000001F";
-            this.TwinxVR.Location = new System.Drawing.Point(395, 465);
+            this.TwinxVR.Location = new System.Drawing.Point(390, 448);
             this.TwinxVR.Name = "TwinxVR";
             this.TwinxVR.Size = new System.Drawing.Size(50, 63);
             this.TwinxVR.TabIndex = 18;
@@ -90,7 +90,7 @@ namespace FunkeySelector
             this.TwinxR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwinxR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.TwinxR.FunkeyID = "0000001E";
-            this.TwinxR.Location = new System.Drawing.Point(344, 465);
+            this.TwinxR.Location = new System.Drawing.Point(339, 448);
             this.TwinxR.Name = "TwinxR";
             this.TwinxR.Size = new System.Drawing.Size(50, 63);
             this.TwinxR.TabIndex = 17;
@@ -107,7 +107,7 @@ namespace FunkeySelector
             this.Twinx.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Twinx.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Twinx.FunkeyID = "0000001D";
-            this.Twinx.Location = new System.Drawing.Point(293, 465);
+            this.Twinx.Location = new System.Drawing.Point(288, 448);
             this.Twinx.Name = "Twinx";
             this.Twinx.Size = new System.Drawing.Size(50, 63);
             this.Twinx.TabIndex = 16;
@@ -120,7 +120,7 @@ namespace FunkeySelector
             this.SproutLabel.BackColor = System.Drawing.Color.Transparent;
             this.SproutLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SproutLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.SproutLabel.Location = new System.Drawing.Point(326, 216);
+            this.SproutLabel.Location = new System.Drawing.Point(315, 205);
             this.SproutLabel.Name = "SproutLabel";
             this.SproutLabel.Size = new System.Drawing.Size(98, 29);
             this.SproutLabel.TabIndex = 7;
@@ -136,7 +136,7 @@ namespace FunkeySelector
             this.SproutVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SproutVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.SproutVR.FunkeyID = "0000001C";
-            this.SproutVR.Location = new System.Drawing.Point(395, 254);
+            this.SproutVR.Location = new System.Drawing.Point(390, 230);
             this.SproutVR.Name = "SproutVR";
             this.SproutVR.Size = new System.Drawing.Size(50, 63);
             this.SproutVR.TabIndex = 10;
@@ -153,7 +153,7 @@ namespace FunkeySelector
             this.SproutR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SproutR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.SproutR.FunkeyID = "0000001B";
-            this.SproutR.Location = new System.Drawing.Point(344, 254);
+            this.SproutR.Location = new System.Drawing.Point(339, 230);
             this.SproutR.Name = "SproutR";
             this.SproutR.Size = new System.Drawing.Size(50, 63);
             this.SproutR.TabIndex = 9;
@@ -170,7 +170,7 @@ namespace FunkeySelector
             this.Sprout.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sprout.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Sprout.FunkeyID = "0000001A";
-            this.Sprout.Location = new System.Drawing.Point(293, 254);
+            this.Sprout.Location = new System.Drawing.Point(288, 230);
             this.Sprout.Name = "Sprout";
             this.Sprout.Size = new System.Drawing.Size(50, 63);
             this.Sprout.TabIndex = 8;
@@ -183,7 +183,7 @@ namespace FunkeySelector
             this.TikiLabel.BackColor = System.Drawing.Color.Transparent;
             this.TikiLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TikiLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.TikiLabel.Location = new System.Drawing.Point(332, 319);
+            this.TikiLabel.Location = new System.Drawing.Point(333, 313);
             this.TikiLabel.Name = "TikiLabel";
             this.TikiLabel.Size = new System.Drawing.Size(62, 29);
             this.TikiLabel.TabIndex = 11;
@@ -199,7 +199,7 @@ namespace FunkeySelector
             this.TikiVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TikiVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TikiVR.FunkeyID = "00000025";
-            this.TikiVR.Location = new System.Drawing.Point(395, 357);
+            this.TikiVR.Location = new System.Drawing.Point(391, 338);
             this.TikiVR.Name = "TikiVR";
             this.TikiVR.Size = new System.Drawing.Size(50, 63);
             this.TikiVR.TabIndex = 14;
@@ -216,7 +216,7 @@ namespace FunkeySelector
             this.TikiR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TikiR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.TikiR.FunkeyID = "00000024";
-            this.TikiR.Location = new System.Drawing.Point(344, 357);
+            this.TikiR.Location = new System.Drawing.Point(340, 338);
             this.TikiR.Name = "TikiR";
             this.TikiR.Size = new System.Drawing.Size(50, 63);
             this.TikiR.TabIndex = 13;
@@ -233,7 +233,7 @@ namespace FunkeySelector
             this.Tiki.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tiki.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Tiki.FunkeyID = "00000023";
-            this.Tiki.Location = new System.Drawing.Point(293, 357);
+            this.Tiki.Location = new System.Drawing.Point(289, 338);
             this.Tiki.Name = "Tiki";
             this.Tiki.Size = new System.Drawing.Size(50, 63);
             this.Tiki.TabIndex = 12;
@@ -246,7 +246,7 @@ namespace FunkeySelector
             this.GlubLabel.BackColor = System.Drawing.Color.Transparent;
             this.GlubLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GlubLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.GlubLabel.Location = new System.Drawing.Point(334, 97);
+            this.GlubLabel.Location = new System.Drawing.Point(333, 98);
             this.GlubLabel.Name = "GlubLabel";
             this.GlubLabel.Size = new System.Drawing.Size(67, 29);
             this.GlubLabel.TabIndex = 3;
@@ -262,7 +262,7 @@ namespace FunkeySelector
             this.GlubVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GlubVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.GlubVR.FunkeyID = "00000019";
-            this.GlubVR.Location = new System.Drawing.Point(395, 136);
+            this.GlubVR.Location = new System.Drawing.Point(392, 123);
             this.GlubVR.Name = "GlubVR";
             this.GlubVR.Size = new System.Drawing.Size(50, 63);
             this.GlubVR.TabIndex = 6;
@@ -279,7 +279,7 @@ namespace FunkeySelector
             this.GlubR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GlubR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.GlubR.FunkeyID = "00000018";
-            this.GlubR.Location = new System.Drawing.Point(344, 136);
+            this.GlubR.Location = new System.Drawing.Point(341, 123);
             this.GlubR.Name = "GlubR";
             this.GlubR.Size = new System.Drawing.Size(50, 63);
             this.GlubR.TabIndex = 5;
@@ -296,7 +296,7 @@ namespace FunkeySelector
             this.Glub.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Glub.ForeColor = System.Drawing.Color.Transparent;
             this.Glub.FunkeyID = "00000014";
-            this.Glub.Location = new System.Drawing.Point(293, 136);
+            this.Glub.Location = new System.Drawing.Point(290, 123);
             this.Glub.Name = "Glub";
             this.Glub.Size = new System.Drawing.Size(50, 63);
             this.Glub.TabIndex = 4;

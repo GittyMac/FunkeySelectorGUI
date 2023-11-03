@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class NightmareRift
     {
@@ -57,7 +57,7 @@ namespace FunkeySelector
             this.SnipeLabel.BackColor = System.Drawing.Color.Transparent;
             this.SnipeLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SnipeLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.SnipeLabel.Location = new System.Drawing.Point(339, 428);
+            this.SnipeLabel.Location = new System.Drawing.Point(341, 432);
             this.SnipeLabel.Name = "SnipeLabel";
             this.SnipeLabel.Size = new System.Drawing.Size(80, 29);
             this.SnipeLabel.TabIndex = 15;
@@ -73,7 +73,7 @@ namespace FunkeySelector
             this.SnipeVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SnipeVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.SnipeVR.FunkeyID = "000000CA";
-            this.SnipeVR.Location = new System.Drawing.Point(408, 468);
+            this.SnipeVR.Location = new System.Drawing.Point(408, 454);
             this.SnipeVR.Name = "SnipeVR";
             this.SnipeVR.Size = new System.Drawing.Size(50, 63);
             this.SnipeVR.TabIndex = 18;
@@ -90,7 +90,7 @@ namespace FunkeySelector
             this.SnipeR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SnipeR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.SnipeR.FunkeyID = "000000B9";
-            this.SnipeR.Location = new System.Drawing.Point(357, 468);
+            this.SnipeR.Location = new System.Drawing.Point(357, 454);
             this.SnipeR.Name = "SnipeR";
             this.SnipeR.Size = new System.Drawing.Size(50, 63);
             this.SnipeR.TabIndex = 17;
@@ -107,7 +107,7 @@ namespace FunkeySelector
             this.Snipe.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Snipe.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Snipe.FunkeyID = "000000AC";
-            this.Snipe.Location = new System.Drawing.Point(306, 468);
+            this.Snipe.Location = new System.Drawing.Point(306, 454);
             this.Snipe.Name = "Snipe";
             this.Snipe.Size = new System.Drawing.Size(50, 63);
             this.Snipe.TabIndex = 16;
@@ -120,7 +120,7 @@ namespace FunkeySelector
             this.SprocketLabel.BackColor = System.Drawing.Color.Transparent;
             this.SprocketLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SprocketLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.SprocketLabel.Location = new System.Drawing.Point(324, 218);
+            this.SprocketLabel.Location = new System.Drawing.Point(321, 209);
             this.SprocketLabel.Name = "SprocketLabel";
             this.SprocketLabel.Size = new System.Drawing.Size(122, 29);
             this.SprocketLabel.TabIndex = 7;
@@ -136,7 +136,7 @@ namespace FunkeySelector
             this.SprocketVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SprocketVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.SprocketVR.FunkeyID = "000000C1";
-            this.SprocketVR.Location = new System.Drawing.Point(408, 257);
+            this.SprocketVR.Location = new System.Drawing.Point(408, 233);
             this.SprocketVR.Name = "SprocketVR";
             this.SprocketVR.Size = new System.Drawing.Size(50, 63);
             this.SprocketVR.TabIndex = 10;
@@ -153,7 +153,7 @@ namespace FunkeySelector
             this.SprocketR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SprocketR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.SprocketR.FunkeyID = "000000B4";
-            this.SprocketR.Location = new System.Drawing.Point(357, 257);
+            this.SprocketR.Location = new System.Drawing.Point(357, 233);
             this.SprocketR.Name = "SprocketR";
             this.SprocketR.Size = new System.Drawing.Size(50, 63);
             this.SprocketR.TabIndex = 9;
@@ -170,7 +170,7 @@ namespace FunkeySelector
             this.Sprocket.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sprocket.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Sprocket.FunkeyID = "000000A4";
-            this.Sprocket.Location = new System.Drawing.Point(306, 257);
+            this.Sprocket.Location = new System.Drawing.Point(306, 233);
             this.Sprocket.Name = "Sprocket";
             this.Sprocket.Size = new System.Drawing.Size(50, 63);
             this.Sprocket.TabIndex = 8;
@@ -183,7 +183,7 @@ namespace FunkeySelector
             this.VlurpLabel.BackColor = System.Drawing.Color.Transparent;
             this.VlurpLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VlurpLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.VlurpLabel.Location = new System.Drawing.Point(346, 325);
+            this.VlurpLabel.Location = new System.Drawing.Point(344, 322);
             this.VlurpLabel.Name = "VlurpLabel";
             this.VlurpLabel.Size = new System.Drawing.Size(78, 29);
             this.VlurpLabel.TabIndex = 11;
@@ -199,7 +199,7 @@ namespace FunkeySelector
             this.VlurpVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VlurpVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.VlurpVR.FunkeyID = "000000C2";
-            this.VlurpVR.Location = new System.Drawing.Point(408, 360);
+            this.VlurpVR.Location = new System.Drawing.Point(408, 345);
             this.VlurpVR.Name = "VlurpVR";
             this.VlurpVR.Size = new System.Drawing.Size(50, 63);
             this.VlurpVR.TabIndex = 14;
@@ -216,7 +216,7 @@ namespace FunkeySelector
             this.VlurpR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VlurpR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.VlurpR.FunkeyID = "000000B5";
-            this.VlurpR.Location = new System.Drawing.Point(357, 360);
+            this.VlurpR.Location = new System.Drawing.Point(357, 345);
             this.VlurpR.Name = "VlurpR";
             this.VlurpR.Size = new System.Drawing.Size(50, 63);
             this.VlurpR.TabIndex = 13;
@@ -233,7 +233,7 @@ namespace FunkeySelector
             this.Vlurp.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Vlurp.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Vlurp.FunkeyID = "000000A8";
-            this.Vlurp.Location = new System.Drawing.Point(306, 360);
+            this.Vlurp.Location = new System.Drawing.Point(306, 345);
             this.Vlurp.Name = "Vlurp";
             this.Vlurp.Size = new System.Drawing.Size(50, 63);
             this.Vlurp.TabIndex = 12;
@@ -246,7 +246,7 @@ namespace FunkeySelector
             this.PtepLabel.BackColor = System.Drawing.Color.Transparent;
             this.PtepLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PtepLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.PtepLabel.Location = new System.Drawing.Point(354, 102);
+            this.PtepLabel.Location = new System.Drawing.Point(352, 101);
             this.PtepLabel.Name = "PtepLabel";
             this.PtepLabel.Size = new System.Drawing.Size(62, 29);
             this.PtepLabel.TabIndex = 3;
@@ -262,7 +262,7 @@ namespace FunkeySelector
             this.PtepVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PtepVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.PtepVR.FunkeyID = "000000BA";
-            this.PtepVR.Location = new System.Drawing.Point(408, 139);
+            this.PtepVR.Location = new System.Drawing.Point(408, 125);
             this.PtepVR.Name = "PtepVR";
             this.PtepVR.Size = new System.Drawing.Size(50, 63);
             this.PtepVR.TabIndex = 6;
@@ -279,7 +279,7 @@ namespace FunkeySelector
             this.PtepR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PtepR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.PtepR.FunkeyID = "000000AD";
-            this.PtepR.Location = new System.Drawing.Point(357, 139);
+            this.PtepR.Location = new System.Drawing.Point(357, 125);
             this.PtepR.Name = "PtepR";
             this.PtepR.Size = new System.Drawing.Size(50, 63);
             this.PtepR.TabIndex = 5;
@@ -296,7 +296,7 @@ namespace FunkeySelector
             this.Ptep.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ptep.ForeColor = System.Drawing.Color.Transparent;
             this.Ptep.FunkeyID = "000000A0";
-            this.Ptep.Location = new System.Drawing.Point(306, 139);
+            this.Ptep.Location = new System.Drawing.Point(306, 125);
             this.Ptep.Name = "Ptep";
             this.Ptep.Size = new System.Drawing.Size(50, 63);
             this.Ptep.TabIndex = 4;

@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class FunkikiIsland
     {
@@ -81,7 +81,7 @@ namespace FunkeySelector
             this.WebleyVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WebleyVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.WebleyVR.FunkeyID = "0000005E";
-            this.WebleyVR.Location = new System.Drawing.Point(401, 467);
+            this.WebleyVR.Location = new System.Drawing.Point(401, 450);
             this.WebleyVR.Name = "WebleyVR";
             this.WebleyVR.Size = new System.Drawing.Size(50, 63);
             this.WebleyVR.TabIndex = 26;
@@ -98,7 +98,7 @@ namespace FunkeySelector
             this.WebleyR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.WebleyR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.WebleyR.FunkeyID = "0000005D";
-            this.WebleyR.Location = new System.Drawing.Point(350, 467);
+            this.WebleyR.Location = new System.Drawing.Point(350, 450);
             this.WebleyR.Name = "WebleyR";
             this.WebleyR.Size = new System.Drawing.Size(50, 63);
             this.WebleyR.TabIndex = 25;
@@ -115,7 +115,7 @@ namespace FunkeySelector
             this.Webley.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Webley.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Webley.FunkeyID = "0000005C";
-            this.Webley.Location = new System.Drawing.Point(299, 467);
+            this.Webley.Location = new System.Drawing.Point(299, 450);
             this.Webley.Name = "Webley";
             this.Webley.Size = new System.Drawing.Size(50, 63);
             this.Webley.TabIndex = 24;
@@ -128,7 +128,7 @@ namespace FunkeySelector
             this.NibbleLabel.BackColor = System.Drawing.Color.Transparent;
             this.NibbleLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NibbleLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.NibbleLabel.Location = new System.Drawing.Point(332, 218);
+            this.NibbleLabel.Location = new System.Drawing.Point(332, 216);
             this.NibbleLabel.Name = "NibbleLabel";
             this.NibbleLabel.Size = new System.Drawing.Size(92, 29);
             this.NibbleLabel.TabIndex = 11;
@@ -144,7 +144,7 @@ namespace FunkeySelector
             this.NibbleVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NibbleVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.NibbleVR.FunkeyID = "00000055";
-            this.NibbleVR.Location = new System.Drawing.Point(401, 256);
+            this.NibbleVR.Location = new System.Drawing.Point(401, 245);
             this.NibbleVR.Name = "NibbleVR";
             this.NibbleVR.Size = new System.Drawing.Size(50, 63);
             this.NibbleVR.TabIndex = 14;
@@ -161,7 +161,7 @@ namespace FunkeySelector
             this.NibbleR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NibbleR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.NibbleR.FunkeyID = "00000054";
-            this.NibbleR.Location = new System.Drawing.Point(350, 256);
+            this.NibbleR.Location = new System.Drawing.Point(350, 245);
             this.NibbleR.Name = "NibbleR";
             this.NibbleR.Size = new System.Drawing.Size(50, 63);
             this.NibbleR.TabIndex = 13;
@@ -178,7 +178,7 @@ namespace FunkeySelector
             this.Nibble.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nibble.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Nibble.FunkeyID = "00000053";
-            this.Nibble.Location = new System.Drawing.Point(299, 256);
+            this.Nibble.Location = new System.Drawing.Point(299, 245);
             this.Nibble.Name = "Nibble";
             this.Nibble.Size = new System.Drawing.Size(50, 63);
             this.Nibble.TabIndex = 12;
@@ -191,7 +191,7 @@ namespace FunkeySelector
             this.SolLabel.BackColor = System.Drawing.Color.Transparent;
             this.SolLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SolLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.SolLabel.Location = new System.Drawing.Point(347, 324);
+            this.SolLabel.Location = new System.Drawing.Point(347, 321);
             this.SolLabel.Name = "SolLabel";
             this.SolLabel.Size = new System.Drawing.Size(57, 29);
             this.SolLabel.TabIndex = 15;
@@ -207,7 +207,7 @@ namespace FunkeySelector
             this.SolVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SolVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.SolVR.FunkeyID = "0000005B";
-            this.SolVR.Location = new System.Drawing.Point(401, 359);
+            this.SolVR.Location = new System.Drawing.Point(401, 348);
             this.SolVR.Name = "SolVR";
             this.SolVR.Size = new System.Drawing.Size(50, 63);
             this.SolVR.TabIndex = 18;
@@ -224,7 +224,7 @@ namespace FunkeySelector
             this.SolR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SolR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.SolR.FunkeyID = "0000005A";
-            this.SolR.Location = new System.Drawing.Point(350, 359);
+            this.SolR.Location = new System.Drawing.Point(350, 348);
             this.SolR.Name = "SolR";
             this.SolR.Size = new System.Drawing.Size(50, 63);
             this.SolR.TabIndex = 17;
@@ -241,7 +241,7 @@ namespace FunkeySelector
             this.Sol.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Sol.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Sol.FunkeyID = "00000056";
-            this.Sol.Location = new System.Drawing.Point(299, 359);
+            this.Sol.Location = new System.Drawing.Point(299, 348);
             this.Sol.Name = "Sol";
             this.Sol.Size = new System.Drawing.Size(50, 63);
             this.Sol.TabIndex = 16;
@@ -254,7 +254,7 @@ namespace FunkeySelector
             this.FlurryLabel.BackColor = System.Drawing.Color.Transparent;
             this.FlurryLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FlurryLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.FlurryLabel.Location = new System.Drawing.Point(329, 98);
+            this.FlurryLabel.Location = new System.Drawing.Point(329, 110);
             this.FlurryLabel.Name = "FlurryLabel";
             this.FlurryLabel.Size = new System.Drawing.Size(92, 29);
             this.FlurryLabel.TabIndex = 3;
@@ -376,7 +376,7 @@ namespace FunkeySelector
             this.NativeLabel.BackColor = System.Drawing.Color.Transparent;
             this.NativeLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NativeLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.NativeLabel.Location = new System.Drawing.Point(87, 362);
+            this.NativeLabel.Location = new System.Drawing.Point(87, 369);
             this.NativeLabel.Name = "NativeLabel";
             this.NativeLabel.Size = new System.Drawing.Size(97, 29);
             this.NativeLabel.TabIndex = 19;
@@ -405,7 +405,7 @@ namespace FunkeySelector
             this.JerryLabel.BackColor = System.Drawing.Color.Transparent;
             this.JerryLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.JerryLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.JerryLabel.Location = new System.Drawing.Point(549, 144);
+            this.JerryLabel.Location = new System.Drawing.Point(556, 157);
             this.JerryLabel.Name = "JerryLabel";
             this.JerryLabel.Size = new System.Drawing.Size(79, 29);
             this.JerryLabel.TabIndex = 9;
@@ -434,7 +434,7 @@ namespace FunkeySelector
             this.RewindLabel.BackColor = System.Drawing.Color.Transparent;
             this.RewindLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RewindLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.RewindLabel.Location = new System.Drawing.Point(557, 371);
+            this.RewindLabel.Location = new System.Drawing.Point(552, 371);
             this.RewindLabel.Name = "RewindLabel";
             this.RewindLabel.Size = new System.Drawing.Size(104, 29);
             this.RewindLabel.TabIndex = 21;
@@ -450,7 +450,7 @@ namespace FunkeySelector
             this.Rewind.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rewind.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Rewind.FunkeyID = "000000CC";
-            this.Rewind.Location = new System.Drawing.Point(578, 411);
+            this.Rewind.Location = new System.Drawing.Point(576, 397);
             this.Rewind.Name = "Rewind";
             this.Rewind.Size = new System.Drawing.Size(50, 63);
             this.Rewind.TabIndex = 22;

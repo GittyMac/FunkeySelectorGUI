@@ -1,4 +1,4 @@
-namespace FunkeySelector
+﻿namespace FunkeySelector
 {
     partial class LaputtaStation
     {
@@ -59,7 +59,7 @@ namespace FunkeySelector
             this.VroomLabel.BackColor = System.Drawing.Color.Transparent;
             this.VroomLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VroomLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.VroomLabel.Location = new System.Drawing.Point(341, 420);
+            this.VroomLabel.Location = new System.Drawing.Point(340, 427);
             this.VroomLabel.Name = "VroomLabel";
             this.VroomLabel.Size = new System.Drawing.Size(93, 29);
             this.VroomLabel.TabIndex = 17;
@@ -75,7 +75,7 @@ namespace FunkeySelector
             this.VroomVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VroomVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.VroomVR.FunkeyID = "00000046";
-            this.VroomVR.Location = new System.Drawing.Point(410, 460);
+            this.VroomVR.Location = new System.Drawing.Point(410, 449);
             this.VroomVR.Name = "VroomVR";
             this.VroomVR.Size = new System.Drawing.Size(50, 63);
             this.VroomVR.TabIndex = 20;
@@ -92,7 +92,7 @@ namespace FunkeySelector
             this.VroomR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VroomR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.VroomR.FunkeyID = "00000045";
-            this.VroomR.Location = new System.Drawing.Point(359, 460);
+            this.VroomR.Location = new System.Drawing.Point(359, 449);
             this.VroomR.Name = "VroomR";
             this.VroomR.Size = new System.Drawing.Size(50, 63);
             this.VroomR.TabIndex = 19;
@@ -109,7 +109,7 @@ namespace FunkeySelector
             this.Vroom.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Vroom.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Vroom.FunkeyID = "00000044";
-            this.Vroom.Location = new System.Drawing.Point(308, 460);
+            this.Vroom.Location = new System.Drawing.Point(308, 449);
             this.Vroom.Name = "Vroom";
             this.Vroom.Size = new System.Drawing.Size(50, 63);
             this.Vroom.TabIndex = 18;
@@ -122,7 +122,7 @@ namespace FunkeySelector
             this.FalloutLabel.BackColor = System.Drawing.Color.Transparent;
             this.FalloutLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FalloutLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.FalloutLabel.Location = new System.Drawing.Point(333, 206);
+            this.FalloutLabel.Location = new System.Drawing.Point(331, 204);
             this.FalloutLabel.Name = "FalloutLabel";
             this.FalloutLabel.Size = new System.Drawing.Size(111, 29);
             this.FalloutLabel.TabIndex = 7;
@@ -138,7 +138,7 @@ namespace FunkeySelector
             this.FalloutVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FalloutVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.FalloutVR.FunkeyID = "0000003D";
-            this.FalloutVR.Location = new System.Drawing.Point(410, 249);
+            this.FalloutVR.Location = new System.Drawing.Point(410, 231);
             this.FalloutVR.Name = "FalloutVR";
             this.FalloutVR.Size = new System.Drawing.Size(50, 63);
             this.FalloutVR.TabIndex = 10;
@@ -155,7 +155,7 @@ namespace FunkeySelector
             this.FalloutR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FalloutR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.FalloutR.FunkeyID = "0000003C";
-            this.FalloutR.Location = new System.Drawing.Point(359, 249);
+            this.FalloutR.Location = new System.Drawing.Point(359, 231);
             this.FalloutR.Name = "FalloutR";
             this.FalloutR.Size = new System.Drawing.Size(50, 63);
             this.FalloutR.TabIndex = 9;
@@ -172,7 +172,7 @@ namespace FunkeySelector
             this.Fallout.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fallout.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Fallout.FunkeyID = "0000003B";
-            this.Fallout.Location = new System.Drawing.Point(308, 249);
+            this.Fallout.Location = new System.Drawing.Point(308, 231);
             this.Fallout.Name = "Fallout";
             this.Fallout.Size = new System.Drawing.Size(50, 63);
             this.Fallout.TabIndex = 8;
@@ -185,7 +185,7 @@ namespace FunkeySelector
             this.BoggleLabel.BackColor = System.Drawing.Color.Transparent;
             this.BoggleLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BoggleLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.BoggleLabel.Location = new System.Drawing.Point(339, 317);
+            this.BoggleLabel.Location = new System.Drawing.Point(337, 314);
             this.BoggleLabel.Name = "BoggleLabel";
             this.BoggleLabel.Size = new System.Drawing.Size(96, 29);
             this.BoggleLabel.TabIndex = 13;
@@ -201,7 +201,7 @@ namespace FunkeySelector
             this.BoggleVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BoggleVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.BoggleVR.FunkeyID = "00000040";
-            this.BoggleVR.Location = new System.Drawing.Point(410, 352);
+            this.BoggleVR.Location = new System.Drawing.Point(410, 340);
             this.BoggleVR.Name = "BoggleVR";
             this.BoggleVR.Size = new System.Drawing.Size(50, 63);
             this.BoggleVR.TabIndex = 16;
@@ -218,7 +218,7 @@ namespace FunkeySelector
             this.BoggleR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BoggleR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.BoggleR.FunkeyID = "0000003F";
-            this.BoggleR.Location = new System.Drawing.Point(359, 352);
+            this.BoggleR.Location = new System.Drawing.Point(359, 340);
             this.BoggleR.Name = "BoggleR";
             this.BoggleR.Size = new System.Drawing.Size(50, 63);
             this.BoggleR.TabIndex = 15;
@@ -235,7 +235,7 @@ namespace FunkeySelector
             this.Boggle.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Boggle.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Boggle.FunkeyID = "0000003E";
-            this.Boggle.Location = new System.Drawing.Point(308, 352);
+            this.Boggle.Location = new System.Drawing.Point(308, 340);
             this.Boggle.Name = "Boggle";
             this.Boggle.Size = new System.Drawing.Size(50, 63);
             this.Boggle.TabIndex = 14;
@@ -248,7 +248,7 @@ namespace FunkeySelector
             this.XenerLabel.BackColor = System.Drawing.Color.Transparent;
             this.XenerLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.XenerLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.XenerLabel.Location = new System.Drawing.Point(338, 91);
+            this.XenerLabel.Location = new System.Drawing.Point(344, 103);
             this.XenerLabel.Name = "XenerLabel";
             this.XenerLabel.Size = new System.Drawing.Size(84, 29);
             this.XenerLabel.TabIndex = 3;
@@ -264,7 +264,7 @@ namespace FunkeySelector
             this.XenerVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.XenerVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.XenerVR.FunkeyID = "0000003A";
-            this.XenerVR.Location = new System.Drawing.Point(410, 131);
+            this.XenerVR.Location = new System.Drawing.Point(410, 123);
             this.XenerVR.Name = "XenerVR";
             this.XenerVR.Size = new System.Drawing.Size(50, 63);
             this.XenerVR.TabIndex = 6;
@@ -281,7 +281,7 @@ namespace FunkeySelector
             this.XenerR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.XenerR.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.XenerR.FunkeyID = "00000039";
-            this.XenerR.Location = new System.Drawing.Point(359, 131);
+            this.XenerR.Location = new System.Drawing.Point(359, 123);
             this.XenerR.Name = "XenerR";
             this.XenerR.Size = new System.Drawing.Size(50, 63);
             this.XenerR.TabIndex = 5;
@@ -298,7 +298,7 @@ namespace FunkeySelector
             this.Xener.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Xener.ForeColor = System.Drawing.Color.Transparent;
             this.Xener.FunkeyID = "00000035";
-            this.Xener.Location = new System.Drawing.Point(308, 131);
+            this.Xener.Location = new System.Drawing.Point(308, 123);
             this.Xener.Name = "Xener";
             this.Xener.Size = new System.Drawing.Size(50, 63);
             this.Xener.TabIndex = 4;
@@ -341,7 +341,7 @@ namespace FunkeySelector
             this.RomLabel.BackColor = System.Drawing.Color.Transparent;
             this.RomLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RomLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.RomLabel.Location = new System.Drawing.Point(119, 270);
+            this.RomLabel.Location = new System.Drawing.Point(128, 258);
             this.RomLabel.Name = "RomLabel";
             this.RomLabel.Size = new System.Drawing.Size(62, 29);
             this.RomLabel.TabIndex = 11;
@@ -357,7 +357,7 @@ namespace FunkeySelector
             this.Rom.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Rom.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.Rom.FunkeyID = "000000CE";
-            this.Rom.Location = new System.Drawing.Point(126, 303);
+            this.Rom.Location = new System.Drawing.Point(135, 291);
             this.Rom.Name = "Rom";
             this.Rom.Size = new System.Drawing.Size(50, 63);
             this.Rom.TabIndex = 12;
