@@ -1,4 +1,4 @@
-﻿namespace FunkeySelector
+namespace FunkeySelector
 {
     partial class About
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.AboutFSGUILabel = new System.Windows.Forms.Label();
             this.DevelopedByLabel = new System.Windows.Forms.Label();
             this.MadeForLabel = new System.Windows.Forms.Label();
@@ -106,6 +107,7 @@
             this.Controls.Add(this.DevelopedByLabel);
             this.Controls.Add(this.AboutFSGUILabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "About";
             this.Text = "Form15";
             this.TransparencyKey = System.Drawing.Color.Gold;
