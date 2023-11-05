@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        configuration: [ Debug, Release ]
+    runs-on: windows-2019
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
+      
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
+      
+      - name: Restore Packages
+        run: nuget restore FunkeySelector.sln
+      
+      - name: Build solution
+        run: msbuild FunkeySelector.sln -t:rebuild -property:Configuration=$env:Configuration
+        env:
+          Configuration: ${{ matrix.configuration }}
+      
+      - name: run ls since idk what's in here
+        run: dir
