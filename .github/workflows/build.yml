@@ -35,3 +35,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           path: FunkeySelector/bin/${{ matrix.configuration }}/*
+          name: FSGUI.Nightly.${{ matrix.configuration }}
