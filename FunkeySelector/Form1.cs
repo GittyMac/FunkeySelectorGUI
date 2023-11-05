@@ -11,319 +11,74 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FunkeySelector.UserControls;
 
 namespace FunkeySelector
 {
-    public partial class Form1 : Form
+    public partial class Form1 : BasicForm
     {
-        //
-        //Initial Setups
-        //
+        static bool firstStart = true;
 
-        CustomFManager customF = new CustomFManager(); //Sets the CustomFManager to customf.
-        bool firstStart = true;
-
-        public Form1() //When the form is opened.
+        public Form1()
         {
             InitializeComponent();
-            this.TransparencyKey = System.Drawing.Color.Gold; //Removes the gold sections to allow the UI to be rounded.
-            if (firstStart == true)
-            {
-                if (Properties.Settings.Default.disableGameCheck == false) //If the game check is allowed.
-                {
-                    if (!File.Exists("UBFunkeys.exe")) //Checks if it's in the RadicaGame folder.
-                    {
-                        if (!File.Exists("OpenFK.exe")) //Ensures that OpenFK users won't get warned.
-                        {
-                            MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
-                        }
-                    }
-                }
-                if (Properties.Settings.Default.disableModCheck == false) // Checks if mod check is allowed.
-                {
-                    if (File.Exists("Main.swf")) //Checks if the main.swf is in the directory, to prevent null errors.
-                    {
-                        if (CalculateMD5("Main.swf") != "93261ce3dc332fdee5d4335eab0a8e63") //Compares the MD5 hash of the local main.swf with the mod's main.swf.
-                        {
-                            if (File.Exists("OpenFK.exe")) //Ensures that OpenFK users won't get warned.
-                            {
-                                Debug.WriteLine("OpenFK detected! Skipping mod check.");
-                            }
-                            else MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
-                        }else if (CalculateMD5("Main.swf") == "93261ce3dc332fdee5d4335eab0a8e63" && File.Exists("OpenFK.exe"))
-                        {
-                            MessageBox.Show("You are using OpenFK with the Funkeys Selection Mod. Please use the original Main.swf with OpenFK's customF mode for a better experience.");
-                        }
-                    }
-                }
-                if (Properties.Settings.Default.disableWineCheck == false) //Checks if Wine check is allowed.
-                {
-                    if (Properties.Settings.Default.wineCompat == false) //If wine compatibility is on, it won't check as well, as there's no need to check and prompt for wine compatibility.
-                    {
-                        if (checkMachineType() == true) //Calls the Wine checker
-                        {
-                            if (MessageBox.Show("FunkeySelectorGUI has detected it is running from Wine. If you want to enable Wine compatibility tweaks, which fixes the selection of Funkeys, click yes.", "Wine detected!", MessageBoxButtons.YesNo) == DialogResult.Yes)
-                            {
-                                Properties.Settings.Default.wineCompat = true;
-                            }
-                        }
-                    }
-                }
-                firstStart = false; //Prevents the checks from running after first start.
-            }
-        }
+            if (firstStart == false) return;
+            firstStart = false;
 
-        protected override void WndProc(ref Message m) //Allows the window to be dragged.
-        {
-            switch (m.Msg)
+            if (
+                Properties.Settings.Default.disableGameCheck == false &&
+                !File.Exists("UBFunkeys.exe") && !File.Exists("OpenFK.exe")
+            ) _ = MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
+
+            if (
+                Properties.Settings.Default.disableModCheck == false &&
+                File.Exists("Main.swf")
+            )
             {
-                case 0x84:
-                    base.WndProc(ref m);
-                    if ((int)m.Result == 0x1)
-                        m.Result = (IntPtr)0x2;
-                    return;
+                string mainSWFMD5 = CalculateMD5("Main.swf");
+
+                if (
+                    mainSWFMD5 != "93261ce3dc332fdee5d4335eab0a8e63" &&
+                    !File.Exists("OpenFK.exe")
+                ) _ = MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
+
+                else if (
+                    mainSWFMD5 == "93261ce3dc332fdee5d4335eab0a8e63" &&
+                    File.Exists("OpenFK.exe")
+                ) _ = MessageBox.Show("You are using OpenFK with the Funkeys Selection Mod. Please use the original Main.swf with OpenFK's customF mode for a better experience.");
             }
 
-            base.WndProc(ref m);
+            // Asks user to enable wine tweaks
+            if (
+                Properties.Settings.Default.disableWineCheck == false &&
+                Properties.Settings.Default.wineCompat == false &&
+                IsWine() &&
+                MessageBox.Show(
+                    "FunkeySelectorGUI has detected it is running from Wine. If you want to enable Wine compatibility tweaks, which fixes the selection of Funkeys, click yes.",
+                    "Wine detected!",
+                    MessageBoxButtons.YesNo
+                ) == DialogResult.Yes
+            ) Properties.Settings.Default.wineCompat = true;
         }
 
-        public static bool checkMachineType() //Checks if FSGUI is running from Wine or Windows.
+        public static bool IsWine()
         {
-            var key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Wine\"); //Checks if Wine is detected using a registry key that usually is only used on Wine.
-            if (key == null)
-            {
-                return false; //Windows
-            }
-            else
-            {
-                return true; //Wine
-            }
+            // This registry key is usually only present when running from Wine
+            var key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Wine\"); 
+            return key != null;
         }
 
-        static string CalculateMD5(string filename) //Generates the MD5 hash of the main.swf.
+        static string CalculateMD5(string filename)
         {
-            using (var md5 = MD5.Create())
-            {
-                using (var stream = File.OpenRead(filename)) //Opens the main.swf.
-                {
-                    var hash = md5.ComputeHash(stream); //Computes the MD5 hash of the swf.
-                    return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant(); //Converts the hash to a readable string to compare.
-                }
-            }
+            using var md5 = MD5.Create();
+            using var stream = File.OpenRead(filename);
+            var hash = md5.ComputeHash(stream); // Converts the hash to a readable string to compare.
+            return BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();
         }
 
-        //
-        // End of Initial Setups
-        //
-
-        //
-        // Button Clicks
-        // Most of these just hide this form and shows another one.
-        //
-
-        //Exit
-        private void button1_Click(object sender, EventArgs e)
+        private void InsertCustomID_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            CustomF.SetFunkey(CustomIDTextBox.Text);
         }
-
-        //Funkeystown
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Form2 funktown = new Form2();
-            this.Hide();
-            funktown.StartPosition = FormStartPosition.CenterParent;
-            funktown.ShowDialog(this);
-        }
-
-        //Kelpy Basin
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Form3 kelp = new Form3();
-            this.Hide();
-            kelp.StartPosition = FormStartPosition.CenterParent;
-            kelp.ShowDialog(this);
-        }
-
-        //Exit (Again)
-        private void button12_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
-        }
-
-        //Magma Gorge
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Form4 magma = new Form4();
-            this.Hide();
-            magma.StartPosition = FormStartPosition.CenterParent;
-            magma.ShowDialog(this);
-        }
-
-        //Laputta Station
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form5 laput = new Form5();
-            this.Hide();
-            laput.StartPosition = FormStartPosition.CenterParent;
-            laput.ShowDialog(this);
-        }
-
-        //Funkiki Island
-        private void button5_Click(object sender, EventArgs e)
-        {
-            Form6 funkiki = new Form6();
-            this.Hide();
-            funkiki.StartPosition = FormStartPosition.CenterParent;
-            funkiki.ShowDialog(this);
-        }
-
-
-        //Royalton Racing Complex
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Form7 rrc = new Form7();
-            this.Hide();
-            rrc.StartPosition = FormStartPosition.CenterParent;
-            rrc.ShowDialog(this);
-        }
-
-        //Nightmare Rift
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Form8 nightmare = new Form8();
-            this.Hide();
-            nightmare.StartPosition = FormStartPosition.CenterParent;
-            nightmare.ShowDialog(this);
-        }
-
-        //Daydream Oasis
-        private void button8_Click(object sender, EventArgs e)
-        {
-            Form9 daydream = new Form9();
-            this.Hide();
-            daydream.StartPosition = FormStartPosition.CenterParent;
-            daydream.ShowDialog(this);
-        }
-
-        //Hidden Realm
-        private void button9_Click(object sender, EventArgs e)
-        {
-            Form10 hrf = new Form10();
-            this.Hide();
-            hrf.StartPosition = FormStartPosition.CenterParent;
-            hrf.ShowDialog(this);
-        }
-
-        //Paradox Green
-        private void button10_Click(object sender, EventArgs e)
-        {
-            Form11 paradox = new Form11();
-            this.Hide();
-            paradox.StartPosition = FormStartPosition.CenterParent;
-            paradox.ShowDialog(this);
-        }
-
-        //U.B.
-        private void button11_Click(object sender, EventArgs e)
-        {
-            customF.setFunkey("FFFFFFF0");
-        }
-
-        //Unused Funkeys
-        private void Button13_Click(object sender, EventArgs e)
-        {
-            Form12 unused = new Form12();
-            this.Hide();
-            unused.StartPosition = FormStartPosition.CenterParent;
-            unused.ShowDialog(this);
-        }
-
-        //Insert Custom ID
-        private void Button14_Click(object sender, EventArgs e)
-        {
-            customF.setFunkey(textBox1.Text); //Sets customF to the contents of textBox1.
-        }
-
-        //Custom Funkeys
-        private void button16_Click(object sender, EventArgs e)
-        {
-            Form13 customf = new Form13();
-            this.Hide();
-            customf.StartPosition = FormStartPosition.CenterParent;
-            customf.ShowDialog(this);
-        }
-
-        //Options
-        private void button17_Click(object sender, EventArgs e)
-        {
-            Form14 options = new Form14();
-            options.StartPosition = FormStartPosition.CenterParent;
-            options.ShowDialog();
-        }
-
-        //Minimize
-        private void button15_Click(object sender, EventArgs e)
-        {
-            this.WindowState = FormWindowState.Minimized;
-        }
-
-        //
-        //End of Button Clicks
-        //
-
-        //
-        //Button Image Swaps
-        //
-
-        //Options
-        private void button17_MouseEnter(object sender, EventArgs e)
-        {
-            button17.BackgroundImage = Properties.Resources._681;
-        }
-
-        private void button17_MouseLeave(object sender, EventArgs e)
-        {
-            button17.BackgroundImage = Properties.Resources._679;
-        }
-
-        private void button17_MouseDown(object sender, MouseEventArgs e)
-        {
-            button17.BackgroundImage = Properties.Resources._683;
-        }
-
-        //Minimize
-        private void button15_MouseLeave(object sender, EventArgs e)
-        {
-            button15.BackgroundImage = Properties.Resources._150;
-        }
-
-        private void button15_MouseEnter(object sender, EventArgs e)
-        {
-            button15.BackgroundImage = Properties.Resources._154;
-        }
-        private void button15_MouseDown(object sender, MouseEventArgs e)
-        {
-            button15.BackgroundImage = Properties.Resources._157;
-        }
-
-        //Close
-        private void button12_MouseLeave(object sender, EventArgs e)
-        {
-            button12.BackgroundImage = Properties.Resources._246;
-        }
-
-        private void button12_MouseEnter(object sender, EventArgs e)
-        {
-            button12.BackgroundImage = Properties.Resources._248;
-        }
-        private void button12_MouseDown(object sender, MouseEventArgs e)
-        {
-            button12.BackgroundImage = Properties.Resources._250;
-        }
-
-        //
-        // End of Button Images
-        //
     }
 }

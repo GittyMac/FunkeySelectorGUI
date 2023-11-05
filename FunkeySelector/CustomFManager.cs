@@ -7,23 +7,29 @@ using System.Text;
 
 namespace FunkeySelector
 {
-    class CustomFManager
+    static class CustomF
     {
-        public void setFunkey(string funkeyCodeNum) //This is the code to switch Funkeys, funkeyCodeNum is the code defined in funkeys.rdf.
+        // The FunkeyIDs and other information about funkeys can be found in RadicaGame/data/system/funkeys.rdf
+        public static void SetFunkey(string funkeyID)
         {
-            using (StreamWriter writetext = new StreamWriter("customF.txt"))
-            {
-                writetext.Write("funkeyCodeNum=" + funkeyCodeNum); //Creates the customF.txt
-            }
-            if (Properties.Settings.Default.wineCompat == false) //Checks if Wine/Mono compatibility is not enabled.
-            {
-                Process[] pname = Process.GetProcessesByName("UBFunkeys");
-                if (pname.Length == 0) //Prevents crashing if UBFunkeys.exe isn't running.
-                {
-                }
-                else Process.GetProcessesByName("UBFunkeys")[0].CloseMainWindow(); //Closes the game to trigger the mod.
-            }
-            //It saves a lot of time to have a simple function to call rather than individual statements.
+            File.WriteAllText("customF.txt", $"funkeyCodeNum={funkeyID}");
+            TriggerFunkeySelectionMod();
+        }
+
+        public static void SetFunkeyFromFile(string filename)
+        {
+            File.Copy(filename, "customF.txt", true);
+            TriggerFunkeySelectionMod();
+        }
+
+        public static void TriggerFunkeySelectionMod()
+        {
+            if (Properties.Settings.Default.wineCompat == true) return;
+
+            Process[] processes = Process.GetProcessesByName("UBFunkeys");
+            if (processes.Length == 0) return;
+            // Close the main window to trigger the mod
+            processes[0].CloseMainWindow();
         }
     }
 }
