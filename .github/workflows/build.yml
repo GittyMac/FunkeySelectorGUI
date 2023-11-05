@@ -31,5 +31,7 @@ jobs:
         env:
           Configuration: ${{ matrix.configuration }}
       
-      - name: run ls since idk what's in here
-        run: dir
+      - name: Upload the build results as an artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: FunkeySelector/bin/${{ matrix.configuration }}/*
