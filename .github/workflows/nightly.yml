@@ -1,4 +1,10 @@
-name: CI
+# Builds a .NET framework project
+name: Nightly builds
+
+env:
+  projectName: FunkeySelectorGUI
+  projectFolder: FunkeySelector
+  solutionFile: FunkeySelector.sln
 
 on:
   workflow_dispatch:
@@ -24,15 +30,15 @@ jobs:
         uses: NuGet/setup-nuget@v1
       
       - name: Restore Packages
-        run: nuget restore FunkeySelector.sln
+        run: nuget restore ${{ env.solutionFile }}
       
       - name: Build solution
-        run: msbuild FunkeySelector.sln -t:rebuild -property:Configuration=$env:Configuration
+        run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=$env:configuration
         env:
-          Configuration: ${{ matrix.configuration }}
+          configuration: ${{ matrix.configuration }}
       
       - name: Upload the build results as an artifact
         uses: actions/upload-artifact@v3
         with:
-          path: FunkeySelector/bin/${{ matrix.configuration }}/*
-          name: FSGUI.Nightly.${{ matrix.configuration }}
+          path: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/*
+          name: ${{ env.projectName }}.Nightly.${{ matrix.configuration }}
