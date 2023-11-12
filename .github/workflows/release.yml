@@ -1,0 +1,59 @@
+# Builds a .NET framework project in Release mode when a new release is created
+# and uploads the build results to the newly created release
+# then updates update.xml (NOT IMPLEMENTED YET)
+# assumes the version in Properties/AssemblyInfo.cs has already been updated
+name: Publish release
+
+env:
+  projectName: FunkeySelectorGUI
+  projectFolder: FunkeySelector
+  solutionFile: FunkeySelector.sln
+
+on:
+  release: 
+    types:
+      - released
+
+jobs:
+  publish:
+    permissions:
+      contents: write
+      id-token: write
+    strategy:
+      matrix:
+        configuration: [ Release ]
+    runs-on: windows-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
+      
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
+      
+      - name: Restore Packages
+        run: nuget restore ${{ env.solutionFile }}
+      
+      - name: Build solution
+        run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=${{ matrix.configuration }}
+      
+      - name: Get version from release name
+        id: version
+        uses: mad9000/actions-find-and-replace-string@4
+        with:
+          source: ${{ github.event.release.name }}
+          find: "${{ env.projectName }} "
+          replace: ""
+      
+      - name: Upload the build results as an artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/*
+          name: ${{ env.projectName }}.${{ steps.version.outputs.value }}.${{ matrix.configuration }}
+      
+      - name: Upload build results to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          file: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe
