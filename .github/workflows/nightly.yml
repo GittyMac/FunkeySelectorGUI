@@ -33,9 +33,7 @@ jobs:
         run: nuget restore ${{ env.solutionFile }}
       
       - name: Build solution
-        run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=$env:configuration
-        env:
-          configuration: ${{ matrix.configuration }}
+        run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=${{ matrix.configuration }}
       
       - name: Upload the build results as an artifact
         uses: actions/upload-artifact@v3
