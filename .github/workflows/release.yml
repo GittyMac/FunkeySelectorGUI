@@ -48,44 +48,31 @@ jobs:
         id: version
         uses: mad9000/actions-find-and-replace-string@4
         with:
-          source: "${{ github.event.release.name }}"
-          find: "${{ env.projectName }} "
+          source: "${{ github.event.release.tag_name }}"
+          find: "v"
           replace: ""
       
       - name: Upload the build results as an artifact
         uses: actions/upload-artifact@v3
         with:
           path: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/*
-          name: ${{ env.projectName }}.${{ steps.version.outputs.value }}.${{ matrix.configuration }}
+          name: ${{ env.projectName }}.${{ github.event.release.tag_name }}.${{ matrix.configuration }}
       
       - name: Upload build results to release
         uses: svenstaro/upload-release-action@v2
         with:
           file: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe
       
-      - name: Update version property in update.xml
-        uses: Mudlet/xmlstarlet-action@v1.2
-        with:
-          args: ed -P -u "//update/@version" -v "${{ steps.version.outputs.value }}" update.xml
-      
-      - name: Update name property in update.xml
-        uses: Mudlet/xmlstarlet-action@v1.2
-        with:
-          args: ed -P -u "//update/@name" -v "${{ github.event.release.name }}" update.xml
-      
       - name: Get file size of FunkeySelectorGUI.exe
         id: filesize
         run: echo "FILESIZE=$((Get-Item FunkeySelector.exe).length)" >> $GITHUB_OUTPUT
       
-      - name: Update size property in update.xml
-        uses: Mudlet/xmlstarlet-action@v1.2
-        with:
-          args: ed -P -u "//update/@size" -v "${{ steps.filesize.outputs.FILESIZE }}" update.xml
-
-      - name: Update url property in update.xml
-        uses: Mudlet/xmlstarlet-action@v1.2
-        with:
-          args: ed -P -u "//update/@url" -v "https://github.com/GittyMac/FunkeySelectorGUI/releases/download/v${{ steps.version.outputs.value }}/FunkeySelectorGUI.exe" update.xml
+      - name: Update update.xml
+        run: |
+          echo '<update version="${{ steps.version.outputs.value }}" name="${{ github.event.release.name }}" size="${{ steps.filesize.outputs.FILESIZE }}" url="https://github.com/GittyMac/FunkeySelectorGUI/releases/download/${{ github.event.release.tag_name }}/FunkeySelectorGUI.exe" />' > update.xml
       
       - name: Push the changes made to update.xml
-        run: git push origin master
+        run: |
+          git add update.xml
+          git commit -m "chore(update): update update.xml"
+          git push origin master
