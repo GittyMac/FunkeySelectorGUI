@@ -27,6 +27,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
+      - name: Setup git configuration
+        run: |
+          git config user.name "Github Actions Bot"
+          git config user.email "<>"
+      
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v1
       
@@ -57,3 +62,30 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           file: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe
+      
+      - name: Update version property in update.xml
+        uses: Mudlet/xmlstarlet-action@v1.2
+        with:
+          args: ed -P -u "//update/@version" -v "${{ steps.version.outputs.value }}" update.xml
+      
+      - name: Update name property in update.xml
+        uses: Mudlet/xmlstarlet-action@v1.2
+        with:
+          args: ed -P -u "//update/@name" -v "${{ github.event.release.name }}" update.xml
+      
+      - name: Get file size of FunkeySelectorGUI.exe
+        id: filesize
+        run: echo "FILESIZE=$((Get-Item FunkeySelector.exe).length)" >> $GITHUB_OUTPUT
+      
+      - name: Update size property in update.xml
+        uses: Mudlet/xmlstarlet-action@v1.2
+        with:
+          args: ed -P -u "//update/@size" -v "${{ steps.filesize.outputs.FILESIZE }}" update.xml
+
+      - name: Update url property in update.xml
+        uses: Mudlet/xmlstarlet-action@v1.2
+        with:
+          args: ed -P -u "//update/@url" -v "https://github.com/GittyMac/FunkeySelectorGUI/releases/download/v${{ steps.version.outputs.value }}/FunkeySelectorGUI.exe" update.xml
+      
+      - name: Push the changes made to update.xml
+        run: git push origin master
