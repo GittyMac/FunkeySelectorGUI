@@ -27,7 +27,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.repository.default_branch }}
+          ref: "${{ github.event.repository.default_branch }}"
       
       - name: Setup git configuration
         run: |
@@ -77,4 +77,4 @@ jobs:
         run: |
           git add update.xml
           git commit -m "chore(update): update update.xml"
-          git push origin
+          git push origin ${{ github.event.repository.default_branch }}
