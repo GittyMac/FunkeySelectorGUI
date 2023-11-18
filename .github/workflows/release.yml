@@ -64,6 +64,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           file: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe
+          asset_name: FunkeySelectorGUI.exe
       
       - name: Get file size of FunkeySelectorGUI.exe
         id: filesize
