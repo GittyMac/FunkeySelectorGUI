@@ -73,9 +73,7 @@ jobs:
       
       - name: Push the changes made to update.xml
         run: |
-          echo add
           git add update.xml
-          echo commit
           git commit -m "chore(update): update update.xml"
-          echo push
-          git push origin master
+          git status
+          git push origin
