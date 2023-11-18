@@ -65,7 +65,7 @@ jobs:
       
       - name: Get file size of FunkeySelectorGUI.exe
         id: filesize
-        run: echo "FILESIZE=$((Get-Item FunkeySelector.exe).length)" >> $GITHUB_OUTPUT
+        run: echo "FILESIZE=$((Get-Item '${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe').length)" >> $GITHUB_OUTPUT
       
       - name: Update update.xml
         run: |
