@@ -67,10 +67,13 @@ jobs:
       
       - name: Get file size of FunkeySelectorGUI.exe
         id: filesize
-        run: echo "FILESIZE=$((Get-Item '${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe').length)" >> $GITHUB_OUTPUT
+        run: |
+          echo "$((Get-Item '${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe').length)"
+          echo "FILESIZE=$((Get-Item ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe).length)" >> $GITHUB_OUTPUT
       
       - name: Update update.xml
         run: |
+          echo "${{ toJson(steps.filesize.outputs) }}"
           echo '<update version="${{ steps.version.outputs.value }}" name="${{ github.event.release.name }}" size="${{ steps.filesize.outputs.FILESIZE }}" url="https://github.com/GittyMac/FunkeySelectorGUI/releases/download/${{ github.event.release.tag_name }}/FunkeySelectorGUI.exe" />' > update.xml
       
       - name: Push the changes made to update.xml
