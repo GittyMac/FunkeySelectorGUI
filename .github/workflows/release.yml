@@ -43,7 +43,7 @@ jobs:
         id: version
         uses: mad9000/actions-find-and-replace-string@4
         with:
-          source: ${{ github.event.release.name }}
+          source: "${{ github.event.release.name }}"
           find: "${{ env.projectName }} "
           replace: ""
       
