@@ -31,11 +31,15 @@ jobs:
       - name: Restore Packages
         run: nuget restore ${{ env.solutionFile }}
       
+      - name: Get tag name
+        id: tagName
+        uses: olegtarasov/get-tag@v2
+      
       - name: Get version from release name
         id: version
         uses: mad9000/actions-find-and-replace-string@4
         with:
-          source: "${{ github.ref_name }}"
+          source: "${{ steps.tagName.outputs.tag }}"
           find: "v"
           replace: ""
       
