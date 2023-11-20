@@ -30,6 +30,9 @@ jobs:
       - name: Restore Packages
         run: nuget restore ${{ env.solutionFile }}
       
+      - name: Fetch git tags
+        run: git fetch --tags
+      
       - name: Get tag name
         id: tagName
         uses: olegtarasov/get-tag@v2
