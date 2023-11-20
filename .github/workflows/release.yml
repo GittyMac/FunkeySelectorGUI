@@ -43,9 +43,6 @@ jobs:
       - name: Restore Packages
         run: nuget restore ${{ env.solutionFile }}
       
-      - name: Build solution
-        run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=${{ matrix.configuration }}
-      
       - name: Get version from release name
         id: version
         uses: mad9000/actions-find-and-replace-string@4
@@ -53,6 +50,23 @@ jobs:
           source: "${{ github.event.release.tag_name }}"
           find: "v"
           replace: ""
+      
+      - name: Normalize the version string into SemVer format (x.x.x)
+        id: normalizeVersion
+        run: |
+          $versionString = "${{ steps.version.outputs.value }}"
+          $digits = $versionString.Split(".").Length
+          if ($digits -eq 1) { $versionString += ".0.0" }
+          elseif ($digits -eq 2) { $versionString += ".0" }
+          "VERSION=$($versionString)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+      
+      - name: Set version in AssemblyInfo.cs
+        uses: secondbounce/assemblyinfo-update@v2
+        with:
+          version: "${{ steps.normalizeVersion.outputs.VERSION }}"
+      
+      - name: Build solution
+        run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=${{ matrix.configuration }}
       
       - name: Upload the build results as an artifact
         uses: actions/upload-artifact@v3
