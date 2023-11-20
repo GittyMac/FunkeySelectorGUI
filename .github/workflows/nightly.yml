@@ -32,16 +32,11 @@ jobs:
       - name: Restore Packages
         run: nuget restore ${{ env.solutionFile }}
       
-      - name: Get tag name
-        id: tagName
-        run: |
-          "TAGNAME=$(git describe --tags --abbrev=0)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
-      
       - name: Get version from release name
         id: version
         uses: mad9000/actions-find-and-replace-string@4
         with:
-          source: "${{ steps.tagName.outputs.TAGNAME }}"
+          source: "${{ github.ref_name }}"
           find: "v"
           replace: ""
       
