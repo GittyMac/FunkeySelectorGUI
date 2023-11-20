@@ -31,7 +31,7 @@ jobs:
         run: nuget restore ${{ env.solutionFile }}
       
       - name: Fetch git tags
-        run: git fetch --tags
+        run: git fetch --prune --unshallow
       
       - name: Get tag name
         id: tagName
