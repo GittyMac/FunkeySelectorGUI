@@ -19,7 +19,7 @@ jobs:
       contents: write
       id-token: write
     strategy:
-      matrix:
+      matrix: # please please please don't put multiple build configurations in here, it will cause unintended behaviour
         configuration: [ Release ]
     runs-on: windows-2019
     steps:
