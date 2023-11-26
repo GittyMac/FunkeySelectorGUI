@@ -91,5 +91,6 @@ jobs:
       - name: Push the changes made to update.xml
         run: |
           git add update.xml
+          git add ${{ env.projectFolder }}/Properties/AssemblyInfo.cs
           git commit -m "chore(update): update update.xml"
           git push origin ${{ github.event.repository.default_branch }}
