@@ -1,7 +1,6 @@
 # Builds a .NET framework project in Release mode when a new release is created
 # and uploads the build results to the newly created release
-# then updates update.xml (NOT IMPLEMENTED YET)
-# assumes the version in Properties/AssemblyInfo.cs has already been updated
+# then updates update.xml and Properties/AssemblyInfo.cs
 name: Publish release
 
 env:
