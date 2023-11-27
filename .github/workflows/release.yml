@@ -1,0 +1,95 @@
+# Builds a .NET framework project in Release mode when a new release is created
+# and uploads the build results to the newly created release
+# then updates update.xml and Properties/AssemblyInfo.cs
+name: Publish release
+
+env:
+  projectName: FunkeySelectorGUI
+  projectFolder: FunkeySelector
+  solutionFile: FunkeySelector.sln
+
+on:
+  release: 
+    types:
+      - released
+
+jobs:
+  publish:
+    permissions:
+      contents: write
+      id-token: write
+    strategy:
+      matrix: # please please please don't put multiple build configurations in here, it will cause unintended behaviour
+        configuration: [ Release ]
+    runs-on: windows-2019
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: "${{ github.event.repository.default_branch }}"
+      
+      - name: Setup git configuration
+        run: |
+          git config user.name "Github Actions Bot"
+          git config user.email "<>"
+      
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
+      
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
+      
+      - name: Restore Packages
+        run: nuget restore ${{ env.solutionFile }}
+      
+      - name: Get version from release name
+        id: version
+        uses: mad9000/actions-find-and-replace-string@4
+        with:
+          source: "${{ github.event.release.tag_name }}"
+          find: "v"
+          replace: ""
+      
+      - name: Normalize the version string into SemVer format (x.x.x)
+        id: normalizeVersion
+        run: |
+          $versionString = "${{ steps.version.outputs.value }}"
+          $digits = $versionString.Split(".").Length
+          if ($digits -eq 1) { $versionString += ".0.0" }
+          elseif ($digits -eq 2) { $versionString += ".0" }
+          "VERSION=$($versionString)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+      
+      - name: Set version in AssemblyInfo.cs
+        uses: secondbounce/assemblyinfo-update@v2
+        with:
+          version: "${{ steps.normalizeVersion.outputs.VERSION }}"
+      
+      - name: Build solution
+        run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=${{ matrix.configuration }}
+      
+      - name: Upload the build results as an artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/*
+          name: ${{ env.projectName }}.${{ github.event.release.tag_name }}.${{ matrix.configuration }}
+      
+      - name: Upload build results to release
+        uses: svenstaro/upload-release-action@v2
+        with:
+          file: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe
+          asset_name: FunkeySelectorGUI.exe
+      
+      - name: Get file size of FunkeySelectorGUI.exe
+        id: filesize
+        run: |
+          "FILESIZE=$((Get-Item ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/FunkeySelector.exe).length)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+      
+      - name: Update update.xml
+        run: echo '<update version="${{ steps.version.outputs.value }}" name="${{ github.event.release.name }}" size="${{ steps.filesize.outputs.FILESIZE }}" url="https://github.com/GittyMac/FunkeySelectorGUI/releases/download/${{ github.event.release.tag_name }}/FunkeySelectorGUI.exe" />' > update.xml
+      
+      - name: Push the changes made to update.xml
+        run: |
+          git add update.xml
+          git add ${{ env.projectFolder }}/Properties/AssemblyInfo.cs
+          git commit -m "chore(release): ${{ github.event.release.tag_name }}"
+          git push origin ${{ github.event.repository.default_branch }}

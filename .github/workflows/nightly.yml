@@ -1,0 +1,67 @@
+# Builds a .NET framework project
+name: Nightly builds
+
+env:
+  projectName: FunkeySelectorGUI
+  projectFolder: FunkeySelector
+  solutionFile: FunkeySelector.sln
+
+on:
+  workflow_dispatch:
+  
+  push:
+    branches-ignore:
+      - "gh-pages"
+  
+  pull_request:
+    branches-ignore:
+      - "gh-pages"
+
+jobs:
+  build:
+    strategy:
+      matrix:
+        configuration: [ Debug, Release ]
+    runs-on: windows-2019
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v1
+      
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
+      
+      - name: Restore Packages
+        run: nuget restore ${{ env.solutionFile }}
+      
+      - name: Get version from update.xml
+        id: getVersion
+        uses: mavrosxristoforos/get-xml-info@1.2.1
+        with:
+          xml-file: update.xml
+          xpath: //update/@version
+      
+      - name: Normalize the version string into SemVer format (x.x.x)
+        id: normalizeVersion
+        run: |
+          $versionString = "${{ steps.getVersion.outputs.info }}"
+          $digits = $versionString.Split(".").Length
+          if ($digits -eq 1) { $versionString += ".0.0" }
+          elseif ($digits -eq 2) { $versionString += ".0" }
+          "VERSION=$($versionString)" | Out-File -FilePath $env:GITHUB_OUTPUT -Append
+      
+      - name: Set version in AssemblyInfo.cs
+        uses: secondbounce/assemblyinfo-update@v2
+        with:
+          version: "${{ steps.normalizeVersion.outputs.VERSION }}"
+      
+      - name: Build solution
+        run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=${{ matrix.configuration }}
+      
+      - name: Upload the build results as an artifact
+        uses: actions/upload-artifact@v3
+        with:
+          path: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/*
+          name: ${{ env.projectName }}.Nightly.${{ matrix.configuration }}

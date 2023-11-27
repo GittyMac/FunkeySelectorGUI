@@ -72,7 +72,7 @@
             this.TwinxVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TwinxVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwinxVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TwinxVR.FunkeyID = "0000001F";
+            this.TwinxVR.FunkeyID = "00000025";
             this.TwinxVR.Location = new System.Drawing.Point(390, 448);
             this.TwinxVR.Name = "TwinxVR";
             this.TwinxVR.Size = new System.Drawing.Size(50, 63);
@@ -89,7 +89,7 @@
             this.TwinxR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TwinxR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TwinxR.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.TwinxR.FunkeyID = "0000001E";
+            this.TwinxR.FunkeyID = "00000024";
             this.TwinxR.Location = new System.Drawing.Point(339, 448);
             this.TwinxR.Name = "TwinxR";
             this.TwinxR.Size = new System.Drawing.Size(50, 63);
@@ -106,7 +106,7 @@
             this.Twinx.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Twinx.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Twinx.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Twinx.FunkeyID = "0000001D";
+            this.Twinx.FunkeyID = "00000023";
             this.Twinx.Location = new System.Drawing.Point(288, 448);
             this.Twinx.Name = "Twinx";
             this.Twinx.Size = new System.Drawing.Size(50, 63);
@@ -198,7 +198,7 @@
             this.TikiVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TikiVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TikiVR.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.TikiVR.FunkeyID = "00000025";
+            this.TikiVR.FunkeyID = "0000001F";
             this.TikiVR.Location = new System.Drawing.Point(391, 338);
             this.TikiVR.Name = "TikiVR";
             this.TikiVR.Size = new System.Drawing.Size(50, 63);
@@ -215,7 +215,7 @@
             this.TikiR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.TikiR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TikiR.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.TikiR.FunkeyID = "00000024";
+            this.TikiR.FunkeyID = "0000001E";
             this.TikiR.Location = new System.Drawing.Point(340, 338);
             this.TikiR.Name = "TikiR";
             this.TikiR.Size = new System.Drawing.Size(50, 63);
@@ -232,7 +232,7 @@
             this.Tiki.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Tiki.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Tiki.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Tiki.FunkeyID = "00000023";
+            this.Tiki.FunkeyID = "0000001D";
             this.Tiki.Location = new System.Drawing.Point(289, 338);
             this.Tiki.Name = "Tiki";
             this.Tiki.Size = new System.Drawing.Size(50, 63);
