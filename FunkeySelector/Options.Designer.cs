@@ -32,8 +32,6 @@
             this.OptionsLabel = new System.Windows.Forms.Label();
             this.disableModCheck = new FunkeySelector.UserControls.SettingCheckBox();
             this.disableGameCheck = new FunkeySelector.UserControls.SettingCheckBox();
-            this.wineCompat = new FunkeySelector.UserControls.SettingCheckBox();
-            this.disableWineCheck = new FunkeySelector.UserControls.SettingCheckBox();
             this.aboutButton = new FunkeySelector.UserControls.ChangeFormButton();
             this.okButton = new FunkeySelector.UserControls.OKButton();
             this.SuspendLayout();
@@ -56,7 +54,7 @@
             this.disableModCheck.BackColor = System.Drawing.Color.Transparent;
             this.disableModCheck.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.disableModCheck.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.disableModCheck.Location = new System.Drawing.Point(111, 66);
+            this.disableModCheck.Location = new System.Drawing.Point(111, 104);
             this.disableModCheck.Name = "disableModCheck";
             this.disableModCheck.SettingName = "disableModCheck";
             this.disableModCheck.Size = new System.Drawing.Size(351, 24);
@@ -70,41 +68,13 @@
             this.disableGameCheck.BackColor = System.Drawing.Color.Transparent;
             this.disableGameCheck.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.disableGameCheck.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.disableGameCheck.Location = new System.Drawing.Point(111, 89);
+            this.disableGameCheck.Location = new System.Drawing.Point(111, 127);
             this.disableGameCheck.Name = "disableGameCheck";
             this.disableGameCheck.SettingName = "disableGameCheck";
             this.disableGameCheck.Size = new System.Drawing.Size(297, 24);
             this.disableGameCheck.TabIndex = 3;
             this.disableGameCheck.Text = "DISABLE U.B. FUNKEYS GAME CHECK";
             this.disableGameCheck.UseVisualStyleBackColor = false;
-            // 
-            // wineCompat
-            // 
-            this.wineCompat.AutoSize = true;
-            this.wineCompat.BackColor = System.Drawing.Color.Transparent;
-            this.wineCompat.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wineCompat.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.wineCompat.Location = new System.Drawing.Point(111, 135);
-            this.wineCompat.Name = "wineCompat";
-            this.wineCompat.SettingName = "wineCompat";
-            this.wineCompat.Size = new System.Drawing.Size(257, 24);
-            this.wineCompat.TabIndex = 5;
-            this.wineCompat.Text = "WINE/MONO COMPATIBILITY";
-            this.wineCompat.UseVisualStyleBackColor = false;
-            // 
-            // disableWineCheck
-            // 
-            this.disableWineCheck.AutoSize = true;
-            this.disableWineCheck.BackColor = System.Drawing.Color.Transparent;
-            this.disableWineCheck.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.disableWineCheck.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.disableWineCheck.Location = new System.Drawing.Point(111, 112);
-            this.disableWineCheck.Name = "disableWineCheck";
-            this.disableWineCheck.SettingName = "disableWineCheck";
-            this.disableWineCheck.Size = new System.Drawing.Size(194, 24);
-            this.disableWineCheck.TabIndex = 4;
-            this.disableWineCheck.Text = "DISABLE WINE CHECK";
-            this.disableWineCheck.UseVisualStyleBackColor = false;
             // 
             // aboutButton
             // 
@@ -140,8 +110,6 @@
             this.ClientSize = new System.Drawing.Size(570, 273);
             this.Controls.Add(this.okButton);
             this.Controls.Add(this.aboutButton);
-            this.Controls.Add(this.disableWineCheck);
-            this.Controls.Add(this.wineCompat);
             this.Controls.Add(this.disableGameCheck);
             this.Controls.Add(this.disableModCheck);
             this.Controls.Add(this.OptionsLabel);
@@ -160,8 +128,6 @@
         private System.Windows.Forms.Label OptionsLabel;
         private FunkeySelector.UserControls.SettingCheckBox disableModCheck;
         private FunkeySelector.UserControls.SettingCheckBox disableGameCheck;
-        private FunkeySelector.UserControls.SettingCheckBox wineCompat;
-        private FunkeySelector.UserControls.SettingCheckBox disableWineCheck;
         private FunkeySelector.UserControls.ChangeFormButton aboutButton;
         private UserControls.OKButton okButton;
     }

@@ -48,7 +48,6 @@ namespace FunkeySelector
 
         public static void TriggerFunkeySelectionMod()
         {
-            if (Properties.Settings.Default.wineCompat == true) return;
             if (Program.IsMBMode) return;
 
             Process[] processes = Process.GetProcessesByName("UBFunkeys");

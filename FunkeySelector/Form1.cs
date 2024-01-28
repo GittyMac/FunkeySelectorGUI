@@ -28,7 +28,7 @@ namespace FunkeySelector
             if (
                 Properties.Settings.Default.disableGameCheck == false &&
                 !File.Exists("UBFunkeys.exe") && !File.Exists("OpenFK.exe")
-            ) _ = MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?");
+            ) _ = MessageBox.Show("The U.B. Funkeys game was not found! Did you put FunkeySelectorGUI in the RadicaGame folder?"); //MB Mode runs it in RadicaGame so the location doesn't matter.
 
             if (
                 Properties.Settings.Default.disableModCheck == false &&
@@ -38,34 +38,15 @@ namespace FunkeySelector
                 string mainSWFMD5 = CalculateMD5("Main.swf");
 
                 if (
-                    mainSWFMD5 != "93261ce3dc332fdee5d4335eab0a8e63" &&
+                    mainSWFMD5 == "93261ce3dc332fdee5d4335eab0a8e63" &&
                     !File.Exists("OpenFK.exe")
-                ) _ = MessageBox.Show("Could not detect the Funkeys Selection Mod! Did you install the mod?");
+                ) _ = MessageBox.Show("You are using UBFunkeys.exe with the Funkeys Selection Mod. Please replace 'U.B. Funkeys/MegaByte.exe' with FunkeySelectorGUI and remove the mod for a better experience.");
 
                 else if (
                     mainSWFMD5 == "93261ce3dc332fdee5d4335eab0a8e63" &&
                     File.Exists("OpenFK.exe")
                 ) _ = MessageBox.Show("You are using OpenFK with the Funkeys Selection Mod. Please use the original Main.swf with OpenFK's customF mode for a better experience.");
             }
-
-            // Asks user to enable wine tweaks
-            if (
-                Properties.Settings.Default.disableWineCheck == false &&
-                Properties.Settings.Default.wineCompat == false &&
-                IsWine() &&
-                MessageBox.Show(
-                    "FunkeySelectorGUI has detected it is running from Wine. If you want to enable Wine compatibility tweaks, which fixes the selection of Funkeys, click yes.",
-                    "Wine detected!",
-                    MessageBoxButtons.YesNo
-                ) == DialogResult.Yes
-            ) Properties.Settings.Default.wineCompat = true;
-        }
-
-        public static bool IsWine()
-        {
-            // This registry key is usually only present when running from Wine
-            var key = Registry.CurrentUser.OpenSubKey(@"SOFTWARE\Wine\"); 
-            return key != null;
         }
 
         static string CalculateMD5(string filename)
