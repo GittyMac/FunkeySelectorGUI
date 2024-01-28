@@ -32,8 +32,11 @@
             this.AboutFSGUILabel = new System.Windows.Forms.Label();
             this.DevelopedByLabel = new System.Windows.Forms.Label();
             this.MadeForLabel = new System.Windows.Forms.Label();
-            this.CreditsToLabel = new System.Windows.Forms.Label();
+            this.CreditsToLabel1 = new System.Windows.Forms.Label();
             this.okButton = new FunkeySelector.UserControls.OKButton();
+            this.CreditsToLabel2 = new System.Windows.Forms.Label();
+            this.CreditsHeaderLabel = new System.Windows.Forms.Label();
+            this.CreditsToLabel3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // AboutFSGUILabel
@@ -54,11 +57,11 @@
             this.DevelopedByLabel.BackColor = System.Drawing.Color.Transparent;
             this.DevelopedByLabel.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DevelopedByLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.DevelopedByLabel.Location = new System.Drawing.Point(155, 84);
+            this.DevelopedByLabel.Location = new System.Drawing.Point(204, 125);
             this.DevelopedByLabel.Name = "DevelopedByLabel";
-            this.DevelopedByLabel.Size = new System.Drawing.Size(260, 20);
+            this.DevelopedByLabel.Size = new System.Drawing.Size(163, 20);
             this.DevelopedByLabel.TabIndex = 2;
-            this.DevelopedByLabel.Text = "DEVELOPED BY GITTYMAC (LAKO)";
+            this.DevelopedByLabel.Text = "DEVELOPED BY LAKO";
             // 
             // MadeForLabel
             // 
@@ -66,23 +69,23 @@
             this.MadeForLabel.BackColor = System.Drawing.Color.Transparent;
             this.MadeForLabel.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MadeForLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.MadeForLabel.Location = new System.Drawing.Point(122, 126);
+            this.MadeForLabel.Location = new System.Drawing.Point(72, 66);
             this.MadeForLabel.Name = "MadeForLabel";
-            this.MadeForLabel.Size = new System.Drawing.Size(327, 20);
+            this.MadeForLabel.Size = new System.Drawing.Size(427, 20);
             this.MadeForLabel.TabIndex = 3;
-            this.MadeForLabel.Text = "MADE FOR THE FUNKEYS SELECTION MOD";
+            this.MadeForLabel.Text = "ORIGINALLY MADE FOR THE FUNKEYS SELECTION MOD";
             // 
-            // CreditsToLabel
+            // CreditsToLabel1
             // 
-            this.CreditsToLabel.AutoSize = true;
-            this.CreditsToLabel.BackColor = System.Drawing.Color.Transparent;
-            this.CreditsToLabel.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CreditsToLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.CreditsToLabel.Location = new System.Drawing.Point(90, 168);
-            this.CreditsToLabel.Name = "CreditsToLabel";
-            this.CreditsToLabel.Size = new System.Drawing.Size(390, 20);
-            this.CreditsToLabel.TabIndex = 4;
-            this.CreditsToLabel.Text = "CREDITS TO DUALSCAR FOR THE ICONS AND IDEA";
+            this.CreditsToLabel1.AutoSize = true;
+            this.CreditsToLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.CreditsToLabel1.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreditsToLabel1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CreditsToLabel1.Location = new System.Drawing.Point(92, 150);
+            this.CreditsToLabel1.Name = "CreditsToLabel1";
+            this.CreditsToLabel1.Size = new System.Drawing.Size(386, 20);
+            this.CreditsToLabel1.TabIndex = 4;
+            this.CreditsToLabel1.Text = "DUALSCAR - FOR THE ICONS AND ORIGINAL IDEA";
             // 
             // okButton
             // 
@@ -93,6 +96,42 @@
             this.okButton.Size = new System.Drawing.Size(86, 23);
             this.okButton.TabIndex = 5;
             // 
+            // CreditsToLabel2
+            // 
+            this.CreditsToLabel2.AutoSize = true;
+            this.CreditsToLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.CreditsToLabel2.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreditsToLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CreditsToLabel2.Location = new System.Drawing.Point(175, 175);
+            this.CreditsToLabel2.Name = "CreditsToLabel2";
+            this.CreditsToLabel2.Size = new System.Drawing.Size(221, 20);
+            this.CreditsToLabel2.TabIndex = 6;
+            this.CreditsToLabel2.Text = "NANDERTGA - REFACTOR, CI";
+            // 
+            // CreditsHeaderLabel
+            // 
+            this.CreditsHeaderLabel.AutoSize = true;
+            this.CreditsHeaderLabel.BackColor = System.Drawing.Color.Transparent;
+            this.CreditsHeaderLabel.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreditsHeaderLabel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CreditsHeaderLabel.Location = new System.Drawing.Point(248, 99);
+            this.CreditsHeaderLabel.Name = "CreditsHeaderLabel";
+            this.CreditsHeaderLabel.Size = new System.Drawing.Size(77, 21);
+            this.CreditsHeaderLabel.TabIndex = 7;
+            this.CreditsHeaderLabel.Text = "CREDITS";
+            // 
+            // CreditsToLabel3
+            // 
+            this.CreditsToLabel3.AutoSize = true;
+            this.CreditsToLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.CreditsToLabel3.Font = new System.Drawing.Font("Comic Sans MS", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CreditsToLabel3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CreditsToLabel3.Location = new System.Drawing.Point(136, 200);
+            this.CreditsToLabel3.Name = "CreditsToLabel3";
+            this.CreditsToLabel3.Size = new System.Drawing.Size(298, 20);
+            this.CreditsToLabel3.TabIndex = 8;
+            this.CreditsToLabel3.Text = "ARCTIC - MEGABYTE MESSAGING HELP";
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -101,8 +140,11 @@
             this.BackgroundImage = global::FunkeySelector.Properties.Resources._1841;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(570, 272);
+            this.Controls.Add(this.CreditsToLabel3);
+            this.Controls.Add(this.CreditsHeaderLabel);
+            this.Controls.Add(this.CreditsToLabel2);
             this.Controls.Add(this.okButton);
-            this.Controls.Add(this.CreditsToLabel);
+            this.Controls.Add(this.CreditsToLabel1);
             this.Controls.Add(this.MadeForLabel);
             this.Controls.Add(this.DevelopedByLabel);
             this.Controls.Add(this.AboutFSGUILabel);
@@ -121,7 +163,10 @@
         private System.Windows.Forms.Label AboutFSGUILabel;
         private System.Windows.Forms.Label DevelopedByLabel;
         private System.Windows.Forms.Label MadeForLabel;
-        private System.Windows.Forms.Label CreditsToLabel;
+        private System.Windows.Forms.Label CreditsToLabel1;
         private UserControls.OKButton okButton;
+        private System.Windows.Forms.Label CreditsToLabel2;
+        private System.Windows.Forms.Label CreditsHeaderLabel;
+        private System.Windows.Forms.Label CreditsToLabel3;
     }
 }
