@@ -366,14 +366,14 @@
             // 
             // minimizeButton
             // 
-            this.minimizeButton.Location = new System.Drawing.Point(641, 16);
+            this.minimizeButton.Location = new System.Drawing.Point(642, 16);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
             this.minimizeButton.TabIndex = 21;
             // 
             // closeButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(680, 18);
+            this.closeButton.Location = new System.Drawing.Point(681, 18);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
             this.closeButton.TabIndex = 22;
