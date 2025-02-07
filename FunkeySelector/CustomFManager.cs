@@ -70,34 +70,34 @@ namespace FunkeySelector
             if (gamePtr == IntPtr.Zero)
             {
                 MessageBox.Show("There is no instance of U.B. Funkeys currently running.", "FunkeySelectorGUI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
-            else
+
+            IntPtr ptrCopyData = IntPtr.Zero;
+            try
             {
-                IntPtr ptrCopyData = IntPtr.Zero;
-                try
+                COPYDATASTRUCT copyData = new()
                 {
-                    COPYDATASTRUCT copyData = new COPYDATASTRUCT
-                    {
-                        dwData = new IntPtr(238164658), //A strange data type that's required for the game to switch the Bitty.
-                        cbData = idtosend.Length + 1,
-                        lpData = Marshal.StringToHGlobalAnsi(idtosend)
-                    };
+                    dwData = new IntPtr(238164658), // A strange data type that's required for the game to switch the Bitty.
+                    cbData = idtosend.Length + 1,
+                    lpData = Marshal.StringToHGlobalAnsi(idtosend)
+                };
 
-                    ptrCopyData = Marshal.AllocCoTaskMem(Marshal.SizeOf(copyData));
-                    Marshal.StructureToPtr(copyData, ptrCopyData, false);
+                ptrCopyData = Marshal.AllocCoTaskMem(Marshal.SizeOf(copyData));
+                Marshal.StructureToPtr(copyData, ptrCopyData, false);
 
-                    SendMessage(gamePtr, WM_COPYDATA, IntPtr.Zero, ptrCopyData);
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.ToString(), "FunkeySelectorGUI", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                finally
-                {
-                    if (ptrCopyData != IntPtr.Zero)
-                        Marshal.FreeCoTaskMem(ptrCopyData);
-                }
+                SendMessage(gamePtr, WM_COPYDATA, IntPtr.Zero, ptrCopyData);
             }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString(), "FunkeySelectorGUI", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            finally
+            {
+                if (ptrCopyData != IntPtr.Zero)
+                    Marshal.FreeCoTaskMem(ptrCopyData);
+            }
+            
         }
     }
 }
