@@ -34,17 +34,17 @@ jobs:
           git config user.email "<>"
       
       - name: Setup MSBuild
-        uses: microsoft/setup-msbuild@v1
+        uses: microsoft/setup-msbuild@v2
       
       - name: Setup NuGet
-        uses: NuGet/setup-nuget@v1
+        uses: NuGet/setup-nuget@v2
       
       - name: Restore Packages
         run: nuget restore ${{ env.solutionFile }}
       
       - name: Get version from release name
         id: version
-        uses: mad9000/actions-find-and-replace-string@4
+        uses: mad9000/actions-find-and-replace-string@5
         with:
           source: "${{ github.event.release.tag_name }}"
           find: "v"
@@ -68,7 +68,7 @@ jobs:
         run: msbuild ${{ env.solutionFile }} -t:rebuild -property:Configuration=${{ matrix.configuration }}
       
       - name: Upload the build results as an artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: ${{ env.projectFolder }}/bin/${{ matrix.configuration }}/*
           name: ${{ env.projectName }}.${{ github.event.release.tag_name }}.${{ matrix.configuration }}
