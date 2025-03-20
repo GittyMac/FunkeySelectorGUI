@@ -49,6 +49,22 @@
             this.SpeedRacer = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.funkeyChangerButton1 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton2 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton3 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton4 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton5 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton6 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton7 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton8 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton9 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton10 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton11 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton12 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton13 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton14 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton15 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.funkeyChangerButton16 = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.SuspendLayout();
             // 
             // SnakeOilerLabel
@@ -60,7 +76,7 @@
             this.SnakeOilerLabel.Location = new System.Drawing.Point(152, 436);
             this.SnakeOilerLabel.Name = "SnakeOilerLabel";
             this.SnakeOilerLabel.Size = new System.Drawing.Size(158, 29);
-            this.SnakeOilerLabel.TabIndex = 15;
+            this.SnakeOilerLabel.TabIndex = 27;
             this.SnakeOilerLabel.Text = "SNAKE OILER";
             // 
             // SnakeOiler
@@ -76,7 +92,7 @@
             this.SnakeOiler.Location = new System.Drawing.Point(205, 471);
             this.SnakeOiler.Name = "SnakeOiler";
             this.SnakeOiler.Size = new System.Drawing.Size(50, 63);
-            this.SnakeOiler.TabIndex = 16;
+            this.SnakeOiler.TabIndex = 29;
             this.SnakeOiler.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SnakeOiler.UseVisualStyleBackColor = false;
             // 
@@ -89,7 +105,7 @@
             this.TrixieLabel.Location = new System.Drawing.Point(187, 222);
             this.TrixieLabel.Name = "TrixieLabel";
             this.TrixieLabel.Size = new System.Drawing.Size(90, 29);
-            this.TrixieLabel.TabIndex = 7;
+            this.TrixieLabel.TabIndex = 11;
             this.TrixieLabel.Text = "TRIXIE";
             // 
             // Trixie
@@ -105,7 +121,7 @@
             this.Trixie.Location = new System.Drawing.Point(205, 260);
             this.Trixie.Name = "Trixie";
             this.Trixie.Size = new System.Drawing.Size(50, 63);
-            this.Trixie.TabIndex = 8;
+            this.Trixie.TabIndex = 13;
             this.Trixie.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Trixie.UseVisualStyleBackColor = false;
             // 
@@ -118,7 +134,7 @@
             this.CannonballTaylorLabel.Location = new System.Drawing.Point(113, 329);
             this.CannonballTaylorLabel.Name = "CannonballTaylorLabel";
             this.CannonballTaylorLabel.Size = new System.Drawing.Size(251, 29);
-            this.CannonballTaylorLabel.TabIndex = 11;
+            this.CannonballTaylorLabel.TabIndex = 19;
             this.CannonballTaylorLabel.Text = "CANNONBALL TAYLOR";
             // 
             // CannonballTaylor
@@ -134,7 +150,7 @@
             this.CannonballTaylor.Location = new System.Drawing.Point(205, 363);
             this.CannonballTaylor.Name = "CannonballTaylor";
             this.CannonballTaylor.Size = new System.Drawing.Size(50, 63);
-            this.CannonballTaylor.TabIndex = 12;
+            this.CannonballTaylor.TabIndex = 21;
             this.CannonballTaylor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.CannonballTaylor.UseVisualStyleBackColor = false;
             // 
@@ -159,11 +175,11 @@
             this.RacerX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RacerX.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RacerX.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.RacerX.FunkeyID = "0000005F";
+            this.RacerX.FunkeyID = "00000060";
             this.RacerX.Location = new System.Drawing.Point(205, 142);
             this.RacerX.Name = "RacerX";
             this.RacerX.Size = new System.Drawing.Size(50, 63);
-            this.RacerX.TabIndex = 4;
+            this.RacerX.TabIndex = 5;
             this.RacerX.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.RacerX.UseVisualStyleBackColor = false;
             // 
@@ -206,7 +222,7 @@
             this.TaejoLabel.Location = new System.Drawing.Point(463, 435);
             this.TaejoLabel.Name = "TaejoLabel";
             this.TaejoLabel.Size = new System.Drawing.Size(86, 29);
-            this.TaejoLabel.TabIndex = 17;
+            this.TaejoLabel.TabIndex = 31;
             this.TaejoLabel.Text = "TAEJO";
             // 
             // Taejo
@@ -218,11 +234,11 @@
             this.Taejo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Taejo.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Taejo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Taejo.FunkeyID = "00000094";
+            this.Taejo.FunkeyID = "00000098";
             this.Taejo.Location = new System.Drawing.Point(479, 471);
             this.Taejo.Name = "Taejo";
             this.Taejo.Size = new System.Drawing.Size(50, 63);
-            this.Taejo.TabIndex = 18;
+            this.Taejo.TabIndex = 33;
             this.Taejo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.Taejo.UseVisualStyleBackColor = false;
             // 
@@ -235,7 +251,7 @@
             this.SpeedRacerPinballLabel.Location = new System.Drawing.Point(374, 219);
             this.SpeedRacerPinballLabel.Name = "SpeedRacerPinballLabel";
             this.SpeedRacerPinballLabel.Size = new System.Drawing.Size(266, 29);
-            this.SpeedRacerPinballLabel.TabIndex = 9;
+            this.SpeedRacerPinballLabel.TabIndex = 15;
             this.SpeedRacerPinballLabel.Text = "SPEED RACER (PINBALL)";
             // 
             // SpeedRacerPinball
@@ -251,7 +267,7 @@
             this.SpeedRacerPinball.Location = new System.Drawing.Point(479, 260);
             this.SpeedRacerPinball.Name = "SpeedRacerPinball";
             this.SpeedRacerPinball.Size = new System.Drawing.Size(50, 63);
-            this.SpeedRacerPinball.TabIndex = 10;
+            this.SpeedRacerPinball.TabIndex = 17;
             this.SpeedRacerPinball.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SpeedRacerPinball.UseVisualStyleBackColor = false;
             // 
@@ -264,7 +280,7 @@
             this.ChimChimLabel.Location = new System.Drawing.Point(434, 329);
             this.ChimChimLabel.Name = "ChimChimLabel";
             this.ChimChimLabel.Size = new System.Drawing.Size(140, 29);
-            this.ChimChimLabel.TabIndex = 13;
+            this.ChimChimLabel.TabIndex = 23;
             this.ChimChimLabel.Text = "CHIM-CHIM";
             // 
             // ChimChim
@@ -280,7 +296,7 @@
             this.ChimChim.Location = new System.Drawing.Point(479, 363);
             this.ChimChim.Name = "ChimChim";
             this.ChimChim.Size = new System.Drawing.Size(50, 63);
-            this.ChimChim.TabIndex = 14;
+            this.ChimChim.TabIndex = 25;
             this.ChimChim.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.ChimChim.UseVisualStyleBackColor = false;
             // 
@@ -293,7 +309,7 @@
             this.SpeedRacerLabel.Location = new System.Drawing.Point(431, 102);
             this.SpeedRacerLabel.Name = "SpeedRacerLabel";
             this.SpeedRacerLabel.Size = new System.Drawing.Size(153, 29);
-            this.SpeedRacerLabel.TabIndex = 5;
+            this.SpeedRacerLabel.TabIndex = 7;
             this.SpeedRacerLabel.Text = "SPEED RACER";
             // 
             // SpeedRacer
@@ -305,11 +321,11 @@
             this.SpeedRacer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SpeedRacer.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SpeedRacer.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.SpeedRacer.FunkeyID = "00000093";
+            this.SpeedRacer.FunkeyID = "00000097";
             this.SpeedRacer.Location = new System.Drawing.Point(479, 142);
             this.SpeedRacer.Name = "SpeedRacer";
             this.SpeedRacer.Size = new System.Drawing.Size(50, 63);
-            this.SpeedRacer.TabIndex = 6;
+            this.SpeedRacer.TabIndex = 9;
             this.SpeedRacer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.SpeedRacer.UseVisualStyleBackColor = false;
             // 
@@ -318,14 +334,286 @@
             this.minimizeButton.Location = new System.Drawing.Point(642, 16);
             this.minimizeButton.Name = "minimizeButton";
             this.minimizeButton.Size = new System.Drawing.Size(26, 22);
-            this.minimizeButton.TabIndex = 19;
+            this.minimizeButton.TabIndex = 35;
             // 
             // closeButton
             // 
             this.closeButton.Location = new System.Drawing.Point(681, 18);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(26, 20);
-            this.closeButton.TabIndex = 20;
+            this.closeButton.TabIndex = 36;
+            // 
+            // funkeyChangerButton1
+            // 
+            this.funkeyChangerButton1.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton1.BackgroundImage")));
+            this.funkeyChangerButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton1.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton1.FunkeyID = "0000009E";
+            this.funkeyChangerButton1.Location = new System.Drawing.Point(551, 143);
+            this.funkeyChangerButton1.Name = "funkeyChangerButton1";
+            this.funkeyChangerButton1.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton1.TabIndex = 10;
+            this.funkeyChangerButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton1.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton2
+            // 
+            this.funkeyChangerButton2.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton2.BackgroundImage")));
+            this.funkeyChangerButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton2.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton2.FunkeyID = "00000093";
+            this.funkeyChangerButton2.Location = new System.Drawing.Point(409, 143);
+            this.funkeyChangerButton2.Name = "funkeyChangerButton2";
+            this.funkeyChangerButton2.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton2.TabIndex = 8;
+            this.funkeyChangerButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton2.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton3
+            // 
+            this.funkeyChangerButton3.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton3.BackgroundImage")));
+            this.funkeyChangerButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton3.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton3.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton3.FunkeyID = "00000099";
+            this.funkeyChangerButton3.Location = new System.Drawing.Point(551, 261);
+            this.funkeyChangerButton3.Name = "funkeyChangerButton3";
+            this.funkeyChangerButton3.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton3.TabIndex = 18;
+            this.funkeyChangerButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton3.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton4
+            // 
+            this.funkeyChangerButton4.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton4.BackgroundImage")));
+            this.funkeyChangerButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton4.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton4.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton4.FunkeyID = "0000008E";
+            this.funkeyChangerButton4.Location = new System.Drawing.Point(409, 261);
+            this.funkeyChangerButton4.Name = "funkeyChangerButton4";
+            this.funkeyChangerButton4.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton4.TabIndex = 16;
+            this.funkeyChangerButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton4.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton5
+            // 
+            this.funkeyChangerButton5.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton5.BackgroundImage")));
+            this.funkeyChangerButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton5.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton5.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton5.FunkeyID = "0000009D";
+            this.funkeyChangerButton5.Location = new System.Drawing.Point(550, 361);
+            this.funkeyChangerButton5.Name = "funkeyChangerButton5";
+            this.funkeyChangerButton5.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton5.TabIndex = 26;
+            this.funkeyChangerButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton5.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton6
+            // 
+            this.funkeyChangerButton6.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton6.BackgroundImage")));
+            this.funkeyChangerButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton6.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton6.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton6.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton6.FunkeyID = "00000092";
+            this.funkeyChangerButton6.Location = new System.Drawing.Point(408, 363);
+            this.funkeyChangerButton6.Name = "funkeyChangerButton6";
+            this.funkeyChangerButton6.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton6.TabIndex = 24;
+            this.funkeyChangerButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton6.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton7
+            // 
+            this.funkeyChangerButton7.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton7.BackgroundImage")));
+            this.funkeyChangerButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton7.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton7.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton7.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton7.FunkeyID = "0000009F";
+            this.funkeyChangerButton7.Location = new System.Drawing.Point(550, 471);
+            this.funkeyChangerButton7.Name = "funkeyChangerButton7";
+            this.funkeyChangerButton7.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton7.TabIndex = 34;
+            this.funkeyChangerButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton7.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton8
+            // 
+            this.funkeyChangerButton8.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton8.BackgroundImage")));
+            this.funkeyChangerButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton8.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton8.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton8.FunkeyID = "00000094";
+            this.funkeyChangerButton8.Location = new System.Drawing.Point(408, 471);
+            this.funkeyChangerButton8.Name = "funkeyChangerButton8";
+            this.funkeyChangerButton8.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton8.TabIndex = 32;
+            this.funkeyChangerButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton8.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton9
+            // 
+            this.funkeyChangerButton9.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton9.BackgroundImage")));
+            this.funkeyChangerButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton9.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton9.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton9.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton9.FunkeyID = "0000008D";
+            this.funkeyChangerButton9.Location = new System.Drawing.Point(273, 471);
+            this.funkeyChangerButton9.Name = "funkeyChangerButton9";
+            this.funkeyChangerButton9.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton9.TabIndex = 30;
+            this.funkeyChangerButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton9.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton10
+            // 
+            this.funkeyChangerButton10.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton10.BackgroundImage")));
+            this.funkeyChangerButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton10.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton10.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton10.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton10.FunkeyID = "0000008B";
+            this.funkeyChangerButton10.Location = new System.Drawing.Point(137, 471);
+            this.funkeyChangerButton10.Name = "funkeyChangerButton10";
+            this.funkeyChangerButton10.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton10.TabIndex = 28;
+            this.funkeyChangerButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton10.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton11
+            // 
+            this.funkeyChangerButton11.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton11.BackgroundImage")));
+            this.funkeyChangerButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton11.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton11.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton11.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton11.FunkeyID = "00000088";
+            this.funkeyChangerButton11.Location = new System.Drawing.Point(273, 363);
+            this.funkeyChangerButton11.Name = "funkeyChangerButton11";
+            this.funkeyChangerButton11.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton11.TabIndex = 22;
+            this.funkeyChangerButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton11.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton12
+            // 
+            this.funkeyChangerButton12.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton12.BackgroundImage")));
+            this.funkeyChangerButton12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton12.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton12.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton12.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton12.FunkeyID = "00000088";
+            this.funkeyChangerButton12.Location = new System.Drawing.Point(137, 361);
+            this.funkeyChangerButton12.Name = "funkeyChangerButton12";
+            this.funkeyChangerButton12.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton12.TabIndex = 20;
+            this.funkeyChangerButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton12.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton13
+            // 
+            this.funkeyChangerButton13.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton13.BackgroundImage")));
+            this.funkeyChangerButton13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton13.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton13.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton13.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton13.FunkeyID = "00000087";
+            this.funkeyChangerButton13.Location = new System.Drawing.Point(273, 260);
+            this.funkeyChangerButton13.Name = "funkeyChangerButton13";
+            this.funkeyChangerButton13.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton13.TabIndex = 14;
+            this.funkeyChangerButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton13.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton14
+            // 
+            this.funkeyChangerButton14.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton14.BackgroundImage")));
+            this.funkeyChangerButton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton14.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton14.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton14.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton14.FunkeyID = "00000082";
+            this.funkeyChangerButton14.Location = new System.Drawing.Point(137, 261);
+            this.funkeyChangerButton14.Name = "funkeyChangerButton14";
+            this.funkeyChangerButton14.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton14.TabIndex = 12;
+            this.funkeyChangerButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton14.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton15
+            // 
+            this.funkeyChangerButton15.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton15.BackgroundImage")));
+            this.funkeyChangerButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton15.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton15.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton15.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton15.FunkeyID = "00000061";
+            this.funkeyChangerButton15.Location = new System.Drawing.Point(273, 142);
+            this.funkeyChangerButton15.Name = "funkeyChangerButton15";
+            this.funkeyChangerButton15.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton15.TabIndex = 6;
+            this.funkeyChangerButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton15.UseVisualStyleBackColor = false;
+            // 
+            // funkeyChangerButton16
+            // 
+            this.funkeyChangerButton16.BackColor = System.Drawing.Color.Transparent;
+            this.funkeyChangerButton16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton16.BackgroundImage")));
+            this.funkeyChangerButton16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.funkeyChangerButton16.FlatAppearance.BorderSize = 0;
+            this.funkeyChangerButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.funkeyChangerButton16.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.funkeyChangerButton16.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.funkeyChangerButton16.FunkeyID = "0000005F";
+            this.funkeyChangerButton16.Location = new System.Drawing.Point(137, 142);
+            this.funkeyChangerButton16.Name = "funkeyChangerButton16";
+            this.funkeyChangerButton16.Size = new System.Drawing.Size(50, 63);
+            this.funkeyChangerButton16.TabIndex = 4;
+            this.funkeyChangerButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.funkeyChangerButton16.UseVisualStyleBackColor = false;
             // 
             // RoyaltonRacingComplex
             // 
@@ -334,6 +622,22 @@
             this.BackColor = System.Drawing.Color.Gold;
             this.BackgroundImage = global::FunkeySelector.Properties.Resources._2432;
             this.ClientSize = new System.Drawing.Size(726, 566);
+            this.Controls.Add(this.funkeyChangerButton16);
+            this.Controls.Add(this.funkeyChangerButton15);
+            this.Controls.Add(this.funkeyChangerButton14);
+            this.Controls.Add(this.funkeyChangerButton13);
+            this.Controls.Add(this.funkeyChangerButton12);
+            this.Controls.Add(this.funkeyChangerButton11);
+            this.Controls.Add(this.funkeyChangerButton10);
+            this.Controls.Add(this.funkeyChangerButton9);
+            this.Controls.Add(this.funkeyChangerButton8);
+            this.Controls.Add(this.funkeyChangerButton7);
+            this.Controls.Add(this.funkeyChangerButton6);
+            this.Controls.Add(this.funkeyChangerButton5);
+            this.Controls.Add(this.funkeyChangerButton4);
+            this.Controls.Add(this.funkeyChangerButton3);
+            this.Controls.Add(this.funkeyChangerButton2);
+            this.Controls.Add(this.funkeyChangerButton1);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.minimizeButton);
             this.Controls.Add(this.TaejoLabel);
@@ -387,5 +691,21 @@
         private FunkeySelector.UserControls.FunkeyChangerButton SpeedRacer;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private UserControls.FunkeyChangerButton funkeyChangerButton1;
+        private UserControls.FunkeyChangerButton funkeyChangerButton2;
+        private UserControls.FunkeyChangerButton funkeyChangerButton3;
+        private UserControls.FunkeyChangerButton funkeyChangerButton4;
+        private UserControls.FunkeyChangerButton funkeyChangerButton5;
+        private UserControls.FunkeyChangerButton funkeyChangerButton6;
+        private UserControls.FunkeyChangerButton funkeyChangerButton7;
+        private UserControls.FunkeyChangerButton funkeyChangerButton8;
+        private UserControls.FunkeyChangerButton funkeyChangerButton9;
+        private UserControls.FunkeyChangerButton funkeyChangerButton10;
+        private UserControls.FunkeyChangerButton funkeyChangerButton11;
+        private UserControls.FunkeyChangerButton funkeyChangerButton12;
+        private UserControls.FunkeyChangerButton funkeyChangerButton13;
+        private UserControls.FunkeyChangerButton funkeyChangerButton14;
+        private UserControls.FunkeyChangerButton funkeyChangerButton15;
+        private UserControls.FunkeyChangerButton funkeyChangerButton16;
     }
 }
