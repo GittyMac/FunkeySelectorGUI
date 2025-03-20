@@ -89,7 +89,7 @@
             this.SnakeOiler.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SnakeOiler.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.SnakeOiler.FunkeyID = "0000008C";
-            this.SnakeOiler.Location = new System.Drawing.Point(205, 471);
+            this.SnakeOiler.Location = new System.Drawing.Point(205, 465);
             this.SnakeOiler.Name = "SnakeOiler";
             this.SnakeOiler.Size = new System.Drawing.Size(50, 63);
             this.SnakeOiler.TabIndex = 29;
@@ -118,7 +118,7 @@
             this.Trixie.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Trixie.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Trixie.FunkeyID = "00000083";
-            this.Trixie.Location = new System.Drawing.Point(205, 260);
+            this.Trixie.Location = new System.Drawing.Point(205, 252);
             this.Trixie.Name = "Trixie";
             this.Trixie.Size = new System.Drawing.Size(50, 63);
             this.Trixie.TabIndex = 13;
@@ -147,7 +147,7 @@
             this.CannonballTaylor.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CannonballTaylor.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.CannonballTaylor.FunkeyID = "00000088";
-            this.CannonballTaylor.Location = new System.Drawing.Point(205, 363);
+            this.CannonballTaylor.Location = new System.Drawing.Point(205, 361);
             this.CannonballTaylor.Name = "CannonballTaylor";
             this.CannonballTaylor.Size = new System.Drawing.Size(50, 63);
             this.CannonballTaylor.TabIndex = 21;
@@ -176,7 +176,7 @@
             this.RacerX.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RacerX.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.RacerX.FunkeyID = "00000060";
-            this.RacerX.Location = new System.Drawing.Point(205, 142);
+            this.RacerX.Location = new System.Drawing.Point(205, 133);
             this.RacerX.Name = "RacerX";
             this.RacerX.Size = new System.Drawing.Size(50, 63);
             this.RacerX.TabIndex = 5;
@@ -219,7 +219,7 @@
             this.TaejoLabel.BackColor = System.Drawing.Color.Transparent;
             this.TaejoLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TaejoLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.TaejoLabel.Location = new System.Drawing.Point(463, 435);
+            this.TaejoLabel.Location = new System.Drawing.Point(462, 436);
             this.TaejoLabel.Name = "TaejoLabel";
             this.TaejoLabel.Size = new System.Drawing.Size(86, 29);
             this.TaejoLabel.TabIndex = 31;
@@ -235,7 +235,7 @@
             this.Taejo.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Taejo.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Taejo.FunkeyID = "00000098";
-            this.Taejo.Location = new System.Drawing.Point(479, 471);
+            this.Taejo.Location = new System.Drawing.Point(479, 465);
             this.Taejo.Name = "Taejo";
             this.Taejo.Size = new System.Drawing.Size(50, 63);
             this.Taejo.TabIndex = 33;
@@ -248,7 +248,7 @@
             this.SpeedRacerPinballLabel.BackColor = System.Drawing.Color.Transparent;
             this.SpeedRacerPinballLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SpeedRacerPinballLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.SpeedRacerPinballLabel.Location = new System.Drawing.Point(374, 219);
+            this.SpeedRacerPinballLabel.Location = new System.Drawing.Point(377, 222);
             this.SpeedRacerPinballLabel.Name = "SpeedRacerPinballLabel";
             this.SpeedRacerPinballLabel.Size = new System.Drawing.Size(266, 29);
             this.SpeedRacerPinballLabel.TabIndex = 15;
@@ -264,7 +264,7 @@
             this.SpeedRacerPinball.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SpeedRacerPinball.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.SpeedRacerPinball.FunkeyID = "00000095";
-            this.SpeedRacerPinball.Location = new System.Drawing.Point(479, 260);
+            this.SpeedRacerPinball.Location = new System.Drawing.Point(479, 252);
             this.SpeedRacerPinball.Name = "SpeedRacerPinball";
             this.SpeedRacerPinball.Size = new System.Drawing.Size(50, 63);
             this.SpeedRacerPinball.TabIndex = 17;
@@ -293,7 +293,7 @@
             this.ChimChim.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ChimChim.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.ChimChim.FunkeyID = "00000096";
-            this.ChimChim.Location = new System.Drawing.Point(479, 363);
+            this.ChimChim.Location = new System.Drawing.Point(479, 361);
             this.ChimChim.Name = "ChimChim";
             this.ChimChim.Size = new System.Drawing.Size(50, 63);
             this.ChimChim.TabIndex = 25;
@@ -306,7 +306,7 @@
             this.SpeedRacerLabel.BackColor = System.Drawing.Color.Transparent;
             this.SpeedRacerLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SpeedRacerLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.SpeedRacerLabel.Location = new System.Drawing.Point(431, 102);
+            this.SpeedRacerLabel.Location = new System.Drawing.Point(434, 102);
             this.SpeedRacerLabel.Name = "SpeedRacerLabel";
             this.SpeedRacerLabel.Size = new System.Drawing.Size(153, 29);
             this.SpeedRacerLabel.TabIndex = 7;
@@ -322,7 +322,7 @@
             this.SpeedRacer.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SpeedRacer.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.SpeedRacer.FunkeyID = "00000097";
-            this.SpeedRacer.Location = new System.Drawing.Point(479, 142);
+            this.SpeedRacer.Location = new System.Drawing.Point(479, 133);
             this.SpeedRacer.Name = "SpeedRacer";
             this.SpeedRacer.Size = new System.Drawing.Size(50, 63);
             this.SpeedRacer.TabIndex = 9;
@@ -353,7 +353,7 @@
             this.funkeyChangerButton1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton1.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton1.FunkeyID = "0000009E";
-            this.funkeyChangerButton1.Location = new System.Drawing.Point(551, 143);
+            this.funkeyChangerButton1.Location = new System.Drawing.Point(531, 133);
             this.funkeyChangerButton1.Name = "funkeyChangerButton1";
             this.funkeyChangerButton1.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton1.TabIndex = 10;
@@ -370,7 +370,7 @@
             this.funkeyChangerButton2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton2.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton2.FunkeyID = "00000093";
-            this.funkeyChangerButton2.Location = new System.Drawing.Point(409, 143);
+            this.funkeyChangerButton2.Location = new System.Drawing.Point(427, 133);
             this.funkeyChangerButton2.Name = "funkeyChangerButton2";
             this.funkeyChangerButton2.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton2.TabIndex = 8;
@@ -387,7 +387,7 @@
             this.funkeyChangerButton3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton3.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton3.FunkeyID = "00000099";
-            this.funkeyChangerButton3.Location = new System.Drawing.Point(551, 261);
+            this.funkeyChangerButton3.Location = new System.Drawing.Point(531, 252);
             this.funkeyChangerButton3.Name = "funkeyChangerButton3";
             this.funkeyChangerButton3.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton3.TabIndex = 18;
@@ -404,7 +404,7 @@
             this.funkeyChangerButton4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton4.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton4.FunkeyID = "0000008E";
-            this.funkeyChangerButton4.Location = new System.Drawing.Point(409, 261);
+            this.funkeyChangerButton4.Location = new System.Drawing.Point(427, 252);
             this.funkeyChangerButton4.Name = "funkeyChangerButton4";
             this.funkeyChangerButton4.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton4.TabIndex = 16;
@@ -421,7 +421,7 @@
             this.funkeyChangerButton5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton5.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton5.FunkeyID = "0000009D";
-            this.funkeyChangerButton5.Location = new System.Drawing.Point(550, 361);
+            this.funkeyChangerButton5.Location = new System.Drawing.Point(531, 361);
             this.funkeyChangerButton5.Name = "funkeyChangerButton5";
             this.funkeyChangerButton5.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton5.TabIndex = 26;
@@ -438,7 +438,7 @@
             this.funkeyChangerButton6.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton6.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton6.FunkeyID = "00000092";
-            this.funkeyChangerButton6.Location = new System.Drawing.Point(408, 363);
+            this.funkeyChangerButton6.Location = new System.Drawing.Point(427, 361);
             this.funkeyChangerButton6.Name = "funkeyChangerButton6";
             this.funkeyChangerButton6.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton6.TabIndex = 24;
@@ -455,7 +455,7 @@
             this.funkeyChangerButton7.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton7.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton7.FunkeyID = "0000009F";
-            this.funkeyChangerButton7.Location = new System.Drawing.Point(550, 471);
+            this.funkeyChangerButton7.Location = new System.Drawing.Point(531, 465);
             this.funkeyChangerButton7.Name = "funkeyChangerButton7";
             this.funkeyChangerButton7.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton7.TabIndex = 34;
@@ -472,7 +472,7 @@
             this.funkeyChangerButton8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton8.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton8.FunkeyID = "00000094";
-            this.funkeyChangerButton8.Location = new System.Drawing.Point(408, 471);
+            this.funkeyChangerButton8.Location = new System.Drawing.Point(427, 465);
             this.funkeyChangerButton8.Name = "funkeyChangerButton8";
             this.funkeyChangerButton8.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton8.TabIndex = 32;
@@ -489,7 +489,7 @@
             this.funkeyChangerButton9.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton9.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton9.FunkeyID = "0000008D";
-            this.funkeyChangerButton9.Location = new System.Drawing.Point(273, 471);
+            this.funkeyChangerButton9.Location = new System.Drawing.Point(255, 465);
             this.funkeyChangerButton9.Name = "funkeyChangerButton9";
             this.funkeyChangerButton9.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton9.TabIndex = 30;
@@ -506,7 +506,7 @@
             this.funkeyChangerButton10.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton10.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton10.FunkeyID = "0000008B";
-            this.funkeyChangerButton10.Location = new System.Drawing.Point(137, 471);
+            this.funkeyChangerButton10.Location = new System.Drawing.Point(157, 465);
             this.funkeyChangerButton10.Name = "funkeyChangerButton10";
             this.funkeyChangerButton10.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton10.TabIndex = 28;
@@ -523,7 +523,7 @@
             this.funkeyChangerButton11.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton11.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton11.FunkeyID = "00000088";
-            this.funkeyChangerButton11.Location = new System.Drawing.Point(273, 363);
+            this.funkeyChangerButton11.Location = new System.Drawing.Point(255, 361);
             this.funkeyChangerButton11.Name = "funkeyChangerButton11";
             this.funkeyChangerButton11.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton11.TabIndex = 22;
@@ -540,7 +540,7 @@
             this.funkeyChangerButton12.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton12.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton12.FunkeyID = "00000088";
-            this.funkeyChangerButton12.Location = new System.Drawing.Point(137, 361);
+            this.funkeyChangerButton12.Location = new System.Drawing.Point(157, 361);
             this.funkeyChangerButton12.Name = "funkeyChangerButton12";
             this.funkeyChangerButton12.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton12.TabIndex = 20;
@@ -557,7 +557,7 @@
             this.funkeyChangerButton13.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton13.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton13.FunkeyID = "00000087";
-            this.funkeyChangerButton13.Location = new System.Drawing.Point(273, 260);
+            this.funkeyChangerButton13.Location = new System.Drawing.Point(255, 252);
             this.funkeyChangerButton13.Name = "funkeyChangerButton13";
             this.funkeyChangerButton13.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton13.TabIndex = 14;
@@ -574,7 +574,7 @@
             this.funkeyChangerButton14.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton14.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton14.FunkeyID = "00000082";
-            this.funkeyChangerButton14.Location = new System.Drawing.Point(137, 261);
+            this.funkeyChangerButton14.Location = new System.Drawing.Point(157, 252);
             this.funkeyChangerButton14.Name = "funkeyChangerButton14";
             this.funkeyChangerButton14.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton14.TabIndex = 12;
@@ -591,7 +591,7 @@
             this.funkeyChangerButton15.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton15.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton15.FunkeyID = "00000061";
-            this.funkeyChangerButton15.Location = new System.Drawing.Point(273, 142);
+            this.funkeyChangerButton15.Location = new System.Drawing.Point(255, 133);
             this.funkeyChangerButton15.Name = "funkeyChangerButton15";
             this.funkeyChangerButton15.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton15.TabIndex = 6;
@@ -608,7 +608,7 @@
             this.funkeyChangerButton16.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.funkeyChangerButton16.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.funkeyChangerButton16.FunkeyID = "0000005F";
-            this.funkeyChangerButton16.Location = new System.Drawing.Point(137, 142);
+            this.funkeyChangerButton16.Location = new System.Drawing.Point(157, 133);
             this.funkeyChangerButton16.Name = "funkeyChangerButton16";
             this.funkeyChangerButton16.Size = new System.Drawing.Size(50, 63);
             this.funkeyChangerButton16.TabIndex = 4;
