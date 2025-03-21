@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="SnakeOiler.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SnakeOilerR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAEdNJREFUaEPtWXl0lOW9/ohZJ8tsmX3f933JPpPJTCbJhJCdJCSB7AtJkNUQEUlY
@@ -200,7 +200,7 @@
         8vdJ6ru4i7u4i7v45sEw/wtmg+zrKmoCGgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="Trixie.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="TrixieR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAEZJJREFUaEPtWGlQVGmWTZFF2ZLcNzKTTMgEkn1fRUAEEQGBEmTVBGQRARFEUQQX
@@ -281,7 +281,7 @@
         Hd7hHd7h/yM4nP8GNtK8n0sgG8EAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="CannonballTaylor.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="CannonballTaylorR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAEclJREFUaEPtmFdwnPd1xSHZckRTYgFJkAAIkiAK0Xvvu+iLRVss6gJYdCzqoi2A
@@ -363,7 +363,7 @@
         4I8IB4f/AUGRWQMVO5t6AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="RacerX.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="RacerXR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAENVJREFUaEPtWHl0k2W+7lyvVwXa0lK6J23SpGnSNG2WNkmTNmma7mu67/u+LxQo
@@ -441,7 +441,7 @@
         Ln8HdhgCdtkA8HMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="Taejo.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="TaejoR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAEPdJREFUaEPtWWdYVNfaHdoAQxt6G+m9RogFMVY0GhMjaoyKioBSpPc+lKF3EEQs
@@ -519,7 +519,7 @@
         Kb5xaSmeYYWZfj45GR7zSkqm2jU2cmgD/AZv8AZv8P8PHM7/ANFDJKrmgN+2AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="SpeedRacerPinball.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SpeedRacerPinballR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAEdRJREFUaEPtmXd0lOeVxpWNU2wn2LEBgWOD7dg4sZONWTvrzdrYjoOdBDvY2AZT
@@ -601,7 +601,7 @@
         5OY2zHX7AzzAAzzA/zu4uf0HrYW6UMng3ycAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="ChimChim.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ChimChimR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAEhJJREFUaEPtWHdQm3eaVjZ919k4sR0bx44rbhTTmwQIEAIkJCSBAElICFGEEEgC
@@ -684,7 +684,7 @@
         cevzvt6vPcADPMADPMD/VzAY/wX3RPeB1ri21gAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="SpeedRacer.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SpeedRacerR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EQAACxEBf2RfkQAAEiNJREFUaEPtmHdYlGe6xtk9u2c3a/ZkNWhi142R6GrU2GLWXWOJJdgFRXrvMEMb
@@ -767,7 +767,7 @@
         CgkFWZ5U5/ve2ZPlvudYgr7rPZdR01W3vcM7vMM7/L+Cmtp/AkuUHQjKhI61AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="funkeyChangerButton1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SpeedRacerVR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAAEiNJREFUaEPtmHdYlGe6xtk9u2c3a/ZkNWhi142R6GrU2GLWXWOJJdgFRXrvMEMb
@@ -850,7 +850,7 @@
         CgkFWZ5U5/ve2ZPlvudYgr7rPZdR01W3vcM7vMM7/L+Cmtp/AkuUHQjKhI61AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="funkeyChangerButton2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SpeedRacer.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DwAACw8BkvkDpQAAEiNJREFUaEPtmHdYlGe6xtk9u2c3a/ZkNWhi142R6GrU2GLWXWOJJdgFRXrvMEMb
@@ -933,7 +933,7 @@
         CgkFWZ5U5/ve2ZPlvudYgr7rPZdR01W3vcM7vMM7/L+Cmtp/AkuUHQjKhI61AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="funkeyChangerButton3.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SpeedRacerPinballVR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAAEdRJREFUaEPtmXd0lOeVxpWNU2wn2LEBgWOD7dg4sZONWTvrzdrYjoOdBDvY2AZT
@@ -1015,7 +1015,7 @@
         5OY2zHX7AzzAAzzA/zu4uf0HrYW6UMng3ycAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="funkeyChangerButton4.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SpeedRacerPinball.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DwAACw8BkvkDpQAAEdRJREFUaEPtmXd0lOeVxpWNU2wn2LEBgWOD7dg4sZONWTvrzdrYjoOdBDvY2AZT
@@ -1097,7 +1097,7 @@
         5OY2zHX7AzzAAzzA/zu4uf0HrYW6UMng3ycAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="funkeyChangerButton5.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ChimChimVR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAAEhJJREFUaEPtWHdQm3eaVjZ919k4sR0bx44rbhTTmwQIEAIkJCSBAElICFGEEEgC
@@ -1180,7 +1180,7 @@
         cevzvt6vPcADPMADPMD/VzAY/wX3RPeB1ri21gAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="funkeyChangerButton6.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="ChimChim.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DwAACw8BkvkDpQAAEhJJREFUaEPtWHdQm3eaVjZ919k4sR0bx44rbhTTmwQIEAIkJCSBAElICFGEEEgC
@@ -1263,7 +1263,7 @@
         cevzvt6vPcADPMADPMD/VzAY/wX3RPeB1ri21gAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="funkeyChangerButton7.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="TaejoVR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAAEPdJREFUaEPtWWdYVNfaHdoAQxt6G+m9RogFMVY0GhMjaoyKioBSpPc+lKF3EEQs
@@ -1341,7 +1341,7 @@
         Kb5xaSmeYYWZfj45GR7zSkqm2jU2cmgD/AZv8AZv8P8PHM7/ANFDJKrmgN+2AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="funkeyChangerButton8.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Taejo.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DwAACw8BkvkDpQAAEPdJREFUaEPtWWdYVNfaHdoAQxt6G+m9RogFMVY0GhMjaoyKioBSpPc+lKF3EEQs
@@ -1419,7 +1419,7 @@
         Kb5xaSmeYYWZfj45GR7zSkqm2jU2cmgD/AZv8AZv8P8PHM7/ANFDJKrmgN+2AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="funkeyChangerButton9.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SnakeOilerVR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAAEdNJREFUaEPtWXl0lOW9/ohZJ8tsmX3f933JPpPJTCbJhJCdJCSB7AtJkNUQEUlY
@@ -1501,7 +1501,7 @@
         8vdJ6ru4i7u4i7v45sEw/wtmg+zrKmoCGgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="funkeyChangerButton10.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="SnakeOiler.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DwAACw8BkvkDpQAAEdNJREFUaEPtWXl0lOW9/ohZJ8tsmX3f933JPpPJTCbJhJCdJCSB7AtJkNUQEUlY
@@ -1583,7 +1583,7 @@
         8vdJ6ru4i7u4i7v45sEw/wtmg+zrKmoCGgAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="funkeyChangerButton11.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="CannonballTaylorVR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAAEclJREFUaEPtmFdwnPd1xSHZckRTYgFJkAAIkiAK0Xvvu+iLRVss6gJYdCzqoi2A
@@ -1665,7 +1665,7 @@
         4I8IB4f/AUGRWQMVO5t6AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="funkeyChangerButton12.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="CannonballTaylor.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DwAACw8BkvkDpQAAEclJREFUaEPtmFdwnPd1xSHZckRTYgFJkAAIkiAK0Xvvu+iLRVss6gJYdCzqoi2A
@@ -1747,7 +1747,7 @@
         4I8IB4f/AUGRWQMVO5t6AAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="funkeyChangerButton13.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="TrixieVR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAAEZJJREFUaEPtWGlQVGmWTZFF2ZLcNzKTTMgEkn1fRUAEEQGBEmTVBGQRARFEUQQX
@@ -1828,7 +1828,7 @@
         Hd7hHd7h/yM4nP8GNtK8n0sgG8EAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="funkeyChangerButton14.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="Trixie.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DwAACw8BkvkDpQAAEZJJREFUaEPtWGlQVGmWTZFF2ZLcNzKTTMgEkn1fRUAEEQGBEmTVBGQRARFEUQQX
@@ -1909,7 +1909,7 @@
         Hd7hHd7h/yM4nP8GNtK8n0sgG8EAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="funkeyChangerButton15.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="RacerXVR.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         EAAACxABrSO9dQAAENVJREFUaEPtWHl0k2W+7lyvVwXa0lK6J23SpGnSNG2WNkmTNmma7mu67/u+LxQo
@@ -1987,7 +1987,7 @@
         Ln8HdhgCdtkA8HMAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="funkeyChangerButton16.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="RacerX.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
         DwAACw8BkvkDpQAAENVJREFUaEPtWHl0k2W+7lyvVwXa0lK6J23SpGnSNG2WNkmTNmma7mu67/u+LxQo

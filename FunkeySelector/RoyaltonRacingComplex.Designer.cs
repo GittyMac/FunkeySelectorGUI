@@ -30,41 +30,41 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RoyaltonRacingComplex));
             this.SnakeOilerLabel = new System.Windows.Forms.Label();
-            this.SnakeOiler = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SnakeOilerR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.TrixieLabel = new System.Windows.Forms.Label();
-            this.Trixie = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.TrixieR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.CannonballTaylorLabel = new System.Windows.Forms.Label();
-            this.CannonballTaylor = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.CannonballTaylorR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.RacerXLabel = new System.Windows.Forms.Label();
-            this.RacerX = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.RacerXR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.backButton = new FunkeySelector.UserControls.ChangeFormButton();
             this.RoyaltonRacingComplexLabel = new System.Windows.Forms.Label();
             this.TaejoLabel = new System.Windows.Forms.Label();
-            this.Taejo = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.TaejoR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.SpeedRacerPinballLabel = new System.Windows.Forms.Label();
-            this.SpeedRacerPinball = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SpeedRacerPinballR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.ChimChimLabel = new System.Windows.Forms.Label();
-            this.ChimChim = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.ChimChimR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.SpeedRacerLabel = new System.Windows.Forms.Label();
-            this.SpeedRacer = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SpeedRacerR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
-            this.funkeyChangerButton1 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton2 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton3 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton4 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton5 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton6 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton7 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton8 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton9 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton10 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton11 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton12 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton13 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton14 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton15 = new FunkeySelector.UserControls.FunkeyChangerButton();
-            this.funkeyChangerButton16 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SpeedRacerVR = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SpeedRacer = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SpeedRacerPinballVR = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SpeedRacerPinball = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.ChimChimVR = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.ChimChim = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.TaejoVR = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.Taejo = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SnakeOilerVR = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.SnakeOiler = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.CannonballTaylorVR = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.CannonballTaylor = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.TrixieVR = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.Trixie = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.RacerXVR = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.RacerX = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.SuspendLayout();
             // 
             // SnakeOilerLabel
@@ -79,22 +79,22 @@
             this.SnakeOilerLabel.TabIndex = 27;
             this.SnakeOilerLabel.Text = "SNAKE OILER";
             // 
-            // SnakeOiler
+            // SnakeOilerR
             // 
-            this.SnakeOiler.BackColor = System.Drawing.Color.Transparent;
-            this.SnakeOiler.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SnakeOiler.BackgroundImage")));
-            this.SnakeOiler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SnakeOiler.FlatAppearance.BorderSize = 0;
-            this.SnakeOiler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SnakeOiler.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SnakeOiler.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.SnakeOiler.FunkeyID = "0000008C";
-            this.SnakeOiler.Location = new System.Drawing.Point(205, 465);
-            this.SnakeOiler.Name = "SnakeOiler";
-            this.SnakeOiler.Size = new System.Drawing.Size(50, 63);
-            this.SnakeOiler.TabIndex = 29;
-            this.SnakeOiler.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.SnakeOiler.UseVisualStyleBackColor = false;
+            this.SnakeOilerR.BackColor = System.Drawing.Color.Transparent;
+            this.SnakeOilerR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SnakeOilerR.BackgroundImage")));
+            this.SnakeOilerR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SnakeOilerR.FlatAppearance.BorderSize = 0;
+            this.SnakeOilerR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SnakeOilerR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SnakeOilerR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SnakeOilerR.FunkeyID = "0000008C";
+            this.SnakeOilerR.Location = new System.Drawing.Point(205, 465);
+            this.SnakeOilerR.Name = "SnakeOilerR";
+            this.SnakeOilerR.Size = new System.Drawing.Size(50, 63);
+            this.SnakeOilerR.TabIndex = 29;
+            this.SnakeOilerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SnakeOilerR.UseVisualStyleBackColor = false;
             // 
             // TrixieLabel
             // 
@@ -108,22 +108,22 @@
             this.TrixieLabel.TabIndex = 11;
             this.TrixieLabel.Text = "TRIXIE";
             // 
-            // Trixie
+            // TrixieR
             // 
-            this.Trixie.BackColor = System.Drawing.Color.Transparent;
-            this.Trixie.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Trixie.BackgroundImage")));
-            this.Trixie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Trixie.FlatAppearance.BorderSize = 0;
-            this.Trixie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Trixie.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Trixie.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Trixie.FunkeyID = "00000083";
-            this.Trixie.Location = new System.Drawing.Point(205, 252);
-            this.Trixie.Name = "Trixie";
-            this.Trixie.Size = new System.Drawing.Size(50, 63);
-            this.Trixie.TabIndex = 13;
-            this.Trixie.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Trixie.UseVisualStyleBackColor = false;
+            this.TrixieR.BackColor = System.Drawing.Color.Transparent;
+            this.TrixieR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TrixieR.BackgroundImage")));
+            this.TrixieR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.TrixieR.FlatAppearance.BorderSize = 0;
+            this.TrixieR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TrixieR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TrixieR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TrixieR.FunkeyID = "00000083";
+            this.TrixieR.Location = new System.Drawing.Point(205, 252);
+            this.TrixieR.Name = "TrixieR";
+            this.TrixieR.Size = new System.Drawing.Size(50, 63);
+            this.TrixieR.TabIndex = 13;
+            this.TrixieR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.TrixieR.UseVisualStyleBackColor = false;
             // 
             // CannonballTaylorLabel
             // 
@@ -137,22 +137,22 @@
             this.CannonballTaylorLabel.TabIndex = 19;
             this.CannonballTaylorLabel.Text = "CANNONBALL TAYLOR";
             // 
-            // CannonballTaylor
+            // CannonballTaylorR
             // 
-            this.CannonballTaylor.BackColor = System.Drawing.Color.Transparent;
-            this.CannonballTaylor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CannonballTaylor.BackgroundImage")));
-            this.CannonballTaylor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.CannonballTaylor.FlatAppearance.BorderSize = 0;
-            this.CannonballTaylor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CannonballTaylor.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CannonballTaylor.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.CannonballTaylor.FunkeyID = "00000088";
-            this.CannonballTaylor.Location = new System.Drawing.Point(205, 361);
-            this.CannonballTaylor.Name = "CannonballTaylor";
-            this.CannonballTaylor.Size = new System.Drawing.Size(50, 63);
-            this.CannonballTaylor.TabIndex = 21;
-            this.CannonballTaylor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.CannonballTaylor.UseVisualStyleBackColor = false;
+            this.CannonballTaylorR.BackColor = System.Drawing.Color.Transparent;
+            this.CannonballTaylorR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CannonballTaylorR.BackgroundImage")));
+            this.CannonballTaylorR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.CannonballTaylorR.FlatAppearance.BorderSize = 0;
+            this.CannonballTaylorR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CannonballTaylorR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CannonballTaylorR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.CannonballTaylorR.FunkeyID = "00000089";
+            this.CannonballTaylorR.Location = new System.Drawing.Point(205, 361);
+            this.CannonballTaylorR.Name = "CannonballTaylorR";
+            this.CannonballTaylorR.Size = new System.Drawing.Size(50, 63);
+            this.CannonballTaylorR.TabIndex = 21;
+            this.CannonballTaylorR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.CannonballTaylorR.UseVisualStyleBackColor = false;
             // 
             // RacerXLabel
             // 
@@ -166,22 +166,22 @@
             this.RacerXLabel.TabIndex = 3;
             this.RacerXLabel.Text = "RACER X";
             // 
-            // RacerX
+            // RacerXR
             // 
-            this.RacerX.BackColor = System.Drawing.Color.Transparent;
-            this.RacerX.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RacerX.BackgroundImage")));
-            this.RacerX.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.RacerX.FlatAppearance.BorderSize = 0;
-            this.RacerX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.RacerX.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RacerX.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.RacerX.FunkeyID = "00000060";
-            this.RacerX.Location = new System.Drawing.Point(205, 133);
-            this.RacerX.Name = "RacerX";
-            this.RacerX.Size = new System.Drawing.Size(50, 63);
-            this.RacerX.TabIndex = 5;
-            this.RacerX.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.RacerX.UseVisualStyleBackColor = false;
+            this.RacerXR.BackColor = System.Drawing.Color.Transparent;
+            this.RacerXR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RacerXR.BackgroundImage")));
+            this.RacerXR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.RacerXR.FlatAppearance.BorderSize = 0;
+            this.RacerXR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RacerXR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RacerXR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.RacerXR.FunkeyID = "00000060";
+            this.RacerXR.Location = new System.Drawing.Point(205, 133);
+            this.RacerXR.Name = "RacerXR";
+            this.RacerXR.Size = new System.Drawing.Size(50, 63);
+            this.RacerXR.TabIndex = 5;
+            this.RacerXR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.RacerXR.UseVisualStyleBackColor = false;
             // 
             // backButton
             // 
@@ -225,22 +225,22 @@
             this.TaejoLabel.TabIndex = 31;
             this.TaejoLabel.Text = "TAEJO";
             // 
-            // Taejo
+            // TaejoR
             // 
-            this.Taejo.BackColor = System.Drawing.Color.Transparent;
-            this.Taejo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Taejo.BackgroundImage")));
-            this.Taejo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.Taejo.FlatAppearance.BorderSize = 0;
-            this.Taejo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Taejo.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Taejo.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.Taejo.FunkeyID = "00000098";
-            this.Taejo.Location = new System.Drawing.Point(479, 465);
-            this.Taejo.Name = "Taejo";
-            this.Taejo.Size = new System.Drawing.Size(50, 63);
-            this.Taejo.TabIndex = 33;
-            this.Taejo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.Taejo.UseVisualStyleBackColor = false;
+            this.TaejoR.BackColor = System.Drawing.Color.Transparent;
+            this.TaejoR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TaejoR.BackgroundImage")));
+            this.TaejoR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.TaejoR.FlatAppearance.BorderSize = 0;
+            this.TaejoR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaejoR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TaejoR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TaejoR.FunkeyID = "00000098";
+            this.TaejoR.Location = new System.Drawing.Point(479, 465);
+            this.TaejoR.Name = "TaejoR";
+            this.TaejoR.Size = new System.Drawing.Size(50, 63);
+            this.TaejoR.TabIndex = 33;
+            this.TaejoR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.TaejoR.UseVisualStyleBackColor = false;
             // 
             // SpeedRacerPinballLabel
             // 
@@ -254,22 +254,22 @@
             this.SpeedRacerPinballLabel.TabIndex = 15;
             this.SpeedRacerPinballLabel.Text = "SPEED RACER (PINBALL)";
             // 
-            // SpeedRacerPinball
+            // SpeedRacerPinballR
             // 
-            this.SpeedRacerPinball.BackColor = System.Drawing.Color.Transparent;
-            this.SpeedRacerPinball.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpeedRacerPinball.BackgroundImage")));
-            this.SpeedRacerPinball.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SpeedRacerPinball.FlatAppearance.BorderSize = 0;
-            this.SpeedRacerPinball.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SpeedRacerPinball.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SpeedRacerPinball.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.SpeedRacerPinball.FunkeyID = "00000095";
-            this.SpeedRacerPinball.Location = new System.Drawing.Point(479, 252);
-            this.SpeedRacerPinball.Name = "SpeedRacerPinball";
-            this.SpeedRacerPinball.Size = new System.Drawing.Size(50, 63);
-            this.SpeedRacerPinball.TabIndex = 17;
-            this.SpeedRacerPinball.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.SpeedRacerPinball.UseVisualStyleBackColor = false;
+            this.SpeedRacerPinballR.BackColor = System.Drawing.Color.Transparent;
+            this.SpeedRacerPinballR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpeedRacerPinballR.BackgroundImage")));
+            this.SpeedRacerPinballR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SpeedRacerPinballR.FlatAppearance.BorderSize = 0;
+            this.SpeedRacerPinballR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SpeedRacerPinballR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpeedRacerPinballR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SpeedRacerPinballR.FunkeyID = "00000095";
+            this.SpeedRacerPinballR.Location = new System.Drawing.Point(479, 252);
+            this.SpeedRacerPinballR.Name = "SpeedRacerPinballR";
+            this.SpeedRacerPinballR.Size = new System.Drawing.Size(50, 63);
+            this.SpeedRacerPinballR.TabIndex = 17;
+            this.SpeedRacerPinballR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SpeedRacerPinballR.UseVisualStyleBackColor = false;
             // 
             // ChimChimLabel
             // 
@@ -283,22 +283,22 @@
             this.ChimChimLabel.TabIndex = 23;
             this.ChimChimLabel.Text = "CHIM-CHIM";
             // 
-            // ChimChim
+            // ChimChimR
             // 
-            this.ChimChim.BackColor = System.Drawing.Color.Transparent;
-            this.ChimChim.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ChimChim.BackgroundImage")));
-            this.ChimChim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ChimChim.FlatAppearance.BorderSize = 0;
-            this.ChimChim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ChimChim.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ChimChim.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.ChimChim.FunkeyID = "00000096";
-            this.ChimChim.Location = new System.Drawing.Point(479, 361);
-            this.ChimChim.Name = "ChimChim";
-            this.ChimChim.Size = new System.Drawing.Size(50, 63);
-            this.ChimChim.TabIndex = 25;
-            this.ChimChim.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.ChimChim.UseVisualStyleBackColor = false;
+            this.ChimChimR.BackColor = System.Drawing.Color.Transparent;
+            this.ChimChimR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ChimChimR.BackgroundImage")));
+            this.ChimChimR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ChimChimR.FlatAppearance.BorderSize = 0;
+            this.ChimChimR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ChimChimR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChimChimR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.ChimChimR.FunkeyID = "00000096";
+            this.ChimChimR.Location = new System.Drawing.Point(479, 361);
+            this.ChimChimR.Name = "ChimChimR";
+            this.ChimChimR.Size = new System.Drawing.Size(50, 63);
+            this.ChimChimR.TabIndex = 25;
+            this.ChimChimR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ChimChimR.UseVisualStyleBackColor = false;
             // 
             // SpeedRacerLabel
             // 
@@ -312,22 +312,22 @@
             this.SpeedRacerLabel.TabIndex = 7;
             this.SpeedRacerLabel.Text = "SPEED RACER";
             // 
-            // SpeedRacer
+            // SpeedRacerR
             // 
-            this.SpeedRacer.BackColor = System.Drawing.Color.Transparent;
-            this.SpeedRacer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpeedRacer.BackgroundImage")));
-            this.SpeedRacer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.SpeedRacer.FlatAppearance.BorderSize = 0;
-            this.SpeedRacer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.SpeedRacer.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SpeedRacer.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.SpeedRacer.FunkeyID = "00000097";
-            this.SpeedRacer.Location = new System.Drawing.Point(479, 133);
-            this.SpeedRacer.Name = "SpeedRacer";
-            this.SpeedRacer.Size = new System.Drawing.Size(50, 63);
-            this.SpeedRacer.TabIndex = 9;
-            this.SpeedRacer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.SpeedRacer.UseVisualStyleBackColor = false;
+            this.SpeedRacerR.BackColor = System.Drawing.Color.Transparent;
+            this.SpeedRacerR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpeedRacerR.BackgroundImage")));
+            this.SpeedRacerR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SpeedRacerR.FlatAppearance.BorderSize = 0;
+            this.SpeedRacerR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SpeedRacerR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpeedRacerR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SpeedRacerR.FunkeyID = "00000097";
+            this.SpeedRacerR.Location = new System.Drawing.Point(479, 133);
+            this.SpeedRacerR.Name = "SpeedRacerR";
+            this.SpeedRacerR.Size = new System.Drawing.Size(50, 63);
+            this.SpeedRacerR.TabIndex = 9;
+            this.SpeedRacerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SpeedRacerR.UseVisualStyleBackColor = false;
             // 
             // minimizeButton
             // 
@@ -343,277 +343,277 @@
             this.closeButton.Size = new System.Drawing.Size(26, 20);
             this.closeButton.TabIndex = 36;
             // 
-            // funkeyChangerButton1
+            // SpeedRacerVR
             // 
-            this.funkeyChangerButton1.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton1.BackgroundImage")));
-            this.funkeyChangerButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton1.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton1.FunkeyID = "0000009E";
-            this.funkeyChangerButton1.Location = new System.Drawing.Point(531, 133);
-            this.funkeyChangerButton1.Name = "funkeyChangerButton1";
-            this.funkeyChangerButton1.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton1.TabIndex = 10;
-            this.funkeyChangerButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton1.UseVisualStyleBackColor = false;
+            this.SpeedRacerVR.BackColor = System.Drawing.Color.Transparent;
+            this.SpeedRacerVR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpeedRacerVR.BackgroundImage")));
+            this.SpeedRacerVR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SpeedRacerVR.FlatAppearance.BorderSize = 0;
+            this.SpeedRacerVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SpeedRacerVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpeedRacerVR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SpeedRacerVR.FunkeyID = "0000009E";
+            this.SpeedRacerVR.Location = new System.Drawing.Point(531, 133);
+            this.SpeedRacerVR.Name = "SpeedRacerVR";
+            this.SpeedRacerVR.Size = new System.Drawing.Size(50, 63);
+            this.SpeedRacerVR.TabIndex = 10;
+            this.SpeedRacerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SpeedRacerVR.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton2
+            // SpeedRacer
             // 
-            this.funkeyChangerButton2.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton2.BackgroundImage")));
-            this.funkeyChangerButton2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton2.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton2.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton2.FunkeyID = "00000093";
-            this.funkeyChangerButton2.Location = new System.Drawing.Point(427, 133);
-            this.funkeyChangerButton2.Name = "funkeyChangerButton2";
-            this.funkeyChangerButton2.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton2.TabIndex = 8;
-            this.funkeyChangerButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton2.UseVisualStyleBackColor = false;
+            this.SpeedRacer.BackColor = System.Drawing.Color.Transparent;
+            this.SpeedRacer.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpeedRacer.BackgroundImage")));
+            this.SpeedRacer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SpeedRacer.FlatAppearance.BorderSize = 0;
+            this.SpeedRacer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SpeedRacer.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpeedRacer.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SpeedRacer.FunkeyID = "00000093";
+            this.SpeedRacer.Location = new System.Drawing.Point(427, 133);
+            this.SpeedRacer.Name = "SpeedRacer";
+            this.SpeedRacer.Size = new System.Drawing.Size(50, 63);
+            this.SpeedRacer.TabIndex = 8;
+            this.SpeedRacer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SpeedRacer.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton3
+            // SpeedRacerPinballVR
             // 
-            this.funkeyChangerButton3.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton3.BackgroundImage")));
-            this.funkeyChangerButton3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton3.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton3.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton3.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton3.FunkeyID = "00000099";
-            this.funkeyChangerButton3.Location = new System.Drawing.Point(531, 252);
-            this.funkeyChangerButton3.Name = "funkeyChangerButton3";
-            this.funkeyChangerButton3.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton3.TabIndex = 18;
-            this.funkeyChangerButton3.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton3.UseVisualStyleBackColor = false;
+            this.SpeedRacerPinballVR.BackColor = System.Drawing.Color.Transparent;
+            this.SpeedRacerPinballVR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpeedRacerPinballVR.BackgroundImage")));
+            this.SpeedRacerPinballVR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SpeedRacerPinballVR.FlatAppearance.BorderSize = 0;
+            this.SpeedRacerPinballVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SpeedRacerPinballVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpeedRacerPinballVR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SpeedRacerPinballVR.FunkeyID = "00000099";
+            this.SpeedRacerPinballVR.Location = new System.Drawing.Point(531, 252);
+            this.SpeedRacerPinballVR.Name = "SpeedRacerPinballVR";
+            this.SpeedRacerPinballVR.Size = new System.Drawing.Size(50, 63);
+            this.SpeedRacerPinballVR.TabIndex = 18;
+            this.SpeedRacerPinballVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SpeedRacerPinballVR.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton4
+            // SpeedRacerPinball
             // 
-            this.funkeyChangerButton4.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton4.BackgroundImage")));
-            this.funkeyChangerButton4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton4.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton4.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton4.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton4.FunkeyID = "0000008E";
-            this.funkeyChangerButton4.Location = new System.Drawing.Point(427, 252);
-            this.funkeyChangerButton4.Name = "funkeyChangerButton4";
-            this.funkeyChangerButton4.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton4.TabIndex = 16;
-            this.funkeyChangerButton4.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton4.UseVisualStyleBackColor = false;
+            this.SpeedRacerPinball.BackColor = System.Drawing.Color.Transparent;
+            this.SpeedRacerPinball.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SpeedRacerPinball.BackgroundImage")));
+            this.SpeedRacerPinball.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SpeedRacerPinball.FlatAppearance.BorderSize = 0;
+            this.SpeedRacerPinball.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SpeedRacerPinball.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SpeedRacerPinball.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SpeedRacerPinball.FunkeyID = "0000008E";
+            this.SpeedRacerPinball.Location = new System.Drawing.Point(427, 252);
+            this.SpeedRacerPinball.Name = "SpeedRacerPinball";
+            this.SpeedRacerPinball.Size = new System.Drawing.Size(50, 63);
+            this.SpeedRacerPinball.TabIndex = 16;
+            this.SpeedRacerPinball.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SpeedRacerPinball.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton5
+            // ChimChimVR
             // 
-            this.funkeyChangerButton5.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton5.BackgroundImage")));
-            this.funkeyChangerButton5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton5.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton5.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton5.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton5.FunkeyID = "0000009D";
-            this.funkeyChangerButton5.Location = new System.Drawing.Point(531, 361);
-            this.funkeyChangerButton5.Name = "funkeyChangerButton5";
-            this.funkeyChangerButton5.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton5.TabIndex = 26;
-            this.funkeyChangerButton5.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton5.UseVisualStyleBackColor = false;
+            this.ChimChimVR.BackColor = System.Drawing.Color.Transparent;
+            this.ChimChimVR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ChimChimVR.BackgroundImage")));
+            this.ChimChimVR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ChimChimVR.FlatAppearance.BorderSize = 0;
+            this.ChimChimVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ChimChimVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChimChimVR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.ChimChimVR.FunkeyID = "0000009D";
+            this.ChimChimVR.Location = new System.Drawing.Point(531, 361);
+            this.ChimChimVR.Name = "ChimChimVR";
+            this.ChimChimVR.Size = new System.Drawing.Size(50, 63);
+            this.ChimChimVR.TabIndex = 26;
+            this.ChimChimVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ChimChimVR.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton6
+            // ChimChim
             // 
-            this.funkeyChangerButton6.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton6.BackgroundImage")));
-            this.funkeyChangerButton6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton6.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton6.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton6.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton6.FunkeyID = "00000092";
-            this.funkeyChangerButton6.Location = new System.Drawing.Point(427, 361);
-            this.funkeyChangerButton6.Name = "funkeyChangerButton6";
-            this.funkeyChangerButton6.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton6.TabIndex = 24;
-            this.funkeyChangerButton6.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton6.UseVisualStyleBackColor = false;
+            this.ChimChim.BackColor = System.Drawing.Color.Transparent;
+            this.ChimChim.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ChimChim.BackgroundImage")));
+            this.ChimChim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ChimChim.FlatAppearance.BorderSize = 0;
+            this.ChimChim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ChimChim.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ChimChim.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.ChimChim.FunkeyID = "00000092";
+            this.ChimChim.Location = new System.Drawing.Point(427, 361);
+            this.ChimChim.Name = "ChimChim";
+            this.ChimChim.Size = new System.Drawing.Size(50, 63);
+            this.ChimChim.TabIndex = 24;
+            this.ChimChim.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.ChimChim.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton7
+            // TaejoVR
             // 
-            this.funkeyChangerButton7.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton7.BackgroundImage")));
-            this.funkeyChangerButton7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton7.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton7.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton7.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton7.FunkeyID = "0000009F";
-            this.funkeyChangerButton7.Location = new System.Drawing.Point(531, 465);
-            this.funkeyChangerButton7.Name = "funkeyChangerButton7";
-            this.funkeyChangerButton7.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton7.TabIndex = 34;
-            this.funkeyChangerButton7.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton7.UseVisualStyleBackColor = false;
+            this.TaejoVR.BackColor = System.Drawing.Color.Transparent;
+            this.TaejoVR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TaejoVR.BackgroundImage")));
+            this.TaejoVR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.TaejoVR.FlatAppearance.BorderSize = 0;
+            this.TaejoVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TaejoVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TaejoVR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TaejoVR.FunkeyID = "0000009F";
+            this.TaejoVR.Location = new System.Drawing.Point(531, 465);
+            this.TaejoVR.Name = "TaejoVR";
+            this.TaejoVR.Size = new System.Drawing.Size(50, 63);
+            this.TaejoVR.TabIndex = 34;
+            this.TaejoVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.TaejoVR.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton8
+            // Taejo
             // 
-            this.funkeyChangerButton8.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton8.BackgroundImage")));
-            this.funkeyChangerButton8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton8.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton8.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton8.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton8.FunkeyID = "00000094";
-            this.funkeyChangerButton8.Location = new System.Drawing.Point(427, 465);
-            this.funkeyChangerButton8.Name = "funkeyChangerButton8";
-            this.funkeyChangerButton8.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton8.TabIndex = 32;
-            this.funkeyChangerButton8.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton8.UseVisualStyleBackColor = false;
+            this.Taejo.BackColor = System.Drawing.Color.Transparent;
+            this.Taejo.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Taejo.BackgroundImage")));
+            this.Taejo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Taejo.FlatAppearance.BorderSize = 0;
+            this.Taejo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Taejo.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Taejo.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Taejo.FunkeyID = "00000094";
+            this.Taejo.Location = new System.Drawing.Point(427, 465);
+            this.Taejo.Name = "Taejo";
+            this.Taejo.Size = new System.Drawing.Size(50, 63);
+            this.Taejo.TabIndex = 32;
+            this.Taejo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Taejo.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton9
+            // SnakeOilerVR
             // 
-            this.funkeyChangerButton9.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton9.BackgroundImage")));
-            this.funkeyChangerButton9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton9.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton9.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton9.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton9.FunkeyID = "0000008D";
-            this.funkeyChangerButton9.Location = new System.Drawing.Point(255, 465);
-            this.funkeyChangerButton9.Name = "funkeyChangerButton9";
-            this.funkeyChangerButton9.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton9.TabIndex = 30;
-            this.funkeyChangerButton9.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton9.UseVisualStyleBackColor = false;
+            this.SnakeOilerVR.BackColor = System.Drawing.Color.Transparent;
+            this.SnakeOilerVR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SnakeOilerVR.BackgroundImage")));
+            this.SnakeOilerVR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SnakeOilerVR.FlatAppearance.BorderSize = 0;
+            this.SnakeOilerVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SnakeOilerVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SnakeOilerVR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SnakeOilerVR.FunkeyID = "0000008D";
+            this.SnakeOilerVR.Location = new System.Drawing.Point(255, 465);
+            this.SnakeOilerVR.Name = "SnakeOilerVR";
+            this.SnakeOilerVR.Size = new System.Drawing.Size(50, 63);
+            this.SnakeOilerVR.TabIndex = 30;
+            this.SnakeOilerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SnakeOilerVR.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton10
+            // SnakeOiler
             // 
-            this.funkeyChangerButton10.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton10.BackgroundImage")));
-            this.funkeyChangerButton10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton10.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton10.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton10.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton10.FunkeyID = "0000008B";
-            this.funkeyChangerButton10.Location = new System.Drawing.Point(157, 465);
-            this.funkeyChangerButton10.Name = "funkeyChangerButton10";
-            this.funkeyChangerButton10.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton10.TabIndex = 28;
-            this.funkeyChangerButton10.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton10.UseVisualStyleBackColor = false;
+            this.SnakeOiler.BackColor = System.Drawing.Color.Transparent;
+            this.SnakeOiler.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("SnakeOiler.BackgroundImage")));
+            this.SnakeOiler.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.SnakeOiler.FlatAppearance.BorderSize = 0;
+            this.SnakeOiler.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.SnakeOiler.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SnakeOiler.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.SnakeOiler.FunkeyID = "0000008B";
+            this.SnakeOiler.Location = new System.Drawing.Point(157, 465);
+            this.SnakeOiler.Name = "SnakeOiler";
+            this.SnakeOiler.Size = new System.Drawing.Size(50, 63);
+            this.SnakeOiler.TabIndex = 28;
+            this.SnakeOiler.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.SnakeOiler.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton11
+            // CannonballTaylorVR
             // 
-            this.funkeyChangerButton11.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton11.BackgroundImage")));
-            this.funkeyChangerButton11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton11.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton11.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton11.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton11.FunkeyID = "00000088";
-            this.funkeyChangerButton11.Location = new System.Drawing.Point(255, 361);
-            this.funkeyChangerButton11.Name = "funkeyChangerButton11";
-            this.funkeyChangerButton11.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton11.TabIndex = 22;
-            this.funkeyChangerButton11.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton11.UseVisualStyleBackColor = false;
+            this.CannonballTaylorVR.BackColor = System.Drawing.Color.Transparent;
+            this.CannonballTaylorVR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CannonballTaylorVR.BackgroundImage")));
+            this.CannonballTaylorVR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.CannonballTaylorVR.FlatAppearance.BorderSize = 0;
+            this.CannonballTaylorVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CannonballTaylorVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CannonballTaylorVR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.CannonballTaylorVR.FunkeyID = "0000008A";
+            this.CannonballTaylorVR.Location = new System.Drawing.Point(255, 361);
+            this.CannonballTaylorVR.Name = "CannonballTaylorVR";
+            this.CannonballTaylorVR.Size = new System.Drawing.Size(50, 63);
+            this.CannonballTaylorVR.TabIndex = 22;
+            this.CannonballTaylorVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.CannonballTaylorVR.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton12
+            // CannonballTaylor
             // 
-            this.funkeyChangerButton12.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton12.BackgroundImage")));
-            this.funkeyChangerButton12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton12.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton12.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton12.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton12.FunkeyID = "00000088";
-            this.funkeyChangerButton12.Location = new System.Drawing.Point(157, 361);
-            this.funkeyChangerButton12.Name = "funkeyChangerButton12";
-            this.funkeyChangerButton12.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton12.TabIndex = 20;
-            this.funkeyChangerButton12.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton12.UseVisualStyleBackColor = false;
+            this.CannonballTaylor.BackColor = System.Drawing.Color.Transparent;
+            this.CannonballTaylor.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("CannonballTaylor.BackgroundImage")));
+            this.CannonballTaylor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.CannonballTaylor.FlatAppearance.BorderSize = 0;
+            this.CannonballTaylor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CannonballTaylor.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CannonballTaylor.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.CannonballTaylor.FunkeyID = "00000088";
+            this.CannonballTaylor.Location = new System.Drawing.Point(157, 361);
+            this.CannonballTaylor.Name = "CannonballTaylor";
+            this.CannonballTaylor.Size = new System.Drawing.Size(50, 63);
+            this.CannonballTaylor.TabIndex = 20;
+            this.CannonballTaylor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.CannonballTaylor.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton13
+            // TrixieVR
             // 
-            this.funkeyChangerButton13.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton13.BackgroundImage")));
-            this.funkeyChangerButton13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton13.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton13.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton13.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton13.FunkeyID = "00000087";
-            this.funkeyChangerButton13.Location = new System.Drawing.Point(255, 252);
-            this.funkeyChangerButton13.Name = "funkeyChangerButton13";
-            this.funkeyChangerButton13.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton13.TabIndex = 14;
-            this.funkeyChangerButton13.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton13.UseVisualStyleBackColor = false;
+            this.TrixieVR.BackColor = System.Drawing.Color.Transparent;
+            this.TrixieVR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TrixieVR.BackgroundImage")));
+            this.TrixieVR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.TrixieVR.FlatAppearance.BorderSize = 0;
+            this.TrixieVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.TrixieVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TrixieVR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.TrixieVR.FunkeyID = "00000087";
+            this.TrixieVR.Location = new System.Drawing.Point(255, 252);
+            this.TrixieVR.Name = "TrixieVR";
+            this.TrixieVR.Size = new System.Drawing.Size(50, 63);
+            this.TrixieVR.TabIndex = 14;
+            this.TrixieVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.TrixieVR.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton14
+            // Trixie
             // 
-            this.funkeyChangerButton14.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton14.BackgroundImage")));
-            this.funkeyChangerButton14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton14.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton14.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton14.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton14.FunkeyID = "00000082";
-            this.funkeyChangerButton14.Location = new System.Drawing.Point(157, 252);
-            this.funkeyChangerButton14.Name = "funkeyChangerButton14";
-            this.funkeyChangerButton14.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton14.TabIndex = 12;
-            this.funkeyChangerButton14.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton14.UseVisualStyleBackColor = false;
+            this.Trixie.BackColor = System.Drawing.Color.Transparent;
+            this.Trixie.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Trixie.BackgroundImage")));
+            this.Trixie.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Trixie.FlatAppearance.BorderSize = 0;
+            this.Trixie.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Trixie.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Trixie.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Trixie.FunkeyID = "00000082";
+            this.Trixie.Location = new System.Drawing.Point(157, 252);
+            this.Trixie.Name = "Trixie";
+            this.Trixie.Size = new System.Drawing.Size(50, 63);
+            this.Trixie.TabIndex = 12;
+            this.Trixie.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.Trixie.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton15
+            // RacerXVR
             // 
-            this.funkeyChangerButton15.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton15.BackgroundImage")));
-            this.funkeyChangerButton15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton15.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton15.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton15.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton15.FunkeyID = "00000061";
-            this.funkeyChangerButton15.Location = new System.Drawing.Point(255, 133);
-            this.funkeyChangerButton15.Name = "funkeyChangerButton15";
-            this.funkeyChangerButton15.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton15.TabIndex = 6;
-            this.funkeyChangerButton15.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton15.UseVisualStyleBackColor = false;
+            this.RacerXVR.BackColor = System.Drawing.Color.Transparent;
+            this.RacerXVR.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RacerXVR.BackgroundImage")));
+            this.RacerXVR.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.RacerXVR.FlatAppearance.BorderSize = 0;
+            this.RacerXVR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RacerXVR.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RacerXVR.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.RacerXVR.FunkeyID = "00000061";
+            this.RacerXVR.Location = new System.Drawing.Point(255, 133);
+            this.RacerXVR.Name = "RacerXVR";
+            this.RacerXVR.Size = new System.Drawing.Size(50, 63);
+            this.RacerXVR.TabIndex = 6;
+            this.RacerXVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.RacerXVR.UseVisualStyleBackColor = false;
             // 
-            // funkeyChangerButton16
+            // RacerX
             // 
-            this.funkeyChangerButton16.BackColor = System.Drawing.Color.Transparent;
-            this.funkeyChangerButton16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("funkeyChangerButton16.BackgroundImage")));
-            this.funkeyChangerButton16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.funkeyChangerButton16.FlatAppearance.BorderSize = 0;
-            this.funkeyChangerButton16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.funkeyChangerButton16.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.funkeyChangerButton16.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.funkeyChangerButton16.FunkeyID = "0000005F";
-            this.funkeyChangerButton16.Location = new System.Drawing.Point(157, 133);
-            this.funkeyChangerButton16.Name = "funkeyChangerButton16";
-            this.funkeyChangerButton16.Size = new System.Drawing.Size(50, 63);
-            this.funkeyChangerButton16.TabIndex = 4;
-            this.funkeyChangerButton16.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.funkeyChangerButton16.UseVisualStyleBackColor = false;
+            this.RacerX.BackColor = System.Drawing.Color.Transparent;
+            this.RacerX.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("RacerX.BackgroundImage")));
+            this.RacerX.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.RacerX.FlatAppearance.BorderSize = 0;
+            this.RacerX.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RacerX.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RacerX.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.RacerX.FunkeyID = "0000005F";
+            this.RacerX.Location = new System.Drawing.Point(157, 133);
+            this.RacerX.Name = "RacerX";
+            this.RacerX.Size = new System.Drawing.Size(50, 63);
+            this.RacerX.TabIndex = 4;
+            this.RacerX.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.RacerX.UseVisualStyleBackColor = false;
             // 
             // RoyaltonRacingComplex
             // 
@@ -622,40 +622,40 @@
             this.BackColor = System.Drawing.Color.Gold;
             this.BackgroundImage = global::FunkeySelector.Properties.Resources._2432;
             this.ClientSize = new System.Drawing.Size(726, 566);
-            this.Controls.Add(this.funkeyChangerButton16);
-            this.Controls.Add(this.funkeyChangerButton15);
-            this.Controls.Add(this.funkeyChangerButton14);
-            this.Controls.Add(this.funkeyChangerButton13);
-            this.Controls.Add(this.funkeyChangerButton12);
-            this.Controls.Add(this.funkeyChangerButton11);
-            this.Controls.Add(this.funkeyChangerButton10);
-            this.Controls.Add(this.funkeyChangerButton9);
-            this.Controls.Add(this.funkeyChangerButton8);
-            this.Controls.Add(this.funkeyChangerButton7);
-            this.Controls.Add(this.funkeyChangerButton6);
-            this.Controls.Add(this.funkeyChangerButton5);
-            this.Controls.Add(this.funkeyChangerButton4);
-            this.Controls.Add(this.funkeyChangerButton3);
-            this.Controls.Add(this.funkeyChangerButton2);
-            this.Controls.Add(this.funkeyChangerButton1);
+            this.Controls.Add(this.RacerX);
+            this.Controls.Add(this.RacerXVR);
+            this.Controls.Add(this.Trixie);
+            this.Controls.Add(this.TrixieVR);
+            this.Controls.Add(this.CannonballTaylor);
+            this.Controls.Add(this.CannonballTaylorVR);
+            this.Controls.Add(this.SnakeOiler);
+            this.Controls.Add(this.SnakeOilerVR);
+            this.Controls.Add(this.Taejo);
+            this.Controls.Add(this.TaejoVR);
+            this.Controls.Add(this.ChimChim);
+            this.Controls.Add(this.ChimChimVR);
+            this.Controls.Add(this.SpeedRacerPinball);
+            this.Controls.Add(this.SpeedRacerPinballVR);
+            this.Controls.Add(this.SpeedRacer);
+            this.Controls.Add(this.SpeedRacerVR);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.minimizeButton);
             this.Controls.Add(this.TaejoLabel);
-            this.Controls.Add(this.Taejo);
+            this.Controls.Add(this.TaejoR);
             this.Controls.Add(this.SpeedRacerPinballLabel);
-            this.Controls.Add(this.SpeedRacerPinball);
+            this.Controls.Add(this.SpeedRacerPinballR);
             this.Controls.Add(this.ChimChimLabel);
-            this.Controls.Add(this.ChimChim);
+            this.Controls.Add(this.ChimChimR);
             this.Controls.Add(this.SpeedRacerLabel);
-            this.Controls.Add(this.SpeedRacer);
+            this.Controls.Add(this.SpeedRacerR);
             this.Controls.Add(this.SnakeOilerLabel);
-            this.Controls.Add(this.SnakeOiler);
+            this.Controls.Add(this.SnakeOilerR);
             this.Controls.Add(this.TrixieLabel);
-            this.Controls.Add(this.Trixie);
+            this.Controls.Add(this.TrixieR);
             this.Controls.Add(this.CannonballTaylorLabel);
-            this.Controls.Add(this.CannonballTaylor);
+            this.Controls.Add(this.CannonballTaylorR);
             this.Controls.Add(this.RacerXLabel);
-            this.Controls.Add(this.RacerX);
+            this.Controls.Add(this.RacerXR);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.RoyaltonRacingComplexLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -672,40 +672,40 @@
         #endregion
 
         private System.Windows.Forms.Label SnakeOilerLabel;
-        private FunkeySelector.UserControls.FunkeyChangerButton SnakeOiler;
+        private FunkeySelector.UserControls.FunkeyChangerButton SnakeOilerR;
         private System.Windows.Forms.Label TrixieLabel;
-        private FunkeySelector.UserControls.FunkeyChangerButton Trixie;
+        private FunkeySelector.UserControls.FunkeyChangerButton TrixieR;
         private System.Windows.Forms.Label CannonballTaylorLabel;
-        private FunkeySelector.UserControls.FunkeyChangerButton CannonballTaylor;
+        private FunkeySelector.UserControls.FunkeyChangerButton CannonballTaylorR;
         private System.Windows.Forms.Label RacerXLabel;
-        private FunkeySelector.UserControls.FunkeyChangerButton RacerX;
+        private FunkeySelector.UserControls.FunkeyChangerButton RacerXR;
         private FunkeySelector.UserControls.ChangeFormButton backButton;
         private System.Windows.Forms.Label RoyaltonRacingComplexLabel;
         private System.Windows.Forms.Label TaejoLabel;
-        private FunkeySelector.UserControls.FunkeyChangerButton Taejo;
+        private FunkeySelector.UserControls.FunkeyChangerButton TaejoR;
         private System.Windows.Forms.Label SpeedRacerPinballLabel;
-        private FunkeySelector.UserControls.FunkeyChangerButton SpeedRacerPinball;
+        private FunkeySelector.UserControls.FunkeyChangerButton SpeedRacerPinballR;
         private System.Windows.Forms.Label ChimChimLabel;
-        private FunkeySelector.UserControls.FunkeyChangerButton ChimChim;
+        private FunkeySelector.UserControls.FunkeyChangerButton ChimChimR;
         private System.Windows.Forms.Label SpeedRacerLabel;
-        private FunkeySelector.UserControls.FunkeyChangerButton SpeedRacer;
+        private FunkeySelector.UserControls.FunkeyChangerButton SpeedRacerR;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
-        private UserControls.FunkeyChangerButton funkeyChangerButton1;
-        private UserControls.FunkeyChangerButton funkeyChangerButton2;
-        private UserControls.FunkeyChangerButton funkeyChangerButton3;
-        private UserControls.FunkeyChangerButton funkeyChangerButton4;
-        private UserControls.FunkeyChangerButton funkeyChangerButton5;
-        private UserControls.FunkeyChangerButton funkeyChangerButton6;
-        private UserControls.FunkeyChangerButton funkeyChangerButton7;
-        private UserControls.FunkeyChangerButton funkeyChangerButton8;
-        private UserControls.FunkeyChangerButton funkeyChangerButton9;
-        private UserControls.FunkeyChangerButton funkeyChangerButton10;
-        private UserControls.FunkeyChangerButton funkeyChangerButton11;
-        private UserControls.FunkeyChangerButton funkeyChangerButton12;
-        private UserControls.FunkeyChangerButton funkeyChangerButton13;
-        private UserControls.FunkeyChangerButton funkeyChangerButton14;
-        private UserControls.FunkeyChangerButton funkeyChangerButton15;
-        private UserControls.FunkeyChangerButton funkeyChangerButton16;
+        private UserControls.FunkeyChangerButton SpeedRacerVR;
+        private UserControls.FunkeyChangerButton SpeedRacer;
+        private UserControls.FunkeyChangerButton SpeedRacerPinballVR;
+        private UserControls.FunkeyChangerButton SpeedRacerPinball;
+        private UserControls.FunkeyChangerButton ChimChimVR;
+        private UserControls.FunkeyChangerButton ChimChim;
+        private UserControls.FunkeyChangerButton TaejoVR;
+        private UserControls.FunkeyChangerButton Taejo;
+        private UserControls.FunkeyChangerButton SnakeOilerVR;
+        private UserControls.FunkeyChangerButton SnakeOiler;
+        private UserControls.FunkeyChangerButton CannonballTaylorVR;
+        private UserControls.FunkeyChangerButton CannonballTaylor;
+        private UserControls.FunkeyChangerButton TrixieVR;
+        private UserControls.FunkeyChangerButton Trixie;
+        private UserControls.FunkeyChangerButton RacerXVR;
+        private UserControls.FunkeyChangerButton RacerX;
     }
 }
