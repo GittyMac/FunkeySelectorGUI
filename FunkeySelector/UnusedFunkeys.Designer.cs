@@ -204,7 +204,7 @@
             this.HenchmanBlue.Size = new System.Drawing.Size(50, 63);
             this.HenchmanBlue.TabIndex = 12;
             this.HenchmanBlue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolTip.SetToolTip(this.HenchmanBlue, "Henchman (Blue)");
+            this.toolTip.SetToolTip(this.HenchmanBlue, "Henchman (Kelpy Basin, Blue)");
             this.HenchmanBlue.UseVisualStyleBackColor = false;
             // 
             // HenchmanGreen
@@ -222,7 +222,7 @@
             this.HenchmanGreen.Size = new System.Drawing.Size(50, 63);
             this.HenchmanGreen.TabIndex = 11;
             this.HenchmanGreen.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolTip.SetToolTip(this.HenchmanGreen, "Henchman (Green)");
+            this.toolTip.SetToolTip(this.HenchmanGreen, "Henchman (Laputta Station, Green)");
             this.HenchmanGreen.UseVisualStyleBackColor = false;
             // 
             // HenchmanPurple
@@ -240,7 +240,7 @@
             this.HenchmanPurple.Size = new System.Drawing.Size(50, 63);
             this.HenchmanPurple.TabIndex = 10;
             this.HenchmanPurple.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.toolTip.SetToolTip(this.HenchmanPurple, "Henchman (Purple)");
+            this.toolTip.SetToolTip(this.HenchmanPurple, "Henchman (Funkeystown, Purple)");
             this.HenchmanPurple.UseVisualStyleBackColor = false;
             // 
             // DaliLabel
