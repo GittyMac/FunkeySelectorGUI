@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FunkeysTown));
             this.FunkeysTownLabel = new System.Windows.Forms.Label();
             this.backButton = new FunkeySelector.UserControls.ChangeFormButton();
@@ -63,6 +64,7 @@
             this.Gabby = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // FunkeysTownLabel
@@ -110,6 +112,7 @@
             this.Scratch.Size = new System.Drawing.Size(50, 63);
             this.Scratch.TabIndex = 4;
             this.Scratch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Scratch, "Scratch (Common, Red)");
             this.Scratch.UseVisualStyleBackColor = false;
             // 
             // ScratchR
@@ -127,6 +130,7 @@
             this.ScratchR.Size = new System.Drawing.Size(50, 63);
             this.ScratchR.TabIndex = 5;
             this.ScratchR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.ScratchR, "Scratch (Rare, Yellow)");
             this.ScratchR.UseVisualStyleBackColor = false;
             // 
             // ScratchVR
@@ -144,6 +148,7 @@
             this.ScratchVR.Size = new System.Drawing.Size(50, 63);
             this.ScratchVR.TabIndex = 6;
             this.ScratchVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.ScratchVR, "Scratch (Very Rare, Black)");
             this.ScratchVR.UseVisualStyleBackColor = false;
             // 
             // ScratchLabel
@@ -185,6 +190,7 @@
             this.DriftVR.Size = new System.Drawing.Size(50, 63);
             this.DriftVR.TabIndex = 14;
             this.DriftVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.DriftVR, "Drift (Very Rare)");
             this.DriftVR.UseVisualStyleBackColor = false;
             // 
             // DriftR
@@ -202,6 +208,7 @@
             this.DriftR.Size = new System.Drawing.Size(50, 63);
             this.DriftR.TabIndex = 13;
             this.DriftR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.DriftR, "Drift (Rare)");
             this.DriftR.UseVisualStyleBackColor = false;
             // 
             // Drift
@@ -219,6 +226,7 @@
             this.Drift.Size = new System.Drawing.Size(50, 63);
             this.Drift.TabIndex = 12;
             this.Drift.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Drift, "Drift (Common)");
             this.Drift.UseVisualStyleBackColor = false;
             // 
             // LotusLabel
@@ -248,6 +256,7 @@
             this.LotusVR.Size = new System.Drawing.Size(50, 63);
             this.LotusVR.TabIndex = 10;
             this.LotusVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.LotusVR, "Lotus (Very Rare)");
             this.LotusVR.UseVisualStyleBackColor = false;
             // 
             // LotusR
@@ -265,6 +274,7 @@
             this.LotusR.Size = new System.Drawing.Size(50, 63);
             this.LotusR.TabIndex = 9;
             this.LotusR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.LotusR, "Lotus (Rare)");
             this.LotusR.UseVisualStyleBackColor = false;
             // 
             // Lotus
@@ -282,6 +292,7 @@
             this.Lotus.Size = new System.Drawing.Size(50, 63);
             this.Lotus.TabIndex = 8;
             this.Lotus.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Lotus, "Lotus (Common)");
             this.Lotus.UseVisualStyleBackColor = false;
             // 
             // WaggsLabel
@@ -311,6 +322,7 @@
             this.WaggsVR.Size = new System.Drawing.Size(50, 63);
             this.WaggsVR.TabIndex = 18;
             this.WaggsVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.WaggsVR, "Waggs (Very Rare)");
             this.WaggsVR.UseVisualStyleBackColor = false;
             // 
             // WaggsR
@@ -328,6 +340,7 @@
             this.WaggsR.Size = new System.Drawing.Size(50, 63);
             this.WaggsR.TabIndex = 17;
             this.WaggsR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.WaggsR, "Waggs (Rare)");
             this.WaggsR.UseVisualStyleBackColor = false;
             // 
             // Waggs
@@ -345,6 +358,7 @@
             this.Waggs.Size = new System.Drawing.Size(50, 63);
             this.Waggs.TabIndex = 16;
             this.Waggs.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Waggs, "Waggs (Common)");
             this.Waggs.UseVisualStyleBackColor = false;
             // 
             // DotLabel
@@ -374,6 +388,7 @@
             this.DotVR.Size = new System.Drawing.Size(50, 63);
             this.DotVR.TabIndex = 24;
             this.DotVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.DotVR, "Dot (Very, Very, Vary Rare)");
             this.DotVR.UseVisualStyleBackColor = false;
             // 
             // DotR
@@ -391,6 +406,7 @@
             this.DotR.Size = new System.Drawing.Size(50, 63);
             this.DotR.TabIndex = 23;
             this.DotR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.DotR, "Dot (Rare)");
             this.DotR.UseVisualStyleBackColor = false;
             // 
             // Dot
@@ -408,6 +424,7 @@
             this.Dot.Size = new System.Drawing.Size(50, 63);
             this.Dot.TabIndex = 22;
             this.Dot.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Dot, "Dot (\"Common\", good luck finding one lol)");
             this.Dot.UseVisualStyleBackColor = false;
             // 
             // HenchmanLabel
@@ -437,6 +454,7 @@
             this.Henchman.Size = new System.Drawing.Size(50, 63);
             this.Henchman.TabIndex = 28;
             this.Henchman.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Henchman, "Henchman");
             this.Henchman.UseVisualStyleBackColor = false;
             // 
             // MasterLoxLabel
@@ -466,6 +484,7 @@
             this.MasterLox.Size = new System.Drawing.Size(50, 63);
             this.MasterLox.TabIndex = 30;
             this.MasterLox.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.MasterLox, "Master Lox");
             this.MasterLox.UseVisualStyleBackColor = false;
             // 
             // MayorSaysoLabel
@@ -495,6 +514,7 @@
             this.MayorSayso.Size = new System.Drawing.Size(50, 63);
             this.MayorSayso.TabIndex = 32;
             this.MayorSayso.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.MayorSayso, "Mayor Sayso");
             this.MayorSayso.UseVisualStyleBackColor = false;
             // 
             // HollerLabel
@@ -524,6 +544,7 @@
             this.Holler.Size = new System.Drawing.Size(50, 63);
             this.Holler.TabIndex = 20;
             this.Holler.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Holler, "Holler");
             this.Holler.UseVisualStyleBackColor = false;
             // 
             // GabbyLabel
@@ -553,6 +574,7 @@
             this.Gabby.Size = new System.Drawing.Size(50, 63);
             this.Gabby.TabIndex = 26;
             this.Gabby.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Gabby, "Gabby");
             this.Gabby.UseVisualStyleBackColor = false;
             // 
             // closeButton
@@ -658,5 +680,6 @@
         private FunkeySelector.UserControls.FunkeyChangerButton Gabby;
         private UserControls.CloseButton closeButton;
         private UserControls.MinimizeButton minimizeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

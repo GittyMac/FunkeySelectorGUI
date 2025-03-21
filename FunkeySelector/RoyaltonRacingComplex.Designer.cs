@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RoyaltonRacingComplex));
             this.SnakeOilerLabel = new System.Windows.Forms.Label();
             this.SnakeOilerR = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -65,6 +66,7 @@
             this.Trixie = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.RacerXVR = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.RacerX = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // SnakeOilerLabel
@@ -94,6 +96,7 @@
             this.SnakeOilerR.Size = new System.Drawing.Size(50, 63);
             this.SnakeOilerR.TabIndex = 29;
             this.SnakeOilerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SnakeOilerR, "Snake Oiler (Rare)");
             this.SnakeOilerR.UseVisualStyleBackColor = false;
             // 
             // TrixieLabel
@@ -123,6 +126,7 @@
             this.TrixieR.Size = new System.Drawing.Size(50, 63);
             this.TrixieR.TabIndex = 13;
             this.TrixieR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TrixieR, "Trixie (Rare)");
             this.TrixieR.UseVisualStyleBackColor = false;
             // 
             // CannonballTaylorLabel
@@ -152,6 +156,7 @@
             this.CannonballTaylorR.Size = new System.Drawing.Size(50, 63);
             this.CannonballTaylorR.TabIndex = 21;
             this.CannonballTaylorR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.CannonballTaylorR, "Cannonball Taylor (Rare)");
             this.CannonballTaylorR.UseVisualStyleBackColor = false;
             // 
             // RacerXLabel
@@ -181,6 +186,7 @@
             this.RacerXR.Size = new System.Drawing.Size(50, 63);
             this.RacerXR.TabIndex = 5;
             this.RacerXR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.RacerXR, "Racer X (Rare)");
             this.RacerXR.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -240,6 +246,7 @@
             this.TaejoR.Size = new System.Drawing.Size(50, 63);
             this.TaejoR.TabIndex = 33;
             this.TaejoR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TaejoR, "Taejo (Rare)");
             this.TaejoR.UseVisualStyleBackColor = false;
             // 
             // SpeedRacerPinballLabel
@@ -269,6 +276,7 @@
             this.SpeedRacerPinballR.Size = new System.Drawing.Size(50, 63);
             this.SpeedRacerPinballR.TabIndex = 17;
             this.SpeedRacerPinballR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SpeedRacerPinballR, "Speed Racer (Pinball, Rare)");
             this.SpeedRacerPinballR.UseVisualStyleBackColor = false;
             // 
             // ChimChimLabel
@@ -298,6 +306,7 @@
             this.ChimChimR.Size = new System.Drawing.Size(50, 63);
             this.ChimChimR.TabIndex = 25;
             this.ChimChimR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.ChimChimR, "Chim-Chim (Rare)");
             this.ChimChimR.UseVisualStyleBackColor = false;
             // 
             // SpeedRacerLabel
@@ -327,6 +336,7 @@
             this.SpeedRacerR.Size = new System.Drawing.Size(50, 63);
             this.SpeedRacerR.TabIndex = 9;
             this.SpeedRacerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SpeedRacerR, "Speed Racer (Rare)");
             this.SpeedRacerR.UseVisualStyleBackColor = false;
             // 
             // minimizeButton
@@ -358,6 +368,7 @@
             this.SpeedRacerVR.Size = new System.Drawing.Size(50, 63);
             this.SpeedRacerVR.TabIndex = 10;
             this.SpeedRacerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SpeedRacerVR, "Speed Racer (Very Rare)");
             this.SpeedRacerVR.UseVisualStyleBackColor = false;
             // 
             // SpeedRacer
@@ -375,6 +386,7 @@
             this.SpeedRacer.Size = new System.Drawing.Size(50, 63);
             this.SpeedRacer.TabIndex = 8;
             this.SpeedRacer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SpeedRacer, "Speed Racer (Common)");
             this.SpeedRacer.UseVisualStyleBackColor = false;
             // 
             // SpeedRacerPinballVR
@@ -392,6 +404,7 @@
             this.SpeedRacerPinballVR.Size = new System.Drawing.Size(50, 63);
             this.SpeedRacerPinballVR.TabIndex = 18;
             this.SpeedRacerPinballVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SpeedRacerPinballVR, "Speed Racer (Pinball, Very Rare)");
             this.SpeedRacerPinballVR.UseVisualStyleBackColor = false;
             // 
             // SpeedRacerPinball
@@ -409,6 +422,7 @@
             this.SpeedRacerPinball.Size = new System.Drawing.Size(50, 63);
             this.SpeedRacerPinball.TabIndex = 16;
             this.SpeedRacerPinball.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SpeedRacerPinball, "Speed Racer (Pinball, Common)");
             this.SpeedRacerPinball.UseVisualStyleBackColor = false;
             // 
             // ChimChimVR
@@ -426,6 +440,7 @@
             this.ChimChimVR.Size = new System.Drawing.Size(50, 63);
             this.ChimChimVR.TabIndex = 26;
             this.ChimChimVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.ChimChimVR, "Chim-Chim (Very Rare)");
             this.ChimChimVR.UseVisualStyleBackColor = false;
             // 
             // ChimChim
@@ -443,6 +458,7 @@
             this.ChimChim.Size = new System.Drawing.Size(50, 63);
             this.ChimChim.TabIndex = 24;
             this.ChimChim.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.ChimChim, "Chim-Chim (Common)");
             this.ChimChim.UseVisualStyleBackColor = false;
             // 
             // TaejoVR
@@ -460,6 +476,7 @@
             this.TaejoVR.Size = new System.Drawing.Size(50, 63);
             this.TaejoVR.TabIndex = 34;
             this.TaejoVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TaejoVR, "Taejo (Very Rare)");
             this.TaejoVR.UseVisualStyleBackColor = false;
             // 
             // Taejo
@@ -477,6 +494,7 @@
             this.Taejo.Size = new System.Drawing.Size(50, 63);
             this.Taejo.TabIndex = 32;
             this.Taejo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Taejo, "Taejo (Common)");
             this.Taejo.UseVisualStyleBackColor = false;
             // 
             // SnakeOilerVR
@@ -494,6 +512,7 @@
             this.SnakeOilerVR.Size = new System.Drawing.Size(50, 63);
             this.SnakeOilerVR.TabIndex = 30;
             this.SnakeOilerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SnakeOilerVR, "Snake Oiler (Very Rare)");
             this.SnakeOilerVR.UseVisualStyleBackColor = false;
             // 
             // SnakeOiler
@@ -511,6 +530,7 @@
             this.SnakeOiler.Size = new System.Drawing.Size(50, 63);
             this.SnakeOiler.TabIndex = 28;
             this.SnakeOiler.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SnakeOiler, "Snake Oiler (Common)");
             this.SnakeOiler.UseVisualStyleBackColor = false;
             // 
             // CannonballTaylorVR
@@ -528,6 +548,7 @@
             this.CannonballTaylorVR.Size = new System.Drawing.Size(50, 63);
             this.CannonballTaylorVR.TabIndex = 22;
             this.CannonballTaylorVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.CannonballTaylorVR, "Cannonball Taylor (Very Rare)");
             this.CannonballTaylorVR.UseVisualStyleBackColor = false;
             // 
             // CannonballTaylor
@@ -545,6 +566,7 @@
             this.CannonballTaylor.Size = new System.Drawing.Size(50, 63);
             this.CannonballTaylor.TabIndex = 20;
             this.CannonballTaylor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.CannonballTaylor, "Cannonball Taylor (Common)");
             this.CannonballTaylor.UseVisualStyleBackColor = false;
             // 
             // TrixieVR
@@ -562,6 +584,7 @@
             this.TrixieVR.Size = new System.Drawing.Size(50, 63);
             this.TrixieVR.TabIndex = 14;
             this.TrixieVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TrixieVR, "Trixie (Very Rare)");
             this.TrixieVR.UseVisualStyleBackColor = false;
             // 
             // Trixie
@@ -579,6 +602,7 @@
             this.Trixie.Size = new System.Drawing.Size(50, 63);
             this.Trixie.TabIndex = 12;
             this.Trixie.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Trixie, "Trixie (Common)");
             this.Trixie.UseVisualStyleBackColor = false;
             // 
             // RacerXVR
@@ -596,6 +620,7 @@
             this.RacerXVR.Size = new System.Drawing.Size(50, 63);
             this.RacerXVR.TabIndex = 6;
             this.RacerXVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.RacerXVR, "Racer X (Very Rare)");
             this.RacerXVR.UseVisualStyleBackColor = false;
             // 
             // RacerX
@@ -613,6 +638,7 @@
             this.RacerX.Size = new System.Drawing.Size(50, 63);
             this.RacerX.TabIndex = 4;
             this.RacerX.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.RacerX, "Racer X (Common)");
             this.RacerX.UseVisualStyleBackColor = false;
             // 
             // RoyaltonRacingComplex
@@ -707,5 +733,6 @@
         private UserControls.FunkeyChangerButton Trixie;
         private UserControls.FunkeyChangerButton RacerXVR;
         private UserControls.FunkeyChangerButton RacerX;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

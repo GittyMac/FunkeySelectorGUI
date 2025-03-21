@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UnusedFunkeys));
             this.TachLabel = new System.Windows.Forms.Label();
             this.TachRed = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -47,6 +48,7 @@
             this.Goya = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // TachLabel
@@ -76,6 +78,7 @@
             this.TachRed.Size = new System.Drawing.Size(50, 63);
             this.TachRed.TabIndex = 6;
             this.TachRed.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TachRed, "Tach (Red)");
             this.TachRed.UseVisualStyleBackColor = false;
             // 
             // TachYellow
@@ -93,6 +96,7 @@
             this.TachYellow.Size = new System.Drawing.Size(50, 63);
             this.TachYellow.TabIndex = 5;
             this.TachYellow.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TachYellow, "Tach (Yellow)");
             this.TachYellow.UseVisualStyleBackColor = false;
             // 
             // TachBlue
@@ -110,6 +114,7 @@
             this.TachBlue.Size = new System.Drawing.Size(50, 63);
             this.TachBlue.TabIndex = 4;
             this.TachBlue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TachBlue, "Tach (Blue)");
             this.TachBlue.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -169,6 +174,7 @@
             this.Con.Size = new System.Drawing.Size(50, 63);
             this.Con.TabIndex = 8;
             this.Con.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Con, "Con (Car Dealer)");
             this.Con.UseVisualStyleBackColor = false;
             // 
             // HenchmenLabel
@@ -198,6 +204,7 @@
             this.HenchmanBlue.Size = new System.Drawing.Size(50, 63);
             this.HenchmanBlue.TabIndex = 12;
             this.HenchmanBlue.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.HenchmanBlue, "Henchman (Blue)");
             this.HenchmanBlue.UseVisualStyleBackColor = false;
             // 
             // HenchmanGreen
@@ -215,6 +222,7 @@
             this.HenchmanGreen.Size = new System.Drawing.Size(50, 63);
             this.HenchmanGreen.TabIndex = 11;
             this.HenchmanGreen.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.HenchmanGreen, "Henchman (Green)");
             this.HenchmanGreen.UseVisualStyleBackColor = false;
             // 
             // HenchmanPurple
@@ -232,6 +240,7 @@
             this.HenchmanPurple.Size = new System.Drawing.Size(50, 63);
             this.HenchmanPurple.TabIndex = 10;
             this.HenchmanPurple.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.HenchmanPurple, "Henchman (Purple)");
             this.HenchmanPurple.UseVisualStyleBackColor = false;
             // 
             // DaliLabel
@@ -261,6 +270,7 @@
             this.Dali.Size = new System.Drawing.Size(50, 63);
             this.Dali.TabIndex = 14;
             this.Dali.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Dali, "Dali");
             this.Dali.UseVisualStyleBackColor = false;
             // 
             // GoyaLabel
@@ -290,6 +300,7 @@
             this.Goya.Size = new System.Drawing.Size(50, 63);
             this.Goya.TabIndex = 16;
             this.Goya.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Goya, "Goya");
             this.Goya.UseVisualStyleBackColor = false;
             // 
             // minimizeButton
@@ -361,5 +372,6 @@
         private FunkeySelector.UserControls.FunkeyChangerButton Goya;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }
