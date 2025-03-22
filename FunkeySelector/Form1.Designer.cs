@@ -284,6 +284,7 @@
             this.CustomIDTextBox.Name = "CustomIDTextBox";
             this.CustomIDTextBox.Size = new System.Drawing.Size(177, 20);
             this.CustomIDTextBox.TabIndex = 20;
+            this.CustomIDTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomIDTextBox_KeyDown);
             // 
             // CustomFunkeysButton
             // 
