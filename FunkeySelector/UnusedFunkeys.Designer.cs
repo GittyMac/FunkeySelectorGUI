@@ -49,6 +49,15 @@
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.Henchman2 = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.Henchman2SE = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.Henchman2SW = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.Henchman2Label = new System.Windows.Forms.Label();
+            this.Henchman2AroundGnomonTreeLabel = new System.Windows.Forms.Label();
+            this.Henchman2NW = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.Henchman2NE = new FunkeySelector.UserControls.FunkeyChangerButton();
+            this.GnomonTreePictureBox = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.GnomonTreePictureBox)).BeginInit();
             this.SuspendLayout();
             // 
             // TachLabel
@@ -57,7 +66,7 @@
             this.TachLabel.BackColor = System.Drawing.Color.Transparent;
             this.TachLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TachLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.TachLabel.Location = new System.Drawing.Point(330, 74);
+            this.TachLabel.Location = new System.Drawing.Point(87, 166);
             this.TachLabel.Name = "TachLabel";
             this.TachLabel.Size = new System.Drawing.Size(71, 29);
             this.TachLabel.TabIndex = 3;
@@ -73,7 +82,7 @@
             this.TachRed.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TachRed.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.TachRed.FunkeyID = "T0000003";
-            this.TachRed.Location = new System.Drawing.Point(394, 103);
+            this.TachRed.Location = new System.Drawing.Point(151, 195);
             this.TachRed.Name = "TachRed";
             this.TachRed.Size = new System.Drawing.Size(50, 63);
             this.TachRed.TabIndex = 6;
@@ -91,7 +100,7 @@
             this.TachYellow.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TachYellow.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.TachYellow.FunkeyID = "T0000002";
-            this.TachYellow.Location = new System.Drawing.Point(342, 103);
+            this.TachYellow.Location = new System.Drawing.Point(99, 195);
             this.TachYellow.Name = "TachYellow";
             this.TachYellow.Size = new System.Drawing.Size(50, 63);
             this.TachYellow.TabIndex = 5;
@@ -109,7 +118,7 @@
             this.TachBlue.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TachBlue.ForeColor = System.Drawing.Color.Transparent;
             this.TachBlue.FunkeyID = "T0000001";
-            this.TachBlue.Location = new System.Drawing.Point(291, 103);
+            this.TachBlue.Location = new System.Drawing.Point(48, 195);
             this.TachBlue.Name = "TachBlue";
             this.TachBlue.Size = new System.Drawing.Size(50, 63);
             this.TachBlue.TabIndex = 4;
@@ -153,7 +162,7 @@
             this.ConLabel.BackColor = System.Drawing.Color.Transparent;
             this.ConLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.ConLabel.Location = new System.Drawing.Point(338, 184);
+            this.ConLabel.Location = new System.Drawing.Point(95, 276);
             this.ConLabel.Name = "ConLabel";
             this.ConLabel.Size = new System.Drawing.Size(60, 29);
             this.ConLabel.TabIndex = 7;
@@ -169,7 +178,7 @@
             this.Con.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Con.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Con.FunkeyID = "S0000001";
-            this.Con.Location = new System.Drawing.Point(341, 205);
+            this.Con.Location = new System.Drawing.Point(99, 297);
             this.Con.Name = "Con";
             this.Con.Size = new System.Drawing.Size(50, 63);
             this.Con.TabIndex = 8;
@@ -183,7 +192,7 @@
             this.HenchmenLabel.BackColor = System.Drawing.Color.Transparent;
             this.HenchmenLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HenchmenLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.HenchmenLabel.Location = new System.Drawing.Point(301, 279);
+            this.HenchmenLabel.Location = new System.Drawing.Point(59, 390);
             this.HenchmenLabel.Name = "HenchmenLabel";
             this.HenchmenLabel.Size = new System.Drawing.Size(137, 29);
             this.HenchmenLabel.TabIndex = 9;
@@ -199,7 +208,7 @@
             this.HenchmanBlue.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HenchmanBlue.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.HenchmanBlue.FunkeyID = "h0000004";
-            this.HenchmanBlue.Location = new System.Drawing.Point(394, 313);
+            this.HenchmanBlue.Location = new System.Drawing.Point(152, 422);
             this.HenchmanBlue.Name = "HenchmanBlue";
             this.HenchmanBlue.Size = new System.Drawing.Size(50, 63);
             this.HenchmanBlue.TabIndex = 12;
@@ -217,7 +226,7 @@
             this.HenchmanGreen.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HenchmanGreen.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.HenchmanGreen.FunkeyID = "h0000003";
-            this.HenchmanGreen.Location = new System.Drawing.Point(342, 313);
+            this.HenchmanGreen.Location = new System.Drawing.Point(100, 422);
             this.HenchmanGreen.Name = "HenchmanGreen";
             this.HenchmanGreen.Size = new System.Drawing.Size(50, 63);
             this.HenchmanGreen.TabIndex = 11;
@@ -235,7 +244,7 @@
             this.HenchmanPurple.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HenchmanPurple.ForeColor = System.Drawing.Color.Transparent;
             this.HenchmanPurple.FunkeyID = "h0000001";
-            this.HenchmanPurple.Location = new System.Drawing.Point(291, 313);
+            this.HenchmanPurple.Location = new System.Drawing.Point(49, 422);
             this.HenchmanPurple.Name = "HenchmanPurple";
             this.HenchmanPurple.Size = new System.Drawing.Size(50, 63);
             this.HenchmanPurple.TabIndex = 10;
@@ -249,7 +258,7 @@
             this.DaliLabel.BackColor = System.Drawing.Color.Transparent;
             this.DaliLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DaliLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.DaliLabel.Location = new System.Drawing.Point(337, 381);
+            this.DaliLabel.Location = new System.Drawing.Point(255, 390);
             this.DaliLabel.Name = "DaliLabel";
             this.DaliLabel.Size = new System.Drawing.Size(66, 29);
             this.DaliLabel.TabIndex = 13;
@@ -265,7 +274,7 @@
             this.Dali.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Dali.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Dali.FunkeyID = "h0000007";
-            this.Dali.Location = new System.Drawing.Point(342, 400);
+            this.Dali.Location = new System.Drawing.Point(261, 420);
             this.Dali.Name = "Dali";
             this.Dali.Size = new System.Drawing.Size(50, 63);
             this.Dali.TabIndex = 14;
@@ -279,7 +288,7 @@
             this.GoyaLabel.BackColor = System.Drawing.Color.Transparent;
             this.GoyaLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GoyaLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.GoyaLabel.Location = new System.Drawing.Point(335, 465);
+            this.GoyaLabel.Location = new System.Drawing.Point(386, 390);
             this.GoyaLabel.Name = "GoyaLabel";
             this.GoyaLabel.Size = new System.Drawing.Size(72, 29);
             this.GoyaLabel.TabIndex = 15;
@@ -295,7 +304,7 @@
             this.Goya.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Goya.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.Goya.FunkeyID = "h0000006";
-            this.Goya.Location = new System.Drawing.Point(344, 480);
+            this.Goya.Location = new System.Drawing.Point(395, 418);
             this.Goya.Name = "Goya";
             this.Goya.Size = new System.Drawing.Size(50, 63);
             this.Goya.TabIndex = 16;
@@ -317,6 +326,132 @@
             this.closeButton.Size = new System.Drawing.Size(26, 20);
             this.closeButton.TabIndex = 18;
             // 
+            // Henchman2
+            // 
+            this.Henchman2.BackColor = System.Drawing.Color.Transparent;
+            this.Henchman2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Henchman2.BackgroundImage")));
+            this.Henchman2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Henchman2.FlatAppearance.BorderSize = 0;
+            this.Henchman2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Henchman2.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Henchman2.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Henchman2.FunkeyID = "h0000012";
+            this.Henchman2.Location = new System.Drawing.Point(555, 419);
+            this.Henchman2.Name = "Henchman2";
+            this.Henchman2.Size = new System.Drawing.Size(50, 63);
+            this.Henchman2.TabIndex = 30;
+            this.Henchman2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Henchman2, "Henchman");
+            this.Henchman2.UseVisualStyleBackColor = false;
+            // 
+            // Henchman2SE
+            // 
+            this.Henchman2SE.BackColor = System.Drawing.Color.Transparent;
+            this.Henchman2SE.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Henchman2SE.BackgroundImage")));
+            this.Henchman2SE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Henchman2SE.FlatAppearance.BorderSize = 0;
+            this.Henchman2SE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Henchman2SE.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Henchman2SE.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Henchman2SE.FunkeyID = "h0000010";
+            this.Henchman2SE.Location = new System.Drawing.Point(505, 290);
+            this.Henchman2SE.Name = "Henchman2SE";
+            this.Henchman2SE.Size = new System.Drawing.Size(50, 63);
+            this.Henchman2SE.TabIndex = 32;
+            this.Henchman2SE.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Henchman2SE, "Henchman 2.0 (Static, pointing southeast)");
+            this.Henchman2SE.UseVisualStyleBackColor = false;
+            // 
+            // Henchman2SW
+            // 
+            this.Henchman2SW.BackColor = System.Drawing.Color.Transparent;
+            this.Henchman2SW.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Henchman2SW.BackgroundImage")));
+            this.Henchman2SW.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Henchman2SW.FlatAppearance.BorderSize = 0;
+            this.Henchman2SW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Henchman2SW.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Henchman2SW.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Henchman2SW.FunkeyID = "h0000011";
+            this.Henchman2SW.Location = new System.Drawing.Point(375, 290);
+            this.Henchman2SW.Name = "Henchman2SW";
+            this.Henchman2SW.Size = new System.Drawing.Size(50, 63);
+            this.Henchman2SW.TabIndex = 33;
+            this.Henchman2SW.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Henchman2SW, "Henchman 2.0 (Static, pointing southwest)");
+            this.Henchman2SW.UseVisualStyleBackColor = false;
+            // 
+            // Henchman2Label
+            // 
+            this.Henchman2Label.AutoSize = true;
+            this.Henchman2Label.BackColor = System.Drawing.Color.Transparent;
+            this.Henchman2Label.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Henchman2Label.ForeColor = System.Drawing.SystemColors.Control;
+            this.Henchman2Label.Location = new System.Drawing.Point(501, 390);
+            this.Henchman2Label.Name = "Henchman2Label";
+            this.Henchman2Label.Size = new System.Drawing.Size(176, 29);
+            this.Henchman2Label.TabIndex = 29;
+            this.Henchman2Label.Text = "HENCHMAN 2.0";
+            // 
+            // Henchman2AroundGnomonTreeLabel
+            // 
+            this.Henchman2AroundGnomonTreeLabel.AutoSize = true;
+            this.Henchman2AroundGnomonTreeLabel.BackColor = System.Drawing.Color.Transparent;
+            this.Henchman2AroundGnomonTreeLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Henchman2AroundGnomonTreeLabel.ForeColor = System.Drawing.SystemColors.Control;
+            this.Henchman2AroundGnomonTreeLabel.Location = new System.Drawing.Point(327, 115);
+            this.Henchman2AroundGnomonTreeLabel.Name = "Henchman2AroundGnomonTreeLabel";
+            this.Henchman2AroundGnomonTreeLabel.Size = new System.Drawing.Size(272, 58);
+            this.Henchman2AroundGnomonTreeLabel.TabIndex = 31;
+            this.Henchman2AroundGnomonTreeLabel.Text = "HENCHMEN 2.0 AROUND\r\nGNOMON TREE";
+            this.Henchman2AroundGnomonTreeLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // Henchman2NW
+            // 
+            this.Henchman2NW.BackColor = System.Drawing.Color.Transparent;
+            this.Henchman2NW.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Henchman2NW.BackgroundImage")));
+            this.Henchman2NW.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Henchman2NW.FlatAppearance.BorderSize = 0;
+            this.Henchman2NW.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Henchman2NW.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Henchman2NW.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Henchman2NW.FunkeyID = "h0000009";
+            this.Henchman2NW.Location = new System.Drawing.Point(375, 176);
+            this.Henchman2NW.Name = "Henchman2NW";
+            this.Henchman2NW.Size = new System.Drawing.Size(50, 63);
+            this.Henchman2NW.TabIndex = 34;
+            this.Henchman2NW.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Henchman2NW, "Henchman 2.0 (Static, pointing northwest)");
+            this.Henchman2NW.UseVisualStyleBackColor = false;
+            // 
+            // Henchman2NE
+            // 
+            this.Henchman2NE.BackColor = System.Drawing.Color.Transparent;
+            this.Henchman2NE.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Henchman2NE.BackgroundImage")));
+            this.Henchman2NE.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.Henchman2NE.FlatAppearance.BorderSize = 0;
+            this.Henchman2NE.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Henchman2NE.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Henchman2NE.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.Henchman2NE.FunkeyID = "h0000008";
+            this.Henchman2NE.Location = new System.Drawing.Point(505, 176);
+            this.Henchman2NE.Name = "Henchman2NE";
+            this.Henchman2NE.Size = new System.Drawing.Size(50, 63);
+            this.Henchman2NE.TabIndex = 35;
+            this.Henchman2NE.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Henchman2NE, "Henchman 2.0 (Static, pointing northeast)");
+            this.Henchman2NE.UseVisualStyleBackColor = false;
+            // 
+            // GnomonTreePictureBox
+            // 
+            this.GnomonTreePictureBox.BackColor = System.Drawing.Color.Transparent;
+            this.GnomonTreePictureBox.Image = ((System.Drawing.Image)(resources.GetObject("GnomonTreePictureBox.Image")));
+            this.GnomonTreePictureBox.Location = new System.Drawing.Point(420, 203);
+            this.GnomonTreePictureBox.Name = "GnomonTreePictureBox";
+            this.GnomonTreePictureBox.Size = new System.Drawing.Size(87, 133);
+            this.GnomonTreePictureBox.TabIndex = 36;
+            this.GnomonTreePictureBox.TabStop = false;
+            this.toolTip.SetToolTip(this.GnomonTreePictureBox, "Gnomon Tree (Image)");
+            // 
             // UnusedFunkeys
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -324,6 +459,13 @@
             this.BackColor = System.Drawing.Color.Gold;
             this.BackgroundImage = global::FunkeySelector.Properties.Resources._2432;
             this.ClientSize = new System.Drawing.Size(726, 566);
+            this.Controls.Add(this.Henchman2NE);
+            this.Controls.Add(this.Henchman2NW);
+            this.Controls.Add(this.Henchman2SW);
+            this.Controls.Add(this.Henchman2SE);
+            this.Controls.Add(this.Henchman2AroundGnomonTreeLabel);
+            this.Controls.Add(this.Henchman2Label);
+            this.Controls.Add(this.Henchman2);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.minimizeButton);
             this.Controls.Add(this.GoyaLabel);
@@ -342,11 +484,13 @@
             this.Controls.Add(this.TachBlue);
             this.Controls.Add(this.backButton);
             this.Controls.Add(this.UnusedFunkeysLabel);
+            this.Controls.Add(this.GnomonTreePictureBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UnusedFunkeys";
             this.Text = "FunkeySelectorGUI - Unused Funkeys";
             this.TransparencyKey = System.Drawing.Color.Gold;
+            ((System.ComponentModel.ISupportInitialize)(this.GnomonTreePictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -373,5 +517,13 @@
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
         private System.Windows.Forms.ToolTip toolTip;
+        private System.Windows.Forms.Label Henchman2Label;
+        private UserControls.FunkeyChangerButton Henchman2;
+        private System.Windows.Forms.Label Henchman2AroundGnomonTreeLabel;
+        private UserControls.FunkeyChangerButton Henchman2SE;
+        private UserControls.FunkeyChangerButton Henchman2SW;
+        private UserControls.FunkeyChangerButton Henchman2NW;
+        private UserControls.FunkeyChangerButton Henchman2NE;
+        private System.Windows.Forms.PictureBox GnomonTreePictureBox;
     }
 }
