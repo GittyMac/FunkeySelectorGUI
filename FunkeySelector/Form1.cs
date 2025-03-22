@@ -61,5 +61,12 @@ namespace FunkeySelector
         {
             CustomF.SetFunkey(CustomIDTextBox.Text);
         }
+
+        private void CustomIDTextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode != Keys.Enter) return;
+            CustomF.SetFunkey(CustomIDTextBox.Text);
+            e.SuppressKeyPress = true;
+        }
     }
 }

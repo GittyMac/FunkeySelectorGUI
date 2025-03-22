@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FunkikiIsland));
             this.WebleyLabel = new System.Windows.Forms.Label();
             this.WebleyVR = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -57,6 +58,7 @@
             this.Rewind = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // WebleyLabel
@@ -86,6 +88,7 @@
             this.WebleyVR.Size = new System.Drawing.Size(50, 63);
             this.WebleyVR.TabIndex = 26;
             this.WebleyVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.WebleyVR, "Webley (Very Rare)");
             this.WebleyVR.UseVisualStyleBackColor = false;
             // 
             // WebleyR
@@ -103,6 +106,7 @@
             this.WebleyR.Size = new System.Drawing.Size(50, 63);
             this.WebleyR.TabIndex = 25;
             this.WebleyR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.WebleyR, "Webley (Rare)");
             this.WebleyR.UseVisualStyleBackColor = false;
             // 
             // Webley
@@ -120,6 +124,7 @@
             this.Webley.Size = new System.Drawing.Size(50, 63);
             this.Webley.TabIndex = 24;
             this.Webley.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Webley, "Webley (Common)");
             this.Webley.UseVisualStyleBackColor = false;
             // 
             // NibbleLabel
@@ -149,6 +154,7 @@
             this.NibbleVR.Size = new System.Drawing.Size(50, 63);
             this.NibbleVR.TabIndex = 14;
             this.NibbleVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.NibbleVR, "Nibble (Very Rare)");
             this.NibbleVR.UseVisualStyleBackColor = false;
             // 
             // NibbleR
@@ -166,6 +172,7 @@
             this.NibbleR.Size = new System.Drawing.Size(50, 63);
             this.NibbleR.TabIndex = 13;
             this.NibbleR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.NibbleR, "Nibble (Rare)");
             this.NibbleR.UseVisualStyleBackColor = false;
             // 
             // Nibble
@@ -183,6 +190,7 @@
             this.Nibble.Size = new System.Drawing.Size(50, 63);
             this.Nibble.TabIndex = 12;
             this.Nibble.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Nibble, "Nibble (Common)");
             this.Nibble.UseVisualStyleBackColor = false;
             // 
             // SolLabel
@@ -212,6 +220,7 @@
             this.SolVR.Size = new System.Drawing.Size(50, 63);
             this.SolVR.TabIndex = 18;
             this.SolVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SolVR, "Sol (Very Rare)");
             this.SolVR.UseVisualStyleBackColor = false;
             // 
             // SolR
@@ -229,6 +238,7 @@
             this.SolR.Size = new System.Drawing.Size(50, 63);
             this.SolR.TabIndex = 17;
             this.SolR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SolR, "Sol (Rare)");
             this.SolR.UseVisualStyleBackColor = false;
             // 
             // Sol
@@ -246,6 +256,7 @@
             this.Sol.Size = new System.Drawing.Size(50, 63);
             this.Sol.TabIndex = 16;
             this.Sol.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Sol, "Sol (Common)");
             this.Sol.UseVisualStyleBackColor = false;
             // 
             // FlurryLabel
@@ -275,6 +286,7 @@
             this.FlurryVR.Size = new System.Drawing.Size(50, 63);
             this.FlurryVR.TabIndex = 6;
             this.FlurryVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.FlurryVR, "Flurry (Very Rare)");
             this.FlurryVR.UseVisualStyleBackColor = false;
             // 
             // FlurryR
@@ -292,6 +304,7 @@
             this.FlurryR.Size = new System.Drawing.Size(50, 63);
             this.FlurryR.TabIndex = 5;
             this.FlurryR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.FlurryR, "Flurry (Rare)");
             this.FlurryR.UseVisualStyleBackColor = false;
             // 
             // Flurry
@@ -309,6 +322,7 @@
             this.Flurry.Size = new System.Drawing.Size(50, 63);
             this.Flurry.TabIndex = 4;
             this.Flurry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Flurry, "Flurry (Common)");
             this.Flurry.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -368,6 +382,7 @@
             this.PineappleKing.Size = new System.Drawing.Size(50, 63);
             this.PineappleKing.TabIndex = 8;
             this.PineappleKing.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.PineappleKing, "Pineapple King");
             this.PineappleKing.UseVisualStyleBackColor = false;
             // 
             // NativeLabel
@@ -397,6 +412,7 @@
             this.Native.Size = new System.Drawing.Size(50, 63);
             this.Native.TabIndex = 20;
             this.Native.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Native, "Native");
             this.Native.UseVisualStyleBackColor = false;
             // 
             // JerryLabel
@@ -426,6 +442,7 @@
             this.Jerry.Size = new System.Drawing.Size(50, 63);
             this.Jerry.TabIndex = 10;
             this.Jerry.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Jerry, "Jerry");
             this.Jerry.UseVisualStyleBackColor = false;
             // 
             // RewindLabel
@@ -455,6 +472,7 @@
             this.Rewind.Size = new System.Drawing.Size(50, 63);
             this.Rewind.TabIndex = 22;
             this.Rewind.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Rewind, "Rewind");
             this.Rewind.UseVisualStyleBackColor = false;
             // 
             // minimizeButton
@@ -547,5 +565,6 @@
         private FunkeySelector.UserControls.FunkeyChangerButton Rewind;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

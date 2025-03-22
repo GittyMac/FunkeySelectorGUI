@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.titleLabel = new System.Windows.Forms.Label();
             this.KelpyBasinButton = new FunkeySelector.UserControls.ChangeFormButton();
@@ -55,6 +56,7 @@
             this.UB = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.FunkeysTownButton = new FunkeySelector.UserControls.ChangeFormButton();
             this.optionsButton = new FunkeySelector.UserControls.OptionsButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // titleLabel
@@ -237,11 +239,11 @@
             this.UBLabel.BackColor = System.Drawing.Color.Transparent;
             this.UBLabel.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UBLabel.ForeColor = System.Drawing.SystemColors.Control;
-            this.UBLabel.Location = new System.Drawing.Point(572, 345);
+            this.UBLabel.Location = new System.Drawing.Point(570, 345);
             this.UBLabel.Name = "UBLabel";
-            this.UBLabel.Size = new System.Drawing.Size(45, 29);
+            this.UBLabel.Size = new System.Drawing.Size(49, 29);
             this.UBLabel.TabIndex = 22;
-            this.UBLabel.Text = "U.B";
+            this.UBLabel.Text = "U.B.";
             // 
             // UnusedFunkeysButton
             // 
@@ -275,6 +277,8 @@
             this.InsertCustomID.TabIndex = 21;
             this.InsertCustomID.Text = "INSERT CUSTOM ID";
             this.InsertCustomID.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.InsertCustomID, "Enter any funkey\'s ID in the box above and press enter (or this button) to change" +
+        " into it.");
             this.InsertCustomID.UseVisualStyleBackColor = false;
             this.InsertCustomID.Click += new System.EventHandler(this.InsertCustomID_Click);
             // 
@@ -284,6 +288,9 @@
             this.CustomIDTextBox.Name = "CustomIDTextBox";
             this.CustomIDTextBox.Size = new System.Drawing.Size(177, 20);
             this.CustomIDTextBox.TabIndex = 20;
+            this.toolTip.SetToolTip(this.CustomIDTextBox, "Enter any funkey\'s ID here and press enter (or the button below) to change into i" +
+        "t.");
+            this.CustomIDTextBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CustomIDTextBox_KeyDown);
             // 
             // CustomFunkeysButton
             // 
@@ -404,6 +411,7 @@
             this.UB.Size = new System.Drawing.Size(50, 63);
             this.UB.TabIndex = 23;
             this.UB.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.UB, "U.B. (Default funkey)");
             this.UB.UseVisualStyleBackColor = false;
             // 
             // FunkeysTownButton
@@ -505,6 +513,7 @@
         private UserControls.ChangeFormButton KelpyBasinButton;
         private UserControls.OptionsButton optionsButton;
         private FunkeySelector.UserControls.ChangeFormButton UnusedFunkeysButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }
 

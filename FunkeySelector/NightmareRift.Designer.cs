@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NightmareRift));
             this.SnipeLabel = new System.Windows.Forms.Label();
             this.SnipeVR = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -49,6 +50,7 @@
             this.NightmareRiftLabel = new System.Windows.Forms.Label();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // SnipeLabel
@@ -78,6 +80,7 @@
             this.SnipeVR.Size = new System.Drawing.Size(50, 63);
             this.SnipeVR.TabIndex = 18;
             this.SnipeVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SnipeVR, "Snipe (Very Rare)");
             this.SnipeVR.UseVisualStyleBackColor = false;
             // 
             // SnipeR
@@ -95,6 +98,7 @@
             this.SnipeR.Size = new System.Drawing.Size(50, 63);
             this.SnipeR.TabIndex = 17;
             this.SnipeR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SnipeR, "Snipe (Rare)");
             this.SnipeR.UseVisualStyleBackColor = false;
             // 
             // Snipe
@@ -112,6 +116,7 @@
             this.Snipe.Size = new System.Drawing.Size(50, 63);
             this.Snipe.TabIndex = 16;
             this.Snipe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Snipe, "Snipe (Common)");
             this.Snipe.UseVisualStyleBackColor = false;
             // 
             // SprocketLabel
@@ -141,6 +146,7 @@
             this.SprocketVR.Size = new System.Drawing.Size(50, 63);
             this.SprocketVR.TabIndex = 10;
             this.SprocketVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SprocketVR, "Sprocket (Very Rare)");
             this.SprocketVR.UseVisualStyleBackColor = false;
             // 
             // SprocketR
@@ -158,6 +164,7 @@
             this.SprocketR.Size = new System.Drawing.Size(50, 63);
             this.SprocketR.TabIndex = 9;
             this.SprocketR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SprocketR, "Sprocket (Rare)");
             this.SprocketR.UseVisualStyleBackColor = false;
             // 
             // Sprocket
@@ -175,6 +182,7 @@
             this.Sprocket.Size = new System.Drawing.Size(50, 63);
             this.Sprocket.TabIndex = 8;
             this.Sprocket.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Sprocket, "Sprocket (Common)");
             this.Sprocket.UseVisualStyleBackColor = false;
             // 
             // VlurpLabel
@@ -204,6 +212,7 @@
             this.VlurpVR.Size = new System.Drawing.Size(50, 63);
             this.VlurpVR.TabIndex = 14;
             this.VlurpVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.VlurpVR, "Vlurp (Very Rare)");
             this.VlurpVR.UseVisualStyleBackColor = false;
             // 
             // VlurpR
@@ -221,6 +230,7 @@
             this.VlurpR.Size = new System.Drawing.Size(50, 63);
             this.VlurpR.TabIndex = 13;
             this.VlurpR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.VlurpR, "Vlurp (Rare)");
             this.VlurpR.UseVisualStyleBackColor = false;
             // 
             // Vlurp
@@ -238,6 +248,7 @@
             this.Vlurp.Size = new System.Drawing.Size(50, 63);
             this.Vlurp.TabIndex = 12;
             this.Vlurp.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Vlurp, "Vlurp (Common)");
             this.Vlurp.UseVisualStyleBackColor = false;
             // 
             // PtepLabel
@@ -267,6 +278,7 @@
             this.PtepVR.Size = new System.Drawing.Size(50, 63);
             this.PtepVR.TabIndex = 6;
             this.PtepVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.PtepVR, "Ptep (Very Rare)");
             this.PtepVR.UseVisualStyleBackColor = false;
             // 
             // PtepR
@@ -284,6 +296,7 @@
             this.PtepR.Size = new System.Drawing.Size(50, 63);
             this.PtepR.TabIndex = 5;
             this.PtepR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.PtepR, "Ptep (Rare)");
             this.PtepR.UseVisualStyleBackColor = false;
             // 
             // Ptep
@@ -301,6 +314,7 @@
             this.Ptep.Size = new System.Drawing.Size(50, 63);
             this.Ptep.TabIndex = 4;
             this.Ptep.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Ptep, "Ptep (Common)");
             this.Ptep.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -406,5 +420,6 @@
         private System.Windows.Forms.Label NightmareRiftLabel;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

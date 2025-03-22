@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ParadoxGreen));
             this.AceLabel = new System.Windows.Forms.Label();
             this.Ace = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -45,6 +46,7 @@
             this.RastroLabel = new System.Windows.Forms.Label();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // AceLabel
@@ -74,6 +76,7 @@
             this.Ace.Size = new System.Drawing.Size(50, 63);
             this.Ace.TabIndex = 14;
             this.Ace.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Ace, "Ace");
             this.Ace.UseVisualStyleBackColor = false;
             // 
             // MulchLabel
@@ -103,6 +106,7 @@
             this.Mulch.Size = new System.Drawing.Size(50, 63);
             this.Mulch.TabIndex = 12;
             this.Mulch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Mulch, "Mulch");
             this.Mulch.UseVisualStyleBackColor = false;
             // 
             // TaddLabel
@@ -132,6 +136,7 @@
             this.TaddVR.Size = new System.Drawing.Size(50, 63);
             this.TaddVR.TabIndex = 10;
             this.TaddVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TaddVR, "Tadd (Very Rare)");
             this.TaddVR.UseVisualStyleBackColor = false;
             // 
             // TaddR
@@ -149,6 +154,7 @@
             this.TaddR.Size = new System.Drawing.Size(50, 63);
             this.TaddR.TabIndex = 9;
             this.TaddR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TaddR, "Tadd (Rare)");
             this.TaddR.UseVisualStyleBackColor = false;
             // 
             // Tadd
@@ -166,6 +172,7 @@
             this.Tadd.Size = new System.Drawing.Size(50, 63);
             this.Tadd.TabIndex = 8;
             this.Tadd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Tadd, "Tadd (Common)");
             this.Tadd.UseVisualStyleBackColor = false;
             // 
             // ParadoxGreenLabel
@@ -213,6 +220,7 @@
             this.Rastro.Size = new System.Drawing.Size(50, 63);
             this.Rastro.TabIndex = 4;
             this.Rastro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Rastro, "Rastro (Common)");
             this.Rastro.UseVisualStyleBackColor = false;
             // 
             // RastroR
@@ -230,6 +238,7 @@
             this.RastroR.Size = new System.Drawing.Size(50, 63);
             this.RastroR.TabIndex = 5;
             this.RastroR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.RastroR, "Rastro (Rare)");
             this.RastroR.UseVisualStyleBackColor = false;
             // 
             // RastroVR
@@ -247,6 +256,7 @@
             this.RastroVR.Size = new System.Drawing.Size(50, 63);
             this.RastroVR.TabIndex = 6;
             this.RastroVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.RastroVR, "Rastro (Very Rare)");
             this.RastroVR.UseVisualStyleBackColor = false;
             // 
             // RastroLabel
@@ -327,5 +337,6 @@
         private System.Windows.Forms.Label RastroLabel;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

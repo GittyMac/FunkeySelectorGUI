@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LaputtaStation));
             this.VroomLabel = new System.Windows.Forms.Label();
             this.VroomVR = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -51,6 +52,7 @@
             this.Rom = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // VroomLabel
@@ -80,6 +82,7 @@
             this.VroomVR.Size = new System.Drawing.Size(50, 63);
             this.VroomVR.TabIndex = 20;
             this.VroomVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.VroomVR, "Vroom (Very Rare)");
             this.VroomVR.UseVisualStyleBackColor = false;
             // 
             // VroomR
@@ -97,6 +100,7 @@
             this.VroomR.Size = new System.Drawing.Size(50, 63);
             this.VroomR.TabIndex = 19;
             this.VroomR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.VroomR, "Vroom (Rare)");
             this.VroomR.UseVisualStyleBackColor = false;
             // 
             // Vroom
@@ -114,6 +118,7 @@
             this.Vroom.Size = new System.Drawing.Size(50, 63);
             this.Vroom.TabIndex = 18;
             this.Vroom.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Vroom, "Vroom (Common)");
             this.Vroom.UseVisualStyleBackColor = false;
             // 
             // FalloutLabel
@@ -143,6 +148,7 @@
             this.FalloutVR.Size = new System.Drawing.Size(50, 63);
             this.FalloutVR.TabIndex = 10;
             this.FalloutVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.FalloutVR, "Fallout (Very Rare)");
             this.FalloutVR.UseVisualStyleBackColor = false;
             // 
             // FalloutR
@@ -160,6 +166,7 @@
             this.FalloutR.Size = new System.Drawing.Size(50, 63);
             this.FalloutR.TabIndex = 9;
             this.FalloutR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.FalloutR, "Fallout (Rare)");
             this.FalloutR.UseVisualStyleBackColor = false;
             // 
             // Fallout
@@ -177,6 +184,7 @@
             this.Fallout.Size = new System.Drawing.Size(50, 63);
             this.Fallout.TabIndex = 8;
             this.Fallout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Fallout, "Fallout (Common)");
             this.Fallout.UseVisualStyleBackColor = false;
             // 
             // BoggleLabel
@@ -206,6 +214,7 @@
             this.BoggleVR.Size = new System.Drawing.Size(50, 63);
             this.BoggleVR.TabIndex = 16;
             this.BoggleVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.BoggleVR, "Boggle (Very Rare)");
             this.BoggleVR.UseVisualStyleBackColor = false;
             // 
             // BoggleR
@@ -223,6 +232,7 @@
             this.BoggleR.Size = new System.Drawing.Size(50, 63);
             this.BoggleR.TabIndex = 15;
             this.BoggleR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.BoggleR, "Boggle (Rare)");
             this.BoggleR.UseVisualStyleBackColor = false;
             // 
             // Boggle
@@ -240,6 +250,7 @@
             this.Boggle.Size = new System.Drawing.Size(50, 63);
             this.Boggle.TabIndex = 14;
             this.Boggle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Boggle, "Boggle (Common)");
             this.Boggle.UseVisualStyleBackColor = false;
             // 
             // XenerLabel
@@ -269,6 +280,7 @@
             this.XenerVR.Size = new System.Drawing.Size(50, 63);
             this.XenerVR.TabIndex = 6;
             this.XenerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.XenerVR, "Xener (Very Rare)");
             this.XenerVR.UseVisualStyleBackColor = false;
             // 
             // XenerR
@@ -286,6 +298,7 @@
             this.XenerR.Size = new System.Drawing.Size(50, 63);
             this.XenerR.TabIndex = 5;
             this.XenerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.XenerR, "Xener (Rare)");
             this.XenerR.UseVisualStyleBackColor = false;
             // 
             // Xener
@@ -303,6 +316,7 @@
             this.Xener.Size = new System.Drawing.Size(50, 63);
             this.Xener.TabIndex = 4;
             this.Xener.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Xener, "Xener (Common)");
             this.Xener.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -362,6 +376,7 @@
             this.Rom.Size = new System.Drawing.Size(50, 63);
             this.Rom.TabIndex = 12;
             this.Rom.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Rom, "Rom");
             this.Rom.UseVisualStyleBackColor = false;
             // 
             // minimizeButton
@@ -442,5 +457,6 @@
         private FunkeySelector.UserControls.FunkeyChangerButton Rom;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

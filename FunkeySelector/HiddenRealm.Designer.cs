@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HiddenRealm));
             this.BombleLabel = new System.Windows.Forms.Label();
             this.BombleVR = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -57,6 +58,7 @@
             this.Nectar = new FunkeySelector.UserControls.FunkeyChangerButton();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // BombleLabel
@@ -86,6 +88,7 @@
             this.BombleVR.Size = new System.Drawing.Size(50, 63);
             this.BombleVR.TabIndex = 18;
             this.BombleVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.BombleVR, "Bomble (Very Rare)");
             this.BombleVR.UseVisualStyleBackColor = false;
             // 
             // BombleR
@@ -103,6 +106,7 @@
             this.BombleR.Size = new System.Drawing.Size(50, 63);
             this.BombleR.TabIndex = 17;
             this.BombleR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.BombleR, "Bomble (Rare)");
             this.BombleR.UseVisualStyleBackColor = false;
             // 
             // Bomble
@@ -120,6 +124,7 @@
             this.Bomble.Size = new System.Drawing.Size(50, 63);
             this.Bomble.TabIndex = 16;
             this.Bomble.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Bomble, "Bomble (Common)");
             this.Bomble.UseVisualStyleBackColor = false;
             // 
             // RajLabel
@@ -149,6 +154,7 @@
             this.RajVR.Size = new System.Drawing.Size(50, 63);
             this.RajVR.TabIndex = 10;
             this.RajVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.RajVR, "Raj (Very Rare)");
             this.RajVR.UseVisualStyleBackColor = false;
             // 
             // RajR
@@ -166,6 +172,7 @@
             this.RajR.Size = new System.Drawing.Size(50, 63);
             this.RajR.TabIndex = 9;
             this.RajR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.RajR, "Raj (Rare)");
             this.RajR.UseVisualStyleBackColor = false;
             // 
             // Raj
@@ -183,6 +190,7 @@
             this.Raj.Size = new System.Drawing.Size(50, 63);
             this.Raj.TabIndex = 8;
             this.Raj.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Raj, "Raj (Common)");
             this.Raj.UseVisualStyleBackColor = false;
             // 
             // YangLabel
@@ -212,6 +220,7 @@
             this.YangVR.Size = new System.Drawing.Size(50, 63);
             this.YangVR.TabIndex = 14;
             this.YangVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.YangVR, "Yang (Very Rare)");
             this.YangVR.UseVisualStyleBackColor = false;
             // 
             // YangR
@@ -229,6 +238,7 @@
             this.YangR.Size = new System.Drawing.Size(50, 63);
             this.YangR.TabIndex = 13;
             this.YangR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.YangR, "Yang (Rare)");
             this.YangR.UseVisualStyleBackColor = false;
             // 
             // Yang
@@ -246,6 +256,7 @@
             this.Yang.Size = new System.Drawing.Size(50, 63);
             this.Yang.TabIndex = 12;
             this.Yang.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Yang, "Yang (Common)");
             this.Yang.UseVisualStyleBackColor = false;
             // 
             // SingeLabel
@@ -275,6 +286,7 @@
             this.SingeVR.Size = new System.Drawing.Size(50, 63);
             this.SingeVR.TabIndex = 6;
             this.SingeVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SingeVR, "Singe (Very Rare)");
             this.SingeVR.UseVisualStyleBackColor = false;
             // 
             // SingeR
@@ -292,6 +304,7 @@
             this.SingeR.Size = new System.Drawing.Size(50, 63);
             this.SingeR.TabIndex = 5;
             this.SingeR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SingeR, "Singe (Rare)");
             this.SingeR.UseVisualStyleBackColor = false;
             // 
             // Singe
@@ -309,6 +322,7 @@
             this.Singe.Size = new System.Drawing.Size(50, 63);
             this.Singe.TabIndex = 4;
             this.Singe.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Singe, "Singe (Common)");
             this.Singe.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -368,6 +382,7 @@
             this.MaulVR.Size = new System.Drawing.Size(50, 63);
             this.MaulVR.TabIndex = 22;
             this.MaulVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.MaulVR, "Maul (Very Rare)");
             this.MaulVR.UseVisualStyleBackColor = false;
             // 
             // MaulR
@@ -385,6 +400,7 @@
             this.MaulR.Size = new System.Drawing.Size(50, 63);
             this.MaulR.TabIndex = 21;
             this.MaulR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.MaulR, "Maul (Rare)");
             this.MaulR.UseVisualStyleBackColor = false;
             // 
             // Maul
@@ -402,6 +418,7 @@
             this.Maul.Size = new System.Drawing.Size(50, 63);
             this.Maul.TabIndex = 20;
             this.Maul.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Maul, "Maul (Common)");
             this.Maul.UseVisualStyleBackColor = false;
             // 
             // NectarLabel
@@ -431,6 +448,7 @@
             this.NectarVR.Size = new System.Drawing.Size(50, 63);
             this.NectarVR.TabIndex = 26;
             this.NectarVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.NectarVR, "Nectar (Very Rare)");
             this.NectarVR.UseVisualStyleBackColor = false;
             // 
             // NectarR
@@ -448,6 +466,7 @@
             this.NectarR.Size = new System.Drawing.Size(50, 63);
             this.NectarR.TabIndex = 25;
             this.NectarR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.NectarR, "Nectar (Rare)");
             this.NectarR.UseVisualStyleBackColor = false;
             // 
             // Nectar
@@ -465,6 +484,7 @@
             this.Nectar.Size = new System.Drawing.Size(50, 63);
             this.Nectar.TabIndex = 24;
             this.Nectar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Nectar, "Nectar (Common)");
             this.Nectar.UseVisualStyleBackColor = false;
             // 
             // minimizeButton
@@ -557,5 +577,6 @@
         private FunkeySelector.UserControls.FunkeyChangerButton Nectar;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }
