@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(KelpyBasin));
             this.TwinxLabel = new System.Windows.Forms.Label();
             this.TwinxVR = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -49,6 +50,7 @@
             this.KelpyBasinLabel = new System.Windows.Forms.Label();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // TwinxLabel
@@ -78,6 +80,7 @@
             this.TwinxVR.Size = new System.Drawing.Size(50, 63);
             this.TwinxVR.TabIndex = 18;
             this.TwinxVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TwinxVR, "Twinx (Very Rare)");
             this.TwinxVR.UseVisualStyleBackColor = false;
             // 
             // TwinxR
@@ -95,6 +98,7 @@
             this.TwinxR.Size = new System.Drawing.Size(50, 63);
             this.TwinxR.TabIndex = 17;
             this.TwinxR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TwinxR, "Twinx (Rare)");
             this.TwinxR.UseVisualStyleBackColor = false;
             // 
             // Twinx
@@ -112,6 +116,7 @@
             this.Twinx.Size = new System.Drawing.Size(50, 63);
             this.Twinx.TabIndex = 16;
             this.Twinx.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Twinx, "Twinx (Common)");
             this.Twinx.UseVisualStyleBackColor = false;
             // 
             // SproutLabel
@@ -141,6 +146,7 @@
             this.SproutVR.Size = new System.Drawing.Size(50, 63);
             this.SproutVR.TabIndex = 10;
             this.SproutVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SproutVR, "Sprout (Very Rare)");
             this.SproutVR.UseVisualStyleBackColor = false;
             // 
             // SproutR
@@ -158,6 +164,7 @@
             this.SproutR.Size = new System.Drawing.Size(50, 63);
             this.SproutR.TabIndex = 9;
             this.SproutR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.SproutR, "Sprout (Rare)");
             this.SproutR.UseVisualStyleBackColor = false;
             // 
             // Sprout
@@ -175,6 +182,7 @@
             this.Sprout.Size = new System.Drawing.Size(50, 63);
             this.Sprout.TabIndex = 8;
             this.Sprout.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Sprout, "Sprout (Common)");
             this.Sprout.UseVisualStyleBackColor = false;
             // 
             // TikiLabel
@@ -204,6 +212,7 @@
             this.TikiVR.Size = new System.Drawing.Size(50, 63);
             this.TikiVR.TabIndex = 14;
             this.TikiVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TikiVR, "Tiki (Very Rare)");
             this.TikiVR.UseVisualStyleBackColor = false;
             // 
             // TikiR
@@ -221,6 +230,7 @@
             this.TikiR.Size = new System.Drawing.Size(50, 63);
             this.TikiR.TabIndex = 13;
             this.TikiR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TikiR, "Tiki (Rare)");
             this.TikiR.UseVisualStyleBackColor = false;
             // 
             // Tiki
@@ -238,6 +248,7 @@
             this.Tiki.Size = new System.Drawing.Size(50, 63);
             this.Tiki.TabIndex = 12;
             this.Tiki.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Tiki, "Tiki (Common)");
             this.Tiki.UseVisualStyleBackColor = false;
             // 
             // GlubLabel
@@ -267,6 +278,7 @@
             this.GlubVR.Size = new System.Drawing.Size(50, 63);
             this.GlubVR.TabIndex = 6;
             this.GlubVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.GlubVR, "Glub (Very Rare)");
             this.GlubVR.UseVisualStyleBackColor = false;
             // 
             // GlubR
@@ -284,6 +296,7 @@
             this.GlubR.Size = new System.Drawing.Size(50, 63);
             this.GlubR.TabIndex = 5;
             this.GlubR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.GlubR, "Glub (Rare)");
             this.GlubR.UseVisualStyleBackColor = false;
             // 
             // Glub
@@ -301,6 +314,7 @@
             this.Glub.Size = new System.Drawing.Size(50, 63);
             this.Glub.TabIndex = 4;
             this.Glub.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Glub, "Glub (Common)");
             this.Glub.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -407,5 +421,6 @@
         private System.Windows.Forms.Label KelpyBasinLabel;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

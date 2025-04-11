@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DaydreamOasis));
             this.BergerLabel = new System.Windows.Forms.Label();
             this.BergerVR = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -49,6 +50,7 @@
             this.DayDreamOasisLabel = new System.Windows.Forms.Label();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // BergerLabel
@@ -78,6 +80,7 @@
             this.BergerVR.Size = new System.Drawing.Size(50, 63);
             this.BergerVR.TabIndex = 18;
             this.BergerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.BergerVR, "Berger (Very Rare)");
             this.BergerVR.UseVisualStyleBackColor = false;
             // 
             // BergerR
@@ -95,6 +98,7 @@
             this.BergerR.Size = new System.Drawing.Size(50, 63);
             this.BergerR.TabIndex = 17;
             this.BergerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.BergerR, "Berger (Rare)");
             this.BergerR.UseVisualStyleBackColor = false;
             // 
             // Berger
@@ -112,6 +116,7 @@
             this.Berger.Size = new System.Drawing.Size(50, 63);
             this.Berger.TabIndex = 16;
             this.Berger.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Berger, "Berger (Common)");
             this.Berger.UseVisualStyleBackColor = false;
             // 
             // LuckyLabel
@@ -141,6 +146,7 @@
             this.LuckyVR.Size = new System.Drawing.Size(50, 63);
             this.LuckyVR.TabIndex = 10;
             this.LuckyVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.LuckyVR, "Lucky (Very Rare)");
             this.LuckyVR.UseVisualStyleBackColor = false;
             // 
             // LuckyR
@@ -158,6 +164,7 @@
             this.LuckyR.Size = new System.Drawing.Size(50, 63);
             this.LuckyR.TabIndex = 9;
             this.LuckyR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.LuckyR, "Lucky (Rare)");
             this.LuckyR.UseVisualStyleBackColor = false;
             // 
             // Lucky
@@ -175,6 +182,7 @@
             this.Lucky.Size = new System.Drawing.Size(50, 63);
             this.Lucky.TabIndex = 8;
             this.Lucky.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Lucky, "Lucky (Common)");
             this.Lucky.UseVisualStyleBackColor = false;
             // 
             // TankLabel
@@ -204,6 +212,7 @@
             this.TankVR.Size = new System.Drawing.Size(50, 63);
             this.TankVR.TabIndex = 14;
             this.TankVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TankVR, "Tank (Very Rare)");
             this.TankVR.UseVisualStyleBackColor = false;
             // 
             // TankR
@@ -221,6 +230,7 @@
             this.TankR.Size = new System.Drawing.Size(50, 63);
             this.TankR.TabIndex = 13;
             this.TankR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.TankR, "Tank (Rare)");
             this.TankR.UseVisualStyleBackColor = false;
             // 
             // Tank
@@ -238,6 +248,7 @@
             this.Tank.Size = new System.Drawing.Size(50, 63);
             this.Tank.TabIndex = 12;
             this.Tank.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Tank, "Tank (Common)");
             this.Tank.UseVisualStyleBackColor = false;
             // 
             // DyerLabel
@@ -267,6 +278,7 @@
             this.DyerVR.Size = new System.Drawing.Size(50, 63);
             this.DyerVR.TabIndex = 6;
             this.DyerVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.DyerVR, "Dyer (Very Rare)");
             this.DyerVR.UseVisualStyleBackColor = false;
             // 
             // DyerR
@@ -284,6 +296,7 @@
             this.DyerR.Size = new System.Drawing.Size(50, 63);
             this.DyerR.TabIndex = 5;
             this.DyerR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.DyerR, "Dyer (Rare)");
             this.DyerR.UseVisualStyleBackColor = false;
             // 
             // Dyer
@@ -301,6 +314,7 @@
             this.Dyer.Size = new System.Drawing.Size(50, 63);
             this.Dyer.TabIndex = 4;
             this.Dyer.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Dyer, "Dyer (Common)");
             this.Dyer.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -407,5 +421,6 @@
         private System.Windows.Forms.Label DayDreamOasisLabel;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

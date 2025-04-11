@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MagmaGorge));
             this.BonesLabel = new System.Windows.Forms.Label();
             this.BonesVR = new FunkeySelector.UserControls.FunkeyChangerButton();
@@ -49,6 +50,7 @@
             this.MagmaGorgeLabel = new System.Windows.Forms.Label();
             this.minimizeButton = new FunkeySelector.UserControls.MinimizeButton();
             this.closeButton = new FunkeySelector.UserControls.CloseButton();
+            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // BonesLabel
@@ -78,6 +80,7 @@
             this.BonesVR.Size = new System.Drawing.Size(50, 63);
             this.BonesVR.TabIndex = 18;
             this.BonesVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.BonesVR, "Bones (Very Rare)");
             this.BonesVR.UseVisualStyleBackColor = false;
             // 
             // BonesR
@@ -95,6 +98,7 @@
             this.BonesR.Size = new System.Drawing.Size(50, 63);
             this.BonesR.TabIndex = 17;
             this.BonesR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.BonesR, "Bones (Rare)");
             this.BonesR.UseVisualStyleBackColor = false;
             // 
             // Bones
@@ -112,6 +116,7 @@
             this.Bones.Size = new System.Drawing.Size(50, 63);
             this.Bones.TabIndex = 16;
             this.Bones.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Bones, "Bones (Common)");
             this.Bones.UseVisualStyleBackColor = false;
             // 
             // DeuceLabel
@@ -141,6 +146,7 @@
             this.DeuceVR.Size = new System.Drawing.Size(50, 63);
             this.DeuceVR.TabIndex = 10;
             this.DeuceVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.DeuceVR, "Deuce (Very Rare)");
             this.DeuceVR.UseVisualStyleBackColor = false;
             // 
             // DeuceR
@@ -158,6 +164,7 @@
             this.DeuceR.Size = new System.Drawing.Size(50, 63);
             this.DeuceR.TabIndex = 9;
             this.DeuceR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.DeuceR, "Deuce (Rare)");
             this.DeuceR.UseVisualStyleBackColor = false;
             // 
             // Deuce
@@ -175,6 +182,7 @@
             this.Deuce.Size = new System.Drawing.Size(50, 63);
             this.Deuce.TabIndex = 8;
             this.Deuce.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Deuce, "Deuce (Common)");
             this.Deuce.UseVisualStyleBackColor = false;
             // 
             // WasabiLabel
@@ -204,6 +212,7 @@
             this.WasabiVR.Size = new System.Drawing.Size(50, 63);
             this.WasabiVR.TabIndex = 14;
             this.WasabiVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.WasabiVR, "Wasabi (Very Rare)");
             this.WasabiVR.UseVisualStyleBackColor = false;
             // 
             // WasabiR
@@ -221,6 +230,7 @@
             this.WasabiR.Size = new System.Drawing.Size(50, 63);
             this.WasabiR.TabIndex = 13;
             this.WasabiR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.WasabiR, "Wasabi (Rare)");
             this.WasabiR.UseVisualStyleBackColor = false;
             // 
             // Wasabi
@@ -238,6 +248,7 @@
             this.Wasabi.Size = new System.Drawing.Size(50, 63);
             this.Wasabi.TabIndex = 12;
             this.Wasabi.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Wasabi, "Wasabi (Common)");
             this.Wasabi.UseVisualStyleBackColor = false;
             // 
             // StitchLabel
@@ -267,6 +278,7 @@
             this.StitchVR.Size = new System.Drawing.Size(50, 63);
             this.StitchVR.TabIndex = 6;
             this.StitchVR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.StitchVR, "Stitch (Very Rare)");
             this.StitchVR.UseVisualStyleBackColor = false;
             // 
             // StitchR
@@ -284,6 +296,7 @@
             this.StitchR.Size = new System.Drawing.Size(50, 63);
             this.StitchR.TabIndex = 5;
             this.StitchR.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.StitchR, "Stitch (Rare)");
             this.StitchR.UseVisualStyleBackColor = false;
             // 
             // Stitch
@@ -301,6 +314,7 @@
             this.Stitch.Size = new System.Drawing.Size(50, 63);
             this.Stitch.TabIndex = 4;
             this.Stitch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.toolTip.SetToolTip(this.Stitch, "Stitch (Common)");
             this.Stitch.UseVisualStyleBackColor = false;
             // 
             // backButton
@@ -407,5 +421,6 @@
         private System.Windows.Forms.Label MagmaGorgeLabel;
         private UserControls.MinimizeButton minimizeButton;
         private UserControls.CloseButton closeButton;
+        private System.Windows.Forms.ToolTip toolTip;
     }
 }

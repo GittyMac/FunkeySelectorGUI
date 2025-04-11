@@ -3,7 +3,7 @@
 # FunkeySelectorGUI
 A GUI that lets you change Funkeys in the game U.B. Funkeys.
 
-![FunkeySelectorGUI](https://i.imgur.com/vfNOFlA.png)
+![FunkeySelectorGUI](https://i.imgur.com/JGTugXn.png)
 
 ## Installation
 Installing FunkeySelectorGUI depends on the executable you are using.
